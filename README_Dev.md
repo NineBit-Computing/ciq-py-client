@@ -48,6 +48,26 @@ Python client for communicating with the NineBit CIQ backend.
    python -m twine upload dist/*
    ```
 
+6. **Code Formatter**
+
+```
+black .
+flake8 src/
+```
+
+7. **Code Coverage**
+
+```
+pytest --cov=src
+```
+
+8. **Run Tests**
+
+```
+pytest tests/unit/
+pytest -m integration
+```
+
 ---
 
 ✅ After the first upload, consumers can install with:
