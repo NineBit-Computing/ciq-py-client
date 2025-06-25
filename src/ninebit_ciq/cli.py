@@ -2,9 +2,11 @@ import argparse
 import threading
 from .client import NineBitCIQClient
 
+
 def on_complete(wf_id, result):
     print(f"[Callback] Workflow {wf_id} completed:")
     print(result)
+
 
 def async_wait(client, wf_id):
     try:
@@ -12,6 +14,7 @@ def async_wait(client, wf_id):
         on_complete(wf_id, result)
     except Exception as e:
         print(f"[Callback Error] {e}")
+
 
 def main():
     parser = argparse.ArgumentParser(description="NineBit CIQ CLI")
@@ -26,6 +29,12 @@ def main():
     trigger_parser.add_argument("--data", required=True, help="Workflow data JSON string")
 
     status_parser = subparsers.add_parser("get-status", help="Get workflow status")
+    status_parser.add_argument(
+        "--async",
+        dest="async_mode",
+        action="store_true",
+        help="Run status check in background",
+    )
     status_parser.add_argument("--wf-id", required=True, help="Workflow ID")
 
     args = parser.parse_args()
@@ -37,12 +46,13 @@ def main():
 
     elif args.command == "trigger-workflow":
         import json
+
         data = json.loads(args.data)
         wf_id = client.trigger_workflow(data)
         print(f"Workflow triggered with ID: {wf_id}")
 
     elif args.command == "get-status":
-        if args.async:
+        if args.async_mode:
             thread = threading.Thread(target=async_wait, args=(client, args.wf_id))
             thread.start()
             print(f"Started non-blocking wait for workflow {args.wf_id}...")
@@ -52,6 +62,7 @@ def main():
 
     else:
         parser.print_help()
+
 
 if __name__ == "__main__":
     main()

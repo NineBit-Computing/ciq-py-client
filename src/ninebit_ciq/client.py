@@ -1,6 +1,8 @@
 import requests
 import time
+import logging
 from .logger import setup_logger
+
 
 class NineBitCIQClient:
     """
@@ -15,10 +17,7 @@ class NineBitCIQClient:
     def __init__(self, base_url: str, api_key: str, log_level=logging.ERROR):
         self.base_url = base_url.rstrip("/")
         self.session = requests.Session()
-        self.session.headers.update({
-            "X-API-Key": api_key,
-            "Content-Type": "application/json"
-        })
+        self.session.headers.update({"X-API-Key": api_key, "Content-Type": "application/json"})
         self.logger = setup_logger(log_level)
 
     def get_design_time_workflow(self):

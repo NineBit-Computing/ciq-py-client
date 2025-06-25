@@ -5,9 +5,11 @@ Example usage of NineBit CIQ Python SDK.
 import threading
 from ninebit_ciq import NineBitCIQClient
 
+
 def on_workflow_complete(result):
     print("Workflow finished with status:")
     print(result)
+
 
 def wait_for_completion_in_background(client, wf_id, callback):
     try:
@@ -39,7 +41,10 @@ def main():
     print(status)
 
     # Start background thread to wait for completion
-    thread = threading.Thread(target=wait_for_completion_in_background, args=(client, wf_id, on_workflow_complete))
+    thread = threading.Thread(
+        target=wait_for_completion_in_background,
+        args=(client, wf_id, on_workflow_complete),
+    )
     thread.start()
 
     # Meanwhile, continue doing other things

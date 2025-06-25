@@ -1,5 +1,6 @@
 import logging
 
+
 def setup_logger(level=logging.ERROR):
     logger = logging.getLogger("ninebit_ciq")
     if not logger.hasHandlers():

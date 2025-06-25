@@ -96,7 +96,7 @@ ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY trigger-wor
 ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY get-status --wf-id YOUR_WF_ID
 
 # Check workflow status (non-blocking)
-ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY get-status --wf-id YOUR_WF_ID --async
+ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY get-status --wf-id YOUR_WF_ID --async_mode
 ```
 
 ## 🔐 Authentication
