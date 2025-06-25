@@ -1,5 +1,5 @@
 from ninebit_ciq import NineBitCIQClient
-import pytest
+import pytest  # noqa: F403 F401
 
 
 def test_client_instantiation():
