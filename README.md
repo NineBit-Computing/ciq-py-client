@@ -1,5 +1,9 @@
 # 🧠 NineBit CIQ Python SDK
 
+![](banner.png)
+[![Version](https://img.shields.io/pypi/v/ninebit-ciq)](https://pypi.org/project/ninebit-ciq)
+[![License](https://img.shields.io/github/license/NineBit-Computing/ciq-py-client)](https://github.com/NineBit-Computing/ciq-py-client/blob/main/LICENSE)
+
 Official Python client for interacting with [NineBit CIQ](https://ciq.ninebit.in), a workflow orchestration platform for rapid prototyping of AI/ML ideas using enterprise data and open-source models.
 
 ---
@@ -18,7 +22,7 @@ Official Python client for interacting with [NineBit CIQ](https://ciq.ninebit.in
 ## 📦 Installation
 
 ```bash
-pip install git+https://github.com/NineBit-Computing/ciq-py-client.git
+pip install ciq-py-client
 ```
 
 Or clone and install locally:
