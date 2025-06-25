@@ -1,61 +1,147 @@
-# NineBit CIQ Client
+# 🧠 NineBit CIQ Python SDK
 
-Internal Python client for communicating with the NineBit CIQ backend.
-
-> 🚫 This package is **not open source**. Do not publish to public indexes like PyPI.
-
-Sure! Here's the same information in **Markdown format**, ready to copy into your `README.md` or internal docs:
+Official Python client for interacting with [NineBit CIQ](https://ciq.ninebit.in), a workflow orchestration platform for rapid prototyping of AI/ML ideas using enterprise data and open-source models.
 
 ---
 
-## 📦 Packaging & Dependencies (Python Library)
+## 🚀 Features
 
-- ✅ Declare **runtime dependencies** in `setup.cfg` under `install_requires`  
-  → Example: `requests>=2.31.0`
-- ❌ Do **not** use `requirements.txt` for consumers
-- ✅ Use `requirements.txt` for **development & testing** (optional)
-- ❌ Do not bundle source code of dependencies (like vendoring `requests`)
-
----
-
-## 🚀 Steps to Build & Publish to PyPI
-
-1. **[Optional] Create virtual environment:**
-
-   ```bash
-   python3.11 -m venv .venv && source .venv/bin/activate
-   ```
-
-2. **Install required tools:**
-
-   ```bash
-   pip install --upgrade build twine
-   ```
-
-3. **Build the package:**
-
-   ```bash
-   python -m build
-   ```
-
-4. **Configure `~/.pypirc`** (once):
-
-   ```ini
-   [pypi]
-   username = __token__
-   password = pypi-<your-api-token>
-   ```
-
-5. **Upload to PyPI:**
-
-   ```bash
-   python -m twine upload dist/*
-   ```
+- 🔐 Auth via API Key (`X-API-Key` header)
+- ⚙️ Trigger & track workflows (synchronously or asynchronously)
+- 🔄 Get live workflow status
+- 🧵 Non-blocking execution via threads
+- 🧰 CLI support for easy experimentation
+- 📦 Lightweight, synchronous, and logging-enabled
 
 ---
 
-✅ After the first upload, consumers can install with:
+## 📦 Installation
 
 ```bash
-pip install ninebit-ciq
+pip install git+https://github.com/NineBit-Computing/ciq-py-client.git
 ```
+
+Or clone and install locally:
+
+```
+git clone https://github.com/NineBit-Computing/ciq-py-client.git
+cd ciq-py-client
+pip install .
+```
+
+## 🧪 Quickstart (Python)
+
+```python
+from ninebit_ciq import NineBitCIQClient
+
+client = NineBitCIQClient(
+    base_url="https://api.ciq.ninebit.in",
+    api_key="YOUR_API_KEY"
+)
+
+# 1. Fetch design time workflow JSON
+workflow = client.get_design_time_workflow()
+print(workflow)
+
+# 2. Trigger a new workflow
+wf_id = client.trigger_workflow({"input": "your data here"})
+print("Triggered Workflow ID:", wf_id)
+
+# 3. Wait until the workflow completes
+result = client.wait_for_completion(wf_id)
+print("Final Result:", result)
+
+```
+
+## 🧠 Non-Blocking Workflow Monitoring
+
+CIQ workflows are asynchronous — they may take time to complete. You can track them without blocking the main thread.
+
+▶ Python (Threaded)
+
+```python
+import threading
+from ninebit_ciq import NineBitCIQClient
+
+def on_complete(result):
+    print("Workflow finished:", result)
+
+def wait_async(client, wf_id):
+    result = client.wait_for_completion(wf_id)
+    on_complete(result)
+
+client = NineBitCIQClient("https://api.ciq.ninebit.in", "YOUR_API_KEY")
+wf_id = client.trigger_workflow({"input": "data"})
+
+threading.Thread(target=wait_async, args=(client, wf_id)).start()
+print("Main thread is free to do other work.")
+```
+
+## 🖥️ CLI Usage
+
+The SDK also includes a simple CLI for rapid experiments:
+
+```
+# Show design-time workflow JSON
+ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY get-workflow
+
+# Trigger a workflow
+ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY trigger-workflow --data '{"input": "your data"}'
+
+# Check workflow status (blocking)
+ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY get-status --wf-id YOUR_WF_ID
+
+# Check workflow status (non-blocking)
+ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY get-status --wf-id YOUR_WF_ID --async
+```
+
+## 🔐 Authentication
+
+Pass your API Key using the X-API-Key header:
+
+Python SDK: NineBitCIQClient(base_url, api_key)
+CLI: --api-key YOUR_API_KEY
+
+## 📚 SDK Reference
+
+| Method                                                | Description                                 |
+| ----------------------------------------------------- | ------------------------------------------- |
+| `get_design_time_workflow()`                          | Fetches the base workflow configuration     |
+| `trigger_workflow(data: dict)`                        | Triggers a new workflow and returns `wf_id` |
+| `get_workflow_status(wf_id)`                          | Gets the current status of a workflow       |
+| `wait_for_completion(wf_id, interval=5, timeout=300)` | Polls until the workflow completes          |
+
+## 🛠️ Logging
+
+You can control logging verbosity:
+
+```python
+from ninebit_ciq import NineBitCIQClient
+import logging
+
+client = NineBitCIQClient(base_url, api_key, log_level=logging.INFO)
+```
+
+## 📁 Project Structure
+
+```
+ciq-py-client/
+├── src/ninebit_ciq/
+│ ├── client.py # Core SDK logic
+│ ├── logger.py # Logger setup
+│ ├── cli.py # CLI interface
+│ └── **init**.py # Version info
+├── examples/usage.py
+├── examples/usage_with_thread.py
+├── README.md
+├── setup.py
+└── version.txt
+```
+
+## 📄 License
+
+MIT License © NineBit Computing
+
+## ✉️ Contact
+
+Questions? Reach out via ninebit.in or raise an issue in the GitHub repo.
