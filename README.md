@@ -22,7 +22,7 @@ Official Python client for interacting with [NineBit CIQ](https://ciq.ninebit.in
 ## 📦 Installation
 
 ```bash
-pip install ciq-py-client
+pip install ninebit-ciq
 ```
 
 Or clone and install locally:

@@ -59,6 +59,8 @@ flake8 src/
 
 ```
 pytest --cov=src
+pre-commit run enforce-coverage --all-files
+
 ```
 
 8. **Run Tests**
@@ -66,6 +68,15 @@ pytest --cov=src
 ```
 pytest tests/unit/
 pytest -m integration
+```
+
+9. **Pre-commit**
+
+```
+pre-commit clean
+pre-commit install
+pre-commit run --all-files
+
 ```
 
 ---

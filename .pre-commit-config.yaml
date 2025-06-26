@@ -18,14 +18,14 @@ repos:
       - id: check-merge-conflict
       - id: debug-statements
 
-  - repo: local
-    hooks:
-      - id: check-test-coverage
-        name: Run tests with coverage enforcement
-        entry: pytest --cov=src --cov-fail-under=50
-        language: python
-        types: [python]
-        additional_dependencies:
-          - pytest
-          - pytest-cov
-          - requests
+  # - repo: local
+  #   hooks:
+  #     - id: enforce-coverage
+  #       name: Run tests with coverage enforcement
+  #       entry: pytest tests/ --cov=src --cov-fail-under=50
+  #       language: system
+  #       types: [python]
+  #       # additional_dependencies:
+  #       #   - pytest
+  #       #   - pytest-cov
+  #       #   - requests

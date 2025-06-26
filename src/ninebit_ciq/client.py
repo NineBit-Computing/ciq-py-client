@@ -23,7 +23,7 @@ class NineBitCIQClient:
     def get_design_time_workflow(self):
         """Fetch design time workflow JSON from the backend."""
         try:
-            url = f"{self.base_url}/workflow/design-time"
+            url = f"{self.base_url}/workflow-service/dt/workflows"
             response = self.session.get(url, timeout=10)
             response.raise_for_status()
             return response.json()
@@ -34,7 +34,7 @@ class NineBitCIQClient:
     def trigger_workflow(self, workflow_data: dict):
         """Trigger a workflow with given data, return workflow ID."""
         try:
-            url = f"{self.base_url}/workflow/trigger"
+            url = f"{self.base_url}/workflow-service/trigger_workflow"
             response = self.session.post(url, json=workflow_data, timeout=10)
             response.raise_for_status()
             return response.json().get("wf_id")
@@ -45,7 +45,7 @@ class NineBitCIQClient:
     def get_workflow_status(self, wf_id: str):
         """Check status and result of a workflow by its workflow ID."""
         try:
-            url = f"{self.base_url}/workflow/status/{wf_id}"
+            url = f"{self.base_url}/workflow-service/rt/workflows/{wf_id}"
             response = self.session.get(url, timeout=10)
             response.raise_for_status()
             return response.json()
