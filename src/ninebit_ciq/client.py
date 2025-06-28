@@ -3,6 +3,9 @@ import time
 import logging
 from .logger import setup_logger
 from typing import Union, IO
+import mimetypes
+import os
+import io
 
 CIQ_HOST = "https://datahub.ninebit.in"
 
@@ -87,7 +90,7 @@ class NineBitCIQClient:
 
         raise TimeoutError(f"Workflow {wf_id} did not complete in {timeout} seconds.")
 
-    def ingest_file(self, file: Union[str, IO[bytes]]):
+    def ingest_file(self, file: Union[str, IO[bytes]], bucket_name: str, object_name: str, content_type: str = None):
         """
         Reads and uploads a PDF or DOCX file to the backend for processing.
 
@@ -103,3 +106,60 @@ class NineBitCIQClient:
             ValueError: If the input is invalid or unsupported.
             IOError: If the file cannot be read.
         """
+        # Determine file name (only used for content type inference)
+        if isinstance(file, str):
+            filename = file
+        elif hasattr(file, "name"):
+            filename = file.name
+        else:
+            filename = "unknown"
+
+        # Infer content type if not explicitly provided
+        if content_type is None:
+            content_type, _ = mimetypes.guess_type(filename)
+            content_type = content_type or "application/octet-stream"
+
+
+        # Step 1: Get the pre-signed URL from the backend
+        try:
+            response = self.session.post(
+                f"{self.base_url}/workflow-service/generate-presigned-url",
+                json={
+                    "bucket_name": bucket_name,
+                    "object_name": object_name,
+                    "content_type": content_type
+                }
+            )
+            response.raise_for_status()
+            presigned_url = response.json()["url"]
+        except Exception as e:
+            self.logger.error(f"Failed to get pre-signed URL: {e}")
+            return False
+
+        # Step 2: Upload the file to MinIO via the pre-signed URL
+        try:
+            if isinstance(file, str):
+                with open(file, "rb") as f:
+                    data = f.read()
+            else:
+                file.seek(0)
+                data = file.read()
+
+            upload_response = requests.put(
+                presigned_url,
+                data=data,
+                headers={"Content-Type": content_type}
+            )
+
+            if upload_response.status_code == 200:
+                self.logger.info("✅ File uploaded successfully.")
+                return True
+            else:
+                self.logger.error(
+                    f"❌ Upload failed: {upload_response.status_code} - {upload_response.text}"
+                )
+                return False
+
+        except Exception as e:
+            self.logger.error(f"❌ File upload error: {e}")
+            return False
