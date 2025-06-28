@@ -1,16 +1,6 @@
-# NineBit CIQ Client
+# Developer Guide — NineBit CIQ Python Client
 
-Python client for communicating with the NineBit CIQ backend.
-
----
-
-## 📦 Packaging & Dependencies (Python Library)
-
-- ✅ Declare **runtime dependencies** in `setup.cfg` under `install_requires`
-  → Example: `requests>=2.31.0`
-- ❌ Do **not** use `requirements.txt` for consumers
-- ✅ Use `requirements.txt` for **development & testing** (optional)
-- ❌ Do not bundle source code of dependencies (like vendoring `requests`)
+This document provides handy commands and tips for developers working on the Python client.
 
 ---
 
@@ -86,3 +76,12 @@ pre-commit run --all-files
 ```bash
 pip install ninebit-ciq
 ```
+
+---
+
+## 📦 Packaging & Dependencies (Python Library)
+
+- ✅ Declare **runtime dependencies** in `setup.cfg` under `install_requires`
+  → Example: `requests>=2.31.0`
+- ✅ Use `dev-requirements.txt` for **development & testing** (optional)
+- ❌ Do not bundle source code of dependencies (like vendoring `requests`)
