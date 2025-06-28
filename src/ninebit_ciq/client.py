@@ -2,6 +2,9 @@ import requests
 import time
 import logging
 from .logger import setup_logger
+from typing import Union, IO
+
+CIQ_HOST = "https://datahub.ninebit.in"
 
 
 class NineBitCIQClient:
@@ -14,7 +17,7 @@ class NineBitCIQClient:
         log_level (int): Logging level (default logging.ERROR).
     """
 
-    def __init__(self, base_url: str, api_key: str, log_level=logging.ERROR):
+    def __init__(self, api_key: str, base_url: str = CIQ_HOST, log_level=logging.ERROR):
         self.base_url = base_url.rstrip("/")
         self.session = requests.Session()
         self.session.headers.update({"X-API-Key": api_key, "Content-Type": "application/json"})
@@ -37,7 +40,7 @@ class NineBitCIQClient:
             url = f"{self.base_url}/workflow-service/trigger_workflow"
             response = self.session.post(url, json=workflow_data, timeout=10)
             response.raise_for_status()
-            return response.json().get("wf_id")
+            return response.json().get("content")
         except requests.RequestException as e:
             self.logger.error(f"Error triggering workflow: {e}")
             raise
@@ -83,3 +86,20 @@ class NineBitCIQClient:
             time.sleep(interval)
 
         raise TimeoutError(f"Workflow {wf_id} did not complete in {timeout} seconds.")
+
+    def ingest_file(self, file: Union[str, IO[bytes]]):
+        """
+        Reads and uploads a PDF or DOCX file to the backend for processing.
+
+        Args:
+            file (Union[str, IO[bytes]]):
+                - Local file path as a string, or
+                - File-like object (e.g., BytesIO) with file content.
+
+        Returns:
+            dict: Response from the backend.
+
+        Raises:
+            ValueError: If the input is invalid or unsupported.
+            IOError: If the file cannot be read.
+        """

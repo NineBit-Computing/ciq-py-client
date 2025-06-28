@@ -3,7 +3,7 @@ Example usage of NineBit CIQ Python SDK.
 """
 
 import threading
-from ninebit_ciq import NineBitCIQClient
+from ninebit_ciq import NineBitCIQClient, download_from_sharepoint
 
 
 def on_workflow_complete(result):
@@ -49,6 +49,14 @@ def main():
 
     # Meanwhile, continue doing other things
     print("Main thread is free to do other tasks...")
+
+    # User handles remote access
+    buffer = download_from_sharepoint(
+        sharepoint_url="https://company.sharepoint.com/file.docx", access_token="user_access_token"
+    )
+
+    # Then use SDK as if it's a local file
+    client.ingest_file(buffer)
 
 
 if __name__ == "__main__":
