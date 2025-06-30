@@ -74,7 +74,7 @@ def wait_async(client, wf_id):
     result = client.wait_for_completion(wf_id)
     on_complete(result)
 
-client = NineBitCIQClient("https://api.ciq.ninebit.in", "YOUR_API_KEY")
+client = NineBitCIQClient(api_key="YOUR_API_KEY")
 wf_id = client.trigger_workflow({"input": "data"})
 
 threading.Thread(target=wait_async, args=(client, wf_id)).start()
