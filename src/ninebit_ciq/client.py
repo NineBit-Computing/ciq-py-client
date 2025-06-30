@@ -5,6 +5,8 @@ import logging
 from .logger import setup_logger
 from typing import Union, IO
 import mimetypes
+import threading
+# from threading import Thread
 
 # under the hood, requests uses urllib3, which raises the InsecureRequestWarning
 import urllib3
@@ -83,7 +85,7 @@ class NineBitCIQClient:
         start_time = time.time()
         while time.time() - start_time < timeout:
             status = self.get_workflow_status(wf_id)
-            state = status.get("state") or status.get("status")
+            state = status.get("content").get("status")
             self.logger.info(f"Workflow {wf_id} state: {state}")
 
             if state in ("completed", "success"):
@@ -95,7 +97,7 @@ class NineBitCIQClient:
 
         raise TimeoutError(f"Workflow {wf_id} did not complete in {timeout} seconds.")
 
-    def ingest_file(self, file: Union[str, IO[bytes]]):
+    def ingest_file(self, file: Union[str, IO[bytes]], callback=None):
         """
         Reads and uploads a PDF or DOCX file to the backend for processing.
 
@@ -153,11 +155,34 @@ class NineBitCIQClient:
 
             if upload_response.status_code == 200:
                 self.logger.info("File uploaded successfully.")
-                return True
+                # return True
             else:
                 self.logger.error(f"Upload failed: {upload_response.status_code} - {upload_response.text}")
-                return False
+                # return False
 
         except Exception as e:
             self.logger.error(f"File upload error: {e}")
             return False
+
+        try:
+            payload = {
+                "workflow": "rag-consumer",
+                "file_path": object_name,
+                "workspace": "bofa-ws-5"
+            }
+            wf_id = self.trigger_workflow(payload)
+
+            if callback:
+                # def watcher():
+                try:
+                    self.wait_for_completion(wf_id)
+                    callback(None)
+                except Exception as ex:
+                    callback(ex)
+                # threading.Thread(target=watcher, daemon=True).start()
+
+            print(f"WF Triggered success: {wf_id}")
+        except Exception as e:
+            print(f"Trigger workflow error: {e}")
+            self.logger.error(f"Trigger workflow error: {e}")
+            return False            
