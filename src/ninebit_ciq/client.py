@@ -5,6 +5,11 @@ from .logger import setup_logger
 from typing import Union, IO
 import mimetypes
 
+# under the hood, requests uses urllib3, which raises the InsecureRequestWarning
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 CIQ_HOST = "https://datahub.ninebit.in"
 
 
