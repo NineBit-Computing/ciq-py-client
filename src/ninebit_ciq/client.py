@@ -4,8 +4,6 @@ import logging
 from .logger import setup_logger
 from typing import Union, IO
 import mimetypes
-import os
-import io
 
 CIQ_HOST = "https://datahub.ninebit.in"
 
@@ -23,6 +21,7 @@ class NineBitCIQClient:
     def __init__(self, api_key: str, base_url: str = CIQ_HOST, log_level=logging.ERROR):
         self.base_url = base_url.rstrip("/")
         self.session = requests.Session()
+        self.session.verify = False  # TODO: SSL
         self.session.headers.update({"X-API-Key": api_key, "Content-Type": "application/json"})
         self.logger = setup_logger(log_level)
 
@@ -119,19 +118,15 @@ class NineBitCIQClient:
             content_type, _ = mimetypes.guess_type(filename)
             content_type = content_type or "application/octet-stream"
 
-
         # Step 1: Get the pre-signed URL from the backend
         try:
             response = self.session.post(
                 f"{self.base_url}/workflow-service/generate-presigned-url",
-                json={
-                    "bucket_name": bucket_name,
-                    "object_name": object_name,
-                    "content_type": content_type
-                }
+                json={"bucket_name": bucket_name, "object_name": object_name, "content_type": content_type},
             )
             response.raise_for_status()
             presigned_url = response.json()["url"]
+            self.logger.info(f"Presigned_url: {presigned_url}")
         except Exception as e:
             self.logger.error(f"Failed to get pre-signed URL: {e}")
             return False
@@ -146,20 +141,16 @@ class NineBitCIQClient:
                 data = file.read()
 
             upload_response = requests.put(
-                presigned_url,
-                data=data,
-                headers={"Content-Type": content_type}
+                presigned_url, data=data, verify=False, headers={"Content-Type": content_type}  # TODO: SSL
             )
 
             if upload_response.status_code == 200:
-                self.logger.info("✅ File uploaded successfully.")
+                self.logger.info("File uploaded successfully.")
                 return True
             else:
-                self.logger.error(
-                    f"❌ Upload failed: {upload_response.status_code} - {upload_response.text}"
-                )
+                self.logger.error(f"Upload failed: {upload_response.status_code} - {upload_response.text}")
                 return False
 
         except Exception as e:
-            self.logger.error(f"❌ File upload error: {e}")
+            self.logger.error(f"File upload error: {e}")
             return False
