@@ -1,3 +1,4 @@
+import os
 import requests
 import time
 import logging
@@ -94,7 +95,7 @@ class NineBitCIQClient:
 
         raise TimeoutError(f"Workflow {wf_id} did not complete in {timeout} seconds.")
 
-    def ingest_file(self, file: Union[str, IO[bytes]], bucket_name: str, object_name: str, content_type: str = None):
+    def ingest_file(self, file: Union[str, IO[bytes]]):
         """
         Reads and uploads a PDF or DOCX file to the backend for processing.
 
@@ -119,15 +120,16 @@ class NineBitCIQClient:
             filename = "unknown"
 
         # Infer content type if not explicitly provided
-        if content_type is None:
-            content_type, _ = mimetypes.guess_type(filename)
-            content_type = content_type or "application/octet-stream"
+        content_type, _ = mimetypes.guess_type(filename)
+        content_type = content_type or "application/octet-stream"
 
         # Step 1: Get the pre-signed URL from the backend
         try:
+            object_name = os.path.basename(filename)
+
             response = self.session.post(
                 f"{self.base_url}/workflow-service/generate-presigned-url",
-                json={"bucket_name": bucket_name, "object_name": object_name, "content_type": content_type},
+                json={"object_name": object_name, "content_type": content_type},
             )
             response.raise_for_status()
             presigned_url = response.json()["url"]
