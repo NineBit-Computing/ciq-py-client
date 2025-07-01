@@ -16,29 +16,11 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 CIQ_HOST = "https://datahub.ninebit.in"
 
 
-def _sdk_on_done(error: Exception | None, data: any) -> None:
-    """
-    Generic callback executed after polling is complete.
-
-    Args:
-        error (Exception | None): An exception instance if the task failed, otherwise None.
-        data (Any): The result data from the task if successful.
-
-    Returns:
-        None
-    """
-    if error:
-        print(f"SDK Task failed: {error}")
-    else:
-        print(f"SDK Task succeeded: {data}")
-
-
 class NineBitCIQClient:
     """
     Client for interacting with the NineBit CIQ backend.
 
     Parameters:
-        base_url (str): Base URL of the CIQ API.
         api_key (str): API key for authentication (sent in 'X-API-Key' header).
         log_level (int): Logging level (default logging.ERROR).
     """
@@ -50,19 +32,11 @@ class NineBitCIQClient:
         self.session.headers.update({"X-API-Key": api_key, "Content-Type": "application/json"})
         self.logger = setup_logger(log_level)
 
-    # def get_design_time_workflow(self):
-    #     """Fetch design time workflow JSON from the backend."""
-    #     try:
-    #         url = f"{self.base_url}/workflow-service/dt/workflows"
-    #         response = self.session.get(url, timeout=10)
-    #         response.raise_for_status()
-    #         return response.json()
-    #     except requests.RequestException as e:
-    #         self.logger.error(f"Error fetching design time workflow: {e}")
-    #         raise
-
     def _trigger_workflow(self, workflow_data: dict):
-        """Trigger a workflow with given data, return workflow ID."""
+        """
+        Internal
+        Trigger a workflow with given data, return workflow ID.
+        """
         try:
             url = f"{self.base_url}/workflow-service/trigger_workflow"
             response = self.session.post(url, json=workflow_data, timeout=10)
@@ -73,7 +47,10 @@ class NineBitCIQClient:
             raise
 
     def _get_workflow_status(self, wf_id: str):
-        """Check status and result of a workflow by its workflow ID."""
+        """
+        Internal
+        Check status and result of a workflow by its workflow ID.
+        """
         try:
             url = f"{self.base_url}/workflow-service/rt/workflows/{wf_id}"
             response = self.session.get(url, timeout=10)
@@ -85,6 +62,7 @@ class NineBitCIQClient:
 
     def _wait_for_completion(self, wf_id: str, interval: int = 5, timeout: int = 300, callback=None):
         """
+        Internal
         Polls workflow status until it completes or times out.
         """
         start_time = time.time()
@@ -96,12 +74,15 @@ class NineBitCIQClient:
 
             if state in ("completed", "success"):
                 if callback:
-                    callback(None, status.get("result", {}))
-                return status
+                    callback(None, status.get("result"))
+                    return  # don't return value if using callback
+                return status.get("result")
             if state in ("failed", "error"):
                 if callback:
                     callback(RuntimeError(f"Workflow {wf_id} failed: {status}"), None)
-                raise RuntimeError(f"Workflow {wf_id} failed: {status}")
+                    return  # don't return value if using callback
+                else:
+                    raise RuntimeError(f"Workflow {wf_id} failed: {status}")
 
             time.sleep(interval)
 
@@ -195,7 +176,24 @@ class NineBitCIQClient:
                 callback(err, None)
 
     def rag_query(self, query: str, euclidean_threshold=0.9, top_k=6, callback=None):
-        """ """
+        """
+        Performs a Retrieval-Augmented Generation (RAG) query using the provided input.
+
+        Args:
+            query (str): The user query string to retrieve relevant documents for.
+            euclidean_threshold (float, optional): The distance threshold for filtering similar results.
+                Lower values mean more strict similarity. Defaults to 0.9.
+            top_k (int, optional): The maximum number of top documents to retrieve. Defaults to 6.
+            callback (Callable, optional): A function to be called with the final result. Should accept
+                two arguments: (error, result). If None, the function will return the result directly.
+
+        Returns:
+            Any: The final result if no callback is provided. Otherwise, returns None.
+
+        Raises:
+            ValueError: If the query is empty or invalid.
+            RuntimeError: If retrieval or generation fails.
+        """
         workspace = self.session.headers.get("X-API-Key")
         payload = {
             "workflow": "rag-query",
@@ -207,14 +205,17 @@ class NineBitCIQClient:
 
         try:
             wf_id = self._trigger_workflow(payload)
-            cb = callback or _sdk_on_done
-            self._wait_for_completion(wf_id=wf_id, callback=cb)
+            response = self._wait_for_completion(wf_id=wf_id, callback=callback)
 
             print("Success: rag_query")
             self.logger.info("Success: rag_query")
+            return response
 
         except Exception as ex:
             print(f"Error: rag_query: {str(ex)}")
             self.logger.error("Error: rag_query: {str(ex)}")
             if callback:
                 callback(ex, None)
+                return
+            else:
+                raise RuntimeError("Error: rag_query")

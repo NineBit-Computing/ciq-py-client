@@ -10,12 +10,20 @@ Official Python client for interacting with [NineBit CIQ](https://ciq.ninebit.in
 
 ## 🚀 Features
 
-- 🔐 Auth via API Key (`X-API-Key` header)
-- ⚙️ Trigger & track workflows (synchronously or asynchronously)
-- 🔄 Get live workflow status
-- 🧵 Non-blocking execution via threads
-- 🧰 CLI support for easy experimentation
-- 📦 Lightweight, synchronous, and logging-enabled
+- Retrieval-Augmented Generation (RAG)
+  Perform semantic search and intelligent query answering using hybrid retrieval techniques.
+- Flexible Query Interface
+  Send queries with configurable similarity thresholds and top_k result tuning.
+- Callback Support for Asynchronous Workflows
+  Pass in callbacks to handle results or errors once workflows complete — ideal for event-driven applications.
+- Workflow Polling with Timeout Control
+  Monitor long-running workflows with built-in polling, status checking, and customizable timeouts.
+- Simple, Extensible API
+  Clean, Pythonic interfaces with support for both synchronous returns and optional callbacks.
+- Error-Handled Execution Flow
+  Graceful handling of task failures, timeouts, and unexpected states with descriptive exceptions.
+- Logging Support
+  Integrated logging for easy debugging and transparency during polling or querying.
 
 ---
 
@@ -44,40 +52,18 @@ client = NineBitCIQClient(
 
 def on_done(error, data):
     if error:
-        print(f"Task failed: {error}")
+        print(f"Ingest_file failed: {error}")
     else:
-        print(f"Task succeeded: {str(data)}")
+        print(f"Ingest_file succeeded: {str(data)}")
 
 # 1. Ingest file as datasource for performing RAG
 client.ingest_file(file="files/my_file.pdf", callback=on_done)
 
 # 2. Ask your query
-client.rag_query(query="What is axiom?", callback=on_done)
+query = "What are land breeze?"
+response = client.rag_query(query=query)
+print(f"Query response is {response}")
 
-```
-
-## 🧠 Non-Blocking Workflow Monitoring
-
-CIQ workflows are asynchronous — they may take time to complete. You can track them without blocking the main thread.
-
-▶ Python (Threaded)
-
-```python
-import threading
-from ninebit_ciq import NineBitCIQClient
-
-def on_complete(result):
-    print("Workflow finished:", result)
-
-def wait_async(client, wf_id):
-    result = client.wait_for_completion(wf_id)
-    on_complete(result)
-
-client = NineBitCIQClient(api_key="YOUR_API_KEY")
-wf_id = client.trigger_workflow({"input": "data"})
-
-threading.Thread(target=wait_async, args=(client, wf_id)).start()
-print("Main thread is free to do other work.")
 ```
 
 ## 🔐 Authentication
@@ -88,12 +74,11 @@ Python SDK: NineBitCIQClient(api_key)
 
 ## 📚 SDK Reference
 
-| Method                                                | Description                                 |
-| ----------------------------------------------------- | ------------------------------------------- |
-| `get_design_time_workflow()`                          | Fetches the base workflow configuration     |
-| `trigger_workflow(data: dict)`                        | Triggers a new workflow and returns `wf_id` |
-| `get_workflow_status(wf_id)`                          | Gets the current status of a workflow       |
-| `wait_for_completion(wf_id, interval=5, timeout=300)` | Polls until the workflow completes          |
+| Method          | Description                                                                     |
+| --------------- | ------------------------------------------------------------------------------- |
+| `ingest_file()` | Reads and uploads a PDF or DOCX file to the backend for processing.             |
+| `rag_query()`   | Performs a Retrieval-Augmented Generation (RAG) query using the provided input. |
+|                 |
 
 ## 🛠️ Logging
 
