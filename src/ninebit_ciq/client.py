@@ -25,7 +25,7 @@ class NineBitCIQClient:
         log_level (int): Logging level (default logging.ERROR).
     """
 
-    def __init__(self, api_key: str, base_url: str = CIQ_HOST, log_level=logging.ERROR):
+    def __init__(self, api_key: str, base_url: str = CIQ_HOST, log_level=logging.INFO):
         self.base_url = base_url.rstrip("/")
         self.session = requests.Session()
         self.session.verify = False  # TODO: SSL
@@ -90,7 +90,7 @@ class NineBitCIQClient:
             callback(TimeoutError(f"Workflow {wf_id} timed out after {timeout} seconds."), None)
         raise TimeoutError(f"Workflow {wf_id} did not complete in {timeout} seconds.")
 
-    def ingest_file(self, file: Union[str, IO[bytes]], callback=None):
+    def ingest_file(self, file: Union[str, IO[bytes]], associated_file_name=None, callback=None):
         """
         Reads and uploads a PDF or DOCX file to the backend for processing.
 
@@ -112,7 +112,7 @@ class NineBitCIQClient:
         elif hasattr(file, "name"):
             filename = file.name
         else:
-            filename = "unknown"
+            filename = associated_file_name or "unknown"
 
         # Infer content type if not explicitly provided
         content_type, _ = mimetypes.guess_type(filename)
