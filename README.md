@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/pypi/v/ninebit-ciq)](https://pypi.org/project/ninebit-ciq)
 [![License](https://img.shields.io/github/license/NineBit-Computing/ciq-py-client)](https://github.com/NineBit-Computing/ciq-py-client/blob/main/LICENSE)
 
-Official Python client for interacting with [NineBit CIQ](https://ciq.ninebit.in), a workflow orchestration platform for rapid prototyping of AI/ML ideas using enterprise data and open-source models.
+Official Python client for interacting with [NineBit CIQ](https://ciq.ninebit.in), a Retrieval-Augmented Generation (RAG) workflow orchestration platform for rapid prototyping of AI/ML ideas using enterprise data and open-source models.
 
 ---
 
@@ -39,21 +39,20 @@ pip install .
 from ninebit_ciq import NineBitCIQClient
 
 client = NineBitCIQClient(
-    base_url="https://api.ciq.ninebit.in",
     api_key="YOUR_API_KEY"
 )
 
-# 1. Fetch design time workflow JSON
-workflow = client.get_design_time_workflow()
-print(workflow)
+def on_done(error, data):
+    if error:
+        print(f"Task failed: {error}")
+    else:
+        print(f"Task succeeded: {str(data)}")
 
-# 2. Trigger a new workflow
-wf_id = client.trigger_workflow({"input": "your data here"})
-print("Triggered Workflow ID:", wf_id)
+# 1. Ingest file as datasource for performing RAG
+client.ingest_file(file="files/my_file.pdf", callback=on_done)
 
-# 3. Wait until the workflow completes
-result = client.wait_for_completion(wf_id)
-print("Final Result:", result)
+# 2. Ask your query
+client.rag_query(query="What is axiom?", callback=on_done)
 
 ```
 
@@ -81,30 +80,11 @@ threading.Thread(target=wait_async, args=(client, wf_id)).start()
 print("Main thread is free to do other work.")
 ```
 
-## 🖥️ CLI Usage
-
-The SDK also includes a simple CLI for rapid experiments:
-
-```
-# Show design-time workflow JSON
-ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY get-workflow
-
-# Trigger a workflow
-ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY trigger-workflow --data '{"input": "your data"}'
-
-# Check workflow status (blocking)
-ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY get-status --wf-id YOUR_WF_ID
-
-# Check workflow status (non-blocking)
-ciq-cli --base-url https://api.ciq.ninebit.in --api-key YOUR_API_KEY get-status --wf-id YOUR_WF_ID --async_mode
-```
-
 ## 🔐 Authentication
 
 Pass your API Key using the X-API-Key header:
 
-Python SDK: NineBitCIQClient(base_url, api_key)
-CLI: --api-key YOUR_API_KEY
+Python SDK: NineBitCIQClient(api_key)
 
 ## 📚 SDK Reference
 
@@ -123,7 +103,7 @@ You can control logging verbosity:
 from ninebit_ciq import NineBitCIQClient
 import logging
 
-client = NineBitCIQClient(base_url, api_key, log_level=logging.INFO)
+client = NineBitCIQClient(api_key, log_level=logging.INFO)
 ```
 
 ## 📁 Project Structure
