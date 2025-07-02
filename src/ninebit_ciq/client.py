@@ -128,12 +128,17 @@ class NineBitCIQClient:
             )
             response.raise_for_status()
             presigned_url = response.json()["url"]
-            self.logger.info(f"Presigned_url: {presigned_url}")
+            self.logger.info("Presigned_url received")
+            # self.logger.info(f"Presigned_url: {presigned_url}")
         except Exception as e:
             self.logger.error(f"Failed to get pre-signed URL: {e}")
-            return False
+            if callback:
+                callback(e, None)
+                return  # don't raise Error if using callback
+            else:
+                raise RuntimeError("Failed to get pre-signed URL")
 
-        # Step 2: Upload the file to MinIO via the pre-signed URL
+        # Step 2: Upload the file to blob
         try:
             if isinstance(file, str):
                 with open(file, "rb") as f:
@@ -155,7 +160,11 @@ class NineBitCIQClient:
 
         except Exception as e:
             self.logger.error(f"File upload error: {e}")
-            return False
+            if callback:
+                callback(e, None)
+                return  # don't raise Error if using callback
+            else:
+                raise RuntimeError("File upload error")
 
         try:
             workspace = self.session.headers.get("X-API-Key")
@@ -167,13 +176,14 @@ class NineBitCIQClient:
             if callback:
                 callback(None, {"run_id": wf_id, "workspace": workspace})
 
-            print(f"WF Triggered success: {wf_id}")
-        except Exception as err:
-            print(f"Trigger workflow error: {err}")
-            self.logger.error(f"Trigger workflow error: {err}")
+        except Exception as e:
+            self.logger.error(f"Trigger workflow error: {e}")
 
             if callback:
-                callback(err, None)
+                callback(e, None)
+                return  # don't raise Error if using callback
+            else:
+                raise RuntimeError("Trigger workflow error")
 
     def rag_query(self, query: str, euclidean_threshold=0.9, top_k=6, callback=None):
         """
@@ -206,13 +216,10 @@ class NineBitCIQClient:
         try:
             wf_id = self._trigger_workflow(payload)
             response = self._wait_for_completion(wf_id=wf_id, callback=callback)
-
-            print("Success: rag_query")
             self.logger.info("Success: rag_query")
             return response
 
         except Exception as ex:
-            print(f"Error: rag_query: {str(ex)}")
             self.logger.error("Error: rag_query: {str(ex)}")
             if callback:
                 callback(ex, None)
