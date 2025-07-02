@@ -3,6 +3,10 @@
 ![](banner.png)
 [![Version](https://img.shields.io/pypi/v/ninebit-ciq)](https://pypi.org/project/ninebit-ciq)
 [![License](https://img.shields.io/github/license/NineBit-Computing/ciq-py-client)](https://github.com/NineBit-Computing/ciq-py-client/blob/main/LICENSE)
+[![build](https://img.shields.io/github/actions/workflow/status/NineBit-Computing/ciq-py-client/ci.yml?branch=main)](https://github.com/NineBit-Computing/ciq-py-client/actions)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Linting: flake8](https://img.shields.io/badge/linting-flake8-blue)](https://flake8.pycqa.org/)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
 
 Official Python client for interacting with [NineBit CIQ](https://ciq.ninebit.in), a Retrieval-Augmented Generation (RAG) workflow orchestration platform for rapid prototyping of AI/ML ideas using enterprise data and open-source models.
 
