@@ -5,18 +5,21 @@ Example usage of NineBit CIQ Python SDK.
 import sys
 import os
 import io
-from dotenv import load_dotenv
 from typing import Union, IO
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.ninebit_ciq import NineBitCIQClient, get_sharepoint_configuration, download_file_from_sharepoint  # noqa: E402
 
+ENABLE_SHAREPOINT_TEST = False
+ENABLE_FILE_INGESTION = True
+ENABLE_QUERY_TEST = True
 
-load_dotenv()
-
-api_key = "d1b30b1c-b585-4339-9dc5-fc628598117c"
-
-client = NineBitCIQClient(api_key=api_key)
+try:
+    api_key = os.getenv("API_KEY") or "ci_agent_datahub_access"
+    client = NineBitCIQClient(api_key=api_key)
+except Exception as e:
+    print(f"Error while setting up CIQ client {e}")
+    sys.exit(1)
 
 
 def handle_file_ingestion(file: Union[str, IO[bytes]], associated_file_name=None, callback=None):
@@ -39,26 +42,29 @@ def main():
         else:
             print(f"Ingest_file succeeded: {str(data)}")
 
-    # handle_file_ingestion(file="files/geo_chap_8.pdf", callback=on_done)
+    try:
+        if ENABLE_FILE_INGESTION is True:
+            handle_file_ingestion(file="examples/files/geo_chap_9.pdf", callback=on_done)
 
-    # query = "What are land breeze?"
-    # response = handle_query_execution(query=query)
-    # print(f"Query response is {response}")
+        if ENABLE_SHAREPOINT_TEST is True:
+            sp_config = get_sharepoint_configuration(
+                site_name="KnowledgeCenter", folder="CIQDocs", file_name="BOFA-CC-Elite.pdf"
+            )
+            remote_file_buffer = download_file_from_sharepoint(sp_config)
+            handle_file_ingestion(
+                file=io.BytesIO(remote_file_buffer),
+                callback=on_done,
+                associated_file_name=sp_config.get("target_file_name"),
+            )
 
-    # User handles remote access
-    # buffer = download_from_sharepoint(
-    #     sharepoint_url="https://company.sharepoint.com/file.docx", access_token="user_access_token"
-    # )
+        if ENABLE_QUERY_TEST is True:
+            query = "What are land breeze?"
+            response = handle_query_execution(query=query)
+            print(f"Query response is {response}")
 
-    sp_config = get_sharepoint_configuration(
-        site_name="KnowledgeCenter", folder="CIQDocs", file_name="BOFA-CC-Elite.pdf"
-    )
-    remote_file_buffer = download_file_from_sharepoint(sp_config)
-    # with open("downloaded_file.pdf", "wb") as f:
-    #     f.write(remote_file_buffer)
-    handle_file_ingestion(
-        file=io.BytesIO(remote_file_buffer), callback=on_done, associated_file_name=sp_config.get("target_file_name")
-    )
+    except Exception as ex:
+        print(f"Error while performing main execution: {ex}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
