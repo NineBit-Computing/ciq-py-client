@@ -38,7 +38,8 @@ def handle_query_execution(query: str, callback=None):
 def main():
     def on_done(error, data):
         if error:
-            print(f"Ingest_file failed: {error}")
+            print(f"Error: Ingest_file failed: {error}")
+            sys.exit(1)
         else:
             print(f"Ingest_file succeeded: {str(data)}")
 

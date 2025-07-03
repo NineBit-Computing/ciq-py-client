@@ -1,4 +1,4 @@
-# 🧠 NineBit CIQ Python SDK
+# Python SDK for RAG (Retrieval Augmented Generation)
 
 ![](banner.png)
 [![Version](https://img.shields.io/pypi/v/ninebit-ciq)](https://pypi.org/project/ninebit-ciq)
@@ -8,9 +8,9 @@
 [![Linting: flake8](https://img.shields.io/badge/linting-flake8-blue)](https://flake8.pycqa.org/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
 
-Official Python client for interacting with [NineBit CIQ](https://ciq.ninebit.in), a Retrieval-Augmented Generation (RAG) workflow orchestration platform for rapid prototyping of AI/ML ideas using enterprise data and open-source models.
+## 🔗 ninebit-ciq
 
----
+**Official Python SDK client for interacting with [NineBit CIQ](https://ciq.ninebit.in?utm_source=pypl)**, a Retrieval-Augmented Generation (RAG) workflow orchestration platform for secure, private, rapid prototyping of AI/ML ideas using enterprise data and open-source models.
 
 ## 🚀 Features
 
@@ -28,8 +28,6 @@ Official Python client for interacting with [NineBit CIQ](https://ciq.ninebit.in
   Graceful handling of task failures, timeouts, and unexpected states with descriptive exceptions.
 - Logging Support
   Integrated logging for easy debugging and transparency during polling or querying.
-
----
 
 ## 📦 Installation
 
@@ -70,11 +68,11 @@ print(f"Query response is {response}")
 
 ```
 
-## 🔐 Authentication
+## 🔐 Authentication - You’ll Need an API Key
 
-Pass your API Key using the X-API-Key header:
+If you’re using the Freemium CIQ setup, you’ll just need to register at our web app and grab your API key. It’s quick, and no credit card is required.
 
-Python SDK: NineBitCIQClient(api_key)
+You can sign up here [NineBit CIQ](https://ciq.ninebit.in?utm_source=pypl)
 
 ## 📚 SDK Reference
 
@@ -115,10 +113,16 @@ ciq-py-client/
 
 MIT License © NineBit Computing
 
-## ✉️ Contact
+## 🤝 Contributing
 
-Questions? Reach out via ninebit.in or raise an issue in the GitHub repo.
+Pull requests are welcome! Please check DEVELOPER.md and ensure:
 
-## Contributing
+- Tests pass
+- Lint/format clean
+- Coverage is not broken
 
-While we value open-source contributions to this SDK, the code is generated programmatically. Additions made directly would have to be moved over to our generation code, otherwise they would be overwritten upon the next generated release. Feel free to open a PR as a proof of concept, but know that we will not be able to merge it as-is. We suggest opening an issue first to discuss with us!
+## 📬 Questions?
+
+Email us at support@ninebit.in or visit [NineBit Computing](https://ninebit.in?utm_source=pypl) or raise an issue in the GitHub repo.
+
+© NineBit Computing, 2025

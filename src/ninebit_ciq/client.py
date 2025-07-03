@@ -217,10 +217,14 @@ class NineBitCIQClient:
             wf_id = self._trigger_workflow(payload)
             response = self._wait_for_completion(wf_id=wf_id, callback=callback)
             self.logger.info("Success: rag_query")
-            return response
+            if callback:
+                callback(None, response)
+                return
+            else:
+                return response
 
         except Exception as ex:
-            self.logger.error("Error: rag_query: {str(ex)}")
+            self.logger.error(f"Error: rag_query: {str(ex)}")
             if callback:
                 callback(ex, None)
                 return
