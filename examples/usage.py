@@ -15,7 +15,7 @@ ENABLE_FILE_INGESTION = True
 ENABLE_QUERY_TEST = True
 
 try:
-    api_key = os.getenv("API_KEY") or "ci_agent_datahub_access"
+    api_key = os.getenv("API_KEY") or ""
     client = NineBitCIQClient(api_key=api_key)
 except Exception as e:
     print(f"Error while setting up CIQ client {e}")
