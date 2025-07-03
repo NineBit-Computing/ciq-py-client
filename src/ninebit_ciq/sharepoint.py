@@ -2,7 +2,7 @@ import os
 import requests
 from msal import ConfidentialClientApplication
 from dotenv import load_dotenv
-from src.ninebit_ciq.app_types import SharePointConfig
+from .app_types import SharePointConfig
 
 load_dotenv()
 
