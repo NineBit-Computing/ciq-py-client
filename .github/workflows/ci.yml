@@ -7,9 +7,10 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch: # Optional, allows manual triggering
   schedule:
-    # Run daily at midnight UTC
-    - cron: '0 0 * * *'
+    # Run every hour
+    - cron: '0 * * * *'
 
 jobs:
   integration-test:
