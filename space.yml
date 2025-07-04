@@ -1,0 +1,4 @@
+# space.yml
+title: NineBit CIQ Python SDK for RAG (Retrieval Augmented Generation)
+sdk: notebook
+app_file: ciq_rag_demo.ipynb

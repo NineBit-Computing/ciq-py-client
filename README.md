@@ -7,11 +7,33 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Linting: flake8](https://img.shields.io/badge/linting-flake8-blue)](https://flake8.pycqa.org/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NineBit-Computing/ciq-py-client/blob/main/examples/ciq_demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NineBit-Computing/ciq-py-client/blob/main/examples/ciq_rag_demo.ipynb)
 
 ## 🔗 ninebit-ciq
 
 **Official Python SDK client for interacting with [NineBit CIQ](https://ciq.ninebit.in?utm_source=pypl)**, a Retrieval-Augmented Generation (RAG) workflow orchestration platform for secure, private, rapid prototyping of AI/ML ideas using enterprise data and open-source models.
+
+## 🚀 Try It Out Interactively
+
+We provide an interactive **Jupyter notebook demo** to quickly explore NineBit CIQ’s features like ingestion, summarization, taxonomy extraction, and more.
+
+### 🧪 Run the notebook in Google Colab
+
+Click below to launch the demo with zero setup:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NineBit-Computing/ciq-py-client/blob/main/examples/ciq_rag_demo.ipynb)
+
+---
+
+### 🌐 Explore Our Hugging Face Space
+
+Try the live demo running on Hugging Face Spaces — no installation needed, just open and run:
+
+[https://huggingface.co/spaces/ninebit/ciq-rag](https://huggingface.co/spaces/ninebit/ciq-rag)
+
+---
+
+For more details, see [examples/ciq_rag_demo.ipynb](./examples/ciq_rag_demo.ipynb).
 
 ## 🚀 Features
 
