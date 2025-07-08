@@ -13,6 +13,10 @@
 
 **Official Python SDK client for interacting with [NineBit CIQ](https://ciq.ninebit.in?utm_source=pypl)**, a Retrieval-Augmented Generation (RAG) workflow orchestration platform for secure, private, rapid prototyping of AI/ML ideas using enterprise data and open-source models.
 
+Join the community:
+
+[![Join us on Slack](https://img.shields.io/badge/Slack-join%20chat-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/ninebit-ciq-community/shared_invite/zt-38oi663on-9R~0J8echKGQ8NV2zRKJZA)
+
 ## 🚀 Try It Out Interactively
 
 We provide an interactive **Jupyter notebook demo** to quickly explore NineBit CIQ’s features like ingestion, summarization, taxonomy extraction, and more.
