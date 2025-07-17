@@ -10,7 +10,7 @@ on:
   workflow_dispatch: # Optional, allows manual triggering
   schedule:
     # Run every hour
-    - cron: '0 * * * *'
+    - cron: "0 * * * *"
 
 jobs:
   integration-test:
@@ -21,12 +21,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r dev-requirements.txt
+          pip install -r requirements.txt
+          pip install -r examples/dev-requirements.txt
 
       - name: Run flake8 (lint)
         run: |

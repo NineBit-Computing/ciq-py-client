@@ -4,11 +4,13 @@ Example usage of NineBit CIQ Python SDK.
 
 import sys
 import os
-import io
-from typing import Union, IO
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from src.ninebit_ciq import NineBitCIQClient, get_sharepoint_configuration, download_file_from_sharepoint  # noqa: E402
+# import io
+from typing import Union, IO
+from ninebit_ciq import NineBitCIQClient
+
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# from src.ninebit_ciq import NineBitCIQClient, get_sharepoint_configuration, download_file_from_sharepoint
 
 ENABLE_SHAREPOINT_TEST = False
 ENABLE_FILE_INGESTION = True
@@ -47,16 +49,16 @@ def main():
         if ENABLE_FILE_INGESTION is True:
             handle_file_ingestion(file="examples/files/geo_chap_9.pdf", callback=on_done)
 
-        if ENABLE_SHAREPOINT_TEST is True:
-            sp_config = get_sharepoint_configuration(
-                site_name="KnowledgeCenter", folder="CIQDocs", file_name="BOFA-CC-Elite.pdf"
-            )
-            remote_file_buffer = download_file_from_sharepoint(sp_config)
-            handle_file_ingestion(
-                file=io.BytesIO(remote_file_buffer),
-                callback=on_done,
-                associated_file_name=sp_config.get("target_file_name"),
-            )
+        # if ENABLE_SHAREPOINT_TEST is True:
+        #     sp_config = get_sharepoint_configuration(
+        #         site_name="KnowledgeCenter", folder="CIQDocs", file_name="BOFA-CC-Elite.pdf"
+        #     )
+        #     remote_file_buffer = download_file_from_sharepoint(sp_config)
+        #     handle_file_ingestion(
+        #         file=io.BytesIO(remote_file_buffer),
+        #         callback=on_done,
+        #         associated_file_name=sp_config.get("target_file_name"),
+        #     )
 
         if ENABLE_QUERY_TEST is True:
             query = "What are land breeze?"
