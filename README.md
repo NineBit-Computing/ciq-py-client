@@ -129,8 +129,7 @@ ciq-py-client/
 │ ├── logger.py # Logger setup
 │ ├── cli.py # CLI interface
 │ └── **init**.py # Version info
-├── examples/usage.py
-├── examples/usage_with_thread.py
+├── examples/core-sanity/rag.py
 ├── README.md
 ├── setup.py
 └── version.txt

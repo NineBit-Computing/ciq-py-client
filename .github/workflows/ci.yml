@@ -40,9 +40,10 @@ jobs:
           echo "Checking black formatting..."
           black --check .
 
-      - name: Run integration tests
+      - name: Run All Example Scripts
         env:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
-          python examples/usage.py
+          find examples -name "*.py" -exec python {} \;
+          # python examples/core-sanity/rag.py
           # pytest tests/integration --maxfail=1 --disable-warnings -q

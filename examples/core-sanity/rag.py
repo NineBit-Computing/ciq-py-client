@@ -47,7 +47,7 @@ def main():
 
     try:
         if ENABLE_FILE_INGESTION is True:
-            handle_file_ingestion(file="examples/files/geo_chap_9.pdf", callback=on_done)
+            handle_file_ingestion(file="examples/core-sanity/geo_chap_9.pdf", callback=on_done)
 
         # if ENABLE_SHAREPOINT_TEST is True:
         #     sp_config = get_sharepoint_configuration(
