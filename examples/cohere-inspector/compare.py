@@ -128,7 +128,7 @@ try:
         print(f"{key}: {value}")
 
     # Save to JSON file
-    with open("report.json", "w") as f:
+    with open("report/report.json", "w") as f:
         json.dump(results, f, indent=2)
 except json.JSONDecodeError:
     print("Error: Response is not valid JSON. Raw output:")

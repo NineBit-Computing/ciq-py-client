@@ -53,7 +53,8 @@ jobs:
       - name: Prepare report for GitHub Pages
         run: |
           mkdir -p public
-          cp report.json public/index.json
+          cp report/report.json public/index.json
+          cp report/index.html public/index.html
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
