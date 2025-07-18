@@ -49,3 +49,15 @@ jobs:
           # python examples/cohere-inspector/compare.py
           # python examples/core-sanity/rag.py
           # pytest tests/integration --maxfail=1 --disable-warnings -q
+
+      - name: Prepare report for GitHub Pages
+        run: |
+          mkdir -p public
+          cp report.json public/index.json
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
