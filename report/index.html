@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>CIQ vs Cohere - Benchmark</title>
@@ -43,7 +44,7 @@
       text-align: center;
       text-decoration: none;
       transition: background-color 0.3s ease;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     }
 
     .btn:hover {
@@ -66,7 +67,8 @@
       font-size: 1.3rem;
     }
 
-    th, td {
+    th,
+    td {
       padding: 1.5rem;
       text-align: left;
       vertical-align: top;
@@ -85,7 +87,8 @@
       color: #212121;
     }
 
-    tr:not(:last-child) td, tr:not(:last-child) th {
+    tr:not(:last-child) td,
+    tr:not(:last-child) th {
       border-bottom: 1px solid #ddd;
     }
 
@@ -106,22 +109,28 @@
       body {
         padding: 1.5rem;
       }
+
       h1 {
         font-size: 2rem;
       }
+
       .btn {
         font-size: 0.95rem;
         padding: 0.6rem 1rem;
       }
+
       table {
         font-size: 1.1rem;
       }
+
       th {
         font-size: 1.2rem;
       }
+
       .score {
         font-size: 1.3rem;
       }
+
       .buttons-container {
         flex-direction: column;
         align-items: flex-end;
@@ -129,13 +138,17 @@
     }
   </style>
 </head>
+
 <body>
   <h1>📊 CIQ vs Cohere - Evaluation Benchmark</h1>
 
   <div class="buttons-container">
-    <a href="https://github.com/NineBit-Computing/ciq-py-client/actions" class="btn" target="_blank">🔁 Run All Tests</a>
-    <a href="https://colab.research.google.com/github/NineBit-Computing/ciq-py-client/blob/main/examples/ciq_rag_demo.ipynb" class="btn" target="_blank">🧪 Try on Colab</a>
-    <a href="https://ninebit-ciq-community.slack.com/join/shared_invite/zt-38oi663on-9R~0J8echKGQ8NV2zRKJZA#/shared-invite/email" class="btn" target="_blank">💬 Join Slack</a>
+    <a href="https://github.com/NineBit-Computing/ciq-py-client/actions" class="btn" target="_blank">🔁 Run All
+      Tests</a>
+    <a href="https://colab.research.google.com/github/NineBit-Computing/ciq-py-client/blob/main/examples/ciq_rag_demo.ipynb"
+      class="btn" target="_blank">🧪 Try on Colab</a>
+    <a href="https://ninebit-ciq-community.slack.com/join/shared_invite/zt-38oi663on-9R~0J8echKGQ8NV2zRKJZA#/shared-invite/email"
+      class="btn" target="_blank">💬 Join Slack</a>
   </div>
 
   <div class="table-container">
@@ -146,44 +159,49 @@
   <script>
     fetch('index.json')
       .then(res => res.json())
-.then(data => {
-  const table = document.getElementById('benchmark-table');
-  const timestampDiv = document.getElementById('timestamp');
+      .then(data => {
+        const table = document.getElementById('benchmark-table');
+        const timestampDiv = document.getElementById('timestamp');
 
-  Object.entries(data).forEach(([key, value]) => {
-    if (key === 'timestamp_utc') {
-      const utcDate = new Date(value);
-      const localDateStr = utcDate.toLocaleString(undefined, {
-        weekday: 'short',
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit',
-      });
+        Object.entries(data).forEach(([key, value]) => {
+          if (key === 'timestamp_utc') {
+            const utcDate = new Date(value);
 
-      timestampDiv.textContent = `Last Updated : ${localDateStr}`;
-      return;
-    }
+            // Format to user's local time with time zone abbreviation
+            const localTimeStr = utcDate.toLocaleString(undefined, {
+              weekday: 'short',
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              second: '2-digit',
+              timeZoneName: 'short' // Automatically uses user's current time zone
+            });
 
-    const row = document.createElement('tr');
-    const keyCell = document.createElement('th');
-    const valueCell = document.createElement('td');
+            timestampDiv.textContent = `Last Updated: ${localTimeStr}`;
+            return;
+          }
 
-    keyCell.textContent = key;
 
-    if (key === 'ciq_answer_score') {
-      valueCell.innerHTML = `<span class="score">${value}</span>`;
-    } else {
-      valueCell.textContent = value;
-    }
+          const row = document.createElement('tr');
+          const keyCell = document.createElement('th');
+          const valueCell = document.createElement('td');
 
-    row.appendChild(keyCell);
-    row.appendChild(valueCell);
-    table.appendChild(row);
-  });
-})
+          keyCell.textContent = key;
+
+          if (key === 'ciq_answer_score') {
+            valueCell.innerHTML = `<span class="score">${value}</span>`;
+          } else {
+            valueCell.textContent = value;
+          }
+
+          row.appendChild(keyCell);
+          row.appendChild(valueCell);
+          table.appendChild(row);
+        });
+      })
+
 
       .catch(err => {
         document.getElementById('benchmark-table').innerHTML = '<tr><td colspan="2">Failed to load data.</td></tr>';
@@ -191,4 +209,5 @@
       });
   </script>
 </body>
+
 </html>
