@@ -1,37 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>NineBit CIQ - Benchmark</title>
+  <meta charset="UTF-8" />
+  <title>CIQ vs Cohere - Benchmark</title>
   <style>
-    body { font-family: sans-serif; margin: 2em; }
-    h1 { color: #333; }
-    .metric { margin-bottom: 1em; }
-    .label { font-weight: bold; }
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 3rem;
+      color: #2c3e50;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #1a237e;
+      border-bottom: 4px solid #90caf9;
+      padding-bottom: 1rem;
+    }
+
+    .buttons-container {
+      width: 100%;
+      max-width: 1100px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+      margin: 1rem 0 2rem 0;
+    }
+
+    .btn {
+      background-color: #e3f2fd;
+      color: #0d47a1;
+      font-size: 1rem;
+      padding: 0.75rem 1.2rem;
+      border: none;
+      border-radius: 8px;
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .btn:hover {
+      background-color: #bbdefb;
+      cursor: pointer;
+    }
+
+    .table-container {
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      overflow-x: auto;
+      width: 100%;
+      max-width: 1100px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1.3rem;
+    }
+
+    th,
+    td {
+      padding: 1.5rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      width: 35%;
+      background-color: #e3f2fd;
+      font-weight: 700;
+      color: #0d47a1;
+      font-size: 1.4rem;
+    }
+
+    td {
+      background-color: #fafafa;
+      color: #212121;
+    }
+
+    tr:not(:last-child) td,
+    tr:not(:last-child) th {
+      border-bottom: 1px solid #ddd;
+    }
+
+    .score {
+      font-weight: bold;
+      color: #2e7d32;
+      font-size: 1.5rem;
+    }
+
+    .timestamp {
+      text-align: right;
+      font-size: 1.1rem;
+      padding: 1.5rem;
+      color: #757575;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 1.5rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .btn {
+        font-size: 0.95rem;
+        padding: 0.6rem 1rem;
+      }
+
+      table {
+        font-size: 1.1rem;
+      }
+
+      th {
+        font-size: 1.2rem;
+      }
+
+      .score {
+        font-size: 1.3rem;
+      }
+
+      .buttons-container {
+        flex-direction: column;
+        align-items: flex-end;
+      }
+    }
   </style>
 </head>
+
 <body>
-  <h1>Public evaluation benchmark performance between CIQ and Cohere</h1>
-  <div id="report">Loading...</div>
+  <h1>📊 CIQ vs Cohere - Evaluation Benchmark</h1>
+
+  <div class="buttons-container">
+    <a href="https://github.com/NineBit-Computing/ciq-py-client/actions" class="btn" target="_blank">🔁 Run All
+      Tests</a>
+    <a href="https://colab.research.google.com/github/NineBit-Computing/ciq-py-client/blob/main/examples/ciq_rag_demo.ipynb"
+      class="btn" target="_blank">🧪 Try on Colab</a>
+    <a href="https://ninebit-ciq-community.slack.com/join/shared_invite/zt-38oi663on-9R~0J8echKGQ8NV2zRKJZA#/shared-invite/email"
+      class="btn" target="_blank">💬 Join Slack</a>
+  </div>
+
+  <div class="table-container">
+    <table id="benchmark-table"></table>
+    <div class="timestamp" id="timestamp"></div>
+  </div>
 
   <script>
     fetch('index.json')
-      .then(response => response.json())
+      .then(res => res.json())
       .then(data => {
-        const container = document.getElementById('report');
-        container.innerHTML = '';
+        const table = document.getElementById('benchmark-table');
+        const timestampDiv = document.getElementById('timestamp');
 
         Object.entries(data).forEach(([key, value]) => {
-          const div = document.createElement('div');
-          div.className = 'metric';
-          div.innerHTML = `<span class="label">${key}</span>: ${value}`;
-          container.appendChild(div);
+          if (key === 'timestamp_utc') {
+            const utcDate = new Date(value);
+
+            // Format to user's local time with time zone abbreviation
+            const localTimeStr = utcDate.toLocaleString(undefined, {
+              weekday: 'short',
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              second: '2-digit',
+              timeZoneName: 'short' // Automatically uses user's current time zone
+            });
+
+            timestampDiv.textContent = `Last Updated: ${localTimeStr}`;
+            return;
+          }
+
+
+          const row = document.createElement('tr');
+          const keyCell = document.createElement('th');
+          const valueCell = document.createElement('td');
+
+          keyCell.textContent = key;
+
+          if (key === 'ciq_answer_score') {
+            valueCell.innerHTML = `<span class="score">${value}</span>`;
+          } else {
+            valueCell.textContent = value;
+          }
+
+          row.appendChild(keyCell);
+          row.appendChild(valueCell);
+          table.appendChild(row);
         });
       })
+
+
       .catch(err => {
-        document.getElementById('report').textContent = 'Failed to load report.';
+        document.getElementById('benchmark-table').innerHTML = '<tr><td colspan="2">Failed to load data.</td></tr>';
         console.error(err);
       });
   </script>
 </body>
+
 </html>
