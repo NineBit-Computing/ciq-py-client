@@ -3,7 +3,7 @@ import json
 import sys
 import fitz
 import re
-
+from datetime import datetime, timezone
 from ninebit_ciq import NineBitCIQClient
 from cohere import Client as CohereClient
 
@@ -120,6 +120,7 @@ try:
         "ciq_answer_evaluation": coehre_evaluation["evaluation"],
         "ciq_answer_score": coehre_evaluation["score"],
         "cohere_generated_answer": coehre_evaluation["cohere_answer"],
+        "timestamp_utc": datetime.now(timezone.utc).isoformat(),
     }
 
     # Print for logs
