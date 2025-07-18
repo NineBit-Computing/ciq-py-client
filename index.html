@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CI Evaluation Report</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    h1 { color: #333; }
+    .metric { margin-bottom: 1em; }
+    .label { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Evaluation Report</h1>
+  <div id="report">Loading...</div>
+
+  <script>
+    fetch('index.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('report');
+        container.innerHTML = '';
+
+        Object.entries(data).forEach(([key, value]) => {
+          const div = document.createElement('div');
+          div.className = 'metric';
+          div.innerHTML = `<span class="label">${key}</span>: ${value}`;
+          container.appendChild(div);
+        });
+      })
+      .catch(err => {
+        document.getElementById('report').textContent = 'Failed to load report.';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>
