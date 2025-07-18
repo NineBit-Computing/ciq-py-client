@@ -1,3 +1,0 @@
-"""NineBit CIQ Python SDK."""
-
-__version__ = "1.1.1"
