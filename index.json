@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-  "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. The answer is clear and concise, making it easy to understand. However, the answer could be improved by providing a brief description of each type of front to enhance clarity and context.",
+  "cohere_generated_question": "Why does the Coriolis force not affect wind direction near the equator?",
+  "ciq_generated_answer": "\"The Coriolis force does not affect wind direction near the equator because at the equator, the angle of latitude is zero (as per [3] in the context). Since the Coriolis force is directly proportional to the angle of latitude, it has no effect on the wind direction.\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It correctly states that the Coriolis force is absent at the equator because the angle of latitude is zero, and this has an effect on wind direction. However, the response could be improved by explaining that the Coriolis force deflects wind direction, so its absence means there is no deflection and thus no effect on wind direction near the equator.",
   "ciq_answer_score": 8,
-  "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. Each type of front is characterized by its unique temperature and pressure gradients, influencing the movement and behavior of air masses, and subsequently, weather patterns in the region.",
-  "timestamp_utc": "2025-07-18T17:21:22.701712+00:00"
+  "cohere_generated_answer": "The Coriolis force does not influence wind direction near the equator because it is directly proportional to the angle of latitude, which is zero at the equator. This means the Coriolis force has no impact on the wind near the equator, allowing it to blow perpendicular to isobars without deflection.",
+  "timestamp_utc": "2025-07-18T18:29:50.430456+00:00"
 }
