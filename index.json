@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "How does the Coriolis force impact the movement of wind near the Earth's surface?",
-  "ciq_generated_answer": "\"The Coriolis force impacts the movement of wind near the Earth's surface by causing a deflection in the direction of the wind. This deflection is due to the Earth's rotation, and it affects the horizontal winds. The strength of the Coriolis force depends on the angle of latitude (directly proportional).\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information. It is clearly worded and easy to understand, providing a concise explanation of the Coriolis force's effect on wind movement near the Earth's surface.",
-  "ciq_answer_score": 9,
-  "cohere_generated_answer": "The Coriolis force, caused by the Earth's rotation, influences the movement of wind near the Earth's surface. This force causes a deflection in the wind's path, with the direction of deflection depending on the hemisphere. In the Northern Hemisphere, the wind is deflected to the right, while in the Southern Hemisphere, it is deflected to the left. The strength of the Coriolis force is directly proportional to the angle of latitude, meaning it is strongest at the poles and weakest at the equator. This force, along with the pressure gradient force and frictional force, determines the velocity and direction of the wind near the Earth's surface.",
-  "timestamp_utc": "2025-07-18T20:22:54.740257+00:00"
+  "cohere_generated_question": "How do variations in atmospheric pressure cause wind?",
+  "ciq_generated_answer": "\"The wind blows from high pressure to low pressure due to the variations in atmospheric pressure. These differences in pressure cause air to move from areas of high pressure to areas of low pressure, which is the primary cause of air motion or wind. (Answer derived from context points [2], [5])\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It correctly identifies the cause of wind as air moving from high-pressure areas to low-pressure areas due to variations in atmospheric pressure, which is supported by the document.",
+  "ciq_answer_score": 10,
+  "cohere_generated_answer": "Variations in atmospheric pressure cause wind. Air moves from areas of high pressure to low pressure, setting the air in motion, which we know as wind. This movement of air is essential for redistributing heat and moisture across the planet, helping to maintain a relatively constant global temperature.",
+  "timestamp_utc": "2025-07-18T21:20:21.988161+00:00"
 }
