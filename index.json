@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "What is the relationship between atmospheric pressure and wind?",
-  "ciq_generated_answer": "\"The wind blows from high pressure to low pressure, following the force produced by the differences in atmospheric pressure. (Answers from [3], [5])\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context and explaining the underlying mechanisms in more detail.",
-  "ciq_answer_score": 8,
-  "cohere_generated_answer": "The relationship between atmospheric pressure and wind is fundamental to understanding weather patterns. Atmospheric pressure refers to the weight of the air column above a specific location, typically measured in millibars. Air flows from areas of high pressure to areas of low pressure, creating wind. This movement of air is essential for redistributing heat and moisture across the planet, maintaining a relatively stable temperature globally.\n\nThe speed and direction of wind are influenced by various factors, including the pressure gradient force, frictional force, and the Coriolis force. The pressure gradient force results from differences in atmospheric pressure, with wind blowing from high-pressure areas to low-pressure areas. The frictional force affects wind speed and is influenced by the surface over which the wind blows, such as land or water. The Coriolis force, caused by the Earth's rotation, deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n\nIn summary, variations in atmospheric pressure drive the movement of air, creating wind. The wind's direction and speed are influenced by the interplay between these forces, leading to complex weather patterns and circulation systems.",
-  "timestamp_utc": "2025-07-18T10:43:16.100372+00:00"
+  "cohere_generated_question": "How do variations in atmospheric pressure cause wind?",
+  "ciq_generated_answer": "\"The wind blows from high pressure to low pressure areas due to variations in atmospheric pressure. These differences in pressure are significant in determining wind direction, as explained in the context.\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question, providing a concise and coherent explanation of how variations in atmospheric pressure cause wind.",
+  "ciq_answer_score": 10,
+  "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of wind. Air moves from areas of high pressure to areas of low pressure, and this movement of air is what we call wind. The greater the difference in pressure between two areas, the stronger the wind will blow. Additionally, the rotation of the Earth and friction can influence the direction and speed of the wind.",
+  "timestamp_utc": "2025-07-18T12:00:44.850331+00:00"
 }
