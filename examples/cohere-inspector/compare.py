@@ -2,6 +2,7 @@ import os
 import json
 import sys
 import fitz
+import re
 
 from ninebit_ciq import NineBitCIQClient
 from cohere import Client as CohereClient
@@ -111,6 +112,7 @@ cohere_judge_text = cohere_judge.generations[0].text.strip()
 
 
 try:
+    cohere_clean_text = re.search(r"\{.*\}", cohere_judge_text, re.DOTALL).group(0)
     coehre_evaluation = json.loads(cohere_judge_text)
     results = {
         "cohere_generated_question": query,
