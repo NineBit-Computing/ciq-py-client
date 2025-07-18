@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "How do variations in atmospheric pressure cause wind?",
-  "ciq_generated_answer": "\"The wind blows from high pressure to low pressure due to the variations in atmospheric pressure. These differences in pressure cause air to move from areas of high pressure to areas of low pressure, which is the primary cause of air motion or wind. (Answer derived from context points [2], [5])\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It correctly identifies the cause of wind as air moving from high-pressure areas to low-pressure areas due to variations in atmospheric pressure, which is supported by the document.",
-  "ciq_answer_score": 10,
-  "cohere_generated_answer": "Variations in atmospheric pressure cause wind. Air moves from areas of high pressure to low pressure, setting the air in motion, which we know as wind. This movement of air is essential for redistributing heat and moisture across the planet, helping to maintain a relatively constant global temperature.",
-  "timestamp_utc": "2025-07-18T21:20:21.988161+00:00"
+  "cohere_generated_question": "How does atmospheric pressure influence the movement of air and the formation of wind?",
+  "ciq_generated_answer": "\"The wind blows from high pressure to low pressure due to the variation of atmospheric pressure from place to place, which is the primary cause of air motion (as stated in [2] and [6]). This means that higher pressure areas have less space for the air molecules, forcing them to move towards lower pressure areas where there is more space. The movement of air molecules results in wind.\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. It is also clearly worded and easy to understand. The only minor improvement would be to mention that the Coriolis effect, caused by the Earth's rotation, also influences wind direction.",
+  "ciq_answer_score": 9,
+  "cohere_generated_answer": "Variations in atmospheric pressure, caused by the expansion of heated air and compression of cooled air, are the primary drivers of wind formation. Air moves from areas of high pressure to low pressure, resulting in wind. The Coriolis effect, caused by the Earth's rotation, influences the direction of wind, deflecting it to the right in the northern hemisphere and to the left in the southern hemisphere. The friction experienced by wind near the Earth's surface also affects its speed and direction. Atmospheric pressure variations are caused by the uneven distribution of temperature over the Earth's surface, with denser air near the surface having higher pressure. The vertical and horizontal distribution of pressure, along with the Coriolis force and friction, determine the velocity and direction of wind.",
+  "timestamp_utc": "2025-07-18T22:20:32.402745+00:00"
 }
