@@ -113,7 +113,7 @@ cohere_judge_text = cohere_judge.generations[0].text.strip()
 
 try:
     cohere_clean_text = re.search(r"\{.*\}", cohere_judge_text, re.DOTALL).group(0)
-    coehre_evaluation = json.loads(cohere_judge_text)
+    coehre_evaluation = json.loads(cohere_clean_text)
     results = {
         "cohere_generated_question": query,
         "ciq_generated_answer": ciq_answer,
@@ -131,6 +131,6 @@ try:
     with open("report.json", "w") as f:
         json.dump(results, f, indent=2)
 except json.JSONDecodeError:
-    print("Response is not valid JSON. Raw output:")
-    print(cohere_judge_text)
+    print("Error: Response is not valid JSON. Raw output:")
     sys.exit(1)
+    print(cohere_judge_text)
