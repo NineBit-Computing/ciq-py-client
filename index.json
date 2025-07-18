@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "How do variations in atmospheric pressure cause wind?",
-  "ciq_generated_answer": "\"The wind blows from high pressure to low pressure areas due to variations in atmospheric pressure. These differences in pressure are significant in determining wind direction, as explained in the context.\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question, providing a concise and coherent explanation of how variations in atmospheric pressure cause wind.",
-  "ciq_answer_score": 10,
-  "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of wind. Air moves from areas of high pressure to areas of low pressure, and this movement of air is what we call wind. The greater the difference in pressure between two areas, the stronger the wind will blow. Additionally, the rotation of the Earth and friction can influence the direction and speed of the wind.",
-  "timestamp_utc": "2025-07-18T12:00:44.850331+00:00"
+  "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+  "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as stated in context [2].\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but it could be clearer. It does not explicitly mention the specific conditions required for tropical cyclone formation, which are mentioned in the text. A more detailed answer would improve clarity and provide additional context.",
+  "ciq_answer_score": 7,
+  "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans due to specific conditions: sea surface temperatures exceeding 27\u00b0C, the presence of the Coriolis force, small vertical wind speed variations, weak low-pressure areas, and upper divergence above the sea level system. These factors, combined with a continuous supply of moisture from the sea, contribute to the formation and intensification of tropical cyclones.",
+  "timestamp_utc": "2025-07-18T12:02:52.319235+00:00"
 }
