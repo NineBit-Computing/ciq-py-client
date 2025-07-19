@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "What are the primary factors that influence the speed and direction of wind?",
-  "ciq_generated_answer": "\"The primary factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied by \\\"Forces Affecting the Velocity and Direction of Wind\\\")\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context for each factor. For instance, explaining that frictional force affects wind speed, with greater friction at the surface and minimal friction over the sea.",
-  "ciq_answer_score": 8,
-  "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including: \n\n- Frictional Force: Friction impacts wind speed, with greater friction at the surface and minimal friction over the sea.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: Variations in atmospheric pressure create a force that influences wind direction and speed. Wind generally blows from high-pressure areas to low-pressure areas.\n- Vertical Pressure Gradient: While horizontal pressure variations are critical, the vertical pressure gradient force is much larger but balanced by gravitational force, preventing strong upward winds.\n- Isobars: Lines of equal pressure on weather maps help determine wind direction, with wind blowing perpendicular to isobars in the absence of other forces.\n- Convergence and Divergence: Air converging and rising in low-pressure areas, and diverging and subsiding in high-pressure areas, influence wind patterns.",
-  "timestamp_utc": "2025-07-18T23:20:07.016646+00:00"
+  "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+  "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, covering the key point that tropical cyclones originate over warm tropical oceans.",
+  "ciq_answer_score": 10,
+  "cohere_generated_answer": "Tropical cyclones originate over the seas because they require warm ocean water, typically with a temperature above 27\u00b0 C, to form and intensify. The warm ocean surface acts as a source of energy and moisture, which are essential for the development and sustenance of these storms.",
+  "timestamp_utc": "2025-07-19T01:42:24.804945+00:00"
 }
