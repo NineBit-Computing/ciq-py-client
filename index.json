@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "What factors affect the speed and direction of wind?",
-  "ciq_generated_answer": "\"The factors affecting the speed and direction of wind, according to the provided context, are:\\n\\n   1. Frictional Force: It affects the speed of the wind.\\n\\n   2. Rotation of the Earth: It also affects the wind movement.\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by mentioning the Coriolis force, which also affects wind direction. This additional factor is discussed in the document and should be included for a complete answer.",
-  "ciq_answer_score": 8,
-  "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, including: \n- Frictional force: This force is greatest at the surface and affects wind speed. It is minimal over the sea.\n- Coriolis force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced when wind velocity is high.\n- Pressure gradient force: Differences in atmospheric pressure create a force that influences wind direction. The pressure gradient is stronger when isobars are close together.\n- Vertical pressure gradient force: This force, balanced by gravitational force, prevents strong upward winds.\n- Altitude: Pressure decreases with height, creating a pressure gradient from high-pressure areas to low-pressure areas, causing wind to blow between them.\n- Local conditions: Land and sea breezes, mountain and valley winds, and local heating and cooling patterns can influence wind patterns.",
-  "timestamp_utc": "2025-07-19T05:22:02.537077+00:00"
+  "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+  "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (From context: [2])\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more complete by providing additional context or details from the source text. For example, mentioning the specific conditions required for tropical cyclone formation, such as sea surface temperature and the presence of the Coriolis force, would enhance the answer.",
+  "ciq_answer_score": 7,
+  "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, typically forming in regions where the sea surface temperature exceeds 27\u00b0C. The presence of the Coriolis force, small vertical wind speed variations, and other atmospheric conditions also contribute to their development.",
+  "timestamp_utc": "2025-07-19T06:29:32.551187+00:00"
 }
