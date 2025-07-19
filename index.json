@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-  "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, covering the key point that tropical cyclones originate over warm tropical oceans.",
-  "ciq_answer_score": 10,
-  "cohere_generated_answer": "Tropical cyclones originate over the seas because they require warm ocean water, typically with a temperature above 27\u00b0 C, to form and intensify. The warm ocean surface acts as a source of energy and moisture, which are essential for the development and sustenance of these storms.",
-  "timestamp_utc": "2025-07-19T01:42:24.804945+00:00"
+  "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
+  "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n   1. Frictional Force\\n   2. Rotation of the Earth\\n\\nIn addition, it's mentioned that the velocity and direction of the wind are the net result of the wind generating forces, and pressure is also a factor, but the specific role of pressure in this context is not explicitly defined.\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key factors influencing wind speed and direction. However, it could be more comprehensive by mentioning the Coriolis force, which is also mentioned in the document as a factor. The answer is clear and concise, but a brief explanation of how pressure influences wind would improve clarity.",
+  "ciq_answer_score": 8,
+  "cohere_generated_answer": "The factors that influence the speed and direction of wind are frictional force, the rotation of the Earth (Coriolis effect), and pressure variations. Frictional force is greatest at the surface and affects wind speed, while the Coriolis effect, caused by the Earth's rotation, influences the direction of wind, deflecting it right in the northern hemisphere and left in the southern hemisphere. Pressure variations cause air to move from high-pressure areas to low-pressure areas, and pressure gradients impact wind speed and direction.",
+  "timestamp_utc": "2025-07-19T03:23:17.971259+00:00"
 }
