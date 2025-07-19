@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "Why do tropical cyclones only form over the sea?",
-  "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in [3].\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context. It does not explain why tropical cyclones need warm ocean conditions to form, which is a key factor mentioned in the text.",
-  "ciq_answer_score": 7,
-  "cohere_generated_answer": "Tropical cyclones form over the sea due to the presence of warm ocean waters, which provide the necessary energy for their formation and intensification. The warm ocean surface, in combination with other factors like the Coriolis force and vertical wind variations, creates the conditions for these violent storms to develop.",
-  "timestamp_utc": "2025-07-19T07:19:10.550308+00:00"
+  "cohere_generated_question": "How does the Coriolis effect influence wind direction in the Northern and Southern Hemispheres?",
+  "ciq_generated_answer": "\"The Coriolis effect influences wind direction differently in the Northern and Southern Hemispheres. In the Northern Hemisphere, it deflects the wind to the right (clockwise), while in the Southern Hemisphere, it deflects the wind to the left (counterclockwise). This is due to the rotation of the Earth about its axis. The direction of winds around systems changes according to their location in different hemispheres (as shown in Table 9.2). The Coriolis force is directly proportional to the angle of latitude. At the equator, the Coriolis force is zero, and the wind blows perpendicular to the isobars.\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. It is also clearly worded and easy to understand. The only minor improvement would be to mention that the Coriolis effect is caused by the rotation of the Earth, which is implied but not explicitly stated.",
+  "ciq_answer_score": 9,
+  "cohere_generated_answer": "The Coriolis effect influences wind direction differently in the Northern and Southern Hemispheres due to the rotation of the Earth. In the Northern Hemisphere, the Coriolis effect deflects wind to the right (clockwise), while in the Southern Hemisphere, it deflects wind to the left (counterclockwise). This effect is more pronounced at higher latitudes and is zero at the equator, where the wind blows perpendicular to the isobars. The Coriolis force is directly proportional to the angle of latitude, which means it varies with distance from the equator.",
+  "timestamp_utc": "2025-07-19T08:26:17.472197+00:00"
 }
