@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "How does the Coriolis force impact the movement of wind?",
-  "ciq_generated_answer": "\"The Coriolis force impacts the movement of wind by deflecting the horizontal winds near the earth's surface to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This deflection is due to the Earth's rotation. (Answer from Context: [1], [2], [3])\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clear and concise, effectively communicating the impact of the Coriolis force on wind movement. Well done, CIQ!",
-  "ciq_answer_score": 10,
-  "cohere_generated_answer": "The Coriolis force, named after the French physicist who discovered it in 1844, influences the direction of wind. Due to the Earth's rotation, this force deflects horizontal winds near the surface to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced when wind velocity is high, and the force is strongest at the poles, while being absent at the equator.",
-  "timestamp_utc": "2025-07-20T17:17:53.780510+00:00"
+  "cohere_generated_question": "Why do tropical cyclones only form over seas?",
+  "ciq_generated_answer": "\"Tropical cyclones originate and intensify over warm tropical oceans (Context: [3]). Therefore, they only form over seas because seas are where the necessary warm ocean conditions for their formation exist.\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and straightforward explanation for why tropical cyclones only form over seas, earning a high score.",
+  "ciq_answer_score": 9,
+  "cohere_generated_answer": "Tropical cyclones form over seas because they require warm ocean conditions to develop. These warm tropical oceans provide the necessary energy for the storm's intensification through the condensation process in towering clouds. The Coriolis force, small vertical wind speed variations, and pre-existing low-pressure areas also contribute to their formation.",
+  "timestamp_utc": "2025-07-20T19:15:58.666644+00:00"
 }
