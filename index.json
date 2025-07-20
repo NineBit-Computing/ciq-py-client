@@ -1,8 +1,8 @@
 {
   "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-  "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually correct and concise, but it could be more comprehensive by mentioning the specific conditions required for tropical cyclone formation over tropical oceans. It is clearly worded and easy to understand.",
+  "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as stated in points [2] and [4].\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, but could be clearer. It states that tropical cyclones originate over warm tropical oceans, which is accurate and addresses the question. However, it refers to 'points [2] and [4]' without explicitly mentioning what these points are, which could be confusing for someone who doesn't have access to the source document. Providing more context or quoting the relevant points directly would improve clarity.",
   "ciq_answer_score": 8,
-  "cohere_generated_answer": "Tropical cyclones, including hurricanes and typhoons, originate over warm tropical oceans due to specific conditions. These conditions include sea surface temperatures exceeding 27\u00b0 C, the presence of the Coriolis force, small vertical wind speed variations, pre-existing low-pressure areas, and upper-level divergence. These factors contribute to the formation and intensification of tropical cyclones, which can cause significant destruction when they make landfall.",
-  "timestamp_utc": "2025-07-20T11:17:12.923426+00:00"
+  "cohere_generated_answer": "Tropical cyclones originate over the seas because they require warm ocean water, typically with a temperature higher than 27\u00b0 C, to form and intensify. The warm ocean surface acts as a source of energy and moisture, which are essential for the development and sustenance of these storms. Additionally, the presence of the Coriolis force, small variations in vertical wind speed, and other atmospheric conditions specific to tropical regions contribute to the formation of tropical cyclones.",
+  "timestamp_utc": "2025-07-20T12:39:16.435402+00:00"
 }
