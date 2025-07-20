@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
-  "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nThese factors affect the wind movement and contribute to the net result of the wind generating forces. However, there is no explicit mention of pressure affecting the velocity and direction of wind in the given context.\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by mentioning the Coriolis force, which is also a factor influencing wind patterns.",
+  "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+  "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually correct and concise, but it could be more comprehensive by mentioning the specific conditions required for tropical cyclone formation over tropical oceans. It is clearly worded and easy to understand.",
   "ciq_answer_score": 8,
-  "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, including: \n- Frictional Force: Friction affects wind speed and is most significant near the surface, especially over land.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction and speed, with wind blowing from high-pressure areas to low-pressure areas.\n- Vertical Pressure Gradient: The vertical decrease in pressure with height generally balances the gravitational force, preventing strong upward winds.\n- Isobars: Lines of equal pressure influence wind direction, with wind blowing parallel to isobars when there is no friction.",
-  "timestamp_utc": "2025-07-20T10:21:16.799864+00:00"
+  "cohere_generated_answer": "Tropical cyclones, including hurricanes and typhoons, originate over warm tropical oceans due to specific conditions. These conditions include sea surface temperatures exceeding 27\u00b0 C, the presence of the Coriolis force, small vertical wind speed variations, pre-existing low-pressure areas, and upper-level divergence. These factors contribute to the formation and intensification of tropical cyclones, which can cause significant destruction when they make landfall.",
+  "timestamp_utc": "2025-07-20T11:17:12.923426+00:00"
 }
