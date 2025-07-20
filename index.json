@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-  "ciq_generated_answer": "\"Tropical cyclones originate over the seas because they intensify over warm tropical oceans. (Context: [2])\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones originate over the seas due to intensification over warm tropical oceans, which is correct. However, it could provide more context or detail to make the answer more comprehensive.",
-  "ciq_answer_score": "8",
-  "cohere_generated_answer": "Tropical cyclones originate over the seas due to the presence of warm ocean waters, which provide the necessary heat and moisture for their formation and intensification. These storms require sea surface temperatures higher than 27\u00b0 C, along with other factors like the Coriolis force and specific wind conditions, to develop and strengthen.",
-  "timestamp_utc": "2025-07-20T20:22:28.979781+00:00"
+  "cohere_generated_question": "How does atmospheric pressure influence the movement of air and the formation of wind?",
+  "ciq_generated_answer": "\"The atmospheric pressure influences the movement of air and the formation of wind by causing air to move from high pressure areas to low pressure areas. (Reference: [2], [6])\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the formation of wind. It does not mention the Coriolis effect, frictional force, or other factors that influence wind direction and speed.",
+  "ciq_answer_score": "7",
+  "cohere_generated_answer": "Atmospheric pressure is a key factor in the movement of air and the formation of wind. Air moves from areas of high pressure to low pressure, and this movement of air is what we call wind. The variation in atmospheric pressure is caused by the uneven heating of the Earth's surface, which leads to expansion and compression of air. The Coriolis effect, caused by the Earth's rotation, also influences wind direction, deflecting air to the right in the northern hemisphere and to the left in the southern hemisphere. Frictional force, which is greatest at the surface, affects wind speed. Additionally, the vertical pressure gradient force, though balanced by gravitational force, also plays a role in wind patterns. These combined forces result in the complex movement of air masses, leading to the formation of wind and weather systems.",
+  "timestamp_utc": "2025-07-20T21:19:22.673342+00:00"
 }
