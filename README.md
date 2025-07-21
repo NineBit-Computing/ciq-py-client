@@ -135,6 +135,12 @@ ciq-py-client/
 └── version.txt
 ```
 
+## 📄 Historical Report Updates
+
+An automated process updates the report file and saves it in the repository. The system keeps previous versions by carefully managing changes to avoid conflicts. The web page loads the latest report to show up-to-date and past data.
+
+Please note, sometimes it may take a few minutes for updates to appear due to caching.
+
 ## 📄 License
 
 MIT License © NineBit Computing
