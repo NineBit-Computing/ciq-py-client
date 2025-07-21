@@ -50,6 +50,7 @@ jobs:
 
       - name: Checkout reports branch and copy report.json
         run: |
+          git fetch
           git checkout ci-reports
           cp report/report.json /tmp/report.json
 
