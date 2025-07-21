@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are Cold, Warm, Stationary, and Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts. No additional or irrelevant information is included, and the answer is easy to understand.",
-    "ciq_answer_score": "10",
-    "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is associated with distinct weather patterns and atmospheric conditions.",
-    "timestamp_utc": "2025-07-21T12:24:34.710790+00:00"
-  },
-  {
     "cohere_generated_question": "What is the relationship between atmospheric pressure and air movement, and how does this impact the formation of winds?",
     "ciq_generated_answer": "\"The atmospheric pressure varies from place to place, and this variation is the primary cause of air movement, which is known as wind. Wind moves from high-pressure areas to low-pressure areas. This relationship between atmospheric pressure and air movement impacts the formation of winds, as differences in pressure drive the motion of air masses.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clear and concise, effectively explaining the relationship between atmospheric pressure and wind formation. However, it could have been more comprehensive by including additional details about the Coriolis effect and its influence on wind direction.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including: \n\n1. Frictional Force: Friction affects wind speed, with greater friction near the Earth's surface, particularly over land, slowing down winds. Over the ocean, friction is minimal, allowing for stronger winds.\n\n2. Coriolis Force: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and in the Southern Hemisphere, to the left. This effect is more pronounced at higher latitudes and absent at the equator.\n\n3. Pressure Gradient Force: Wind generally blows from areas of high pressure to low pressure. The pressure gradient force is responsible for the horizontal movement of air, with wind speed influenced by the steepness of the pressure gradient (closer isobars indicate a stronger gradient).\n\nAdditionally, other factors such as the gravitational force, convergence and divergence of winds, and interactions with geographical features like mountains also play a role in influencing wind patterns.",
     "timestamp_utc": "2025-07-21T18:31:39.947605+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence the general circulation of the atmosphere?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge due to low pressure created by the rising air caused by convection, which is triggered by high insolation. This convergence influences the general circulation of the atmosphere by creating an upward motion of air, leading to the formation of clouds and precipitation, and contributing to the overall global wind patterns.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation. The answer is clear and concise, providing a good explanation of the ITCZ and its role in weather patterns.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence is caused by the rising air due to intense heating and convection in the equatorial region, leading to low pressure. The ITCZ plays a crucial role in the general circulation of the atmosphere by influencing the movement of air masses and the formation of weather systems. The convergence of air at the ITCZ creates a low-pressure area, which causes air to rise, leading to the formation of clouds and precipitation. This upward motion of air contributes to the global wind patterns, including the trade winds blowing towards the equator and the prevailing westerlies in the middle latitudes. The ITCZ also affects the distribution of rainfall and the formation of tropical cyclones, which can have significant impacts on regional climates and weather conditions.",
+    "timestamp_utc": "2025-07-21T20:23:53.834883+00:00"
   }
 ]
