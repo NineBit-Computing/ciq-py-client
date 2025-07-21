@@ -46,5 +46,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The variation in atmospheric pressure from one place to another is the primary cause of air movement, which we experience as wind. Air moves from areas of high pressure to areas of low pressure. This movement of air is what we refer to as wind. The relationship between atmospheric pressure and air movement is fundamental to understanding wind formation. Differences in pressure create a pressure gradient force, which drives the motion of air masses from high to low pressure regions. Additionally, the Coriolis effect, caused by the rotation of the Earth, influences the direction of wind, deflecting it to the right in the northern hemisphere and to the left in the southern hemisphere. This combination of pressure variations and the Coriolis effect results in the complex patterns of wind circulation observed globally.",
     "timestamp_utc": "2025-07-21T12:35:20.088919+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones only form over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in [3].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, citing the relevant information from the document. The answer effectively addresses why tropical cyclones form over the sea.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical oceans, which are essential for their formation and intensification. These cyclones require sea surface temperatures higher than 27\u00b0 C, along with other factors like the Coriolis force and small variations in vertical wind speed.",
+    "timestamp_utc": "2025-07-21T12:42:38.279208+00:00"
   }
 ]
