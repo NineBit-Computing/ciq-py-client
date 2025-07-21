@@ -114,7 +114,7 @@ cohere_judge_text = cohere_judge.generations[0].text.strip()
 try:
     max_runs = 10  # keep only the last 10 runs
     local_report_path = "report/report.json"
-    global_report_path = "tmp/report.json"
+    global_report_path = "/tmp/report.json"
     cohere_clean_text = re.search(r"\{.*\}", cohere_judge_text, re.DOTALL).group(0)
     coehre_evaluation = json.loads(cohere_clean_text)
     results = {
