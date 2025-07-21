@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it impact wind circulation?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where winds from both sides of the equator converge. This convergence occurs due to high insolation and heat, causing the air at the ITCZ to rise, which in turn creates a low pressure. This impacts wind circulation by causing the winds to converge and rise, contributing to the general circulation pattern of the atmosphere.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on wind circulation. The explanation is clear and concise, providing a good understanding of the topic.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge. This convergence is due to the unequal heating of the Earth's surface, resulting in a low-pressure zone. The ITCZ has a significant impact on wind circulation as it creates a band of low pressure, causing air to rise and converge from surrounding areas. This rising air contributes to the formation of clouds and precipitation, influencing global atmospheric circulation patterns.",
-    "timestamp_utc": "2025-07-21T09:13:37.022552+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones only form over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate only over the sea because they intensify over warm tropical oceans. (From context: [3])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, addressing the key factor for the formation of tropical cyclones over the sea.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force and the rotation of the Earth. Frictional force, which is greatest at the surface and extends up to elevations of 1-3 km, affects wind speed. The rotation of the Earth, or the Coriolis effect, influences the direction of wind, deflecting it to the right in the northern hemisphere and to the left in the southern hemisphere. These two forces, along with the pressure gradient force and gravitational force, play a significant role in determining wind patterns.",
     "timestamp_utc": "2025-07-21T15:23:05.603550+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect the weather?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It affects the weather by creating conditions favourable for the formation and intensification of tropical storms, as it provides large sea surfaces with temperatures higher than 27\\u00b0C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on weather patterns. The answer is also clearly worded and easy to understand. However, it could benefit from a more concise presentation to improve readability.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area, which plays a crucial role in influencing weather patterns. The ITCZ is characterized by warm sea surface temperatures exceeding 27 \u00b0C, the presence of the Coriolis force, and other factors that promote the formation and intensification of tropical storms. These conditions facilitate the development of towering cumulonimbus clouds, which are fueled by the continuous supply of moisture from the sea, leading to intense precipitation and storm systems.",
+    "timestamp_utc": "2025-07-21T16:26:52.247160+00:00"
   }
 ]
