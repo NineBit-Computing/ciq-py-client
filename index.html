@@ -225,7 +225,11 @@
             const row = document.createElement('tr');
             row.innerHTML = `
               <th>${key}</th>
-              <td>${key === 'ciq_answer_score' ? `<span class="score">${value}`</span> : value}</td>
+              <td>${
+                key === 'ciq_answer_score'
+                  ? `<span class="score">${value}</span>`
+                  : value
+              }</td>
             `;
             table.appendChild(row);
           });

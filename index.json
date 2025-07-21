@@ -38,5 +38,13 @@
     "ciq_answer_score": "10",
     "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is associated with distinct weather patterns and atmospheric conditions.",
     "timestamp_utc": "2025-07-21T12:24:34.710790+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the relationship between atmospheric pressure and air movement, and how does this impact the formation of winds?",
+    "ciq_generated_answer": "\"The atmospheric pressure varies from place to place, and this variation is the primary cause of air movement, which is known as wind. Wind moves from high-pressure areas to low-pressure areas. This relationship between atmospheric pressure and air movement impacts the formation of winds, as differences in pressure drive the motion of air masses.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clear and concise, effectively explaining the relationship between atmospheric pressure and wind formation. However, it could have been more comprehensive by including additional details about the Coriolis effect and its influence on wind direction.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The variation in atmospheric pressure from one place to another is the primary cause of air movement, which we experience as wind. Air moves from areas of high pressure to areas of low pressure. This movement of air is what we refer to as wind. The relationship between atmospheric pressure and air movement is fundamental to understanding wind formation. Differences in pressure create a pressure gradient force, which drives the motion of air masses from high to low pressure regions. Additionally, the Coriolis effect, caused by the rotation of the Earth, influences the direction of wind, deflecting it to the right in the northern hemisphere and to the left in the southern hemisphere. This combination of pressure variations and the Coriolis effect results in the complex patterns of wind circulation observed globally.",
+    "timestamp_utc": "2025-07-21T12:35:20.088919+00:00"
   }
 ]
