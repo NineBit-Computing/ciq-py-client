@@ -1,8 +1,8 @@
 {
-  "cohere_generated_question": "How does the Coriolis effect influence the movement of wind?",
-  "ciq_generated_answer": "\"The Coriolis effect influences the movement of wind by causing a deflection in its direction. This deflection is due to the earth's rotation, making the horizontal winds near the earth's surface curve towards the pole for the Northern Hemisphere and away from the pole for the Southern Hemisphere.\"",
-  "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information. It is clearly worded and easy to understand, providing a concise explanation of how the Coriolis effect influences wind movement. Well done, CIQ!",
-  "ciq_answer_score": 10,
-  "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the movement of wind. Due to the rotation of the Earth, this effect causes the wind to deflect and curve as it moves horizontally near the Earth's surface. In the Northern Hemisphere, the wind is deflected toward the right, or toward the pole, while in the Southern Hemisphere, it is deflected toward the left, or away from the pole. This effect is more pronounced when wind speeds are higher.",
-  "timestamp_utc": "2025-07-20T23:21:18.138733+00:00"
+  "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+  "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Reference: [2])\"",
+  "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, but it could be more precise. It does not specify that tropical cyclones originate over warm tropical oceans, which is an important detail provided in the document.",
+  "ciq_answer_score": 8,
+  "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans. The formation and intensification of these storms require specific conditions, including sea surface temperatures higher than 27\u00b0C, the presence of the Coriolis force, small variations in vertical wind speed, and a pre-existing weak low-pressure area. The energy that fuels tropical cyclones comes from the condensation process in towering cumulonimbus clouds, and the continuous supply of moisture from the sea strengthens the storm.",
+  "timestamp_utc": "2025-07-21T01:51:26.122031+00:00"
 }
