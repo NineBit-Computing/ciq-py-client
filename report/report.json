@@ -14,5 +14,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge. This convergence is due to the unequal heating of the Earth's surface, resulting in a low-pressure zone. The ITCZ has a significant impact on wind circulation as it creates a band of low pressure, causing air to rise and converge from surrounding areas. This rising air contributes to the formation of clouds and precipitation, influencing global atmospheric circulation patterns.",
     "timestamp_utc": "2025-07-21T09:13:37.022552+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones only form over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate only over the sea because they intensify over warm tropical oceans. (From context: [3])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, addressing the key factor for the formation of tropical cyclones over the sea.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "Tropical cyclones form over warm tropical oceans due to the availability of abundant moisture, which is a crucial factor in their development. These weather systems require warm ocean temperatures, typically above 27 degrees Celsius, to draw energy from the ocean surface and fuel their intensification. The Coriolis force, caused by the Earth's rotation, also plays a role in the formation of tropical cyclones by influencing the direction and movement of winds.",
+    "timestamp_utc": "2025-07-21T09:30:33.893793+00:00"
   }
 ]
