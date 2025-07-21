@@ -60,11 +60,14 @@ jobs:
           cp report/index.html public/index.html
 
       - name: Commit and push report.json
+        env:
+          CI_PAT: ${{ secrets.PAT_FOR_CI }}
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "Rajeev-9Bit"
+          git config user.email "rajeev.jamaiyar@ninebit.in"
           git add report/report.json
           git commit -m "Update report.json [skip ci]" || echo "No changes"
+          git remote set-url origin https://x-access-token:${CI_PAT}@github.com/${{ github.repository }}
           git push --force
 
       - name: Publish to GitHub Pages
