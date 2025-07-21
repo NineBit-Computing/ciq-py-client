@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones only form over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate only over the sea because they intensify over warm tropical oceans. (From context: [3])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, addressing the key factor for the formation of tropical cyclones over the sea.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "Tropical cyclones form over warm tropical oceans due to the availability of abundant moisture, which is a crucial factor in their development. These weather systems require warm ocean temperatures, typically above 27 degrees Celsius, to draw energy from the ocean surface and fuel their intensification. The Coriolis force, caused by the Earth's rotation, also plays a role in the formation of tropical cyclones by influencing the direction and movement of winds.",
-    "timestamp_utc": "2025-07-21T09:30:33.893793+00:00"
-  },
-  {
     "cohere_generated_question": "How do variations in atmospheric pressure cause air to move?",
     "ciq_generated_answer": "\"The air moves due to variations in atmospheric pressure as it tends to move from high pressure areas to low pressure areas, resulting from these differences. (Answer derived from context points [1], [4])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that air moves from high to low pressure areas, but doesn't explicitly mention that this movement is caused by variations in atmospheric pressure, which is the focus of the question.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area, which plays a crucial role in influencing weather patterns. The ITCZ is characterized by warm sea surface temperatures exceeding 27 \u00b0C, the presence of the Coriolis force, and other factors that promote the formation and intensification of tropical storms. These conditions facilitate the development of towering cumulonimbus clouds, which are fueled by the continuous supply of moisture from the sea, leading to intense precipitation and storm systems.",
     "timestamp_utc": "2025-07-21T16:26:52.247160+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are Cold, Warm, Stationary, and Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front, especially since the terms may not be familiar to all readers.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. A cold front occurs when a cold air mass advances and replaces a warmer air mass, leading to a rapid drop in temperature and often causing precipitation. A warm front happens when a warm air mass moves and lifts the cooler air ahead of it, resulting in a gradual temperature increase and potentially causing prolonged precipitation. A stationary front is a boundary between two air masses that remains relatively stable, with little or no movement. An occluded front forms when a warm air mass is lifted and completely overridden by a cold air mass, often leading to a variety of weather conditions, including clouds and precipitation.",
+    "timestamp_utc": "2025-07-21T17:21:05.811254+00:00"
   }
 ]
