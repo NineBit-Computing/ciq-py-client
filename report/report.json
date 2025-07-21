@@ -22,5 +22,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "Tropical cyclones form over warm tropical oceans due to the availability of abundant moisture, which is a crucial factor in their development. These weather systems require warm ocean temperatures, typically above 27 degrees Celsius, to draw energy from the ocean surface and fuel their intensification. The Coriolis force, caused by the Earth's rotation, also plays a role in the formation of tropical cyclones by influencing the direction and movement of winds.",
     "timestamp_utc": "2025-07-21T09:30:33.893793+00:00"
+  },
+  {
+    "cohere_generated_question": "How do variations in atmospheric pressure cause air to move?",
+    "ciq_generated_answer": "\"The air moves due to variations in atmospheric pressure as it tends to move from high pressure areas to low pressure areas, resulting from these differences. (Answer derived from context points [1], [4])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that air moves from high to low pressure areas, but doesn't explicitly mention that this movement is caused by variations in atmospheric pressure, which is the focus of the question.",
+    "ciq_answer_score": "8",
+    "cohere_generated_answer": "Variations in atmospheric pressure cause air to move from areas of high pressure to areas of low pressure. This movement of air is what we experience as wind. The greater the difference in pressure, the stronger the force driving the air movement, and the faster the wind will be.",
+    "timestamp_utc": "2025-07-21T12:12:40.969608+00:00"
   }
 ]
