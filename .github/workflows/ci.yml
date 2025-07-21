@@ -43,6 +43,21 @@ jobs:
           echo "Checking black formatting..."
           black --check .
 
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+      - name: Checkout reports branch and copy report.json
+        run: |
+          git checkout ci-reports
+          cp report/report.json /tmp/report.json
+
+      - name: Switch back to main and copy JSON
+        run: |
+          git checkout main
+          cp /tmp/report.json report/report.json
+
       - name: Run All Example Scripts
         env:
           API_KEY: ${{ secrets.API_KEY }}
@@ -59,20 +74,17 @@ jobs:
           cp report/report.json public/index.json
           cp report/index.html public/index.html
 
-      - name: Commit and push report.json
-        env:
-          CI_PAT: ${{ secrets.PAT_FOR_CI }}
-        run: |
-          git config user.name "Rajeev-9Bit"
-          git config user.email "rajeev.jamaiyar@ninebit.in"
-          git add report/report.json
-          git commit -m "Update report.json [skip ci]" || echo "No changes"
-          git remote set-url origin https://x-access-token:${CI_PAT}@github.com/${{ github.repository }}
-          git push --force
-
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+
+      - name: Commit and push report.json
+        run: |
+          git checkout ci-reports
+          cp /tmp/report.json report/report.json
+          git add report/report.json
+          git commit -m "Update report.json [skip ci]" || echo "No changes"
+          git push --force
