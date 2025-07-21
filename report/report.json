@@ -6,5 +6,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional force: The friction between the wind and the Earth's surface, particularly prominent over land, can slow down winds and alter their direction.\n- Coriolis force: The rotation of the Earth deflects winds, with the direction of deflection depending on the hemisphere. This effect is more pronounced at higher latitudes.\n- Pressure gradient force: Wind generally blows from areas of high pressure to low pressure. The pressure gradient force is responsible for the overall movement of air.\n- Vertical pressure variation: Air moves from high-pressure areas at sea level to low-pressure areas at higher altitudes, creating vertical air currents.\n- Local conditions: Factors such as the heating and cooling of land and sea, mountains, and the interaction of different air masses can create local variations in wind patterns, like land and sea breezes.",
     "timestamp_utc": "2025-07-21T08:59:15.868445+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it impact wind circulation?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where winds from both sides of the equator converge. This convergence occurs due to high insolation and heat, causing the air at the ITCZ to rise, which in turn creates a low pressure. This impacts wind circulation by causing the winds to converge and rise, contributing to the general circulation pattern of the atmosphere.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on wind circulation. The explanation is clear and concise, providing a good understanding of the topic.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge. This convergence is due to the unequal heating of the Earth's surface, resulting in a low-pressure zone. The ITCZ has a significant impact on wind circulation as it creates a band of low pressure, causing air to rise and converge from surrounding areas. This rising air contributes to the formation of clouds and precipitation, influencing global atmospheric circulation patterns.",
+    "timestamp_utc": "2025-07-21T09:13:37.022552+00:00"
   }
 ]
