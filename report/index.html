@@ -189,7 +189,7 @@
 
         const container = document.getElementById('benchmark-sections');
 
-        entries.forEach((entry, index) => {
+        entries.reverse().forEach((entry, index) => {
           const utcDate = new Date(entry.timestamp_utc);
           const localTimeStr = utcDate.toLocaleString(undefined, {
             weekday: 'short',
