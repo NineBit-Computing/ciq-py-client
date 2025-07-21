@@ -62,5 +62,13 @@
     "ciq_answer_score": "8",
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical ocean waters, which are necessary for their formation and intensification. These storms require sea surface temperatures higher than 27\u00b0 C, along with other factors like the Coriolis force, small vertical wind speed variations, and a pre-existing weak low-pressure area.",
     "timestamp_utc": "2025-07-21T12:43:40.771554+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors that determine the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors that determine the speed and direction of wind, according to the provided context, are Frictional Force (which affects the speed) and the net result of wind generating forces, which includes pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key factors determining wind speed and direction. However, it could be more comprehensive by mentioning the Coriolis force, which is also a key factor. The answer is clear and concise.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including pressure gradient force, frictional force, and the Coriolis force. The pressure gradient force is caused by differences in atmospheric pressure, with wind blowing from high-pressure areas to low-pressure areas. Frictional force, which is greatest at the surface, affects wind speed, while the Coriolis force, due to the Earth's rotation, impacts the direction of wind, deflecting it right in the northern hemisphere and left in the southern hemisphere. These forces, along with gravitational force, collectively determine the speed and direction of wind.",
+    "timestamp_utc": "2025-07-21T13:39:39.236872+00:00"
   }
 ]
