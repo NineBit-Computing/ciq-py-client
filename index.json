@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the relationship between atmospheric pressure and air movement, and how does this impact the formation of winds?",
-    "ciq_generated_answer": "\"The atmospheric pressure varies from place to place, and this variation is the primary cause of air movement, which is known as wind. Wind moves from high-pressure areas to low-pressure areas. This relationship between atmospheric pressure and air movement impacts the formation of winds, as differences in pressure drive the motion of air masses.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clear and concise, effectively explaining the relationship between atmospheric pressure and wind formation. However, it could have been more comprehensive by including additional details about the Coriolis effect and its influence on wind direction.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The variation in atmospheric pressure from one place to another is the primary cause of air movement, which we experience as wind. Air moves from areas of high pressure to areas of low pressure. This movement of air is what we refer to as wind. The relationship between atmospheric pressure and air movement is fundamental to understanding wind formation. Differences in pressure create a pressure gradient force, which drives the motion of air masses from high to low pressure regions. Additionally, the Coriolis effect, caused by the rotation of the Earth, influences the direction of wind, deflecting it to the right in the northern hemisphere and to the left in the southern hemisphere. This combination of pressure variations and the Coriolis effect results in the complex patterns of wind circulation observed globally.",
-    "timestamp_utc": "2025-07-21T12:35:20.088919+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones only form over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in [3].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, citing the relevant information from the document. The answer effectively addresses why tropical cyclones form over the sea.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence is caused by the rising air due to intense heating and convection in the equatorial region, leading to low pressure. The ITCZ plays a crucial role in the general circulation of the atmosphere by influencing the movement of air masses and the formation of weather systems. The convergence of air at the ITCZ creates a low-pressure area, which causes air to rise, leading to the formation of clouds and precipitation. This upward motion of air contributes to the global wind patterns, including the trade winds blowing towards the equator and the prevailing westerlies in the middle latitudes. The ITCZ also affects the distribution of rainfall and the formation of tropical cyclones, which can have significant impacts on regional climates and weather conditions.",
     "timestamp_utc": "2025-07-21T20:23:53.834883+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis effect, and how does it impact wind direction in the Northern and Southern Hemispheres?",
+    "ciq_generated_answer": "\"The Coriolis effect refers to the deflection of moving objects, such as wind, due to the Earth's rotation. In the Northern Hemisphere, it causes winds to be deflected to the right, while in the Southern Hemisphere, it causes winds to be deflected to the left. This effect is more pronounced as you move away from the equator and increases with the angle of latitude (according to the context provided).\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its impact on wind direction in both hemispheres. The explanation is clear and easy to understand, providing a good overview of the topic.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the movement of objects, such as wind, due to the Earth's rotation. This effect causes moving objects to be deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more noticeable as you move away from the equator toward the poles, and it increases with the angle of latitude. This effect plays a crucial role in determining wind direction and has a significant impact on weather patterns in different parts of the world.",
+    "timestamp_utc": "2025-07-21T21:20:34.036066+00:00"
   }
 ]
