@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional force\\n2. Rotation of the Earth\\n3. Pressure (implied as it is mentioned in relation to wind)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing a bit more context, especially for the first two points, as someone unfamiliar with the topic might not fully understand the references to 'frictional force' and 'rotation of the Earth'.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional force: The friction between the wind and the Earth's surface, particularly prominent over land, can slow down winds and alter their direction.\n- Coriolis force: The rotation of the Earth deflects winds, with the direction of deflection depending on the hemisphere. This effect is more pronounced at higher latitudes.\n- Pressure gradient force: Wind generally blows from areas of high pressure to low pressure. The pressure gradient force is responsible for the overall movement of air.\n- Vertical pressure variation: Air moves from high-pressure areas at sea level to low-pressure areas at higher altitudes, creating vertical air currents.\n- Local conditions: Factors such as the heating and cooling of land and sea, mountains, and the interaction of different air masses can create local variations in wind patterns, like land and sea breezes.",
+    "timestamp_utc": "2025-07-21T08:59:15.868445+00:00"
+  }
+]
