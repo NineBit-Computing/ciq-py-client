@@ -112,6 +112,8 @@ cohere_judge_text = cohere_judge.generations[0].text.strip()
 
 
 try:
+    max_runs = 10  # keep only the last 10 runs
+    report_path = "report/report.json"
     cohere_clean_text = re.search(r"\{.*\}", cohere_judge_text, re.DOTALL).group(0)
     coehre_evaluation = json.loads(cohere_clean_text)
     results = {
@@ -128,9 +130,23 @@ try:
     for key, value in results.items():
         print(f"{key}: {value}")
 
+    new_result = results  # your current result dict
+
+    # Load existing results
+    if os.path.exists(report_path):
+        with open(report_path, "r") as f:
+            data = json.load(f)
+    else:
+        data = []
+
+    # Append new result
+    data.append(new_result)
+    # Trim to the last N runs
+    data = data[-max_runs:]
+
     # Save to JSON file
-    with open("report/report.json", "w") as f:
-        json.dump(results, f, indent=2)
+    with open(report_path, "w") as f:
+        json.dump(data, f, indent=2)
 except json.JSONDecodeError:
     print("Error: Response is not valid JSON. Raw output:")
     sys.exit(1)

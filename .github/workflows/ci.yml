@@ -12,6 +12,9 @@ on:
     # Run every hour
     - cron: "0 * * * *"
 
+permissions:
+  contents: write
+
 jobs:
   integration-test:
     runs-on: ubuntu-latest
@@ -55,6 +58,14 @@ jobs:
           mkdir -p public
           cp report/report.json public/index.json
           cp report/index.html public/index.html
+
+      - name: Commit and push report.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add report/report.json
+          git commit -m "Update report.json [skip ci]" || echo "No changes"
+          git push
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

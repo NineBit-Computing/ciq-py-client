@@ -158,12 +158,13 @@
 
   <script>
     fetch('index.json')
+    // fetch("https://raw.githubusercontent.com/NineBit-Computing/ciq-py-client/report-data/report/report.json")
       .then(res => res.json())
       .then(data => {
         const table = document.getElementById('benchmark-table');
         const timestampDiv = document.getElementById('timestamp');
-
-        Object.entries(data).forEach(([key, value]) => {
+        lastResult = data[data.length - 1];
+        Object.entries(lastResult).forEach(([key, value]) => {
           if (key === 'timestamp_utc') {
             const utcDate = new Date(value);
 
