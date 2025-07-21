@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones only form over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in [3].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, citing the relevant information from the document. The answer effectively addresses why tropical cyclones form over the sea.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical oceans, which are essential for their formation and intensification. These cyclones require sea surface temperatures higher than 27\u00b0 C, along with other factors like the Coriolis force and small variations in vertical wind speed.",
-    "timestamp_utc": "2025-07-21T12:42:38.279208+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones originate over the sea, which is correct, but doesn't explicitly mention the reason why, which is that they require warm tropical oceans to form and intensify. This is a minor issue, but adding this detail would improve clarity.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the movement of objects, such as wind, due to the Earth's rotation. This effect causes moving objects to be deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more noticeable as you move away from the equator toward the poles, and it increases with the angle of latitude. This effect plays a crucial role in determining wind direction and has a significant impact on weather patterns in different parts of the world.",
     "timestamp_utc": "2025-07-21T21:20:34.036066+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, which is correct. However, it could provide more context by mentioning the specific conditions required for their formation, such as sea surface temperature, Coriolis force, vertical wind speed variations, and more, as mentioned in the document.",
+    "ciq_answer_score": "8",
+    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of specific conditions that favor their formation and intensification. These conditions include warm tropical ocean waters with temperatures exceeding 27\u00b0C, the influence of the Coriolis force, small variations in vertical wind speed, pre-existing low-pressure areas, and upper divergence above the sea level system. The warm ocean waters provide a vital source of moisture and energy for the intensification of tropical cyclones.",
+    "timestamp_utc": "2025-07-21T22:21:07.023196+00:00"
   }
 ]
