@@ -30,5 +30,13 @@
     "ciq_answer_score": "8",
     "cohere_generated_answer": "Variations in atmospheric pressure cause air to move from areas of high pressure to areas of low pressure. This movement of air is what we experience as wind. The greater the difference in pressure, the stronger the force driving the air movement, and the faster the wind will be.",
     "timestamp_utc": "2025-07-21T12:12:40.969608+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are Cold, Warm, Stationary, and Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts. No additional or irrelevant information is included, and the answer is easy to understand.",
+    "ciq_answer_score": "10",
+    "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is associated with distinct weather patterns and atmospheric conditions.",
+    "timestamp_utc": "2025-07-21T12:24:34.710790+00:00"
   }
 ]
