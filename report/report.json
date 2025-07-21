@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "How do variations in atmospheric pressure cause air to move?",
-    "ciq_generated_answer": "\"The air moves due to variations in atmospheric pressure as it tends to move from high pressure areas to low pressure areas, resulting from these differences. (Answer derived from context points [1], [4])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that air moves from high to low pressure areas, but doesn't explicitly mention that this movement is caused by variations in atmospheric pressure, which is the focus of the question.",
-    "ciq_answer_score": "8",
-    "cohere_generated_answer": "Variations in atmospheric pressure cause air to move from areas of high pressure to areas of low pressure. This movement of air is what we experience as wind. The greater the difference in pressure, the stronger the force driving the air movement, and the faster the wind will be.",
-    "timestamp_utc": "2025-07-21T12:12:40.969608+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are Cold, Warm, Stationary, and Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts. No additional or irrelevant information is included, and the answer is easy to understand.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. A cold front occurs when a cold air mass advances and replaces a warmer air mass, leading to a rapid drop in temperature and often causing precipitation. A warm front happens when a warm air mass moves and lifts the cooler air ahead of it, resulting in a gradual temperature increase and potentially causing prolonged precipitation. A stationary front is a boundary between two air masses that remains relatively stable, with little or no movement. An occluded front forms when a warm air mass is lifted and completely overridden by a cold air mass, often leading to a variety of weather conditions, including clouds and precipitation.",
     "timestamp_utc": "2025-07-21T17:21:05.811254+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, based on the provided information, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a factor affecting wind)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying the three main factors influencing wind speed and direction. However, the answer could be clearer by providing more context for each factor and explaining their specific effects on wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including: \n\n1. Frictional Force: Friction affects wind speed, with greater friction near the Earth's surface, particularly over land, slowing down winds. Over the ocean, friction is minimal, allowing for stronger winds.\n\n2. Coriolis Force: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and in the Southern Hemisphere, to the left. This effect is more pronounced at higher latitudes and absent at the equator.\n\n3. Pressure Gradient Force: Wind generally blows from areas of high pressure to low pressure. The pressure gradient force is responsible for the horizontal movement of air, with wind speed influenced by the steepness of the pressure gradient (closer isobars indicate a stronger gradient).\n\nAdditionally, other factors such as the gravitational force, convergence and divergence of winds, and interactions with geographical features like mountains also play a role in influencing wind patterns.",
+    "timestamp_utc": "2025-07-21T18:31:39.947605+00:00"
   }
 ]
