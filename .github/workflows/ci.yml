@@ -84,6 +84,7 @@ jobs:
 
       - name: Commit and push report.json
         run: |
+          git stash
           git checkout ci-reports
           cp /tmp/report.json report/report.json
           git add report/report.json
