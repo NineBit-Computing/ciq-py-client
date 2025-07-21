@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
@@ -47,12 +46,52 @@
       text-align: center;
       text-decoration: none;
       transition: background-color 0.3s ease;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     }
 
     .btn:hover {
       background-color: #bbdefb;
       cursor: pointer;
+    }
+
+    .collapse-btn {
+      background-color: #eeeeee;
+      cursor: pointer;
+      padding: 1rem 1.5rem;
+      font-size: 1.2rem;
+      border-radius: 10px;
+      border: none;
+      text-align: left;
+      outline: none;
+      margin: 0.5rem 0;
+      transition: background-color 0.3s ease;
+      width: 100%;
+      max-width: 1100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .collapse-btn:hover {
+      background-color: #e0e0e0;
+    }
+
+    .section-container {
+      max-height: 1000px;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+      margin-bottom: 2rem;
+    }
+
+    .section-container.collapsed {
+      max-height: 0;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+
+
+    .section-container.active {
+      display: block;
     }
 
     .table-container {
@@ -70,8 +109,7 @@
       font-size: 1.3rem;
     }
 
-    th,
-    td {
+    th, td {
       padding: 1.5rem;
       text-align: left;
       vertical-align: top;
@@ -90,8 +128,7 @@
       color: #212121;
     }
 
-    tr:not(:last-child) td,
-    tr:not(:last-child) th {
+    tr:not(:last-child) td, tr:not(:last-child) th {
       border-bottom: 1px solid #ddd;
     }
 
@@ -101,39 +138,31 @@
       font-size: 1.5rem;
     }
 
-    .timestamp {
-      text-align: right;
-      font-size: 1.1rem;
-      padding: 1.5rem;
-      color: #757575;
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
 
     @media (max-width: 768px) {
       body {
         padding: 1.5rem;
       }
-
       h1 {
         font-size: 2rem;
       }
-
       .btn {
         font-size: 0.95rem;
         padding: 0.6rem 1rem;
       }
-
       table {
         font-size: 1.1rem;
       }
-
       th {
         font-size: 1.2rem;
       }
-
       .score {
         font-size: 1.3rem;
       }
-
       .buttons-container {
         flex-direction: column;
         align-items: flex-end;
@@ -141,77 +170,83 @@
     }
   </style>
 </head>
-
 <body>
   <h1>📊 CIQ vs Cohere - Evaluation Benchmark</h1>
 
   <div class="buttons-container">
-    <a href="https://github.com/NineBit-Computing/ciq-py-client/actions" class="btn" target="_blank">🔁 Run All
-      Tests</a>
-    <a href="https://colab.research.google.com/github/NineBit-Computing/ciq-py-client/blob/main/examples/ciq_rag_demo.ipynb"
-      class="btn" target="_blank">🧪 Try on Colab</a>
-    <a href="https://ninebit-ciq-community.slack.com/join/shared_invite/zt-38oi663on-9R~0J8echKGQ8NV2zRKJZA#/shared-invite/email"
-      class="btn" target="_blank">💬 Join Slack</a>
+    <a href="https://github.com/NineBit-Computing/ciq-py-client/actions" class="btn" target="_blank">🔁 Run All Tests</a>
+    <a href="https://colab.research.google.com/github/NineBit-Computing/ciq-py-client/blob/main/examples/ciq_rag_demo.ipynb" class="btn" target="_blank">🧪 Try on Colab</a>
+    <a href="https://ninebit-ciq-community.slack.com/join/shared_invite/zt-38oi663on-9R~0J8echKGQ8NV2zRKJZA#/shared-invite/email" class="btn" target="_blank">💬 Join Slack</a>
   </div>
 
-  <div class="table-container">
-    <table id="benchmark-table"></table>
-    <div class="timestamp" id="timestamp"></div>
-  </div>
+  <div id="benchmark-sections"></div>
 
   <script>
     fetch('index.json')
-    // fetch("https://raw.githubusercontent.com/NineBit-Computing/ciq-py-client/report-data/report/report.json")
       .then(res => res.json())
-      .then(data => {
-        const table = document.getElementById('benchmark-table');
-        const timestampDiv = document.getElementById('timestamp');
-        lastResult = data[data.length - 1];
-        Object.entries(lastResult).forEach(([key, value]) => {
-          if (key === 'timestamp_utc') {
-            const utcDate = new Date(value);
+      .then(entries => {
+        if (!Array.isArray(entries)) return;
 
-            // Format to user's local time with time zone abbreviation
-            const localTimeStr = utcDate.toLocaleString(undefined, {
-              weekday: 'short',
-              year: 'numeric',
-              month: 'short',
-              day: 'numeric',
-              hour: '2-digit',
-              minute: '2-digit',
-              second: '2-digit',
-              timeZoneName: 'short' // Automatically uses user's current time zone
-            });
+        const container = document.getElementById('benchmark-sections');
 
-            timestampDiv.textContent = `Last Updated: ${localTimeStr}`;
-            return;
-          }
+        entries.forEach((entry, index) => {
+          const utcDate = new Date(entry.timestamp_utc);
+          const localTimeStr = utcDate.toLocaleString(undefined, {
+            weekday: 'short',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            timeZoneName: 'short'
+          });
 
+          const isLatest = index === 0;
 
-          const row = document.createElement('tr');
-          const keyCell = document.createElement('th');
-          const valueCell = document.createElement('td');
+          const button = document.createElement('button');
+          button.className = 'collapse-btn';
+          const arrow = document.createElement('span');
+          arrow.textContent = isLatest ? '▾' : '▸';
+          button.append(localTimeStr, arrow);
 
-          keyCell.textContent = key;
+          const section = document.createElement('div');
+          section.className = 'section-container';
+          if (isLatest) section.classList.add('active');
+          if (!isLatest) section.classList.add('collapsed');
 
-          if (key === 'ciq_answer_score') {
-            valueCell.innerHTML = `<span class="score">${value}</span>`;
-          } else {
-            valueCell.textContent = value;
-          }
+          const tableContainer = document.createElement('div');
+          tableContainer.className = 'table-container';
 
-          row.appendChild(keyCell);
-          row.appendChild(valueCell);
-          table.appendChild(row);
+          const table = document.createElement('table');
+          Object.entries(entry).forEach(([key, value]) => {
+            if (key === 'timestamp_utc') return;
+
+            const row = document.createElement('tr');
+            row.innerHTML = `
+              <th>${key}</th>
+              <td>${key === 'ciq_answer_score' ? `<span class="score">${value}`</span> : value}</td>
+            `;
+            table.appendChild(row);
+          });
+
+          tableContainer.appendChild(table);
+          section.appendChild(tableContainer);
+
+          button.addEventListener('click', () => {
+            const isCollapsed = section.classList.toggle('collapsed');
+            arrow.textContent = isCollapsed ? '▸' : '▾';
+          });
+
+          container.appendChild(button);
+          container.appendChild(section);
         });
       })
-
-
       .catch(err => {
-        document.getElementById('benchmark-table').innerHTML = '<tr><td colspan="2">Failed to load data.</td></tr>';
+        document.getElementById('benchmark-sections').innerHTML =
+          '<p>⚠️ Failed to load benchmark data.</p>';
         console.error(err);
       });
   </script>
 </body>
-
 </html>
