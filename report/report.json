@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nIn addition, it is mentioned that the velocity and direction of the wind are the net result of the wind generating forces, but the specific forces are not explicitly stated in the context. Therefore, it can be inferred that other factors affecting wind speed and direction may include pressure differences, temperature gradients, and atmospheric turbulence. However, without further context or information, I cannot confirm these additional factors.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the relevant information from the provided text. It mentions the two explicitly stated factors influencing wind speed and direction while also acknowledging that other factors may be at play, as indicated by the mention of 'wind generating forces'. The answer is clear and concise, effectively summarizing the key points.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force and the rotation of the Earth. Frictional force, which is greatest at the surface and extends up to elevations of 1-3 km, affects wind speed. The rotation of the Earth, or the Coriolis effect, influences the direction of wind, deflecting it to the right in the northern hemisphere and to the left in the southern hemisphere. These two forces, along with the pressure gradient force and gravitational force, play a significant role in determining wind patterns.",
-    "timestamp_utc": "2025-07-21T15:23:05.603550+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect the weather?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It affects the weather by creating conditions favourable for the formation and intensification of tropical storms, as it provides large sea surfaces with temperatures higher than 27\\u00b0C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on weather patterns. The answer is also clearly worded and easy to understand. However, it could benefit from a more concise presentation to improve readability.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The pressure at sea level is higher than at higher altitudes primarily due to the effect of gravity. Gravity causes the air at the surface to be denser, resulting in higher pressure. This is known as atmospheric pressure, and it decreases with height. At sea level, the average atmospheric pressure is 1,013.2 milibar, and it decreases by about 1 mb for every 10 m increase in elevation. This variation in pressure is what drives the movement of air, creating wind and weather systems.",
     "timestamp_utc": "2025-07-22T04:39:50.736375+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the primary cause of air motion, and how does it influence the formation of wind?",
+    "ciq_generated_answer": "\"The primary cause of air motion, which results in wind, is the variation of air pressure from place to place. Air moves from high pressure areas towards low pressure areas.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information. It is also clearly worded and easy to understand. However, it could have been more comprehensive by mentioning the role of atmospheric pressure and the Coriolis effect in wind formation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The primary cause of air motion, which results in wind, is the variation in atmospheric pressure from one location to another. Air moves from areas of high pressure to areas of low pressure, seeking to equalize the pressure difference. This movement of air is what we experience as wind. Atmospheric pressure is influenced by temperature variations over the Earth's surface, with air expanding when heated and contracting when cooled, leading to pressure differences. Additionally, the Coriolis effect, caused by the Earth's rotation, influences the direction of wind, deflecting it to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+    "timestamp_utc": "2025-07-22T05:26:01.796837+00:00"
   }
 ]
