@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are Cold, Warm, Stationary, and Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front, especially since the terms may not be familiar to all readers.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. A cold front occurs when a cold air mass advances and replaces a warmer air mass, leading to a rapid drop in temperature and often causing precipitation. A warm front happens when a warm air mass moves and lifts the cooler air ahead of it, resulting in a gradual temperature increase and potentially causing prolonged precipitation. A stationary front is a boundary between two air masses that remains relatively stable, with little or no movement. An occluded front forms when a warm air mass is lifted and completely overridden by a cold air mass, often leading to a variety of weather conditions, including clouds and precipitation.",
-    "timestamp_utc": "2025-07-21T17:21:05.811254+00:00"
-  },
-  {
     "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, based on the provided information, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a factor affecting wind)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying the three main factors influencing wind speed and direction. However, the answer could be clearer by providing more context for each factor and explaining their specific effects on wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans due to a combination of factors, including sea surface temperatures exceeding 27\u00b0 C, the presence of the Coriolis force, small variations in vertical wind speed, and the existence of a pre-existing weak low-pressure area. These conditions facilitate the intensification of the storm through the continuous supply of moisture from the sea.",
     "timestamp_utc": "2025-07-22T06:31:59.570260+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, identifying the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front or explaining how they differ from one another.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by its unique temperature and pressure gradients, leading to distinct weather patterns and atmospheric behaviors.",
+    "timestamp_utc": "2025-07-22T07:23:41.850932+00:00"
   }
 ]
