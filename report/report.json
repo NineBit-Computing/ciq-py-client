@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, based on the provided information, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a factor affecting wind)\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying the three main factors influencing wind speed and direction. However, the answer could be clearer by providing more context for each factor and explaining their specific effects on wind patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including: \n\n1. Frictional Force: Friction affects wind speed, with greater friction near the Earth's surface, particularly over land, slowing down winds. Over the ocean, friction is minimal, allowing for stronger winds.\n\n2. Coriolis Force: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and in the Southern Hemisphere, to the left. This effect is more pronounced at higher latitudes and absent at the equator.\n\n3. Pressure Gradient Force: Wind generally blows from areas of high pressure to low pressure. The pressure gradient force is responsible for the horizontal movement of air, with wind speed influenced by the steepness of the pressure gradient (closer isobars indicate a stronger gradient).\n\nAdditionally, other factors such as the gravitational force, convergence and divergence of winds, and interactions with geographical features like mountains also play a role in influencing wind patterns.",
-    "timestamp_utc": "2025-07-21T18:31:39.947605+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence the general circulation of the atmosphere?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge due to low pressure created by the rising air caused by convection, which is triggered by high insolation. This convergence influences the general circulation of the atmosphere by creating an upward motion of air, leading to the formation of clouds and precipitation, and contributing to the overall global wind patterns.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation. The answer is clear and concise, providing a good explanation of the ITCZ and its role in weather patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by its unique temperature and pressure gradients, leading to distinct weather patterns and atmospheric behaviors.",
     "timestamp_utc": "2025-07-22T07:23:41.850932+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n   1. Frictional Force (mentioned as affecting the speed of the wind)\\n   2. Rotation of the Earth (mentioned as affecting wind movement)\\n   3. Pressure (implied as one of the forces affecting the velocity and direction of wind)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clearly worded and easy to understand. However, it could have included more detail on the role of each factor, particularly the Coriolis effect, to make it more comprehensive.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: This force affects the speed of the wind and is greatest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n\n- Coriolis Force: The rotation of the Earth deflects the wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced when wind velocity is high.\n\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction. The pressure gradient is stronger when isobars are close together and weaker when they are apart.\n\n- Gravitational Force: Acting downward, this force generally balances the vertical pressure gradient force, preventing strong upward winds.\n\nThese forces, along with the horizontal pressure gradient and the Coriolis force, shape the velocity and direction of winds near the Earth's surface, with friction playing a role at lower altitudes.",
+    "timestamp_utc": "2025-07-22T08:30:12.814013+00:00"
   }
 ]
