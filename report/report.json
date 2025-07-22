@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect the weather?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It affects the weather by creating conditions favourable for the formation and intensification of tropical storms, as it provides large sea surfaces with temperatures higher than 27\\u00b0C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on weather patterns. The answer is also clearly worded and easy to understand. However, it could benefit from a more concise presentation to improve readability.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area, which plays a crucial role in influencing weather patterns. The ITCZ is characterized by warm sea surface temperatures exceeding 27 \u00b0C, the presence of the Coriolis force, and other factors that promote the formation and intensification of tropical storms. These conditions facilitate the development of towering cumulonimbus clouds, which are fueled by the continuous supply of moisture from the sea, leading to intense precipitation and storm systems.",
-    "timestamp_utc": "2025-07-21T16:26:52.247160+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are Cold, Warm, Stationary, and Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front, especially since the terms may not be familiar to all readers.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The primary cause of air motion, which results in wind, is the variation in atmospheric pressure from one location to another. Air moves from areas of high pressure to areas of low pressure, seeking to equalize the pressure difference. This movement of air is what we experience as wind. Atmospheric pressure is influenced by temperature variations over the Earth's surface, with air expanding when heated and contracting when cooled, leading to pressure differences. Additionally, the Coriolis effect, caused by the Earth's rotation, influences the direction of wind, deflecting it to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
     "timestamp_utc": "2025-07-22T05:26:01.796837+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as stated in context [2].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about why tropical cyclones originate over warm tropical oceans. It does not mention the specific conditions required for their formation, which are outlined in the text.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans due to a combination of factors, including sea surface temperatures exceeding 27\u00b0 C, the presence of the Coriolis force, small variations in vertical wind speed, and the existence of a pre-existing weak low-pressure area. These conditions facilitate the intensification of the storm through the continuous supply of moisture from the sea.",
+    "timestamp_utc": "2025-07-22T06:31:59.570260+00:00"
   }
 ]
