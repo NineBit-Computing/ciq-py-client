@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans because that is where they intensify, as mentioned in points [2] and [4].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by explicitly mentioning the conditions required for tropical cyclone formation. It is concise and to the point, earning a score of 8/10.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans due to a combination of factors, including sea surface temperatures exceeding 27\u00b0C, the presence of the Coriolis force, small vertical wind speed variations, and a pre-existing weak low-pressure area. These conditions allow the storm to intensify and draw energy from the condensation process within towering cumulonimbus clouds.",
-    "timestamp_utc": "2025-07-22T13:38:52.829828+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the seas because they intensify over warm tropical oceans. (Context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor highlighted in the text. The answer is concise, but a brief mention of the necessary conditions for cyclone formation would improve clarity.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- Coriolis Force: The rotation of the Earth about its axis affects the direction of wind. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force, with the rate of change of pressure (pressure gradient) influencing wind velocity. The pressure gradient is stronger when isobars are close together.\n\nThese forces, combined with the gravitational force, determine the velocity and direction of wind. The wind blows from high-pressure areas to low-pressure areas, and the Coriolis force causes it to deflect perpendicular to the pressure gradient force.",
     "timestamp_utc": "2025-07-22T22:20:35.916818+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force (as it affects the wind speed)\\n2. Rotation of the Earth (as it affects the wind movement)\\n3. Pressure (implied as one of the forces affecting the wind velocity and direction)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clearly worded and easy to understand. However, it could have provided a bit more detail or context, especially regarding the Coriolis effect and how it interacts with other forces to determine wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including: \n\n- Frictional Force: This force affects the speed of wind and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced when wind velocity is high, and the force is strongest at the poles, absent at the equator.\n\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction. The pressure gradient is stronger when isobars are close together and weaker when they are farther apart.\n\n- Gravitational Force: Acting downward, this force generally balances the vertical pressure gradient force, preventing strong upward winds.\n\nThese forces, along with the horizontal distribution of pressure and the rotation of the Earth, collectively determine the speed and direction of wind.",
+    "timestamp_utc": "2025-07-22T23:20:52.168254+00:00"
   }
 ]
