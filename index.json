@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors that determine the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors that determine the speed and direction of wind, according to the provided context, are Frictional Force (which affects the speed) and the net result of wind generating forces, which includes pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key factors determining wind speed and direction. However, it could be more comprehensive by mentioning the Coriolis force, which is also a key factor. The answer is clear and concise.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including pressure gradient force, frictional force, and the Coriolis force. The pressure gradient force is caused by differences in atmospheric pressure, with wind blowing from high-pressure areas to low-pressure areas. Frictional force, which is greatest at the surface, affects wind speed, while the Coriolis force, due to the Earth's rotation, impacts the direction of wind, deflecting it right in the northern hemisphere and left in the southern hemisphere. These forces, along with gravitational force, collectively determine the speed and direction of wind.",
-    "timestamp_utc": "2025-07-21T13:39:39.236872+00:00"
-  },
-  {
     "cohere_generated_question": "What factors influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors influencing the speed and direction of wind, based on the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\n  3. (It is not specified in the context what (ii) and (iii) refer to, but they are likely additional factors affecting the speed and direction of wind.)\\n\\n  4. Pressure (implied as one of the wind generating forces affecting the velocity and direction of wind)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant factors influencing wind speed and direction. However, the response could be clearer by explicitly stating that there are four factors, and by providing a brief explanation for each factor's influence.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The primary cause of air motion is the variation in atmospheric pressure. Air expands when heated and contracts when cooled, creating pressure differences. These pressure differences cause air to move from high-pressure areas to low-pressure areas, setting the air in motion, which we perceive as wind. Thus, the movement of air is driven by the natural tendency to equalize pressure.",
     "timestamp_utc": "2025-07-21T23:20:24.524698+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the primary cause of air motion?",
+    "ciq_generated_answer": "\"The primary cause of air motion is differences in atmospheric pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by including more context about the relationship between air motion and pressure differences. It does not mention that air moves from high-pressure areas to low-pressure areas, which is an important detail.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Differences in atmospheric pressure are the primary cause of air motion. Air moves from areas of high pressure to areas of low pressure, resulting in wind. This movement of air is essential for redistributing heat and moisture across the planet, maintaining a relatively constant global temperature.",
+    "timestamp_utc": "2025-07-22T01:46:23.928011+00:00"
   }
 ]
