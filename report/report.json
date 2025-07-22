@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, identifying the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front or explaining how they differ from one another.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by its unique temperature and pressure gradients, leading to distinct weather patterns and atmospheric behaviors.",
-    "timestamp_utc": "2025-07-22T07:23:41.850932+00:00"
-  },
-  {
     "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n   1. Frictional Force (mentioned as affecting the speed of the wind)\\n   2. Rotation of the Earth (mentioned as affecting wind movement)\\n   3. Pressure (implied as one of the forces affecting the velocity and direction of wind)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clearly worded and easy to understand. However, it could have included more detail on the role of each factor, particularly the Coriolis effect, to make it more comprehensive.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This zone is crucial for the formation and intensification of tropical cyclones and storms due to the unique atmospheric conditions it presents. The ITCZ provides favorable conditions for these weather phenomena, including warm sea surface temperatures above 27 degrees Celsius, the presence of the Coriolis force, relatively calm vertical wind conditions, and areas of low pressure or cyclonic circulation. These factors collectively contribute to the development of powerful and often destructive tropical weather systems.",
     "timestamp_utc": "2025-07-22T18:31:30.148230+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It correctly identifies the main factors influencing wind speed and direction, including frictional force, the rotation of the Earth (Coriolis effect), and pressure differences. No crucial information is missing, and the response is well-written and easy to understand.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "The main factors that influence the speed and direction of wind are frictional force, the rotation of the Earth (Coriolis effect), and pressure differences. Frictional force acts as a brake on the wind, with its effect being strongest near the surface and over land. The Coriolis effect, caused by the Earth's rotation, deflects winds in the northern hemisphere to the right and in the southern hemisphere to the left. Pressure differences between areas of high and low pressure create the pressure gradient force, which causes air to flow from high to low pressure, resulting in wind.",
+    "timestamp_utc": "2025-07-22T19:18:52.120476+00:00"
   }
 ]
