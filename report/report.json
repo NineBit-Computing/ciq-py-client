@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, which is correct. However, it could provide more context by mentioning the specific conditions required for their formation, such as sea surface temperature, Coriolis force, vertical wind speed variations, and more, as mentioned in the document.",
-    "ciq_answer_score": "8",
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of specific conditions that favor their formation and intensification. These conditions include warm tropical ocean waters with temperatures exceeding 27\u00b0C, the influence of the Coriolis force, small variations in vertical wind speed, pre-existing low-pressure areas, and upper divergence above the sea level system. The warm ocean waters provide a vital source of moisture and energy for the intensification of tropical cyclones.",
-    "timestamp_utc": "2025-07-21T22:21:07.023196+00:00"
-  },
-  {
     "cohere_generated_question": "What is the primary cause of air motion?",
     "ciq_generated_answer": "\"The primary cause of air motion, as per the provided context, is the differences in atmospheric pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the relationship between pressure differences and air motion. It also lacks a clear conclusion.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis force is a phenomenon that influences the direction of wind and results from the Earth's rotation. In the Northern Hemisphere, the Coriolis force causes the wind to deflect to the right. This force, described by the French physicist in 1844, is proportional to the angle of latitude and is strongest at the poles, while absent at the equator. It acts perpendicular to the pressure gradient force, which is responsible for the wind's velocity. The Coriolis force, along with the pressure gradient force and frictional force, determines the wind's velocity and direction near the Earth's surface.",
     "timestamp_utc": "2025-07-22T11:18:31.426368+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans because that is where they intensify, as mentioned in points [2] and [4].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by explicitly mentioning the conditions required for tropical cyclone formation. It is concise and to the point, earning a score of 8/10.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans due to a combination of factors, including sea surface temperatures exceeding 27\u00b0C, the presence of the Coriolis force, small vertical wind speed variations, and a pre-existing weak low-pressure area. These conditions allow the storm to intensify and draw energy from the condensation process within towering cumulonimbus clouds.",
+    "timestamp_utc": "2025-07-22T13:38:52.829828+00:00"
   }
 ]
