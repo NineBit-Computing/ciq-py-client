@@ -1,14 +1,6 @@
 [
   {
     "cohere_generated_question": "What is the primary cause of air motion?",
-    "ciq_generated_answer": "\"The primary cause of air motion, as per the provided context, is the differences in atmospheric pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the relationship between pressure differences and air motion. It also lacks a clear conclusion.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The primary cause of air motion is the variation in atmospheric pressure. Air expands when heated and contracts when cooled, creating pressure differences. These pressure differences cause air to move from high-pressure areas to low-pressure areas, setting the air in motion, which we perceive as wind. Thus, the movement of air is driven by the natural tendency to equalize pressure.",
-    "timestamp_utc": "2025-07-21T23:20:24.524698+00:00"
-  },
-  {
-    "cohere_generated_question": "What is the primary cause of air motion?",
     "ciq_generated_answer": "\"The primary cause of air motion is differences in atmospheric pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by including more context about the relationship between air motion and pressure differences. It does not mention that air moves from high-pressure areas to low-pressure areas, which is an important detail.",
     "ciq_answer_score": 8,
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans due to a combination of factors, including sea surface temperatures exceeding 27\u00b0C, the presence of the Coriolis force, small vertical wind speed variations, and a pre-existing weak low-pressure area. These conditions allow the storm to intensify and draw energy from the condensation process within towering cumulonimbus clouds.",
     "timestamp_utc": "2025-07-22T13:38:52.829828+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the seas because they intensify over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor highlighted in the text. The answer is concise, but a brief mention of the necessary conditions for cyclone formation would improve clarity.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones originate over the seas due to the presence of warm ocean water, which serves as their energy source. Warm ocean water, with temperatures exceeding 27\u00b0 C, provides the necessary heat and moisture for these storms to form and intensify. The Coriolis force, caused by the Earth's rotation, and other atmospheric conditions also play a role in their development.",
+    "timestamp_utc": "2025-07-22T14:21:29.117720+00:00"
   }
 ]
