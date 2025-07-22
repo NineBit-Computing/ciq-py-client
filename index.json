@@ -73,10 +73,10 @@
   },
   {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more complete by providing additional context or details about why tropical cyclones originate over warm tropical oceans. A brief mention of the necessary conditions, such as sea surface temperature or the presence of the Coriolis force, would enhance the response.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans due to the presence of specific conditions that fuel their formation and intensity. These conditions include a sea surface temperature exceeding 27\u00b0C, the influence of the Coriolis force, small variations in vertical wind speed, and the existence of a pre-existing weak low-pressure area. The warm ocean waters provide a vital source of moisture and energy, which intensifies the storm through the condensation process within towering cumulonimbus clouds surrounding the center.",
-    "timestamp_utc": "2025-07-22T06:31:52.531867+00:00"
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as stated in context [2].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about why tropical cyclones originate over warm tropical oceans. It does not mention the specific conditions required for their formation, which are outlined in the text.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans due to a combination of factors, including sea surface temperatures exceeding 27\u00b0 C, the presence of the Coriolis force, small variations in vertical wind speed, and the existence of a pre-existing weak low-pressure area. These conditions facilitate the intensification of the storm through the continuous supply of moisture from the sea.",
+    "timestamp_utc": "2025-07-22T06:31:59.570260+00:00"
   }
 ]
