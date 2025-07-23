@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important because it is a zone favourable for the formation and intensification of tropical storms, as it provides the necessary conditions such as large sea surface with temperatures higher than 27 C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its importance. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by explaining the term 'Coriolis force' for better understanding.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This zone is crucial for the formation and intensification of tropical cyclones and storms due to the unique atmospheric conditions it presents. The ITCZ provides favorable conditions for these weather phenomena, including warm sea surface temperatures above 27 degrees Celsius, the presence of the Coriolis force, relatively calm vertical wind conditions, and areas of low pressure or cyclonic circulation. These factors collectively contribute to the development of powerful and often destructive tropical weather systems.",
-    "timestamp_utc": "2025-07-22T18:31:30.148230+00:00"
-  },
-  {
     "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It correctly identifies the main factors influencing wind speed and direction, including frictional force, the rotation of the Earth (Coriolis effect), and pressure differences. No crucial information is missing, and the response is well-written and easy to understand.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. It is characterized by low pressure and is a critical component in the global atmospheric circulation, influencing weather patterns and climate in tropical regions.",
     "timestamp_utc": "2025-07-23T08:30:12.007843+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans because that is where they intensify ([2] and [4]).\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor in their formation. The answer also does not explain why the cyclones need to form over water, which is addressed in the document.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans because the warm ocean water provides the necessary energy for their formation and intensification. The warm ocean surface, with temperatures above 27\u00b0 C, fuels the condensation process in the towering cumulonimbus clouds that surround the center of the storm. This condensation process releases heat energy, which intensifies the storm. Additionally, the Coriolis force, small variations in vertical wind speed, and pre-existing weak low-pressure areas or low-level cyclonic circulations are also necessary conditions for tropical cyclone formation.",
+    "timestamp_utc": "2025-07-23T09:27:49.316250+00:00"
   }
 ]
