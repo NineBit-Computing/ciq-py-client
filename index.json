@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied)\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It correctly identifies the main factors influencing wind speed and direction, including frictional force, the rotation of the Earth (Coriolis effect), and pressure differences. No crucial information is missing, and the response is well-written and easy to understand.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "The main factors that influence the speed and direction of wind are frictional force, the rotation of the Earth (Coriolis effect), and pressure differences. Frictional force acts as a brake on the wind, with its effect being strongest near the surface and over land. The Coriolis effect, caused by the Earth's rotation, deflects winds in the northern hemisphere to the right and in the southern hemisphere to the left. Pressure differences between areas of high and low pressure create the pressure gradient force, which causes air to flow from high to low pressure, resulting in wind.",
-    "timestamp_utc": "2025-07-22T19:18:52.120476+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that form when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that form when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that form when different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front, especially since the terms 'cold', 'warm', 'stationary', and 'occluded' may not be immediately understandable to all readers.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans because the warm ocean water provides the necessary energy for their formation and intensification. The warm ocean surface, with temperatures above 27\u00b0 C, fuels the condensation process in the towering cumulonimbus clouds that surround the center of the storm. This condensation process releases heat energy, which intensifies the storm. Additionally, the Coriolis force, small variations in vertical wind speed, and pre-existing weak low-pressure areas or low-level cyclonic circulations are also necessary conditions for tropical cyclone formation.",
     "timestamp_utc": "2025-07-23T09:27:49.316250+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by explaining what each type of front entails and how they differ from one another.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts can form: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by different temperature and pressure gradients, leading to distinct weather patterns and cloud formations. Cold fronts occur when a cold air mass advances and replaces a warmer air mass, resulting in a rapid drop in temperature and the formation of cumulus clouds. Warm fronts, on the other hand, are formed when a warm air mass moves and lifts the cooler air ahead of it, causing a gradual temperature increase and the development of stratus clouds. Stationary fronts happen when neither air mass is strong enough to replace the other, leading to prolonged precipitation. Occluded fronts occur when a warm air mass is completely lifted by a cold air mass, often resulting in a mixture of warm and cold front characteristics.",
+    "timestamp_utc": "2025-07-23T10:23:36.106563+00:00"
   }
 ]
