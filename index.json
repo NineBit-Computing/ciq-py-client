@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, according to the provided context, are frictional force, the rotation of the Earth, and pressure differences.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It mentions the three key factors influencing wind speed and direction, but doesn't explain their specific effects or interactions, which would enhance clarity.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force, the Coriolis force resulting from the Earth's rotation, and pressure differences. Frictional force, caused by the interaction between air and surfaces like land or water, affects wind speed, with greater friction at lower altitudes. The Coriolis force deflects wind direction, with a rightward deflection in the Northern Hemisphere and leftward in the Southern Hemisphere. Pressure differences between areas of high and low pressure create pressure gradient forces, causing air to move from high to low pressure, resulting in wind. These factors collectively shape the complex behavior of wind.",
-    "timestamp_utc": "2025-07-22T17:21:02.991817+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important because it is a zone favourable for the formation and intensification of tropical storms, as it provides the necessary conditions such as large sea surface with temperatures higher than 27 C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its importance. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by explaining the term 'Coriolis force' for better understanding.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, leading to differences in atmospheric pressure. This pressure gradient causes air to move from areas of high pressure to low pressure, resulting in wind. Atmospheric pressure also influences the vertical movement of air, determining whether it rises or sinks.",
     "timestamp_utc": "2025-07-23T07:24:35.270601+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where is it located?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is located along the equator.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional context or details about the Inter Tropical Convergence Zone and its significance in atmospheric circulation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. It is characterized by low pressure and is a critical component in the global atmospheric circulation, influencing weather patterns and climate in tropical regions.",
+    "timestamp_utc": "2025-07-23T08:30:12.007843+00:00"
   }
 ]
