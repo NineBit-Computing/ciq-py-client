@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as stated in [2] and [4].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by specifying that the cyclones originate over warm tropical oceans specifically.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over the seas because they require warm ocean water, typically with a sea surface temperature higher than 27\u00b0C, to form and intensify. The warm ocean water provides the necessary energy and moisture to fuel and strengthen these storms. Additionally, the presence of the Coriolis force, small variations in vertical wind speed, and other atmospheric conditions specific to tropical regions contribute to the formation and development of tropical cyclones.",
-    "timestamp_utc": "2025-07-22T16:27:51.380288+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, according to the provided context, are frictional force, the rotation of the Earth, and pressure differences.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It mentions the three key factors influencing wind speed and direction, but doesn't explain their specific effects or interactions, which would enhance clarity.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front brings about distinct weather changes and influences the movement of air masses, contributing to the dynamic nature of Earth's atmosphere.",
     "timestamp_utc": "2025-07-23T04:41:52.418376+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the primary cause of air motion?",
+    "ciq_generated_answer": "\"The primary cause of air motion, or wind, is variations in atmospheric pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing a more explicit definition of 'atmospheric pressure' and its role in causing air motion. Overall, the answer deserves a score of 8.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, leading to differences in atmospheric pressure. This pressure gradient causes air to move from areas of high pressure to low pressure, resulting in wind. Atmospheric pressure also influences the vertical movement of air, determining whether it rises or sinks.",
+    "timestamp_utc": "2025-07-23T07:24:35.270601+00:00"
   }
 ]
