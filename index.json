@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the primary cause of air motion?",
-    "ciq_generated_answer": "\"The primary cause of air motion is variations in atmospheric pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question and provides a concise explanation of the primary cause of air motion, earning a high score.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of air motion. When air is heated, it expands and rises, creating areas of low pressure. Conversely, when air is cooled, it contracts and sinks, creating areas of high pressure. Air naturally moves from high-pressure areas to low-pressure areas, setting the air in motion and creating wind.",
-    "timestamp_utc": "2025-07-22T21:20:21.201046+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nIn addition, the velocity and direction of the wind are the net result of the wind generating forces, which also implies that pressure plays a role in wind movement. However, the context does not explicitly mention pressure as a separate factor influencing the speed and direction of wind.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, providing a clear and concise summary of the factors influencing wind speed and direction as outlined in the provided text. No additional or extraneous information is included, and the response is well-structured and easy to understand.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where trade winds from the Northern and Southern Hemispheres converge. This convergence is caused by the unequal heating of the Earth's surface, resulting in pressure differences that drive air movement. The ITCZ is characterized by low pressure due to the intense heating and subsequent upward movement of air, known as convection. This convection initiates atmospheric circulation patterns, influencing weather globally. The ITCZ plays a crucial role in the general circulation of the atmosphere, particularly in the tropics, by acting as a catalyst for upward air movement, which then spreads out towards the poles. This movement influences the formation of weather systems and contributes to the redistribution of heat and moisture, helping to maintain the Earth's overall temperature balance.",
     "timestamp_utc": "2025-07-23T11:19:22.107501+00:00"
+  },
+  {
+    "cohere_generated_question": "How do variations in atmospheric pressure cause wind?",
+    "ciq_generated_answer": "\"The wind blows from high pressure to low pressure due to variations in atmospheric pressure. These differences in pressure result in air motion, which is the primary cause of wind. (From [2], [5])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that air moves from high to low pressure due to pressure differences, which is the main cause of wind. This is implied, but could be made more explicit.",
+    "ciq_answer_score": "8",
+    "cohere_generated_answer": "Variations in atmospheric pressure cause wind. Air moves from areas of high pressure to areas of low pressure, and this movement of air is what we call wind. This occurs because air naturally moves from regions of higher pressure to regions of lower pressure, attempting to equalize the pressure difference. This movement of air results in wind, which can vary in speed and direction depending on the magnitude of the pressure difference and other factors such as the Coriolis effect.",
+    "timestamp_utc": "2025-07-23T13:39:03.074803+00:00"
   }
 ]
