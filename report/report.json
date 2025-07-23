@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why is the pressure at sea level higher than at higher altitudes?",
-    "ciq_generated_answer": "\"The pressure at sea level is higher than at higher altitudes because the air at the surface is denser due to gravity, resulting in higher pressure. Additionally, the pressure decreases with height in the lower atmosphere. (Answers derived from context points [1], [3], and [5])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information. It is clearly worded and easy to understand. The only minor improvement would be to mention that pressure decreases with height, which is a key factor in the vertical variation of pressure.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The pressure at sea level is higher than at higher altitudes primarily due to the effect of gravity. Gravity causes the air at the surface to be denser, resulting in higher pressure. This is known as atmospheric pressure, and it decreases with height. At sea level, the average atmospheric pressure is 1,013.2 milibars, and it decreases as elevation increases. This vertical variation of pressure is a crucial factor in understanding atmospheric circulation and weather systems.",
-    "timestamp_utc": "2025-07-22T15:23:43.834841+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as stated in [2] and [4].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by specifying that the cyclones originate over warm tropical oceans specifically.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This zone is important because it creates favorable conditions for the formation and intensification of tropical cyclones or hurricanes. The ITCZ is characterized by low pressure, warm sea surface temperatures above 27 \u00b0C, the presence of the Coriolis force, and other factors that promote the development of powerful storms. These storms can cause significant damage when they make landfall, and understanding the ITCZ helps meteorologists predict and track these weather events.",
     "timestamp_utc": "2025-07-23T01:47:37.538299+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: Cold, Warm, Stationary, and Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts. This answer meets all the evaluation criteria.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front brings about distinct weather changes and influences the movement of air masses, contributing to the dynamic nature of Earth's atmosphere.",
+    "timestamp_utc": "2025-07-23T04:41:52.418376+00:00"
   }
 ]
