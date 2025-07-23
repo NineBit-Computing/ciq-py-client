@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that form when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that form when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that form when different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front, especially since the terms 'cold', 'warm', 'stationary', and 'occluded' may not be immediately understandable to all readers.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. A cold front occurs when a cold air mass advances and replaces a warmer air mass, leading to a rapid drop in temperature and often causing precipitation. Conversely, a warm front happens when a warm air mass moves and replaces a cold air mass, resulting in a gradual temperature increase and potentially causing prolonged precipitation. A stationary front is a boundary between two air masses that remains relatively stable, with little or no movement. Lastly, an occluded front is formed when a cold air mass overtakes and lifts a warm air mass, resulting in a complex weather system with a mixture of warm and cold air characteristics.",
-    "timestamp_utc": "2025-07-22T20:24:14.709802+00:00"
-  },
-  {
     "cohere_generated_question": "What is the primary cause of air motion?",
     "ciq_generated_answer": "\"The primary cause of air motion is variations in atmospheric pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question and provides a concise explanation of the primary cause of air motion, earning a high score.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "When two distinct air masses meet, four types of fronts can form: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by different temperature and pressure gradients, leading to distinct weather patterns and cloud formations. Cold fronts occur when a cold air mass advances and replaces a warmer air mass, resulting in a rapid drop in temperature and the formation of cumulus clouds. Warm fronts, on the other hand, are formed when a warm air mass moves and lifts the cooler air ahead of it, causing a gradual temperature increase and the development of stratus clouds. Stationary fronts happen when neither air mass is strong enough to replace the other, leading to prolonged precipitation. Occluded fronts occur when a warm air mass is completely lifted by a cold air mass, often resulting in a mixture of warm and cold front characteristics.",
     "timestamp_utc": "2025-07-23T10:23:36.106563+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence atmospheric circulation?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where trade winds from both sides of the equator converge. It is influenced by high insolation and creates low pressure due to convection caused by this heat energy. This zone plays a significant role in the general circulation of the atmosphere as it initiates the upward movement of air, which in turn affects weather patterns globally.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation. The answer is also clearly worded and easy to understand. However, it could have included more specific details about the ITCZ's role in weather patterns to make it more comprehensive.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where trade winds from the Northern and Southern Hemispheres converge. This convergence is caused by the unequal heating of the Earth's surface, resulting in pressure differences that drive air movement. The ITCZ is characterized by low pressure due to the intense heating and subsequent upward movement of air, known as convection. This convection initiates atmospheric circulation patterns, influencing weather globally. The ITCZ plays a crucial role in the general circulation of the atmosphere, particularly in the tropics, by acting as a catalyst for upward air movement, which then spreads out towards the poles. This movement influences the formation of weather systems and contributes to the redistribution of heat and moisture, helping to maintain the Earth's overall temperature balance.",
+    "timestamp_utc": "2025-07-23T11:19:22.107501+00:00"
   }
 ]
