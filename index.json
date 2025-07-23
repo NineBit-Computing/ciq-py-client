@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: Cold, Warm, Stationary, and Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts. This answer meets all the evaluation criteria.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front brings about distinct weather changes and influences the movement of air masses, contributing to the dynamic nature of Earth's atmosphere.",
-    "timestamp_utc": "2025-07-23T04:41:52.418376+00:00"
-  },
-  {
     "cohere_generated_question": "What is the primary cause of air motion?",
     "ciq_generated_answer": "\"The primary cause of air motion, or wind, is variations in atmospheric pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing a more explicit definition of 'atmospheric pressure' and its role in causing air motion. Overall, the answer deserves a score of 8.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the northeasterly and southeasterly trade winds converge. This convergence creates a low-pressure zone, causing air to rise and often leading to the formation of clouds and precipitation. The ITCZ plays a crucial role in global atmospheric circulation and wind patterns. It migrates seasonally, generally following the sun's path, and influences the formation of weather systems such as tropical cyclones. The ITCZ affects wind patterns by acting as a convergence zone for winds from the tropics, leading to upward motion of air and subsequent atmospheric circulation patterns.",
     "timestamp_utc": "2025-07-23T17:21:59.655714+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis force and how does it affect wind direction?",
+    "ciq_generated_answer": "\"The Coriolis force is the force exerted by the rotation of the Earth that affects the direction of wind. At the equator, the Coriolis force is zero, but as you move away from the equator, the Coriolis force becomes stronger and influences the wind to deflect right in the Northern Hemisphere and left in the Southern Hemisphere. This results in the wind blowing not directly towards lower pressure areas (isobars), but at an angle to them.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis force and its effect on wind direction. The answer is also clearly worded and easy to understand. However, it could have included a bit more detail on the role of the Coriolis force in wind circulation patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Coriolis force is a consequence of the Earth's rotation, and it influences wind direction. This force is stronger away from the equator, causing wind to deflect to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. As a result, wind doesn't blow directly towards lower-pressure areas but at an angle to them. The Coriolis force is responsible for the cyclonic wind patterns observed in nature, where wind circulates around areas of low pressure.",
+    "timestamp_utc": "2025-07-23T18:30:50.820611+00:00"
   }
 ]
