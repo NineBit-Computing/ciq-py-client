@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans because that is where they intensify ([2] and [4]).\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor in their formation. The answer also does not explain why the cyclones need to form over water, which is addressed in the document.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans because the warm ocean water provides the necessary energy for their formation and intensification. The warm ocean surface, with temperatures above 27\u00b0 C, fuels the condensation process in the towering cumulonimbus clouds that surround the center of the storm. This condensation process releases heat energy, which intensifies the storm. Additionally, the Coriolis force, small variations in vertical wind speed, and pre-existing weak low-pressure areas or low-level cyclonic circulations are also necessary conditions for tropical cyclone formation.",
-    "timestamp_utc": "2025-07-23T09:27:49.316250+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by explaining what each type of front entails and how they differ from one another.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans. They require specific conditions to form, including sea surface temperatures higher than 27\u00b0C, the presence of the Coriolis force, small variations in vertical wind speed, and a pre-existing weak low-pressure area. These storms are fueled by the continuous supply of moisture from the sea, which intensifies them. Once they reach land and the moisture supply is cut off, they dissipate.",
     "timestamp_utc": "2025-07-23T20:23:54.776147+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence wind circulation?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where easterlies from both sides of the equator converge. It influences wind circulation by causing convection due to high insolation, which results in the air at the ITCZ rising and creating a low pressure. This movement of air contributes to the general circulation of the atmosphere.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on wind circulation. The answer is also clearly worded and easy to understand. However, it could have included more detail on the specific wind circulation patterns caused by the ITCZ.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure zone with warm, moist air that rises due to convection. As the air rises, it cools and condenses, forming clouds and often leading to rainfall. This movement of air influences wind circulation by creating a band of low pressure around the equator, which directs the trade winds towards the ITCZ. The ITCZ is not a static feature and oscillates north and south with the apparent movement of the sun, influencing the seasonal wind patterns in tropical regions.",
+    "timestamp_utc": "2025-07-23T21:20:50.271733+00:00"
   }
 ]
