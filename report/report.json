@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where is it located?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is located along the equator.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional context or details about the Inter Tropical Convergence Zone and its significance in atmospheric circulation.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. It is characterized by low pressure and is a critical component in the global atmospheric circulation, influencing weather patterns and climate in tropical regions.",
-    "timestamp_utc": "2025-07-23T08:30:12.007843+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans because that is where they intensify ([2] and [4]).\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor in their formation. The answer also does not explain why the cyclones need to form over water, which is addressed in the document.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: The friction between the moving air and the Earth's surface, which is greatest at the surface and diminishes with height.\n- Coriolis Force: The deflection of wind due to the rotation of the Earth, which is zero at the equator and maximum at the poles.\n- Pressure Gradient Force: Air moves from areas of high pressure to low pressure, and the rate of change of pressure with respect to distance affects wind speed.\n- Vertical Pressure Gradient: The variation of pressure with height, which is generally balanced by gravitational force, preventing strong upward winds.\n- Local Conditions: Factors such as land and sea breezes, mountain and valley winds, and the interaction of air masses can influence wind patterns on a smaller scale.",
     "timestamp_utc": "2025-07-23T19:18:33.307470+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional context or details about tropical cyclones. It does not mention the specific conditions required for their formation, such as sea surface temperature or the presence of the Coriolis force, which are mentioned in the provided text.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans. They require specific conditions to form, including sea surface temperatures higher than 27\u00b0C, the presence of the Coriolis force, small variations in vertical wind speed, and a pre-existing weak low-pressure area. These storms are fueled by the continuous supply of moisture from the sea, which intensifies them. Once they reach land and the moisture supply is cut off, they dissipate.",
+    "timestamp_utc": "2025-07-23T20:23:54.776147+00:00"
   }
 ]
