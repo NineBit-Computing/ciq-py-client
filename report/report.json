@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by explaining what each type of front entails and how they differ from one another.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts can form: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by different temperature and pressure gradients, leading to distinct weather patterns and cloud formations. Cold fronts occur when a cold air mass advances and replaces a warmer air mass, resulting in a rapid drop in temperature and the formation of cumulus clouds. Warm fronts, on the other hand, are formed when a warm air mass moves and lifts the cooler air ahead of it, causing a gradual temperature increase and the development of stratus clouds. Stationary fronts happen when neither air mass is strong enough to replace the other, leading to prolonged precipitation. Occluded fronts occur when a warm air mass is completely lifted by a cold air mass, often resulting in a mixture of warm and cold front characteristics.",
-    "timestamp_utc": "2025-07-23T10:23:36.106563+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence atmospheric circulation?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where trade winds from both sides of the equator converge. It is influenced by high insolation and creates low pressure due to convection caused by this heat energy. This zone plays a significant role in the general circulation of the atmosphere as it initiates the upward movement of air, which in turn affects weather patterns globally.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation. The answer is also clearly worded and easy to understand. However, it could have included more specific details about the ITCZ's role in weather patterns to make it more comprehensive.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure zone with warm, moist air that rises due to convection. As the air rises, it cools and condenses, forming clouds and often leading to rainfall. This movement of air influences wind circulation by creating a band of low pressure around the equator, which directs the trade winds towards the ITCZ. The ITCZ is not a static feature and oscillates north and south with the apparent movement of the sun, influencing the seasonal wind patterns in tropical regions.",
     "timestamp_utc": "2025-07-23T21:20:50.271733+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans because that is where they intensify ([2] and [4]).\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text. The answer also does not explain why tropical cyclones need these specific conditions to form.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, as these conditions provide the necessary energy for their formation and intensification. Warm ocean water, typically with temperatures above 27\u00b0C, provides the heat and moisture that fuel these storms. The Coriolis force, caused by the Earth's rotation, is also necessary for the formation of tropical cyclones, as it influences the direction and movement of winds. Additionally, small variations in vertical wind speed and the presence of a pre-existing weak low-pressure area contribute to the development of tropical cyclones.",
+    "timestamp_utc": "2025-07-23T22:20:44.755402+00:00"
   }
 ]
