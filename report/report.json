@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force (as it affects the wind speed)\\n2. Rotation of the Earth (as it affects the wind movement)\\n3. Pressure (implied as one of the forces affecting the wind velocity and direction)\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clearly worded and easy to understand. However, it could have provided a bit more detail or context, especially regarding the Coriolis effect and how it interacts with other forces to determine wind patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including: \n\n- Frictional Force: This force affects the speed of wind and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced when wind velocity is high, and the force is strongest at the poles, absent at the equator.\n\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction. The pressure gradient is stronger when isobars are close together and weaker when they are farther apart.\n\n- Gravitational Force: Acting downward, this force generally balances the vertical pressure gradient force, preventing strong upward winds.\n\nThese forces, along with the horizontal distribution of pressure and the rotation of the Earth, collectively determine the speed and direction of wind.",
-    "timestamp_utc": "2025-07-22T23:20:52.168254+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from the Northern Hemisphere and Southern Hemisphere meet and converge near the equator. It is important because it is a zone favourable for the formation and intensification of tropical storms, as stated in the conditions provided: large sea surface with temperature higher than 27\\u00b0C, presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its importance. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by providing additional context or details about the ITCZ, such as its typical location and how it influences weather patterns globally.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the availability of warm tropical ocean waters, which provide the necessary energy for intensification. This energy comes from the condensation process in towering cumulonimbus clouds, which require a large water surface. Therefore, the vast expanse of warm ocean serves as the ideal environment for the formation and intensification of tropical cyclones.",
     "timestamp_utc": "2025-07-23T15:24:37.714146+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones only form over the ocean?",
+    "ciq_generated_answer": "\"Tropical cyclones originate and intensify over warm tropical oceans, as stated in [2]. Therefore, they only form over the ocean.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones form over the ocean because they require warm ocean water, which provides the necessary moisture and energy for their development. The Coriolis effect, caused by the Earth's rotation, also plays a role in their formation, and this effect is not present near the equator, which is why tropical cyclones do not form there.",
+    "timestamp_utc": "2025-07-23T16:27:57.767032+00:00"
   }
 ]
