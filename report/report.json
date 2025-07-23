@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the primary cause of air motion?",
-    "ciq_generated_answer": "\"The primary cause of air motion, or wind, is variations in atmospheric pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing a more explicit definition of 'atmospheric pressure' and its role in causing air motion. Overall, the answer deserves a score of 8.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, leading to differences in atmospheric pressure. This pressure gradient causes air to move from areas of high pressure to low pressure, resulting in wind. Atmospheric pressure also influences the vertical movement of air, determining whether it rises or sinks.",
-    "timestamp_utc": "2025-07-23T07:24:35.270601+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where is it located?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is located along the equator.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional context or details about the Inter Tropical Convergence Zone and its significance in atmospheric circulation.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Coriolis force is a consequence of the Earth's rotation, and it influences wind direction. This force is stronger away from the equator, causing wind to deflect to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. As a result, wind doesn't blow directly towards lower-pressure areas but at an angle to them. The Coriolis force is responsible for the cyclonic wind patterns observed in nature, where wind circulates around areas of low pressure.",
     "timestamp_utc": "2025-07-23T18:30:50.820611+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a force affecting wind movement)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing a bit more context, especially for the first two points, as someone unfamiliar with the topic might not fully understand the references to 'frictional force' and 'rotation of the Earth'.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: The friction between the moving air and the Earth's surface, which is greatest at the surface and diminishes with height.\n- Coriolis Force: The deflection of wind due to the rotation of the Earth, which is zero at the equator and maximum at the poles.\n- Pressure Gradient Force: Air moves from areas of high pressure to low pressure, and the rate of change of pressure with respect to distance affects wind speed.\n- Vertical Pressure Gradient: The variation of pressure with height, which is generally balanced by gravitational force, preventing strong upward winds.\n- Local Conditions: Factors such as land and sea breezes, mountain and valley winds, and the interaction of air masses can influence wind patterns on a smaller scale.",
+    "timestamp_utc": "2025-07-23T19:18:33.307470+00:00"
   }
 ]
