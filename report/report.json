@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence atmospheric circulation?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where trade winds from both sides of the equator converge. It is influenced by high insolation and creates low pressure due to convection caused by this heat energy. This zone plays a significant role in the general circulation of the atmosphere as it initiates the upward movement of air, which in turn affects weather patterns globally.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation. The answer is also clearly worded and easy to understand. However, it could have included more specific details about the ITCZ's role in weather patterns to make it more comprehensive.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where trade winds from the Northern and Southern Hemispheres converge. This convergence is caused by the unequal heating of the Earth's surface, resulting in pressure differences that drive air movement. The ITCZ is characterized by low pressure due to the intense heating and subsequent upward movement of air, known as convection. This convection initiates atmospheric circulation patterns, influencing weather globally. The ITCZ plays a crucial role in the general circulation of the atmosphere, particularly in the tropics, by acting as a catalyst for upward air movement, which then spreads out towards the poles. This movement influences the formation of weather systems and contributes to the redistribution of heat and moisture, helping to maintain the Earth's overall temperature balance.",
-    "timestamp_utc": "2025-07-23T11:19:22.107501+00:00"
-  },
-  {
     "cohere_generated_question": "How do variations in atmospheric pressure cause wind?",
     "ciq_generated_answer": "\"The wind blows from high pressure to low pressure due to variations in atmospheric pressure. These differences in pressure result in air motion, which is the primary cause of wind. (From [2], [5])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that air moves from high to low pressure due to pressure differences, which is the main cause of wind. This is implied, but could be made more explicit.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, as these conditions provide the necessary energy for their formation and intensification. Warm ocean water, typically with temperatures above 27\u00b0C, provides the heat and moisture that fuel these storms. The Coriolis force, caused by the Earth's rotation, is also necessary for the formation of tropical cyclones, as it influences the direction and movement of winds. Additionally, small variations in vertical wind speed and the presence of a pre-existing weak low-pressure area contribute to the development of tropical cyclones.",
     "timestamp_utc": "2025-07-23T22:20:44.755402+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone, and why is it significant?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is significant because it prevents the formation of tropical cyclones near the equator due to the conditions in the ITCZ not being favorable for their development.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). The answer is clear and concise, providing a straightforward explanation of why tropical cyclones don't form near the equator due to the conditions in the ITCZ. However, the answer could be improved by briefly mentioning the positive impacts of the ITCZ, such as its influence on rainfall patterns and its role in the global atmospheric circulation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is significant because it plays a crucial role in the Earth's atmospheric circulation and weather patterns. The ITCZ is characterized by low pressure and rising air, which promotes the formation of clouds and precipitation. This makes the ITCZ an important source of rainfall for many tropical regions, influencing the climate and supporting ecosystems. Additionally, the ITCZ prevents the development of tropical cyclones near the equator due to the unfavorable conditions it creates for their formation, such as weak Coriolis force and a lack of horizontal wind shear.",
+    "timestamp_utc": "2025-07-24T03:38:16.614603+00:00"
   }
 ]
