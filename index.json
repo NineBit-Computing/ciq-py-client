@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "How does the Coriolis effect influence the direction of wind?",
-    "ciq_generated_answer": "\"The Coriolis effect influences the direction of wind by causing it to deflect right (to the east) in the Northern Hemisphere and left (to the west) in the Southern Hemisphere when moving from the equator towards the poles. This is due to the earth's rotation. (From context [1], [2], [4] and [5])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information. It is clearly worded and easy to understand, providing a concise explanation of the Coriolis effect's influence on wind direction. Well done, CIQ!",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the direction of wind. Due to the rotation of the Earth, the Coriolis effect causes moving air to be deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is more pronounced when wind velocity is high. It is this force that gives rise to the cyclonic circulation around low-pressure systems and anti-cyclonic circulation around high-pressure systems in each hemisphere.",
-    "timestamp_utc": "2025-07-24T09:26:22.764699+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it significant?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator converge. It is significant because it prevents the formation of tropical cyclones near the equator. This is due to the fact that the conditions favourable for the formation and intensification of tropical storms, such as large sea surfaces with temperatures higher than 27 C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system, are not met exactly at the equator.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its significance. The answer is clearly worded and easy to understand, providing a comprehensive explanation of why tropical cyclones do not form near the equator. Score: 9/10",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important in atmospheric circulation and weather systems for several reasons. Firstly, it is a key area where warm, moist air rises due to intense solar heating and low pressure. This rising air creates a region of low pressure, influencing the formation of clouds and weather patterns. The ITCZ plays a crucial role in the general circulation of the atmosphere by facilitating the movement of heat and moisture from the equator towards the poles, which helps maintain the Earth's overall temperature balance. Additionally, the ITCZ affects the distribution of rainfall and the formation of weather systems, such as tropical cyclones, which can have significant impacts on global weather patterns and local climates.",
     "timestamp_utc": "2025-07-24T18:31:02.656906+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the primary causes of air motion?",
+    "ciq_generated_answer": "\"The primary cause of air motion, as per the provided context, is the variation in atmospheric pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the relationship between air motion and atmospheric pressure. It could also mention the role of temperature variations and the expansion/compression of air.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The primary cause of air motion is the variation in atmospheric pressure, which is influenced by temperature differences over the Earth's surface. When air is heated, it expands and rises, creating areas of low pressure. Conversely, when air cools, it compresses and sinks, resulting in areas of high pressure. This pressure gradient from high to low pressure sets the air in motion, creating wind. Additionally, the Coriolis effect, caused by the Earth's rotation, influences the direction of wind flow, deflecting it to the right in the northern hemisphere and to the left in the southern hemisphere.",
+    "timestamp_utc": "2025-07-24T20:21:55.831544+00:00"
   }
 ]
