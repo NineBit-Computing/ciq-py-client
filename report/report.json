@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones only form over the ocean?",
-    "ciq_generated_answer": "\"Tropical cyclones originate and intensify over warm tropical oceans, as stated in [2]. Therefore, they only form over the ocean.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones form over the ocean because they require warm ocean water, which provides the necessary moisture and energy for their development. The Coriolis effect, caused by the Earth's rotation, also plays a role in their formation, and this effect is not present near the equator, which is why tropical cyclones do not form there.",
-    "timestamp_utc": "2025-07-23T16:27:57.767032+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect wind patterns?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where the easterlies from either side of the equator converge. It affects wind patterns by causing the winds from the tropics to converge at this zone.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on wind patterns. However, the answer could be improved by providing a bit more detail and context, especially regarding the significance of the ITCZ in atmospheric circulation. Overall, the answer is clear and concise but could benefit from a slightly more in-depth explanation.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind patterns on our planet. It is a result of the Earth's rotation, causing moving objects like wind to be deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is more pronounced at higher latitudes and weaker closer to the equator, where it has no influence. The Coriolis effect plays a crucial role in the formation of wind patterns and pressure systems. In the Northern Hemisphere, the deflection of wind to the right leads to the development of anticlockwise wind circulation around areas of low pressure and clockwise circulation around high-pressure systems. The opposite occurs in the Southern Hemisphere, with winds deflected to the left, resulting in clockwise circulation around lows and anticlockwise around highs. This effect helps drive the general atmospheric circulation, influencing the movement of air masses and weather patterns globally.",
     "timestamp_utc": "2025-07-24T05:26:42.393802+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence atmospheric circulation?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator converge. This zone is significant because it causes air at its location to rise due to convection, which is driven by high insolation and low pressure. This rising air then influences the overall atmospheric circulation as it forms part of the general circulation pattern of the atmosphere.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation. However, the wording could be improved for clarity, especially in the last sentence, which is a bit vague. A more precise explanation of how the ITCZ influences atmospheric circulation would enhance the answer.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence results in air rising due to convection, driven by intense solar heating and low pressure. The ITCZ plays a crucial role in the Earth's atmospheric circulation by acting as a driver for the global atmospheric circulation pattern. The rising air in the ITCZ leads to the formation of clouds and precipitation, influencing weather patterns in tropical regions. Additionally, the ITCZ's position shifts throughout the year, following the apparent movement of the sun, which further affects atmospheric circulation and weather conditions globally.",
+    "timestamp_utc": "2025-07-24T06:33:03.328353+00:00"
   }
 ]
