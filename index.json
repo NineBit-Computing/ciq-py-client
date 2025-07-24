@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect wind patterns?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where the easterlies from either side of the equator converge. It affects wind patterns by causing the winds from the tropics to converge at this zone.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on wind patterns. However, the answer could be improved by providing a bit more detail and context, especially regarding the significance of the ITCZ in atmospheric circulation. Overall, the answer is clear and concise but could benefit from a slightly more in-depth explanation.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the northeasterly and southeasterly trade winds converge. This convergence creates a low-pressure zone, causing air to rise and often leading to the formation of clouds and precipitation. The ITCZ plays a crucial role in global atmospheric circulation and wind patterns. It migrates seasonally, generally following the sun's path, and influences the formation of weather systems such as tropical cyclones. The ITCZ affects wind patterns by acting as a convergence zone for winds from the tropics, leading to upward motion of air and subsequent atmospheric circulation patterns.",
-    "timestamp_utc": "2025-07-23T17:21:59.655714+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Coriolis force and how does it affect wind direction?",
     "ciq_generated_answer": "\"The Coriolis force is the force exerted by the rotation of the Earth that affects the direction of wind. At the equator, the Coriolis force is zero, but as you move away from the equator, the Coriolis force becomes stronger and influences the wind to deflect right in the Northern Hemisphere and left in the Southern Hemisphere. This results in the wind blowing not directly towards lower pressure areas (isobars), but at an angle to them.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis force and its effect on wind direction. The answer is also clearly worded and easy to understand. However, it could have included a bit more detail on the role of the Coriolis force in wind circulation patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence results in air rising due to convection, driven by intense solar heating and low pressure. The ITCZ plays a crucial role in the Earth's atmospheric circulation by acting as a driver for the global atmospheric circulation pattern. The rising air in the ITCZ leads to the formation of clouds and precipitation, influencing weather patterns in tropical regions. Additionally, the ITCZ's position shifts throughout the year, following the apparent movement of the sun, which further affects atmospheric circulation and weather conditions globally.",
     "timestamp_utc": "2025-07-24T06:33:03.328353+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it significant?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is significant because it prevents the formation of tropical cyclones near the equator as the conditions there are not favorable for their development.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the second sentence. It would be better to explicitly mention that the ITCZ is a region near the equator where these easterly winds converge, and then explain why this prevents tropical cyclone formation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence of winds creates a low-pressure area, which is significant because it inhibits the formation of tropical cyclones. Tropical cyclones require the Coriolis force, which is absent at the equator, to develop their characteristic spinning motion. Additionally, the converging winds in the ITCZ lift moist air, promoting cloud formation and rainfall, which further stabilizes the atmosphere and prevents the intense weather systems associated with tropical cyclones from developing.",
+    "timestamp_utc": "2025-07-24T07:23:32.858004+00:00"
   }
 ]
