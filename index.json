@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional context or details about tropical cyclones. It does not mention the specific conditions required for their formation, such as sea surface temperature or the presence of the Coriolis force, which are mentioned in the provided text.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans. They require specific conditions to form, including sea surface temperatures higher than 27\u00b0C, the presence of the Coriolis force, small variations in vertical wind speed, and a pre-existing weak low-pressure area. These storms are fueled by the continuous supply of moisture from the sea, which intensifies them. Once they reach land and the moisture supply is cut off, they dissipate.",
-    "timestamp_utc": "2025-07-23T20:23:54.776147+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence wind circulation?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where easterlies from both sides of the equator converge. It influences wind circulation by causing convection due to high insolation, which results in the air at the ITCZ rising and creating a low pressure. This movement of air contributes to the general circulation of the atmosphere.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on wind circulation. The answer is also clearly worded and easy to understand. However, it could have included more detail on the specific wind circulation patterns caused by the ITCZ.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the direction of wind. Due to the rotation of the Earth, the Coriolis effect causes moving air to be deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is more pronounced when wind velocity is high. It is this force that gives rise to the cyclonic circulation around low-pressure systems and anti-cyclonic circulation around high-pressure systems in each hemisphere.",
     "timestamp_utc": "2025-07-24T09:26:22.764699+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it significant?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator converge. It is significant because it prevents the formation of tropical cyclones near the equator. This is due to the fact that the conditions favourable for the formation and intensification of tropical storms, such as large sea surfaces with temperatures higher than 27 C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system, are not met exactly at the equator.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its significance. The answer is clearly worded and easy to understand, providing a comprehensive explanation of why tropical cyclones do not form near the equator. Score: 9/10",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area, which is significant because it inhibits the formation of tropical cyclones in this region. The conditions necessary for the development and strengthening of tropical cyclones, such as sea surface temperatures above 27\u00b0 C, the presence of the Coriolis force, consistent vertical wind speeds, and a pre-existing low-pressure system, are not met near the equator due to the unique atmospheric dynamics of the ITCZ. This makes the ITCZ an important feature in global atmospheric circulation and weather patterns.",
+    "timestamp_utc": "2025-07-24T10:24:11.747780+00:00"
   }
 ]
