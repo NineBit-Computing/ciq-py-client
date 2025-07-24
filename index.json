@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it significant?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator converge. It is significant because it prevents the formation of tropical cyclones near the equator. This is due to the fact that the conditions favourable for the formation and intensification of tropical storms, such as large sea surfaces with temperatures higher than 27 C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system, are not met exactly at the equator.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its significance. The answer is clearly worded and easy to understand, providing a comprehensive explanation of why tropical cyclones do not form near the equator. Score: 9/10",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area, which is significant because it inhibits the formation of tropical cyclones in this region. The conditions necessary for the development and strengthening of tropical cyclones, such as sea surface temperatures above 27\u00b0 C, the presence of the Coriolis force, consistent vertical wind speeds, and a pre-existing low-pressure system, are not met near the equator due to the unique atmospheric dynamics of the ITCZ. This makes the ITCZ an important feature in global atmospheric circulation and weather patterns.",
-    "timestamp_utc": "2025-07-24T10:24:11.747780+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2], [4])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor in their formation. The answer also does not explain why tropical cyclones need these specific conditions to form.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The primary cause of air motion is the variation in atmospheric pressure, which is influenced by temperature differences over the Earth's surface. When air is heated, it expands and rises, creating areas of low pressure. Conversely, when air cools, it compresses and sinks, resulting in areas of high pressure. This pressure gradient from high to low pressure sets the air in motion, creating wind. Additionally, the Coriolis effect, caused by the Earth's rotation, influences the direction of wind flow, deflecting it to the right in the northern hemisphere and to the left in the southern hemisphere.",
     "timestamp_utc": "2025-07-24T20:21:55.831544+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis force, and how does it influence wind direction in the Northern and Southern Hemispheres?",
+    "ciq_generated_answer": "\"The Coriolis force is a fictitious force that appears indirectly as a consequence of the rotation of the Earth about its axis. It deflects the wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere when observed from above the North Pole. This effect is more pronounced at higher latitudes due to the increased angle of rotation. In the equator, where the angle of rotation is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis force and its influence on wind direction. The explanation is clear and easy to understand, providing a good overview of the concept. However, the answer could be improved by mentioning the role of the Coriolis force in weather systems and atmospheric circulation, which is a crucial aspect of the topic.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Coriolis force is a fictitious force that arises due to the rotation of the Earth on its axis. It influences the direction of moving objects, including wind, by deflecting them. In the Northern Hemisphere, the Coriolis force causes winds to be deflected to the right, while in the Southern Hemisphere, it deflects them to the left when observed from above the North Pole. This effect is more noticeable at higher latitudes and is absent at the equator, where the angle of rotation is zero. As a result, the Coriolis force plays a crucial role in determining wind patterns and atmospheric circulation in both hemispheres, influencing weather systems and climate.",
+    "timestamp_utc": "2025-07-24T21:20:53.957278+00:00"
   }
 ]
