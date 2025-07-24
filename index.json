@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2], [4])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor in their formation. The answer also does not explain why tropical cyclones need these specific conditions to form.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water and the Coriolis effect. Warm ocean water, typically with a temperature above 27\u00b0C, provides the necessary heat and moisture for the storm to form and intensify. The Coriolis effect, caused by the Earth's rotation, influences the direction and movement of the storm, leading to its characteristic cyclonic circulation. Additionally, small variations in vertical wind speed and pre-existing low-pressure areas contribute to the formation of tropical cyclones over the sea.",
-    "timestamp_utc": "2025-07-24T11:19:05.265756+00:00"
-  },
-  {
     "cohere_generated_question": "What is the relationship between atmospheric pressure and wind?",
     "ciq_generated_answer": "\"The wind blows from high pressure to low pressure. Therefore, there is a relationship between atmospheric pressure and wind, as differences in pressure produce a force that causes air to move (wind).\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information. It is clearly worded and easy to understand, providing a concise explanation of the relationship between atmospheric pressure and wind.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Coriolis force is a fictitious force that arises due to the rotation of the Earth on its axis. It influences the direction of moving objects, including wind, by deflecting them. In the Northern Hemisphere, the Coriolis force causes winds to be deflected to the right, while in the Southern Hemisphere, it deflects them to the left when observed from above the North Pole. This effect is more noticeable at higher latitudes and is absent at the equator, where the angle of rotation is zero. As a result, the Coriolis force plays a crucial role in determining wind patterns and atmospheric circulation in both hemispheres, influencing weather systems and climate.",
     "timestamp_utc": "2025-07-24T21:20:53.957278+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n\\nThese factors affect the wind movement, and their combined effects contribute to the velocity and direction of the wind.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key factors influencing wind speed and direction. However, it could be more comprehensive by mentioning the Coriolis effect, which is also discussed in the text. The answer is clear and concise, effectively summarizing the relevant information.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The effect is more pronounced at higher wind velocities and latitudes, and absent at the equator.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction. The pressure gradient is stronger when isobars are close together and weaker when they are apart.\n- Gravitational Force: Acting downward, this force generally prevents strong upward winds.\n\nThese factors, along with the Coriolis effect, collectively determine the velocity and direction of wind.",
+    "timestamp_utc": "2025-07-24T22:20:56.077626+00:00"
   }
 ]
