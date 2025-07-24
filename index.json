@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it significant?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is significant because it prevents the formation of tropical cyclones near the equator as the conditions there are not favorable for their development.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the second sentence. It would be better to explicitly mention that the ITCZ is a region near the equator where these easterly winds converge, and then explain why this prevents tropical cyclone formation.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence of winds creates a low-pressure area, which is significant because it inhibits the formation of tropical cyclones. Tropical cyclones require the Coriolis force, which is absent at the equator, to develop their characteristic spinning motion. Additionally, the converging winds in the ITCZ lift moist air, promoting cloud formation and rainfall, which further stabilizes the atmosphere and prevents the intense weather systems associated with tropical cyclones from developing.",
-    "timestamp_utc": "2025-07-24T07:23:32.858004+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that affect the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that affect the speed and direction of wind, according to the provided information, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nThe velocity and direction of the wind are also influenced by various wind generating forces. However, specific details about these forces are not provided in the context.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key factors affecting wind speed and direction. However, it could be more comprehensive by mentioning the Coriolis effect, which is also described in the text. The answer is clear and concise, effectively summarizing the relevant information.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "Tropical cyclones originate over the seas, specifically warm tropical oceans, due to the presence of several key factors. These include sea surface temperatures higher than 27\u00b0 C, the influence of the Coriolis force, small variations in vertical wind speed, and the existence of a pre-existing weak low-pressure area or low-level cyclonic circulation.",
     "timestamp_utc": "2025-07-24T16:24:16.050717+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, which is correct. However, it could provide more context by mentioning that this is because warm ocean water provides the energy and moisture necessary for their formation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which provides the energy and moisture necessary for their formation and intensification. The warm tropical oceans create an environment conducive to the development of these powerful storms.",
+    "timestamp_utc": "2025-07-24T17:19:53.561452+00:00"
   }
 ]
