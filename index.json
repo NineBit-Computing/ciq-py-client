@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the factors that affect the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors that affect the speed and direction of wind, according to the provided information, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nThe velocity and direction of the wind are also influenced by various wind generating forces. However, specific details about these forces are not provided in the context.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key factors affecting wind speed and direction. However, it could be more comprehensive by mentioning the Coriolis effect, which is also described in the text. The answer is clear and concise, effectively summarizing the relevant information.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced at higher wind velocities and latitudes, and it is absent at the equator.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction and speed. The pressure gradient is stronger when isobars are close together and weaker when they are apart.\n\nThese forces, along with the gravitational force, collectively determine the velocity and direction of wind near the Earth's surface.",
-    "timestamp_utc": "2025-07-24T08:29:36.413569+00:00"
-  },
-  {
     "cohere_generated_question": "How does the Coriolis effect influence the direction of wind?",
     "ciq_generated_answer": "\"The Coriolis effect influences the direction of wind by causing it to deflect right (to the east) in the Northern Hemisphere and left (to the west) in the Southern Hemisphere when moving from the equator towards the poles. This is due to the earth's rotation. (From context [1], [2], [4] and [5])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information. It is clearly worded and easy to understand, providing a concise explanation of the Coriolis effect's influence on wind direction. Well done, CIQ!",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which provides the energy and moisture necessary for their formation and intensification. The warm tropical oceans create an environment conducive to the development of these powerful storms.",
     "timestamp_utc": "2025-07-24T17:19:53.561452+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in the context of atmospheric circulation and weather systems?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important in the context of atmospheric circulation and weather systems because it is a key factor in the general circulation of the atmosphere. At the ITCZ, air rises due to convection caused by high insolation (intense solar radiation) and low pressure, which influences the formation of clouds, precipitation, and weather patterns globally.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in atmospheric circulation and weather systems. The answer is clear and concise, providing a good explanation of the ITCZ's influence on global weather patterns.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important in atmospheric circulation and weather systems for several reasons. Firstly, it is a key area where warm, moist air rises due to intense solar heating and low pressure. This rising air creates a region of low pressure, influencing the formation of clouds and weather patterns. The ITCZ plays a crucial role in the general circulation of the atmosphere by facilitating the movement of heat and moisture from the equator towards the poles, which helps maintain the Earth's overall temperature balance. Additionally, the ITCZ affects the distribution of rainfall and the formation of weather systems, such as tropical cyclones, which can have significant impacts on global weather patterns and local climates.",
+    "timestamp_utc": "2025-07-24T18:31:02.656906+00:00"
   }
 ]
