@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans because that is where they intensify ([2] and [4]).\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text. The answer also does not explain why tropical cyclones need these specific conditions to form.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, as these conditions provide the necessary energy for their formation and intensification. Warm ocean water, typically with temperatures above 27\u00b0C, provides the heat and moisture that fuel these storms. The Coriolis force, caused by the Earth's rotation, is also necessary for the formation of tropical cyclones, as it influences the direction and movement of winds. Additionally, small variations in vertical wind speed and the presence of a pre-existing weak low-pressure area contribute to the development of tropical cyclones.",
-    "timestamp_utc": "2025-07-23T22:20:44.755402+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone, and why is it significant?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is significant because it prevents the formation of tropical cyclones near the equator due to the conditions in the ITCZ not being favorable for their development.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). The answer is clear and concise, providing a straightforward explanation of why tropical cyclones don't form near the equator due to the conditions in the ITCZ. However, the answer could be improved by briefly mentioning the positive impacts of the ITCZ, such as its influence on rainfall patterns and its role in the global atmospheric circulation.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water and the Coriolis effect. Warm ocean water, typically with a temperature above 27\u00b0C, provides the necessary heat and moisture for the storm to form and intensify. The Coriolis effect, caused by the Earth's rotation, influences the direction and movement of the storm, leading to its characteristic cyclonic circulation. Additionally, small variations in vertical wind speed and pre-existing low-pressure areas contribute to the formation of tropical cyclones over the sea.",
     "timestamp_utc": "2025-07-24T11:19:05.265756+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the relationship between atmospheric pressure and wind?",
+    "ciq_generated_answer": "\"The wind blows from high pressure to low pressure. Therefore, there is a relationship between atmospheric pressure and wind, as differences in pressure produce a force that causes air to move (wind).\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information. It is clearly worded and easy to understand, providing a concise explanation of the relationship between atmospheric pressure and wind.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The relationship between atmospheric pressure and wind is fundamental to understanding weather patterns. Differences in atmospheric pressure cause air to move from areas of high pressure to areas of low pressure, creating wind. This movement of air redistributes heat and moisture across the planet, maintaining a relatively constant temperature globally. The speed and direction of wind are influenced by various factors, including pressure gradient force, frictional force, and the Coriolis force, which is a result of the Earth's rotation. These forces work together to determine the velocity and direction of wind, with wind blowing from high-pressure areas to low-pressure areas.",
+    "timestamp_utc": "2025-07-24T12:43:35.380645+00:00"
   }
 ]
