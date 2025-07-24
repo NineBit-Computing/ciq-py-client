@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as mentioned in [2] and [4].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, but does not explicitly mention the reason why this is the case, which is that the necessary energy for intensification comes from the condensation process in towering cumulonimbus clouds, which require a large water surface. This additional context would improve the clarity of the answer.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the availability of warm tropical ocean waters, which provide the necessary energy for intensification. This energy comes from the condensation process in towering cumulonimbus clouds, which require a large water surface. Therefore, the vast expanse of warm ocean serves as the ideal environment for the formation and intensification of tropical cyclones.",
-    "timestamp_utc": "2025-07-23T15:24:37.714146+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones only form over the ocean?",
     "ciq_generated_answer": "\"Tropical cyclones originate and intensify over warm tropical oceans, as stated in [2]. Therefore, they only form over the ocean.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- **Pressure Gradient Force**: Air moves from areas of high pressure to low pressure, creating wind. The rate of change in pressure with respect to distance (pressure gradient) determines wind speed.\n- **Frictional Force**: This force affects wind speed and is strongest near the Earth's surface, extending up to 1-3 km in elevation. It is minimal over the sea surface.\n- **Coriolis Force**: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere. The deflection is more pronounced at higher latitudes and wind speeds.\n- **Gravity**: While not mentioned explicitly, gravity also influences wind patterns by creating a vertical pressure gradient. However, this force is typically balanced by an opposing gravitational force, preventing strong upward winds.\n\nThese forces, along with the heating and cooling of the Earth's surface, interact to shape global wind patterns and atmospheric circulation.",
     "timestamp_utc": "2025-07-24T04:40:12.540004+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind patterns in the Northern and Southern Hemispheres?",
+    "ciq_generated_answer": "\"The Coriolis effect is a force that causes moving objects, such as wind, on a rotating planet to deflect right (to the east) in the Northern Hemisphere and left (to the west) in the Southern Hemisphere. This effect arises due to the Earth's rotation about its axis. In the given context, it is mentioned that the Coriolis force deflects the wind to the right direction in the Northern Hemisphere. However, no information is provided regarding the influence on the Southern Hemisphere. Additionally, the Coriolis force's strength depends on the angle of latitude, with a stronger effect at higher latitudes and no effect at the equator. Wind patterns at the equator are perpendicular to the isobars due to the absence of the Coriolis force.\"",
+    "ciq_answer_evaluation": "CIQ's answer is mostly accurate, complete, and clear, but it could be improved by providing more detail about the Coriolis effect's influence on wind patterns and its relationship with pressure systems. It also doesn't mention the absence of the Coriolis effect at the equator, which is relevant to the question.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind patterns on our planet. It is a result of the Earth's rotation, causing moving objects like wind to be deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is more pronounced at higher latitudes and weaker closer to the equator, where it has no influence. The Coriolis effect plays a crucial role in the formation of wind patterns and pressure systems. In the Northern Hemisphere, the deflection of wind to the right leads to the development of anticlockwise wind circulation around areas of low pressure and clockwise circulation around high-pressure systems. The opposite occurs in the Southern Hemisphere, with winds deflected to the left, resulting in clockwise circulation around lows and anticlockwise around highs. This effect helps drive the general atmospheric circulation, influencing the movement of air masses and weather patterns globally.",
+    "timestamp_utc": "2025-07-24T05:26:42.393802+00:00"
   }
 ]
