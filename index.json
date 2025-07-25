@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in the context of atmospheric circulation and weather systems?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important in the context of atmospheric circulation and weather systems because it is a key factor in the general circulation of the atmosphere. At the ITCZ, air rises due to convection caused by high insolation (intense solar radiation) and low pressure, which influences the formation of clouds, precipitation, and weather patterns globally.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in atmospheric circulation and weather systems. The answer is clear and concise, providing a good explanation of the ITCZ's influence on global weather patterns.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important in atmospheric circulation and weather systems for several reasons. Firstly, it is a key area where warm, moist air rises due to intense solar heating and low pressure. This rising air creates a region of low pressure, influencing the formation of clouds and weather patterns. The ITCZ plays a crucial role in the general circulation of the atmosphere by facilitating the movement of heat and moisture from the equator towards the poles, which helps maintain the Earth's overall temperature balance. Additionally, the ITCZ affects the distribution of rainfall and the formation of weather systems, such as tropical cyclones, which can have significant impacts on global weather patterns and local climates.",
-    "timestamp_utc": "2025-07-24T18:31:02.656906+00:00"
-  },
-  {
     "cohere_generated_question": "What are the primary causes of air motion?",
     "ciq_generated_answer": "\"The primary cause of air motion, as per the provided context, is the variation in atmospheric pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the relationship between air motion and atmospheric pressure. It could also mention the role of temperature variations and the expansion/compression of air.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area, which is favorable for the formation and intensification of tropical cyclones and storms. The ITCZ affects the weather by providing the necessary conditions for these intense weather systems, including warm sea surface temperatures above 27 \u00b0C, the presence of the Coriolis force, relatively calm vertical wind conditions, and areas of low pressure or cyclonic circulation. These factors, combined with upper-level divergence, enable the release of vast amounts of energy through condensation, resulting in powerful storms.",
     "timestamp_utc": "2025-07-25T07:23:53.629121+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in atmospheric circulation?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator converge. It is important in atmospheric circulation because the high insolation at this zone causes convection, leading to the rising of air and the creation of low pressure. This process plays a significant role in the general circulation of the atmosphere.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in atmospheric circulation. The answer is also clearly worded and easy to understand. However, it could have included more detail about the specific effects of the ITCZ on weather patterns and atmospheric circulation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a zone of low pressure, which plays a crucial role in atmospheric circulation. The ITCZ is characterized by high insolation, which leads to intense convection and the rising of warm, moist air. This process contributes to the formation of clouds and precipitation in tropical regions. The ITCZ is not a static feature and oscillates north and south with the apparent movement of the sun, influencing the seasonal distribution of rainfall in tropical regions. The ITCZ is an essential component of the general circulation of the atmosphere, influencing the movement of air masses, the formation of weather systems, and the distribution of heat and moisture globally.",
+    "timestamp_utc": "2025-07-25T08:28:22.327995+00:00"
   }
 ]
