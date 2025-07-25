@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in atmospheric circulation?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator converge. It is important in atmospheric circulation because the high insolation at this zone causes convection, leading to the rising of air and the creation of low pressure. This process plays a significant role in the general circulation of the atmosphere.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in atmospheric circulation. The answer is also clearly worded and easy to understand. However, it could have included more detail about the specific effects of the ITCZ on weather patterns and atmospheric circulation.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a zone of low pressure, which plays a crucial role in atmospheric circulation. The ITCZ is characterized by high insolation, which leads to intense convection and the rising of warm, moist air. This process contributes to the formation of clouds and precipitation in tropical regions. The ITCZ is not a static feature and oscillates north and south with the apparent movement of the sun, influencing the seasonal distribution of rainfall in tropical regions. The ITCZ is an essential component of the general circulation of the atmosphere, influencing the movement of air masses, the formation of weather systems, and the distribution of heat and moisture globally.",
-    "timestamp_utc": "2025-07-25T08:28:22.327995+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in the general circulation of the atmosphere?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important in the general circulation of the atmosphere because at this zone, air rises due to convection caused by high insolation and low pressure is created, which contributes to the global atmospheric circulation pattern.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in atmospheric circulation. The answer is also clear and concise, providing a good explanation of the ITCZ's significance. However, the answer could be improved by explaining the broader implications of the ITCZ on global weather patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind patterns on Earth. It is caused by the rotation of the Earth, which deflects moving objects, such as wind, to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is stronger at higher latitudes and weaker at the equator, where it has no influence on wind direction. The Coriolis effect causes winds to curve as they move from the equator towards the poles, following isobars (lines of equal pressure). At the equator, winds blow perpendicular to the isobars, while at other latitudes, they follow a more complex path influenced by the Coriolis force. This effect plays a crucial role in shaping global wind patterns and atmospheric circulation.",
     "timestamp_utc": "2025-07-25T19:18:33.148468+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the primary factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The primary factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n  3. Pressure (implied as a force affecting wind movement)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying the three primary factors influencing wind speed and direction. However, the clarity could be improved by providing a bit more detail or context for each factor, particularly the role of the Coriolis effect in wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: The friction exerted by the Earth's surface affects wind speed, with greater friction near the surface reducing wind speed. Over the ocean, friction is minimal.\n\n- Coriolis Force: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and in the Southern Hemisphere, to the left. The deflection is more pronounced at higher latitudes and wind speeds.\n\n- Pressure Gradient Force: Wind generally blows from areas of high pressure to low pressure. The pressure gradient force is responsible for the horizontal movement of air, and its interaction with the Coriolis force determines wind direction.\n\nAdditionally, other factors like the vertical pressure gradient force, gravitational force, and local geographical features can influence wind patterns.",
+    "timestamp_utc": "2025-07-25T20:23:12.045215+00:00"
   }
 ]
