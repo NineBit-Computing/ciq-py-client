@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (From Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question and provides a concise explanation for why tropical cyclones originate over the sea.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans. The formation and intensification of these cyclones require specific conditions, including sea surface temperatures higher than 27\u00b0C, the presence of the Coriolis force, small variations in vertical wind speed, and a pre-existing weak low-pressure area. The warm ocean waters provide the necessary energy and moisture for the storm to strengthen and persist.",
-    "timestamp_utc": "2025-07-25T01:45:50.317161+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in atmospheric circulation?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where trade winds from both sides of the equator converge. It is important in atmospheric circulation because the high insolation at this zone causes convection, leading to the air rising and creating a low pressure area. This low pressure region influences the global atmospheric circulation patterns.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise explanation of the ITCZ and its role in atmospheric circulation, earning a high score.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure zone, as the warm, moist air from both hemispheres rises due to convection caused by intense heating at the equator. As the air rises, it cools and forms clouds, releasing latent heat, which further fuels the convection process. This rising air then diverges and moves towards the subtropics, where it begins to descend, creating areas of high pressure at around 30 degrees latitude, known as the subtropical high-pressure systems. This movement of air contributes to the formation of a global atmospheric circulation pattern, with air rising at the equator and sinking in the subtropics, driving weather patterns and influencing climate in these regions.",
     "timestamp_utc": "2025-07-25T12:42:37.379712+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the relationship between atmospheric pressure and wind?",
+    "ciq_generated_answer": "\"The wind blows from high pressure to low pressure, and small differences in atmospheric pressure produce a force that causes the air to move, which is called wind.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clear and concise, effectively conveying the relationship between atmospheric pressure and wind. However, it could have been more comprehensive by mentioning the Coriolis effect and its influence on wind direction.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The relationship between atmospheric pressure and wind is fundamental to understanding weather patterns. Air moves from areas of high pressure to low pressure, and this movement of air is what we call wind. Small differences in atmospheric pressure create a force that causes air to move, resulting in wind. The Coriolis effect, caused by the Earth's rotation, also influences wind direction, deflecting winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. These combined forces create complex wind patterns and are essential for redistributing heat and moisture globally, maintaining a relatively stable climate.",
+    "timestamp_utc": "2025-07-25T13:36:41.014461+00:00"
   }
 ]
