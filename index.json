@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (From context [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, stating that tropical cyclones originate over warm tropical oceans, which is the key factor.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "Tropical cyclones originate over the seas, specifically warm tropical oceans, due to the presence of several key factors. These include sea surface temperatures higher than 27\u00b0 C, the influence of the Coriolis force, small variations in vertical wind speed, and the existence of a pre-existing weak low-pressure area or low-level cyclonic circulation.",
-    "timestamp_utc": "2025-07-24T16:24:16.050717+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, which is correct. However, it could provide more context by mentioning that this is because warm ocean water provides the energy and moisture necessary for their formation.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- **Frictional Force**: Friction affects wind speed and is strongest at the Earth's surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n\n- **Coriolis Force**: The rotation of the Earth about its axis influences the direction of wind. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere. The deflection is more pronounced at higher wind velocities and latitudes, and absent at the equator.\n\n- **Pressure Gradient Force**: Variations in atmospheric pressure create pressure gradients, which influence wind direction and speed. Wind generally blows from high-pressure areas to low-pressure areas, and the pressure gradient is stronger when isobars are close together.\n\n- **Other Factors**: While not mentioned in the provided context, it is worth noting that factors such as land and sea breezes, mountain and valley winds, and global atmospheric circulation patterns also play a role in shaping wind speed and direction.",
     "timestamp_utc": "2025-07-25T05:28:00.033814+00:00"
+  },
+  {
+    "cohere_generated_question": "How do the Coriolis force and the pressure gradient force influence the direction and velocity of winds?",
+    "ciq_generated_answer": "\"The Coriolis force and the pressure gradient force influence the direction and velocity of winds by causing a deflection in their path. In the context provided, it is stated that the Coriolis force acts perpendicular to the pressure gradient force and affects the direction of the wind ([2]). The higher the pressure gradient force, the more is the velocity of the wind and the larger is the deflection in the direction of wind ([5]). However, the specific influence on the direction and velocity of winds in different regions, such as north easterlies in the tropics, is not explicitly explained in the context. For that information, we would need additional context or details.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. It is also clearly worded and easy to understand. The only minor improvement would be to include a brief mention of the Coriolis force's dependence on latitude, which is mentioned in the text.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis force and the pressure gradient force are two factors that influence the direction and velocity of winds. The Coriolis force, caused by the Earth's rotation, deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This force is proportional to the wind velocity and acts perpendicular to the pressure gradient force. The pressure gradient force, caused by differences in atmospheric pressure, determines the initial direction of wind flow from high-pressure areas to low-pressure areas. The higher the pressure gradient force, the faster the wind blows. The interaction between these two forces results in deflections in the wind's path, with the specific direction depending on the balance between the forces. The Coriolis force also depends on the latitude, being maximum at the poles and absent at the equator. These forces, along with friction, shape the patterns of wind circulation near the Earth's surface and in the upper atmosphere.",
+    "timestamp_utc": "2025-07-25T06:32:46.816495+00:00"
   }
 ]
