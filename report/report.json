@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, which is correct. However, it could provide more context by mentioning that this is because warm ocean water provides the energy and moisture necessary for their formation.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which provides the energy and moisture necessary for their formation and intensification. The warm tropical oceans create an environment conducive to the development of these powerful storms.",
-    "timestamp_utc": "2025-07-24T17:19:53.561452+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in the context of atmospheric circulation and weather systems?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important in the context of atmospheric circulation and weather systems because it is a key factor in the general circulation of the atmosphere. At the ITCZ, air rises due to convection caused by high insolation (intense solar radiation) and low pressure, which influences the formation of clouds, precipitation, and weather patterns globally.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in atmospheric circulation and weather systems. The answer is clear and concise, providing a good explanation of the ITCZ's influence on global weather patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis force and the pressure gradient force are two factors that influence the direction and velocity of winds. The Coriolis force, caused by the Earth's rotation, deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This force is proportional to the wind velocity and acts perpendicular to the pressure gradient force. The pressure gradient force, caused by differences in atmospheric pressure, determines the initial direction of wind flow from high-pressure areas to low-pressure areas. The higher the pressure gradient force, the faster the wind blows. The interaction between these two forces results in deflections in the wind's path, with the specific direction depending on the balance between the forces. The Coriolis force also depends on the latitude, being maximum at the poles and absent at the equator. These forces, along with friction, shape the patterns of wind circulation near the Earth's surface and in the upper atmosphere.",
     "timestamp_utc": "2025-07-25T06:32:46.816495+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect the weather?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It affects the weather by being a favorable condition for the formation and intensification of tropical storms, as it satisfies several conditions such as large sea surfaces with temperatures higher than 27 C, presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level cyclonic circulation, and upper divergence above the sea level system.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone and its impact on weather patterns. However, the wording could be improved for clarity, especially in the last sentence, which is a bit confusing. The phrase 'the Coriolis force is directly proportional to the angle of latitude' could also be clarified as it might be misinterpreted.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area, which is favorable for the formation and intensification of tropical cyclones and storms. The ITCZ affects the weather by providing the necessary conditions for these intense weather systems, including warm sea surface temperatures above 27 \u00b0C, the presence of the Coriolis force, relatively calm vertical wind conditions, and areas of low pressure or cyclonic circulation. These factors, combined with upper-level divergence, enable the release of vast amounts of energy through condensation, resulting in powerful storms.",
+    "timestamp_utc": "2025-07-25T07:23:53.629121+00:00"
   }
 ]
