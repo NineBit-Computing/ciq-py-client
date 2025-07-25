@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a force affecting wind movement)\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing a bit more context, especially for the 'pressure' factor, as it is implied but not explicitly mentioned.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including: \n\n- Frictional Force: The friction experienced by wind near the Earth's surface, especially over land, can impact its speed. Friction is minimal over the sea surface.\n\n- Coriolis Force: The rotation of the Earth deflects the wind to the right in the northern hemisphere and to the left in the southern hemisphere. The deflection is more pronounced when wind velocity is high.\n\n- Pressure Gradient Force: Wind generally moves from areas of high pressure to low pressure. The rate of change of pressure with respect to distance (pressure gradient) influences wind speed, with stronger gradients leading to higher wind velocities.\n\n- Gravitational Force: Acts downward and balances the vertical pressure gradient force, preventing strong upward winds.\n\nThese forces, along with the horizontal distribution of pressure and the Coriolis effect due to Earth's rotation, collectively determine the speed and direction of wind.",
-    "timestamp_utc": "2025-07-25T11:18:38.461071+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it contribute to the formation of subtropical high-pressure systems?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone that forms due to the convergence of easterlies from either side of the equator. Air at the ITCZ rises because of convection caused by high insolation ([4]). This rising air then contributes to the formation of subtropical high-pressure systems, as the air moves away from the equator and begins to descend, creating areas of high pressure over 30 N and S latitudes (implied in [1] and [3]).\"",
     "ciq_answer_evaluation": "CIQ's answer is mostly accurate, complete, and clear. It correctly defines the ITCZ and explains its role in the formation of subtropical highs. However, it could have provided more detail on the specific mechanisms involved, such as the convergence of easterlies and the role of convection. Overall, it's a good answer, but some additional context and depth would improve it.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones, including hurricanes and typhoons, originate over warm tropical oceans. The warm ocean surface, with temperatures exceeding 27\u00b0 C, provides the necessary energy and moisture for these storms to form and intensify. The Coriolis force, caused by the Earth's rotation, also plays a role in their development, along with other factors like vertical wind speed variations and pre-existing low-pressure areas.",
     "timestamp_utc": "2025-07-25T22:20:22.741962+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the primary cause of air motion, and how does it influence the formation of wind?",
+    "ciq_generated_answer": "\"The primary cause of air motion, and thus the formation of wind, is variation in pressure. This occurs because air moves from high pressure areas to low pressure areas.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It covers all the key points, but the phrasing is a little awkward and could be improved for better readability.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The primary cause of air motion, and thus the formation of wind, is the variation in atmospheric pressure. Air expands when heated and contracts when cooled, creating areas of high and low pressure. Air naturally moves from high-pressure areas to low-pressure areas, creating wind. This movement of air helps to redistribute heat and moisture across the planet, maintaining a relatively constant temperature globally. The vertical movement of air also influences the formation of clouds and precipitation.",
+    "timestamp_utc": "2025-07-25T23:20:28.073722+00:00"
   }
 ]
