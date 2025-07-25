@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the relationship between atmospheric pressure and air movement?",
-    "ciq_generated_answer": "\"The relationship between atmospheric pressure and air movement is that air is set in motion due to differences in atmospheric pressure. Air moves from high pressure areas to low pressure areas, which results in wind. This is a primary cause of air motion in the atmosphere. (Answer derived from [1], [2], [4] and [5])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise and straightforward explanation of the relationship between atmospheric pressure and air movement, covering all the relevant information from the provided text.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The relationship between atmospheric pressure and air movement is that air moves from areas of high pressure to areas of low pressure, resulting in wind. This movement of air is a primary cause of air motion in the atmosphere. Atmospheric pressure variations are caused by differences in air temperature, which lead to expansions and compressions of air masses. These pressure differences set air in motion, with wind blowing from high-pressure regions to low-pressure regions.",
-    "timestamp_utc": "2025-07-24T14:22:39.566617+00:00"
-  },
-  {
     "cohere_generated_question": "What are the main factors that affect the speed and direction of wind?",
     "ciq_generated_answer": "\"The main factors that affect the speed and direction of wind, according to the provided context, are:\\n\\n   1. Frictional Force\\n   2. Rotation of the Earth\\n\\n   I don't know about any other factors based on the provided information.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more complete by mentioning the Coriolis force as another factor affecting wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans. The formation and intensification of these cyclones require specific conditions, including sea surface temperatures higher than 27\u00b0C, the presence of the Coriolis force, small variations in vertical wind speed, and a pre-existing weak low-pressure area. The warm ocean waters provide the necessary energy and moisture for the storm to strengthen and persist.",
     "timestamp_utc": "2025-07-25T01:45:50.317161+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in atmospheric circulation?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where trade winds from both sides of the equator converge. It is important in atmospheric circulation because the high insolation at this zone causes convection, leading to the air rising and creating a low pressure area. This low pressure region influences the global atmospheric circulation patterns.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise explanation of the ITCZ and its role in atmospheric circulation, earning a high score.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area due to the rising air caused by convection. The ITCZ plays a crucial role in global atmospheric circulation patterns by influencing the movement of air masses and weather systems. It is characterized by high insolation, which leads to intense heating and rising air, further contributing to the low-pressure conditions.",
+    "timestamp_utc": "2025-07-25T03:38:35.717003+00:00"
   }
 ]
