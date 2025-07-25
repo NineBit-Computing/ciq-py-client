@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Coriolis force, and how does it influence wind direction in the Northern and Southern Hemispheres?",
-    "ciq_generated_answer": "\"The Coriolis force is a fictitious force that appears indirectly as a consequence of the rotation of the Earth about its axis. It deflects the wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere when observed from above the North Pole. This effect is more pronounced at higher latitudes due to the increased angle of rotation. In the equator, where the angle of rotation is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis force and its influence on wind direction. The explanation is clear and easy to understand, providing a good overview of the concept. However, the answer could be improved by mentioning the role of the Coriolis force in weather systems and atmospheric circulation, which is a crucial aspect of the topic.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Coriolis force is a fictitious force that arises due to the rotation of the Earth on its axis. It influences the direction of moving objects, including wind, by deflecting them. In the Northern Hemisphere, the Coriolis force causes winds to be deflected to the right, while in the Southern Hemisphere, it deflects them to the left when observed from above the North Pole. This effect is more noticeable at higher latitudes and is absent at the equator, where the angle of rotation is zero. As a result, the Coriolis force plays a crucial role in determining wind patterns and atmospheric circulation in both hemispheres, influencing weather systems and climate.",
-    "timestamp_utc": "2025-07-24T21:20:53.957278+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n\\nThese factors affect the wind movement, and their combined effects contribute to the velocity and direction of the wind.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key factors influencing wind speed and direction. However, it could be more comprehensive by mentioning the Coriolis effect, which is also discussed in the text. The answer is clear and concise, effectively summarizing the relevant information.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important in the general circulation of the atmosphere because it creates a band of low pressure and rising air, which contributes to the formation of weather systems and influences the movement of air masses globally. The ITCZ is characterized by high insolation, which leads to intense heating of the Earth's surface and triggers convection currents. This results in the upward movement of warm, moist air, creating an area of low pressure. The rising air then cools, condenses, and forms clouds, leading to precipitation. The ITCZ plays a crucial role in the distribution of rainfall and the formation of tropical cyclones, which can have significant impacts on regional climates and weather patterns.",
     "timestamp_utc": "2025-07-25T09:25:24.335990+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind are:\\n\\n   - Frictional force (as mentioned in [1])\\n   - Rotation of the earth (as mentioned in [4])\\n   - Pressure (implied in [5] as one of the wind generating forces)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing a bit more context, especially for the 'pressure' factor, which is implied but not explicitly mentioned in the document. Overall, the answer is concise and effective.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The factors that influence the speed and direction of wind are:\n\n- Frictional force: Greater at the surface and has a significant impact on wind speed, especially over land.\n- Coriolis force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n- Pressure gradient force: Wind moves from high-pressure areas to low-pressure areas. The pressure gradient is stronger when isobars are close together.\n- Gravitational force: Acts downward and balances the vertical pressure gradient force, preventing strong upward winds.\n- Coriolis force and pressure gradient force interaction: In low-pressure areas, these forces cause wind to blow around the low, with greater deflection when wind velocity is higher.\n- Other factors: The text also mentions convergence, eddies, convection currents, orographic uplift, and uplift along fronts as factors influencing air movement and wind patterns.",
+    "timestamp_utc": "2025-07-25T10:23:27.610649+00:00"
   }
 ]
