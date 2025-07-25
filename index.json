@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the primary causes of air motion?",
-    "ciq_generated_answer": "\"The primary cause of air motion, as per the provided context, is the variation in atmospheric pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the relationship between air motion and atmospheric pressure. It could also mention the role of temperature variations and the expansion/compression of air.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The primary cause of air motion is the variation in atmospheric pressure, which is influenced by temperature differences over the Earth's surface. When air is heated, it expands and rises, creating areas of low pressure. Conversely, when air cools, it compresses and sinks, resulting in areas of high pressure. This pressure gradient from high to low pressure sets the air in motion, creating wind. Additionally, the Coriolis effect, caused by the Earth's rotation, influences the direction of wind flow, deflecting it to the right in the northern hemisphere and to the left in the southern hemisphere.",
-    "timestamp_utc": "2025-07-24T20:21:55.831544+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Coriolis force, and how does it influence wind direction in the Northern and Southern Hemispheres?",
     "ciq_generated_answer": "\"The Coriolis force is a fictitious force that appears indirectly as a consequence of the rotation of the Earth about its axis. It deflects the wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere when observed from above the North Pole. This effect is more pronounced at higher latitudes due to the increased angle of rotation. In the equator, where the angle of rotation is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis force and its influence on wind direction. The explanation is clear and easy to understand, providing a good overview of the concept. However, the answer could be improved by mentioning the role of the Coriolis force in weather systems and atmospheric circulation, which is a crucial aspect of the topic.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a zone of low pressure, which plays a crucial role in atmospheric circulation. The ITCZ is characterized by high insolation, which leads to intense convection and the rising of warm, moist air. This process contributes to the formation of clouds and precipitation in tropical regions. The ITCZ is not a static feature and oscillates north and south with the apparent movement of the sun, influencing the seasonal distribution of rainfall in tropical regions. The ITCZ is an essential component of the general circulation of the atmosphere, influencing the movement of air masses, the formation of weather systems, and the distribution of heat and moisture globally.",
     "timestamp_utc": "2025-07-25T08:28:22.327995+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in the general circulation of the atmosphere?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important in the general circulation of the atmosphere because at this zone, air rises due to convection caused by high insolation and low pressure is created, which contributes to the global atmospheric circulation pattern.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in atmospheric circulation. The answer is also clear and concise, providing a good explanation of the ITCZ's significance. However, the answer could be improved by explaining the broader implications of the ITCZ on global weather patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important in the general circulation of the atmosphere because it creates a band of low pressure and rising air, which contributes to the formation of weather systems and influences the movement of air masses globally. The ITCZ is characterized by high insolation, which leads to intense heating of the Earth's surface and triggers convection currents. This results in the upward movement of warm, moist air, creating an area of low pressure. The rising air then cools, condenses, and forms clouds, leading to precipitation. The ITCZ plays a crucial role in the distribution of rainfall and the formation of tropical cyclones, which can have significant impacts on regional climates and weather patterns.",
+    "timestamp_utc": "2025-07-25T09:25:24.335990+00:00"
   }
 ]
