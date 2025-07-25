@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind are:\\n\\n   - Frictional force (as mentioned in [1])\\n   - Rotation of the earth (as mentioned in [4])\\n   - Pressure (implied in [5] as one of the wind generating forces)\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing a bit more context, especially for the 'pressure' factor, which is implied but not explicitly mentioned in the document. Overall, the answer is concise and effective.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The factors that influence the speed and direction of wind are:\n\n- Frictional force: Greater at the surface and has a significant impact on wind speed, especially over land.\n- Coriolis force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n- Pressure gradient force: Wind moves from high-pressure areas to low-pressure areas. The pressure gradient is stronger when isobars are close together.\n- Gravitational force: Acts downward and balances the vertical pressure gradient force, preventing strong upward winds.\n- Coriolis force and pressure gradient force interaction: In low-pressure areas, these forces cause wind to blow around the low, with greater deflection when wind velocity is higher.\n- Other factors: The text also mentions convergence, eddies, convection currents, orographic uplift, and uplift along fronts as factors influencing air movement and wind patterns.",
-    "timestamp_utc": "2025-07-25T10:23:27.610649+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a force affecting wind movement)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing a bit more context, especially for the 'pressure' factor, as it is implied but not explicitly mentioned.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure zone, which affects weather patterns in several ways. Firstly, it leads to the rising of warm, moist air, which cools and forms clouds, bringing precipitation to the region. This rising air also sets off a chain of atmospheric events that contribute to the formation and intensification of tropical cyclones or hurricanes. The ITCZ plays a crucial role in the global atmospheric circulation, influencing the movement of air masses, the formation of weather systems, and the distribution of heat and moisture around the planet.",
     "timestamp_utc": "2025-07-25T21:20:21.617765+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context or explaining the connection between warm oceans and tropical cyclone formation. It is a concise and correct response, but additional details would enhance its clarity.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones, including hurricanes and typhoons, originate over warm tropical oceans. The warm ocean surface, with temperatures exceeding 27\u00b0 C, provides the necessary energy and moisture for these storms to form and intensify. The Coriolis force, caused by the Earth's rotation, also plays a role in their development, along with other factors like vertical wind speed variations and pre-existing low-pressure areas.",
+    "timestamp_utc": "2025-07-25T22:20:22.741962+00:00"
   }
 ]
