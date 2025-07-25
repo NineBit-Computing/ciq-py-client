@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in atmospheric circulation?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where trade winds from both sides of the equator converge. It is important in atmospheric circulation because the high insolation at this zone causes convection, leading to the air rising and creating a low pressure area. This low pressure region influences the global atmospheric circulation patterns.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise explanation of the ITCZ and its role in atmospheric circulation, earning a high score.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area due to the rising air caused by convection. The ITCZ plays a crucial role in global atmospheric circulation patterns by influencing the movement of air masses and weather systems. It is characterized by high insolation, which leads to intense heating and rising air, further contributing to the low-pressure conditions.",
-    "timestamp_utc": "2025-07-25T03:38:35.717003+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that affect the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that affect the speed and direction of wind, as per the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context and explaining the impact of these factors on wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The relationship between atmospheric pressure and wind is fundamental to understanding weather patterns. Air moves from areas of high pressure to low pressure, and this movement of air is what we call wind. Small differences in atmospheric pressure create a force that causes air to move, resulting in wind. The Coriolis effect, caused by the Earth's rotation, also influences wind direction, deflecting winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. These combined forces create complex wind patterns and are essential for redistributing heat and moisture globally, maintaining a relatively stable climate.",
     "timestamp_utc": "2025-07-25T13:36:41.014461+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it significant?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It is significant because it prevents the formation of tropical cyclones near the equator, as stated in the context.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional context about the Inter Tropical Convergence Zone and its broader significance in atmospheric circulation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure zone that plays a crucial role in driving atmospheric circulation and weather patterns. The ITCZ is significant because it influences the formation of weather systems, particularly tropical cyclones. The convergence of air masses along the ITCZ leads to upward motion, creating an area of low pressure that can facilitate the development of tropical storms. Additionally, the ITCZ is associated with the Intertropical Discontinuity, which is a zone of maximum wind shear and minimum upper-level winds. This discontinuity can act as a barrier to tropical cyclone formation, preventing their development near the equator. The ITCZ also has implications for global climate patterns, as it can shift seasonally, influencing the distribution of rainfall and the intensity of monsoons in various regions.",
+    "timestamp_utc": "2025-07-25T14:20:06.029128+00:00"
   }
 ]
