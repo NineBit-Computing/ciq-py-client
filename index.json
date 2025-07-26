@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Coriolis effect and how does it influence wind patterns in the Northern and Southern Hemispheres?",
-    "ciq_generated_answer": "\"The Coriolis effect is a force that causes winds to deviate from their straight path due to the Earth's rotation. In the Northern Hemisphere, it deflects the wind to the right (clockwise), while in the Southern Hemisphere, it deflects the wind to the left (counterclockwise). This effect influences wind patterns by causing winds to curve as they move from the equator towards the poles. The strength of the Coriolis effect depends on the angle of latitude, with a stronger effect at higher latitudes compared to the equator, where the Coriolis force is zero. At the equator, winds blow perpendicular to the isobars (lines of equal pressure), while in other latitudes, the wind blows parallel to the isobars but deflected according to the Coriolis effect.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind patterns. The explanation is clear and easy to understand, providing a good overview of the topic.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind patterns on Earth. It is caused by the rotation of the Earth, which deflects moving objects, such as wind, to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is stronger at higher latitudes and weaker at the equator, where it has no influence on wind direction. The Coriolis effect causes winds to curve as they move from the equator towards the poles, following isobars (lines of equal pressure). At the equator, winds blow perpendicular to the isobars, while at other latitudes, they follow a more complex path influenced by the Coriolis force. This effect plays a crucial role in shaping global wind patterns and atmospheric circulation.",
-    "timestamp_utc": "2025-07-25T19:18:33.148468+00:00"
-  },
-  {
     "cohere_generated_question": "What are the primary factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The primary factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n  3. Pressure (implied as a force affecting wind movement)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying the three primary factors influencing wind speed and direction. However, the clarity could be improved by providing a bit more detail or context for each factor, particularly the role of the Coriolis effect in wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including:\n\n- Frictional Force: Greatest at the surface and can extend up to 1-3 km in elevation, with minimal friction over the sea.\n- Coriolis Force: The rotation of the Earth about its axis, which affects the direction of wind. In the Northern Hemisphere, it deflects wind to the right, and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: The rate of change of pressure with respect to distance. The pressure gradient is stronger when isobars are close together and weaker when they are farther apart.\n\nThese forces, along with the gravitational force, act together to determine the speed and direction of wind near the Earth's surface.",
     "timestamp_utc": "2025-07-26T08:25:59.935635+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (From Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context. It does not explain why tropical cyclones require warm tropical oceans as their origin point.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones originate over the seas due to the presence of warm ocean water, which serves as their energy source. The warm water, in combination with other factors like the Coriolis force and vertical wind speed variations, fuels the formation and intensification of these storms.",
+    "timestamp_utc": "2025-07-26T09:20:22.932990+00:00"
   }
 ]
