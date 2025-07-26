@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context or explaining the connection between warm oceans and tropical cyclone formation. It is a concise and correct response, but additional details would enhance its clarity.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones, including hurricanes and typhoons, originate over warm tropical oceans. The warm ocean surface, with temperatures exceeding 27\u00b0 C, provides the necessary energy and moisture for these storms to form and intensify. The Coriolis force, caused by the Earth's rotation, also plays a role in their development, along with other factors like vertical wind speed variations and pre-existing low-pressure areas.",
-    "timestamp_utc": "2025-07-25T22:20:22.741962+00:00"
-  },
-  {
     "cohere_generated_question": "What is the primary cause of air motion, and how does it influence the formation of wind?",
     "ciq_generated_answer": "\"The primary cause of air motion, and thus the formation of wind, is variation in pressure. This occurs because air moves from high pressure areas to low pressure areas.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It covers all the key points, but the phrasing is a little awkward and could be improved for better readability.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by distinct temperature and pressure gradients, leading to different weather patterns and atmospheric behaviors.",
     "timestamp_utc": "2025-07-26T13:31:50.668955+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n  1. Frictional force\\n\\n  2. Rotation of the Earth\\n\\n  3. Pressure (implied as it is mentioned that the velocity and direction of the wind are the net result of the wind generating forces)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context for each factor. For example, explaining that frictional force affects wind speed, and the Coriolis force, caused by the Earth's rotation, impacts its direction.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including:\n\n- Frictional Force: The friction experienced by wind near the Earth's surface, particularly over land, affects its speed. Friction from terrain and objects like buildings can slow down wind.\n- Coriolis Force: The rotation of the Earth deflects wind, with the direction of deflection depending on the hemisphere. In the Northern Hemisphere, wind is deflected to the right, and in the Southern Hemisphere, to the left.\n- Pressure Gradient Force: Wind generally moves from areas of high pressure to low pressure. The greater the pressure difference, the stronger the force driving the wind.\n- Gravitational Force: Gravity acts downward, counteracting upward wind movement. However, its impact on wind speed and direction is less significant compared to other forces.\n- Local Conditions: Local variations in terrain, proximity to water bodies, and temperature differences can influence wind patterns, resulting in phenomena like land and sea breezes, mountain and valley winds, and local eddies.",
+    "timestamp_utc": "2025-07-26T14:19:27.560417+00:00"
   }
 ]
