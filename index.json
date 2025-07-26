@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the relationship between atmospheric pressure and wind?",
-    "ciq_generated_answer": "\"The wind blows from high pressure to low pressure, and small differences in atmospheric pressure produce a force that causes the air to move, which is called wind.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clear and concise, effectively conveying the relationship between atmospheric pressure and wind. However, it could have been more comprehensive by mentioning the Coriolis effect and its influence on wind direction.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The relationship between atmospheric pressure and wind is fundamental to understanding weather patterns. Air moves from areas of high pressure to low pressure, and this movement of air is what we call wind. Small differences in atmospheric pressure create a force that causes air to move, resulting in wind. The Coriolis effect, caused by the Earth's rotation, also influences wind direction, deflecting winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. These combined forces create complex wind patterns and are essential for redistributing heat and moisture globally, maintaining a relatively stable climate.",
-    "timestamp_utc": "2025-07-25T13:36:41.014461+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it significant?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It is significant because it prevents the formation of tropical cyclones near the equator, as stated in the context.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional context about the Inter Tropical Convergence Zone and its broader significance in atmospheric circulation.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that significantly influences wind patterns on Earth. It is a result of the planet's rotation, causing moving objects to deviate to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect arises due to the Coriolis force, which acts perpendicular to the pressure gradient force, deflecting wind directions. The strength of the Coriolis effect depends on latitude, with a stronger influence at higher latitudes. At the equator, where the latitude is zero, the Coriolis force has no impact, allowing wind to blow perpendicular to isobars. This effect plays a crucial role in atmospheric circulation and weather systems, contributing to the complex dynamics of our planet's climate.",
     "timestamp_utc": "2025-07-26T01:43:19.469784+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as mentioned in [2] and [4].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not specify that tropical cyclones originate over warm tropical oceans, which is an important detail in understanding why they form over seas or oceans specifically.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones originate over the seas because they require warm ocean waters to form and intensify. Warm ocean waters, typically with temperatures above 27\u00b0C, provide the necessary energy through the process of condensation in towering cumulonimbus clouds surrounding the storm's center. This energy intensifies the storm and the continuous supply of moisture from the sea strengthens it further.",
+    "timestamp_utc": "2025-07-26T03:26:36.620720+00:00"
   }
 ]
