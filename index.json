@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect weather patterns?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It affects weather patterns by creating conditions favourable for the formation and intensification of tropical storms. These conditions include large sea surfaces with temperatures higher than 27\\u00b0C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system. However, the context does not explicitly state that tropical cyclones are formed within the ITCZ, but rather that they converge at this low pressure zone.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on weather patterns. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by explaining the general circulation of the atmosphere and how the ITCZ fits into this larger pattern.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure zone, which affects weather patterns in several ways. Firstly, it leads to the rising of warm, moist air, which cools and forms clouds, bringing precipitation to the region. This rising air also sets off a chain of atmospheric events that contribute to the formation and intensification of tropical cyclones or hurricanes. The ITCZ plays a crucial role in the global atmospheric circulation, influencing the movement of air masses, the formation of weather systems, and the distribution of heat and moisture around the planet.",
-    "timestamp_utc": "2025-07-25T21:20:21.617765+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context or explaining the connection between warm oceans and tropical cyclone formation. It is a concise and correct response, but additional details would enhance its clarity.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. Each type of front is characterized by its unique temperature and pressure gradients, influencing the movement and behavior of air masses.",
     "timestamp_utc": "2025-07-26T10:20:41.522038+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front or explaining how they differ from one another.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by distinct temperature and pressure gradients, leading to different weather patterns and atmospheric behaviors.",
+    "timestamp_utc": "2025-07-26T13:31:50.668955+00:00"
   }
 ]
