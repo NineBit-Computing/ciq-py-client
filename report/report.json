@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it contribute to the formation of subtropical high-pressure systems?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone that forms due to the convergence of easterlies from either side of the equator. Air at the ITCZ rises because of convection caused by high insolation ([4]). This rising air then contributes to the formation of subtropical high-pressure systems, as the air moves away from the equator and begins to descend, creating areas of high pressure over 30 N and S latitudes (implied in [1] and [3]).\"",
-    "ciq_answer_evaluation": "CIQ's answer is mostly accurate, complete, and clear. It correctly defines the ITCZ and explains its role in the formation of subtropical highs. However, it could have provided more detail on the specific mechanisms involved, such as the convergence of easterlies and the role of convection. Overall, it's a good answer, but some additional context and depth would improve it.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure zone, as the warm, moist air from both hemispheres rises due to convection caused by intense heating at the equator. As the air rises, it cools and forms clouds, releasing latent heat, which further fuels the convection process. This rising air then diverges and moves towards the subtropics, where it begins to descend, creating areas of high pressure at around 30 degrees latitude, known as the subtropical high-pressure systems. This movement of air contributes to the formation of a global atmospheric circulation pattern, with air rising at the equator and sinking in the subtropics, driving weather patterns and influencing climate in these regions.",
-    "timestamp_utc": "2025-07-25T12:42:37.379712+00:00"
-  },
-  {
     "cohere_generated_question": "What is the relationship between atmospheric pressure and wind?",
     "ciq_generated_answer": "\"The wind blows from high pressure to low pressure, and small differences in atmospheric pressure produce a force that causes the air to move, which is called wind.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clear and concise, effectively conveying the relationship between atmospheric pressure and wind. However, it could have been more comprehensive by mentioning the Coriolis effect and its influence on wind direction.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The primary cause of air motion, and thus the formation of wind, is the variation in atmospheric pressure. Air expands when heated and contracts when cooled, creating areas of high and low pressure. Air naturally moves from high-pressure areas to low-pressure areas, creating wind. This movement of air helps to redistribute heat and moisture across the planet, maintaining a relatively constant temperature globally. The vertical movement of air also influences the formation of clouds and precipitation.",
     "timestamp_utc": "2025-07-25T23:20:28.073722+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind patterns in the Northern and Southern Hemispheres?",
+    "ciq_generated_answer": "\"The Coriolis effect is a force that causes moving objects on, or near, the Earth to deviate right (to the east) in the Northern Hemisphere and left (to the west) in the Southern Hemisphere. This effect arises due to the Earth's rotation. In the context of wind patterns, the Coriolis force deflects the wind to the right in the Northern Hemisphere (as stated in [4]) and to the left in the Southern Hemisphere. The strength of this effect depends on the angle of latitude, with a stronger influence at higher latitudes (as per [5]). At the equator, where the angle of latitude is zero, the Coriolis force is absent, and wind blows perpendicular to the isobars (as stated in [6]).\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It covers all the relevant information about the Coriolis effect and its influence on wind patterns, including the direction of deflection in each hemisphere, the dependence on latitude, and the absence of the effect at the equator.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "The Coriolis effect is a phenomenon that significantly influences wind patterns on Earth. It is a result of the planet's rotation, causing moving objects to deviate to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect arises due to the Coriolis force, which acts perpendicular to the pressure gradient force, deflecting wind directions. The strength of the Coriolis effect depends on latitude, with a stronger influence at higher latitudes. At the equator, where the latitude is zero, the Coriolis force has no impact, allowing wind to blow perpendicular to isobars. This effect plays a crucial role in atmospheric circulation and weather systems, contributing to the complex dynamics of our planet's climate.",
+    "timestamp_utc": "2025-07-26T01:43:19.469784+00:00"
   }
 ]
