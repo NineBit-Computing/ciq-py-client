@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (From Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context. It does not explain why tropical cyclones require warm tropical oceans as their origin point.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones originate over the seas due to the presence of warm ocean water, which serves as their energy source. The warm water, in combination with other factors like the Coriolis force and vertical wind speed variations, fuels the formation and intensification of these storms.",
-    "timestamp_utc": "2025-07-26T09:20:22.932990+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts. No additional or irrelevant information is included.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": "8",
     "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. A cold front occurs when a cold air mass advances and replaces a warm air mass, leading to a rapid drop in temperature and often causing precipitation. Conversely, a warm front happens when a warm air mass moves and replaces a cold air mass, resulting in a gradual temperature increase and potentially causing prolonged precipitation. A stationary front forms when neither air mass advances, creating a prolonged boundary between the two. Lastly, an occluded front occurs when a warm air mass is lifted and completely overridden by a cold air mass, often leading to a variety of weather conditions.",
     "timestamp_utc": "2025-07-26T21:19:01.652381+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it affect the general circulation of the atmosphere?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator converge due to low pressure. In this zone, air rises because of convection caused by high insolation, which affects the general circulation of the atmosphere by creating an upward motion of air and initiating the Hadley Cell circulation pattern.\"",
+    "ciq_answer_evaluation": "CIQ's answer is mostly accurate, complete, and clear. It correctly defines the ITCZ and mentions the convergence of trade winds due to low pressure, as well as the upward motion of air caused by convection. However, it could have provided more detail on how the ITCZ initiates the Hadley Cell circulation pattern and its broader impact on atmospheric circulation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge due to low pressure. This convergence is caused by the unequal heating of the Earth's surface, resulting in a band of low pressure around the equator. In the ITCZ, air rises due to convection, a process driven by intense heating and high insolation in the tropics. This upward motion of air initiates the Hadley Cell circulation pattern, which consists of rising air near the equator, outflowing air towards the poles, descending air in the subtropics, and returning air back towards the equator. The ITCZ plays a crucial role in the general circulation of the atmosphere by influencing the movement of air masses, the formation of weather systems, and the distribution of rainfall in tropical regions.",
+    "timestamp_utc": "2025-07-26T22:19:49.381255+00:00"
   }
 ]
