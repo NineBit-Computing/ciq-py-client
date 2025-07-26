@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the primary factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The primary factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n  3. Pressure (implied as a force affecting wind movement)\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying the three primary factors influencing wind speed and direction. However, the clarity could be improved by providing a bit more detail or context for each factor, particularly the role of the Coriolis effect in wind patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: The friction exerted by the Earth's surface affects wind speed, with greater friction near the surface reducing wind speed. Over the ocean, friction is minimal.\n\n- Coriolis Force: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and in the Southern Hemisphere, to the left. The deflection is more pronounced at higher latitudes and wind speeds.\n\n- Pressure Gradient Force: Wind generally blows from areas of high pressure to low pressure. The pressure gradient force is responsible for the horizontal movement of air, and its interaction with the Coriolis force determines wind direction.\n\nAdditionally, other factors like the vertical pressure gradient force, gravitational force, and local geographical features can influence wind patterns.",
-    "timestamp_utc": "2025-07-25T20:23:12.045215+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect weather patterns?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It affects weather patterns by creating conditions favourable for the formation and intensification of tropical storms. These conditions include large sea surfaces with temperatures higher than 27\\u00b0C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system. However, the context does not explicitly state that tropical cyclones are formed within the ITCZ, but rather that they converge at this low pressure zone.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on weather patterns. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by explaining the general circulation of the atmosphere and how the ITCZ fits into this larger pattern.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones originate over the seas due to the presence of warm ocean water, which serves as their energy source. The warm water, in combination with other factors like the Coriolis force and vertical wind speed variations, fuels the formation and intensification of these storms.",
     "timestamp_utc": "2025-07-26T09:20:22.932990+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts. No additional or irrelevant information is included.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. Each type of front is characterized by its unique temperature and pressure gradients, influencing the movement and behavior of air masses.",
+    "timestamp_utc": "2025-07-26T10:20:41.522038+00:00"
   }
 ]
