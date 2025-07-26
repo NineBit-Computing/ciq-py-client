@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "How does the Coriolis force affect the direction of wind?",
-    "ciq_generated_answer": "\"The Coriolis force affects the direction of wind by causing the horizontal winds near the earth surface to deflect from their original path when moving towards the poles or away from the equator. This deflection is to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. (From context [1] and [4])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clearly worded and easy to understand. The only minor improvement would be to mention that the Coriolis force is stronger at higher latitudes, which is implied but not explicitly stated.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Coriolis force, named after the French physicist who discovered it in 1844, influences the direction of wind by deflecting it right in the Northern Hemisphere and left in the Southern Hemisphere. This deflection is due to the rotation of the Earth, and the force is strongest at the poles, absent at the equator, and perpendicular to the pressure gradient force. The Coriolis force, along with the pressure gradient and frictional forces, determines wind direction and velocity, with the pressure gradient force being balanced by the Coriolis force in geostrophic winds.",
-    "timestamp_utc": "2025-07-26T07:20:08.478224+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n   1. Frictional Force\\n   2. Rotation of the Earth\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it is not complete as it misses another key factor mentioned in the text. This answer could be improved by including the Coriolis force, which is described as having a significant influence on wind direction.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones form over warm ocean waters in tropical regions, typically requiring sea surface temperatures higher than 27\u00b0C. These warm waters provide the necessary energy and moisture for the cyclones to develop and intensify. The Coriolis force, which is stronger away from the equator, also plays a crucial role in the formation of these storms. Additionally, tropical cyclones require small vertical wind speed variations and often develop from pre-existing weak low-pressure areas or low-level cyclonic circulations. They are characterized by strong spiraling winds, heavy rainfall, and storm surges, causing significant destruction when they make landfall.",
     "timestamp_utc": "2025-07-26T19:16:13.282505+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in the context of atmospheric circulation and weather systems?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterly trade winds from both sides of the equator converge. It is significant in atmospheric circulation and weather systems because it is a major source of convection, due to the high insolation and low pressure there. This convection results in air rising and contributing to the general circulation of the atmosphere.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in atmospheric circulation and weather systems. However, the wording could be improved for clarity, especially the last sentence, which is a bit confusing. Rewording it to 'This rising air contributes to the general circulation of the atmosphere' would be clearer.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence results in a low-pressure area with high insolation, leading to significant convection and the rising of warm, moist air. This process is crucial in atmospheric circulation as it contributes to the formation of weather systems and drives the general circulation of the atmosphere, redistributing heat and moisture globally.",
+    "timestamp_utc": "2025-07-26T20:22:04.911164+00:00"
   }
 ]
