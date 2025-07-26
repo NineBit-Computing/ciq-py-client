@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the primary cause of air motion, and how does it influence the formation of wind?",
-    "ciq_generated_answer": "\"The primary cause of air motion, and thus the formation of wind, is variation in pressure. This occurs because air moves from high pressure areas to low pressure areas.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It covers all the key points, but the phrasing is a little awkward and could be improved for better readability.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The primary cause of air motion, and thus the formation of wind, is the variation in atmospheric pressure. Air expands when heated and contracts when cooled, creating areas of high and low pressure. Air naturally moves from high-pressure areas to low-pressure areas, creating wind. This movement of air helps to redistribute heat and moisture across the planet, maintaining a relatively constant temperature globally. The vertical movement of air also influences the formation of clouds and precipitation.",
-    "timestamp_utc": "2025-07-25T23:20:28.073722+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind patterns in the Northern and Southern Hemispheres?",
     "ciq_generated_answer": "\"The Coriolis effect is a force that causes moving objects on, or near, the Earth to deviate right (to the east) in the Northern Hemisphere and left (to the west) in the Southern Hemisphere. This effect arises due to the Earth's rotation. In the context of wind patterns, the Coriolis force deflects the wind to the right in the Northern Hemisphere (as stated in [4]) and to the left in the Southern Hemisphere. The strength of this effect depends on the angle of latitude, with a stronger influence at higher latitudes (as per [5]). At the equator, where the angle of latitude is zero, the Coriolis force is absent, and wind blows perpendicular to the isobars (as stated in [6]).\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It covers all the relevant information about the Coriolis effect and its influence on wind patterns, including the direction of deflection in each hemisphere, the dependence on latitude, and the absence of the effect at the equator.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including:\n\n- Frictional Force: The friction experienced by wind near the Earth's surface, particularly over land, affects its speed. Friction from terrain and objects like buildings can slow down wind.\n- Coriolis Force: The rotation of the Earth deflects wind, with the direction of deflection depending on the hemisphere. In the Northern Hemisphere, wind is deflected to the right, and in the Southern Hemisphere, to the left.\n- Pressure Gradient Force: Wind generally moves from areas of high pressure to low pressure. The greater the pressure difference, the stronger the force driving the wind.\n- Gravitational Force: Gravity acts downward, counteracting upward wind movement. However, its impact on wind speed and direction is less significant compared to other forces.\n- Local Conditions: Local variations in terrain, proximity to water bodies, and temperature differences can influence wind patterns, resulting in phenomena like land and sea breezes, mountain and valley winds, and local eddies.",
     "timestamp_utc": "2025-07-26T14:19:27.560417+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it affect the general circulation of the atmosphere?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterly winds from both sides of the equator converge due to low pressure created by high insolation (heat from the sun). This convergence causes air to rise because of convection, which affects the general circulation of the atmosphere by creating an upward motion of air and setting off a series of atmospheric events, such as the formation of storms and the movement of air masses.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on atmospheric circulation. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by providing additional details about the ITCZ, such as its location and how it influences weather patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge due to the low pressure created by intense heating from the sun. This convergence of air leads to upward motion through convection, which initiates a series of atmospheric events. The rising air cools and condenses, forming clouds and often triggering the development of storms. The ITCZ plays a crucial role in the general circulation of the atmosphere by influencing the movement of air masses and the distribution of heat and moisture globally. It is a key driver of weather patterns in the tropics and can impact the formation of tropical cyclones.",
+    "timestamp_utc": "2025-07-26T15:20:44.692719+00:00"
   }
 ]
