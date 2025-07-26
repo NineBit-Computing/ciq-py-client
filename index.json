@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind patterns in the Northern and Southern Hemispheres?",
-    "ciq_generated_answer": "\"The Coriolis effect is a force that causes moving objects on, or near, the Earth to deviate right (to the east) in the Northern Hemisphere and left (to the west) in the Southern Hemisphere. This effect arises due to the Earth's rotation. In the context of wind patterns, the Coriolis force deflects the wind to the right in the Northern Hemisphere (as stated in [4]) and to the left in the Southern Hemisphere. The strength of this effect depends on the angle of latitude, with a stronger influence at higher latitudes (as per [5]). At the equator, where the angle of latitude is zero, the Coriolis force is absent, and wind blows perpendicular to the isobars (as stated in [6]).\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It covers all the relevant information about the Coriolis effect and its influence on wind patterns, including the direction of deflection in each hemisphere, the dependence on latitude, and the absence of the effect at the equator.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "The Coriolis effect is a phenomenon that significantly influences wind patterns on Earth. It is a result of the planet's rotation, causing moving objects to deviate to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect arises due to the Coriolis force, which acts perpendicular to the pressure gradient force, deflecting wind directions. The strength of the Coriolis effect depends on latitude, with a stronger influence at higher latitudes. At the equator, where the latitude is zero, the Coriolis force has no impact, allowing wind to blow perpendicular to isobars. This effect plays a crucial role in atmospheric circulation and weather systems, contributing to the complex dynamics of our planet's climate.",
-    "timestamp_utc": "2025-07-26T01:43:19.469784+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as mentioned in [2] and [4].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not specify that tropical cyclones originate over warm tropical oceans, which is an important detail in understanding why they form over seas or oceans specifically.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge due to the low pressure created by intense heating from the sun. This convergence of air leads to upward motion through convection, which initiates a series of atmospheric events. The rising air cools and condenses, forming clouds and often triggering the development of storms. The ITCZ plays a crucial role in the general circulation of the atmosphere by influencing the movement of air masses and the distribution of heat and moisture globally. It is a key driver of weather patterns in the tropics and can impact the formation of tropical cyclones.",
     "timestamp_utc": "2025-07-26T15:20:44.692719+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind direction in the Northern and Southern Hemispheres?",
+    "ciq_generated_answer": "\"The Coriolis effect is a force that causes wind to deflect as it moves over the Earth due to the Earth's rotation. In the Northern Hemisphere, the Coriolis force deflects the wind to the right (clockwise), while in the Southern Hemisphere, it deflects the wind to the left (counterclockwise). This effect is more pronounced at higher latitudes as it is directly proportional to the angle of latitude. At the equator, where the angle of latitude is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind direction. The explanation is clear and easy to understand, providing a good understanding of the topic.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the movement of air masses and ocean currents due to the rotation of the Earth. In the context of wind direction, the Coriolis effect causes deflecting winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is more pronounced at higher latitudes and is absent at the equator. The Coriolis force is one of the factors that determine wind direction, along with pressure gradient forces and friction. These forces work together to create complex wind patterns and influence weather systems.",
+    "timestamp_utc": "2025-07-26T17:19:41.156720+00:00"
   }
 ]
