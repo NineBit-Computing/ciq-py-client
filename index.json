@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence wind patterns?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low-pressure zone where the easterlies from either side of the equator converge. It influences wind patterns by creating a convergence of winds at this location, as stated in points [1] and [2] of the provided context.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the Inter Tropical Convergence Zone and its influence on wind patterns. It is a crucial aspect of atmospheric circulation and weather systems, and a brief description would enhance the answer's clarity.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a significant feature of atmospheric circulation, marking a low-pressure zone near the equator where winds converge. This convergence occurs due to the meeting of the easterlies from the northern and southern tropics. The ITCZ influences wind patterns by acting as a convergence point, causing air to rise and create weather phenomena like clouds and precipitation. It plays a crucial role in the global redistribution of heat and moisture, maintaining the planet's overall temperature balance.",
-    "timestamp_utc": "2025-07-25T15:23:01.356879+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied, as it is a force affecting the wind movement)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by explicitly mentioning that pressure differences are a factor, as this is implied but not directly stated. Overall, it is a good response.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": "8",
     "cohere_generated_answer": "Tropical cyclones form over oceans because they require vast expanses of warm tropical waters to fuel their development and intensify. The Coriolis force, which influences the spin of the cyclone, and the availability of moisture from the ocean surface also play crucial roles in the formation and strength of these storms.",
     "timestamp_utc": "2025-07-26T05:22:56.498122+00:00"
+  },
+  {
+    "cohere_generated_question": "How does the Coriolis force affect the direction of wind?",
+    "ciq_generated_answer": "\"The Coriolis force affects the direction of wind by causing the horizontal winds near the earth surface to deflect from their original path when moving towards the poles or away from the equator. This deflection is to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. (From context [1] and [4])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clearly worded and easy to understand. The only minor improvement would be to mention that the Coriolis force is stronger at higher latitudes, which is implied but not explicitly stated.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis force, named after the French physicist who discovered it in 1844, influences the direction of wind by deflecting it right in the Northern Hemisphere and left in the Southern Hemisphere. This deflection is due to the rotation of the Earth, and the force is strongest at the poles, absent at the equator, and perpendicular to the pressure gradient force. The Coriolis force, along with the pressure gradient and frictional forces, determines wind direction and velocity, with the pressure gradient force being balanced by the Coriolis force in geostrophic winds.",
+    "timestamp_utc": "2025-07-26T07:20:08.478224+00:00"
   }
 ]
