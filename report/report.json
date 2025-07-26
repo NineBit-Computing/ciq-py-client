@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones only form over oceans?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over oceans because they require warm tropical waters to form and intensify.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It mentions the requirement of warm tropical waters but does not explicitly state that this is the reason for tropical cyclones only forming over oceans, which is the focus of the question.",
-    "ciq_answer_score": "8",
-    "cohere_generated_answer": "Tropical cyclones form over oceans because they require vast expanses of warm tropical waters to fuel their development and intensify. The Coriolis force, which influences the spin of the cyclone, and the availability of moisture from the ocean surface also play crucial roles in the formation and strength of these storms.",
-    "timestamp_utc": "2025-07-26T05:22:56.498122+00:00"
-  },
-  {
     "cohere_generated_question": "How does the Coriolis force affect the direction of wind?",
     "ciq_generated_answer": "\"The Coriolis force affects the direction of wind by causing the horizontal winds near the earth surface to deflect from their original path when moving towards the poles or away from the equator. This deflection is to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. (From context [1] and [4])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clearly worded and easy to understand. The only minor improvement would be to mention that the Coriolis force is stronger at higher latitudes, which is implied but not explicitly stated.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by distinct weather patterns and interactions between air masses.",
     "timestamp_utc": "2025-07-26T18:28:17.919764+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones only form over the ocean?",
+    "ciq_generated_answer": "\"Tropical cyclones originate and intensify over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more complete by providing additional context or details about tropical cyclones. For example, mentioning the specific conditions required for their formation or their typical path of movement.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones form over warm ocean waters in tropical regions, typically requiring sea surface temperatures higher than 27\u00b0C. These warm waters provide the necessary energy and moisture for the cyclones to develop and intensify. The Coriolis force, which is stronger away from the equator, also plays a crucial role in the formation of these storms. Additionally, tropical cyclones require small vertical wind speed variations and often develop from pre-existing weak low-pressure areas or low-level cyclonic circulations. They are characterized by strong spiraling winds, heavy rainfall, and storm surges, causing significant destruction when they make landfall.",
+    "timestamp_utc": "2025-07-26T19:16:13.282505+00:00"
   }
 ]
