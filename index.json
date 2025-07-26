@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n   1. Frictional Force\\n   2. Rotation of the Earth\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it is not complete as it misses another key factor mentioned in the text. This answer could be improved by including the Coriolis force, which is described as having a significant influence on wind direction.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including:\n\n- Frictional Force: Greatest at the surface and can extend up to 1-3 km in elevation, with minimal friction over the sea.\n- Coriolis Force: The rotation of the Earth about its axis, which affects the direction of wind. In the Northern Hemisphere, it deflects wind to the right, and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: The rate of change of pressure with respect to distance. The pressure gradient is stronger when isobars are close together and weaker when they are farther apart.\n\nThese forces, along with the gravitational force, act together to determine the speed and direction of wind near the Earth's surface.",
-    "timestamp_utc": "2025-07-26T08:25:59.935635+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (From Context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context. It does not explain why tropical cyclones require warm tropical oceans as their origin point.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence results in a low-pressure area with high insolation, leading to significant convection and the rising of warm, moist air. This process is crucial in atmospheric circulation as it contributes to the formation of weather systems and drives the general circulation of the atmosphere, redistributing heat and moisture globally.",
     "timestamp_utc": "2025-07-26T20:22:04.911164+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front, especially since the terms 'cold', 'warm', 'stationary', and 'occluded' may not be immediately understandable to all readers.",
+    "ciq_answer_score": "8",
+    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. A cold front occurs when a cold air mass advances and replaces a warm air mass, leading to a rapid drop in temperature and often causing precipitation. Conversely, a warm front happens when a warm air mass moves and replaces a cold air mass, resulting in a gradual temperature increase and potentially causing prolonged precipitation. A stationary front forms when neither air mass advances, creating a prolonged boundary between the two. Lastly, an occluded front occurs when a warm air mass is lifted and completely overridden by a cold air mass, often leading to a variety of weather conditions.",
+    "timestamp_utc": "2025-07-26T21:19:01.652381+00:00"
   }
 ]
