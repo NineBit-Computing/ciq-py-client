@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it significant?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It is significant because it prevents the formation of tropical cyclones near the equator, as stated in the context.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional context about the Inter Tropical Convergence Zone and its broader significance in atmospheric circulation.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure zone that plays a crucial role in driving atmospheric circulation and weather patterns. The ITCZ is significant because it influences the formation of weather systems, particularly tropical cyclones. The convergence of air masses along the ITCZ leads to upward motion, creating an area of low pressure that can facilitate the development of tropical storms. Additionally, the ITCZ is associated with the Intertropical Discontinuity, which is a zone of maximum wind shear and minimum upper-level winds. This discontinuity can act as a barrier to tropical cyclone formation, preventing their development near the equator. The ITCZ also has implications for global climate patterns, as it can shift seasonally, influencing the distribution of rainfall and the intensity of monsoons in various regions.",
-    "timestamp_utc": "2025-07-25T14:20:06.029128+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence wind patterns?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low-pressure zone where the easterlies from either side of the equator converge. It influences wind patterns by creating a convergence of winds at this location, as stated in points [1] and [2] of the provided context.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the Inter Tropical Convergence Zone and its influence on wind patterns. It is a crucial aspect of atmospheric circulation and weather systems, and a brief description would enhance the answer's clarity.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones originate over the seas because they require warm ocean waters to form and intensify. Warm ocean waters, typically with temperatures above 27\u00b0C, provide the necessary energy through the process of condensation in towering cumulonimbus clouds surrounding the storm's center. This energy intensifies the storm and the continuous supply of moisture from the sea strengthens it further.",
     "timestamp_utc": "2025-07-26T03:26:36.620720+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones only form over oceans?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over oceans because they require warm tropical waters to form and intensify.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It mentions the requirement of warm tropical waters but does not explicitly state that this is the reason for tropical cyclones only forming over oceans, which is the focus of the question.",
+    "ciq_answer_score": "8",
+    "cohere_generated_answer": "Tropical cyclones form over oceans because they require vast expanses of warm tropical waters to fuel their development and intensify. The Coriolis force, which influences the spin of the cyclone, and the availability of moisture from the ocean surface also play crucial roles in the formation and strength of these storms.",
+    "timestamp_utc": "2025-07-26T05:22:56.498122+00:00"
   }
 ]
