@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as mentioned in [2] and [4].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not specify that tropical cyclones originate over warm tropical oceans, which is an important detail in understanding why they form over seas or oceans specifically.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over the seas because they require warm ocean waters to form and intensify. Warm ocean waters, typically with temperatures above 27\u00b0C, provide the necessary energy through the process of condensation in towering cumulonimbus clouds surrounding the storm's center. This energy intensifies the storm and the continuous supply of moisture from the sea strengthens it further.",
-    "timestamp_utc": "2025-07-26T03:26:36.620720+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones only form over oceans?",
     "ciq_generated_answer": "\"Tropical cyclones originate over oceans because they require warm tropical waters to form and intensify.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It mentions the requirement of warm tropical waters but does not explicitly state that this is the reason for tropical cyclones only forming over oceans, which is the focus of the question.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the movement of air masses and ocean currents due to the rotation of the Earth. In the context of wind direction, the Coriolis effect causes deflecting winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is more pronounced at higher latitudes and is absent at the equator. The Coriolis force is one of the factors that determine wind direction, along with pressure gradient forces and friction. These forces work together to create complex wind patterns and influence weather systems.",
     "timestamp_utc": "2025-07-26T17:19:41.156720+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. The answer is clear and concise, providing a straightforward response to the question.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by distinct weather patterns and interactions between air masses.",
+    "timestamp_utc": "2025-07-26T18:28:17.919764+00:00"
   }
 ]
