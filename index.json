@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it impact atmospheric circulation?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where trade winds from both sides of the equator converge. It is characterized by high insolation and low pressure due to convection caused by this intense solar heating. This zone plays a significant role in atmospheric circulation as the rising air at the ITCZ creates an area for the formation of storms and clouds, which ultimately influences the global weather patterns.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on atmospheric circulation. The answer is also clearly worded and easy to understand. However, it could benefit from a more detailed explanation of how the ITCZ influences global weather patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where trade winds from the Northern and Southern Hemispheres converge. This convergence results in intense solar heating, leading to high insolation and low pressure. The rising air at the ITCZ creates an area of low pressure, which facilitates the formation of storms and clouds. This, in turn, influences global weather patterns by guiding the movement of air masses and the distribution of heat and moisture across the planet. The ITCZ plays a crucial role in atmospheric circulation and helps maintain the balance of temperature and weather conditions worldwide.",
-    "timestamp_utc": "2025-07-27T06:30:18.859472+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied) as it is a force affecting the wind movement.\\n\\nHowever, the context does not explicitly mention the role of pressure in determining the speed and direction of wind. It only suggests that pressure is one of the forces affecting the wind movement.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It identifies the three key factors influencing wind speed and direction: frictional force, Earth's rotation (Coriolis effect), and pressure. However, the response could be improved by explicitly mentioning that pressure differences cause wind to move from high-pressure areas to low-pressure areas, as this is a crucial concept in understanding wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, typically forming over large bodies of water with temperatures exceeding 27\u00b0C. These warm ocean waters provide the necessary energy and moisture to fuel the intense storm systems.",
     "timestamp_utc": "2025-07-27T17:19:21.589880+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where does it typically occur?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It typically occurs around the equator.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, providing a clear and concise definition of the Inter Tropical Convergence Zone (ITCZ) and its typical location. However, a higher score could be achieved by adding further context or details about the ITCZ, such as its significance in weather patterns or how it influences atmospheric circulation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence zone typically occurs around the equator due to the meeting of the easterly winds from both hemispheres. The ITCZ is a critical component in global atmospheric circulation and weather patterns, influencing the formation of clouds, precipitation, and tropical cyclones.",
+    "timestamp_utc": "2025-07-27T18:28:30.394718+00:00"
   }
 ]
