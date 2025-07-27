@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it significant?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the northeast trade winds and the southeast trade winds converge near the Earth's equator. It is significant because it is the reason why tropical cyclones are not typically formed near the equator, according to the provided context.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional context about the Inter Tropical Convergence Zone and its broader significance in atmospheric circulation.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the northeast and southeast converge. This convergence creates a low-pressure zone, which is significant because it influences atmospheric circulation and weather patterns. The ITCZ plays a crucial role in the formation of tropical cyclones, as it marks the area where air masses from different directions come together, leading to the development of storm systems. The ITCZ is also associated with the rising of warm, moist air, which can result in the formation of clouds and precipitation. This makes it an important factor in the Earth's climate system, particularly in tropical regions.",
-    "timestamp_utc": "2025-07-27T05:26:06.968296+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it impact atmospheric circulation?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where trade winds from both sides of the equator converge. It is characterized by high insolation and low pressure due to convection caused by this intense solar heating. This zone plays a significant role in atmospheric circulation as the rising air at the ITCZ creates an area for the formation of storms and clouds, which ultimately influences the global weather patterns.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on atmospheric circulation. The answer is also clearly worded and easy to understand. However, it could benefit from a more detailed explanation of how the ITCZ influences global weather patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind direction in the Northern Hemisphere by deflecting winds to the right of their initial path. This effect is caused by the rotation of the Earth, and it acts perpendicular to the pressure gradient force, which influences wind direction. The Coriolis force is stronger when wind velocity is higher and is directly proportional to the latitude. It is maximum at the poles and absent at the equator.",
     "timestamp_utc": "2025-07-27T16:24:33.207639+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as stated in [2] of the provided context.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It directly addresses the question, providing a concise and relevant response. The answer could be expanded to include more detail, but as a brief response, it is effective.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, typically forming over large bodies of water with temperatures exceeding 27\u00b0C. These warm ocean waters provide the necessary energy and moisture to fuel the intense storm systems.",
+    "timestamp_utc": "2025-07-27T17:19:21.589880+00:00"
   }
 ]
