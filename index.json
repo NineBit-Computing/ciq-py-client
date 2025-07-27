@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones only form over the ocean?",
-    "ciq_generated_answer": "\"Tropical cyclones originate and intensify over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more complete by providing additional context or details about tropical cyclones. For example, mentioning the specific conditions required for their formation or their typical path of movement.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones form over warm ocean waters in tropical regions, typically requiring sea surface temperatures higher than 27\u00b0C. These warm waters provide the necessary energy and moisture for the cyclones to develop and intensify. The Coriolis force, which is stronger away from the equator, also plays a crucial role in the formation of these storms. Additionally, tropical cyclones require small vertical wind speed variations and often develop from pre-existing weak low-pressure areas or low-level cyclonic circulations. They are characterized by strong spiraling winds, heavy rainfall, and storm surges, causing significant destruction when they make landfall.",
-    "timestamp_utc": "2025-07-26T19:16:13.282505+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important in the context of atmospheric circulation and weather systems?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterly trade winds from both sides of the equator converge. It is significant in atmospheric circulation and weather systems because it is a major source of convection, due to the high insolation and low pressure there. This convection results in air rising and contributing to the general circulation of the atmosphere.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in atmospheric circulation and weather systems. However, the wording could be improved for clarity, especially the last sentence, which is a bit confusing. Rewording it to 'This rising air contributes to the general circulation of the atmosphere' would be clearer.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "The primary cause of air motion is the variation in atmospheric pressure. Air moves from areas of high pressure to areas of low pressure, creating wind. This movement of air is essential for redistributing heat and moisture across the planet, maintaining a relatively constant temperature globally.",
     "timestamp_utc": "2025-07-27T09:21:01.386360+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans (Context: [2], [4]).\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context and explaining the connection between warm tropical oceans and tropical cyclone formation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical oceans, which serve as a critical factor in their formation and intensification. The warm ocean surface, with temperatures exceeding 27\u00b0 C, provides the necessary energy through the condensation process in towering cumulonimbus clouds surrounding the storm's center. This energy intensifies the storm, and the continuous moisture supply from the sea further strengthens it.",
+    "timestamp_utc": "2025-07-27T11:17:15.993697+00:00"
   }
 ]
