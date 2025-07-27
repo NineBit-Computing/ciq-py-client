@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. The answer is clear and concise, providing a straightforward response to the question.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by distinct weather patterns and interactions between air masses.",
-    "timestamp_utc": "2025-07-26T18:28:17.919764+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones only form over the ocean?",
     "ciq_generated_answer": "\"Tropical cyclones originate and intensify over warm tropical oceans. (Context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more complete by providing additional context or details about tropical cyclones. For example, mentioning the specific conditions required for their formation or their typical path of movement.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including: \n\n- Frictional Force: Friction affects wind speed and is strongest at the surface, particularly over land. Over the ocean, friction is minimal.\n\n- Rotation of the Earth: The Coriolis effect, caused by the Earth's rotation, deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced at higher latitudes and wind speeds.\n\n- Pressure Differences: Air moves from areas of high pressure to low pressure, creating wind. Pressure differences are caused by variations in air temperature and density, influenced by factors such as heating from the sun and the presence of land or water.\n\nThese three forces\u2014friction, the Coriolis effect, and pressure gradients\u2014interact to determine the complex patterns of global wind circulation.",
     "timestamp_utc": "2025-07-27T07:19:24.721180+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the primary cause of air motion?",
+    "ciq_generated_answer": "\"The primary cause of air motion, as per the provided context, is the differences in atmospheric pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question and provides a concise explanation of the primary cause of air motion, earning a high score.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "The primary cause of air motion is the variation in atmospheric pressure. Air moves from areas of high pressure to areas of low pressure, creating wind. This movement of air is essential for redistributing heat and moisture across the planet, maintaining a relatively constant temperature globally.",
+    "timestamp_utc": "2025-07-27T09:21:01.386360+00:00"
   }
 ]
