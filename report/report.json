@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are Cold, Warm, Stationary, and Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It correctly identifies the four types of fronts that occur when two different air masses meet, and there is no additional relevant information that should be included in the answer.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "The four types of fronts that occur when two different air masses meet are Cold, Warm, Stationary, and Occluded fronts. These fronts bring about abrupt changes in temperature and can lead to cloud formation and precipitation.",
-    "timestamp_utc": "2025-07-27T12:40:22.641372+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n  3. Pressure (implied as it is a force affecting the wind movement)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying the three key factors that influence wind speed and direction. However, the answer could be clearer by providing more context for each factor, particularly the Coriolis force, which is not explicitly mentioned in the provided text.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The factors influencing the speed and direction of wind include friction, the rotation of the Earth (Coriolis effect), and pressure differences. Friction acts as a force opposing the motion of wind, particularly near the Earth's surface, and its effect decreases with increasing altitude. The Coriolis effect, resulting from the Earth's rotation, deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Pressure differences between areas of high and low pressure create a pressure gradient force that drives wind from high-pressure regions to low-pressure regions. These factors, along with the gravitational force, collectively determine the speed and direction of wind.",
     "timestamp_utc": "2025-07-27T21:19:38.846490+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, according to the provided context, are Frictional Force, the rotation of the Earth, and Pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It covers all the key factors influencing wind speed and direction mentioned in the text, including frictional force, the Coriolis effect resulting from the Earth's rotation, and pressure differences.",
+    "ciq_answer_score": "10",
+    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force, the rotation of the Earth, and pressure differences. Frictional force, which is greatest at the surface, affects wind speed, while the Coriolis force, resulting from the Earth's rotation, alters the direction of wind. Additionally, pressure differences between areas of high and low pressure drive the movement of air, resulting in wind.",
+    "timestamp_utc": "2025-07-27T22:20:01.362990+00:00"
   }
 ]
