@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front or explaining how they differ from one another.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by distinct temperature and pressure gradients, leading to different weather patterns and atmospheric behaviors.",
-    "timestamp_utc": "2025-07-26T13:31:50.668955+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n  1. Frictional force\\n\\n  2. Rotation of the Earth\\n\\n  3. Pressure (implied as it is mentioned that the velocity and direction of the wind are the net result of the wind generating forces)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context for each factor. For example, explaining that frictional force affects wind speed, and the Coriolis force, caused by the Earth's rotation, impacts its direction.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is essential for their formation. Warm ocean water provides the energy and moisture that fuel these storms, allowing them to intensify and maintain their strength.",
     "timestamp_utc": "2025-07-27T01:54:15.787038+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the factors that affect the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors affecting the speed and direction of wind, according to the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nIn addition, it is mentioned that the velocity and direction of the wind are the net result of the wind generating forces and pressure, but specific details about these factors are not given.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. It is also clearly worded and easy to understand. However, it could have included a bit more detail about the Coriolis force, which is mentioned briefly but not explained in depth.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: Greatest at the surface and affects wind speed, with minimal friction over the sea.\n- Coriolis Force: The rotation of the Earth about its axis, which affects the direction of wind. In the Northern Hemisphere, it deflects wind to the right, and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: The rate of change of pressure with respect to distance. The pressure gradient is stronger when isobars are close together and weaker when they are farther apart.\n- Gravitational Force: Acts downward and balances the vertical pressure gradient force, preventing strong upward winds.\n\nThese forces, along with the pressure differences caused by variations in atmospheric temperature and the rotation of the Earth, determine the speed and direction of wind.",
+    "timestamp_utc": "2025-07-27T04:43:51.388836+00:00"
   }
 ]
