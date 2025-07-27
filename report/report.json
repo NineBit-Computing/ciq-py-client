@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind direction in the Northern and Southern Hemispheres?",
-    "ciq_generated_answer": "\"The Coriolis effect is a force that causes wind to deflect as it moves over the Earth due to the Earth's rotation. In the Northern Hemisphere, the Coriolis force deflects the wind to the right (clockwise), while in the Southern Hemisphere, it deflects the wind to the left (counterclockwise). This effect is more pronounced at higher latitudes as it is directly proportional to the angle of latitude. At the equator, where the angle of latitude is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind direction. The explanation is clear and easy to understand, providing a good understanding of the topic.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the movement of air masses and ocean currents due to the rotation of the Earth. In the context of wind direction, the Coriolis effect causes deflecting winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is more pronounced at higher latitudes and is absent at the equator. The Coriolis force is one of the factors that determine wind direction, along with pressure gradient forces and friction. These forces work together to create complex wind patterns and influence weather systems.",
-    "timestamp_utc": "2025-07-26T17:19:41.156720+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. The answer is clear and concise, providing a straightforward response to the question.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where trade winds from the Northern and Southern Hemispheres converge. This convergence results in intense solar heating, leading to high insolation and low pressure. The rising air at the ITCZ creates an area of low pressure, which facilitates the formation of storms and clouds. This, in turn, influences global weather patterns by guiding the movement of air masses and the distribution of heat and moisture across the planet. The ITCZ plays a crucial role in atmospheric circulation and helps maintain the balance of temperature and weather conditions worldwide.",
     "timestamp_utc": "2025-07-27T06:30:18.859472+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied) as it is a force affecting the wind movement.\\n\\nHowever, the context does not explicitly mention the role of pressure in determining the speed and direction of wind. It only suggests that pressure is one of the forces affecting the wind movement.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It identifies the three key factors influencing wind speed and direction: frictional force, Earth's rotation (Coriolis effect), and pressure. However, the response could be improved by explicitly mentioning that pressure differences cause wind to move from high-pressure areas to low-pressure areas, as this is a crucial concept in understanding wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including: \n\n- Frictional Force: Friction affects wind speed and is strongest at the surface, particularly over land. Over the ocean, friction is minimal.\n\n- Rotation of the Earth: The Coriolis effect, caused by the Earth's rotation, deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced at higher latitudes and wind speeds.\n\n- Pressure Differences: Air moves from areas of high pressure to low pressure, creating wind. Pressure differences are caused by variations in air temperature and density, influenced by factors such as heating from the sun and the presence of land or water.\n\nThese three forces\u2014friction, the Coriolis effect, and pressure gradients\u2014interact to determine the complex patterns of global wind circulation.",
+    "timestamp_utc": "2025-07-27T07:19:24.721180+00:00"
   }
 ]
