@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it affect the general circulation of the atmosphere?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterly winds from both sides of the equator converge due to low pressure created by high insolation (heat from the sun). This convergence causes air to rise because of convection, which affects the general circulation of the atmosphere by creating an upward motion of air and setting off a series of atmospheric events, such as the formation of storms and the movement of air masses.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on atmospheric circulation. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by providing additional details about the ITCZ, such as its location and how it influences weather patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge due to the low pressure created by intense heating from the sun. This convergence of air leads to upward motion through convection, which initiates a series of atmospheric events. The rising air cools and condenses, forming clouds and often triggering the development of storms. The ITCZ plays a crucial role in the general circulation of the atmosphere by influencing the movement of air masses and the distribution of heat and moisture globally. It is a key driver of weather patterns in the tropics and can impact the formation of tropical cyclones.",
-    "timestamp_utc": "2025-07-26T15:20:44.692719+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind direction in the Northern and Southern Hemispheres?",
     "ciq_generated_answer": "\"The Coriolis effect is a force that causes wind to deflect as it moves over the Earth due to the Earth's rotation. In the Northern Hemisphere, the Coriolis force deflects the wind to the right (clockwise), while in the Southern Hemisphere, it deflects the wind to the left (counterclockwise). This effect is more pronounced at higher latitudes as it is directly proportional to the angle of latitude. At the equator, where the angle of latitude is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind direction. The explanation is clear and easy to understand, providing a good understanding of the topic.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the northeast and southeast converge. This convergence creates a low-pressure zone, which is significant because it influences atmospheric circulation and weather patterns. The ITCZ plays a crucial role in the formation of tropical cyclones, as it marks the area where air masses from different directions come together, leading to the development of storm systems. The ITCZ is also associated with the rising of warm, moist air, which can result in the formation of clouds and precipitation. This makes it an important factor in the Earth's climate system, particularly in tropical regions.",
     "timestamp_utc": "2025-07-27T05:26:06.968296+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it impact atmospheric circulation?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where trade winds from both sides of the equator converge. It is characterized by high insolation and low pressure due to convection caused by this intense solar heating. This zone plays a significant role in atmospheric circulation as the rising air at the ITCZ creates an area for the formation of storms and clouds, which ultimately influences the global weather patterns.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on atmospheric circulation. The answer is also clearly worded and easy to understand. However, it could benefit from a more detailed explanation of how the ITCZ influences global weather patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where trade winds from the Northern and Southern Hemispheres converge. This convergence results in intense solar heating, leading to high insolation and low pressure. The rising air at the ITCZ creates an area of low pressure, which facilitates the formation of storms and clouds. This, in turn, influences global weather patterns by guiding the movement of air masses and the distribution of heat and moisture across the planet. The ITCZ plays a crucial role in atmospheric circulation and helps maintain the balance of temperature and weather conditions worldwide.",
+    "timestamp_utc": "2025-07-27T06:30:18.859472+00:00"
   }
 ]
