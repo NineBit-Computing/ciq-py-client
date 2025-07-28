@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the primary cause of air motion?",
-    "ciq_generated_answer": "\"The primary cause of air motion is differences in atmospheric pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the relationship between air pressure and motion. It does not mention the role of gravity in creating pressure differences, which is a key factor.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Differences in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, creating variations in pressure. This pressure gradient causes air to move from high-pressure areas to low-pressure areas, resulting in wind. Atmospheric pressure also determines if air will rise or sink, with the wind redistributing heat and moisture globally.",
-    "timestamp_utc": "2025-07-27T23:20:37.338780+00:00"
-  },
-  {
     "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional force\\n2. Rotation of the Earth\\n3. Pressure differences\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clear and concise, effectively summarizing the relevant information from the provided text. However, the answer could be improved by adding a brief explanation of each factor's influence, especially for readers unfamiliar with these concepts.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Coriolis effect influences wind direction in the Northern Hemisphere by deflecting the wind to the right of its direction of motion. This is due to the rotation of the Earth, which affects the path of moving objects, including wind.",
     "timestamp_utc": "2025-07-28T11:19:12.649512+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence wind circulation?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low-pressure zone where winds from either side of the equator converge. It influences wind circulation by causing air at the ITCZ to rise due to convection caused by high insolation and low pressure, which in turn affects the general circulation of the atmosphere.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on wind circulation. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by mentioning the role of the ITCZ in the general circulation of the atmosphere, as well as its impact on weather patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge. It is characterized by low pressure and rising air due to convection caused by intense heating from the sun. This rising air affects wind circulation by creating a low-pressure area, causing air to flow towards it from surrounding higher-pressure areas. The ITCZ plays a crucial role in the general circulation of the atmosphere, influencing the formation of wind patterns, cloud cover, and precipitation in tropical regions. It also contributes to the development of weather phenomena, such as tropical cyclones, by providing the necessary conditions for their formation and intensification.",
+    "timestamp_utc": "2025-07-28T12:45:03.979016+00:00"
   }
 ]
