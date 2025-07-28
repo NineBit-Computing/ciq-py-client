@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Coriolis force, and how does it impact wind direction?",
-    "ciq_generated_answer": "\"The Coriolis force is a force exerted by the rotation of the Earth that affects the direction of wind. At the equator, where the Coriolis force is zero, the wind blows perpendicular to the isobars. In other latitudes, the Coriolis force acts perpendicular to the pressure gradient force, influencing the wind's path.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise explanation of the Coriolis force and its impact on wind direction, including the crucial detail about the force acting perpendicular to the pressure gradient force.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "The Coriolis force is a phenomenon that influences the direction of wind due to the rotation of the Earth. At the equator, where the Coriolis force is absent, the wind blows perpendicular to the isobars. However, in other latitudes, the Coriolis force acts perpendicular to the pressure gradient force, altering the path of the wind. This force is stronger when wind velocity is higher and is directly proportional to the latitude. As a result, the Coriolis force influences the wind to blow in a curved path, deflecting it to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
-    "timestamp_utc": "2025-07-28T07:26:10.434050+00:00"
-  },
-  {
     "cohere_generated_question": "How do variations in atmospheric pressure cause air to move, and what is the resulting motion called?",
     "ciq_generated_answer": "\"The variations in atmospheric pressure cause air to move from high pressure areas to low pressure areas. This motion is called wind. (Based on context [1], [4] and [6])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by explicitly defining 'wind' and explaining the mechanism behind the movement of air. The answer does not explain why air moves from high to low pressure areas, which is a key concept.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is a crucial factor in their formation. Warm ocean water provides the energy and moisture necessary for these storms to develop and intensify. The Coriolis force, small vertical wind speed variations, and other atmospheric conditions also contribute to the formation of tropical cyclones, but they are not limited to oceanic environments.",
     "timestamp_utc": "2025-07-28T19:19:18.926167+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the difference between a tropical cyclone and an extra-tropical cyclone?",
+    "ciq_generated_answer": "\"The difference between a tropical cyclone and an extra-tropical cyclone lies in their size of affect and wind velocity. Tropical cyclones are violent storms that have a smaller area of impact but higher wind velocities, making them more destructive. On the other hand, extra-tropical cyclones affect a much larger area compared to tropical cyclones.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key differences between tropical and extra-tropical cyclones. However, it could be more comprehensive by mentioning the formation regions and movement patterns of these cyclones. The answer is clear and easy to understand.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones and extra-tropical cyclones differ in several ways. Tropical cyclones are violent storms that originate over warm tropical oceans and have a smaller area of impact but higher wind velocities, making them more destructive. They form over oceans in tropical areas and typically dissipate once they reach land due to the disruption in their moisture supply. On the other hand, extra-tropical cyclones form in mid to high latitudes, beyond the tropics, and can originate over both land and sea. These cyclones cover a much larger area compared to tropical cyclones and are characterized by a clear frontal system. While tropical cyclones move from east to west, extra-tropical cyclones move from west to east. Additionally, tropical cyclones have higher wind velocities, making them more destructive within their smaller area of impact.",
+    "timestamp_utc": "2025-07-28T20:24:26.431298+00:00"
   }
 ]
