@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as stated in [2] of the provided context.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It directly addresses the question, providing a concise and relevant response. The answer could be expanded to include more detail, but as a brief response, it is effective.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, typically forming over large bodies of water with temperatures exceeding 27\u00b0C. These warm ocean waters provide the necessary energy and moisture to fuel the intense storm systems.",
-    "timestamp_utc": "2025-07-27T17:19:21.589880+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where does it typically occur?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It typically occurs around the equator.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, providing a clear and concise definition of the Inter Tropical Convergence Zone (ITCZ) and its typical location. However, a higher score could be achieved by adding further context or details about the ITCZ, such as its significance in weather patterns or how it influences atmospheric circulation.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis force is a phenomenon that arises due to the rotation of the Earth. It influences the direction of wind by deflecting it. In the Northern Hemisphere, the Coriolis force causes the wind to veer to the right, while in the Southern Hemisphere, it deflects to the left. The strength of this force is dependent on the latitude, being strongest at the poles and non-existent at the equator. As a result, the Coriolis force plays a crucial role in determining wind patterns and atmospheric circulation, particularly in the mid-latitudes.",
     "timestamp_utc": "2025-07-28T05:29:05.049490+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence atmospheric circulation and weather systems?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator meet and converge. In this zone, the air rises due to convection caused by high insolation (solar radiation) and low pressure is created. This rising air can influence atmospheric circulation and weather systems by creating a pathway for moisture-laden air to move poleward, potentially leading to heavy rainfall in areas beyond the equator.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation and weather systems. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by mentioning the specific weather phenomena associated with the ITCZ, such as the formation of tropical cyclones or the impact on monsoon patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence leads to the upward movement of warm, moist air due to convection, creating an area of low pressure. The ITCZ plays a crucial role in atmospheric circulation and weather systems by acting as a pathway for the transport of moisture-laden air away from the equator. This can result in the formation of clouds and heavy rainfall in regions located poleward of the equator. The ITCZ is also associated with the development of tropical cyclones and the onset of monsoon seasons in certain parts of the world.",
+    "timestamp_utc": "2025-07-28T06:34:42.082870+00:00"
   }
 ]
