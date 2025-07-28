@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where does it typically occur?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It typically occurs around the equator.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, providing a clear and concise definition of the Inter Tropical Convergence Zone (ITCZ) and its typical location. However, a higher score could be achieved by adding further context or details about the ITCZ, such as its significance in weather patterns or how it influences atmospheric circulation.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence zone typically occurs around the equator due to the meeting of the easterly winds from both hemispheres. The ITCZ is a critical component in global atmospheric circulation and weather patterns, influencing the formation of clouds, precipitation, and tropical cyclones.",
-    "timestamp_utc": "2025-07-27T18:28:30.394718+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence the general circulation of the atmosphere?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge due to low pressure. At this zone, air rises due to convection caused by high insolation, which contributes to the general circulation of the atmosphere by creating an area of low pressure that attracts winds from the tropics.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation. However, the wording could be improved for clarity, especially the phrase 'air rises due to convection caused by high insolation', which may not be easily understandable for all readers.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence leads to the upward movement of warm, moist air due to convection, creating an area of low pressure. The ITCZ plays a crucial role in atmospheric circulation and weather systems by acting as a pathway for the transport of moisture-laden air away from the equator. This can result in the formation of clouds and heavy rainfall in regions located poleward of the equator. The ITCZ is also associated with the development of tropical cyclones and the onset of monsoon seasons in certain parts of the world.",
     "timestamp_utc": "2025-07-28T06:34:42.082870+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis force, and how does it impact wind direction?",
+    "ciq_generated_answer": "\"The Coriolis force is a force exerted by the rotation of the Earth that affects the direction of wind. At the equator, where the Coriolis force is zero, the wind blows perpendicular to the isobars. In other latitudes, the Coriolis force acts perpendicular to the pressure gradient force, influencing the wind's path.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise explanation of the Coriolis force and its impact on wind direction, including the crucial detail about the force acting perpendicular to the pressure gradient force.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "The Coriolis force is a phenomenon that influences the direction of wind due to the rotation of the Earth. At the equator, where the Coriolis force is absent, the wind blows perpendicular to the isobars. However, in other latitudes, the Coriolis force acts perpendicular to the pressure gradient force, altering the path of the wind. This force is stronger when wind velocity is higher and is directly proportional to the latitude. As a result, the Coriolis force influences the wind to blow in a curved path, deflecting it to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+    "timestamp_utc": "2025-07-28T07:26:10.434050+00:00"
   }
 ]
