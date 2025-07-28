@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "How do variations in atmospheric pressure cause air to move, and what is the resulting motion called?",
-    "ciq_generated_answer": "\"The variations in atmospheric pressure cause air to move from high pressure areas to low pressure areas. This motion is called wind. (Based on context [1], [4] and [6])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by explicitly defining 'wind' and explaining the mechanism behind the movement of air. The answer does not explain why air moves from high to low pressure areas, which is a key concept.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Variations in atmospheric pressure cause air to move from areas of high pressure to areas of low pressure. This movement of air is known as wind. The greater the difference in pressure between two areas, the stronger the wind will blow. This occurs because air moves from higher to lower pressure regions to equalize the pressure difference, similar to how water flows from a higher elevation to a lower one. This movement of air is essential for redistributing heat and moisture around the planet, maintaining a relatively stable global temperature.",
-    "timestamp_utc": "2025-07-28T08:31:35.602131+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a wind generating force)\"",
     "ciq_answer_evaluation": "CIQ's answer is accurate, complete, and clear. It correctly identifies the key factors influencing wind speed and direction, including frictional force, the rotation of the Earth (Coriolis effect), and pressure differences. No additional relevant information is provided in the document that was missed.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones and extra-tropical cyclones differ in several ways. Tropical cyclones are violent storms that originate over warm tropical oceans and have a smaller area of impact but higher wind velocities, making them more destructive. They form over oceans in tropical areas and typically dissipate once they reach land due to the disruption in their moisture supply. On the other hand, extra-tropical cyclones form in mid to high latitudes, beyond the tropics, and can originate over both land and sea. These cyclones cover a much larger area compared to tropical cyclones and are characterized by a clear frontal system. While tropical cyclones move from east to west, extra-tropical cyclones move from west to east. Additionally, tropical cyclones have higher wind velocities, making them more destructive within their smaller area of impact.",
     "timestamp_utc": "2025-07-28T20:24:26.431298+00:00"
+  },
+  {
+    "cohere_generated_question": "How does the Coriolis effect influence the direction of wind in the Northern and Southern Hemispheres?",
+    "ciq_generated_answer": "\"The Coriolis effect influences the direction of wind differently in the Northern and Southern Hemispheres. In the Northern Hemisphere, the Coriolis force deflects the wind to the right (clockwise). In contrast, in the Southern Hemisphere, the Coriolis force deflects the wind to the left (counterclockwise). This is due to the rotation of the Earth about its axis.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect's influence on wind direction in both hemispheres. The explanation is clear and easy to understand, providing a good overview of the topic.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the direction of wind as a result of the Earth's rotation. In the Northern Hemisphere, the Coriolis force causes moving objects, such as wind, to be deflected to the right, resulting in a clockwise motion. Conversely, in the Southern Hemisphere, the Coriolis force deflects objects to the left, leading to a counterclockwise motion. This effect is more pronounced when wind velocities are higher. The Coriolis force is directly proportional to the latitude, reaching its maximum strength at the poles and diminishing toward the equator, where it has no influence on wind direction.",
+    "timestamp_utc": "2025-07-28T22:21:41.738710+00:00"
   }
 ]
