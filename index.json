@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind direction?",
-    "ciq_generated_answer": "\"The Coriolis effect refers to the deflection of moving objects, such as wind, due to the rotation of the Earth. In the provided context, it is stated that the Coriolis force deflects the wind to the right direction in the northern hemisphere. This deflection is a result of the Earth's rotation and is directly proportional to the angle of latitude.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind direction. The explanation is clear and easy to understand, providing a good overview of the concept.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the movement of objects, such as wind, due to the rotation of the Earth. In the context of wind direction, the Coriolis effect causes deflection of wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This deflection is a result of the Earth's rotation and is more pronounced when wind velocity is high. The Coriolis force is directly proportional to the angle of latitude, meaning it is strongest at the poles and absent at the equator. This force acts perpendicular to the pressure gradient force, which is the force that drives air movement from high-pressure areas to low-pressure areas. The interaction between these two forces results in the cyclonic circulation of wind around low-pressure systems and anti-cyclonic circulation around high-pressure systems. In the Northern Hemisphere, the wind blows in a counterclockwise direction around a low-pressure system and clockwise around a high-pressure system. The Coriolis effect, along with the pressure gradient force and frictional force, influences the velocity and direction of wind near the Earth's surface.",
-    "timestamp_utc": "2025-07-27T15:20:40.341871+00:00"
-  },
-  {
     "cohere_generated_question": "How does the Coriolis effect influence wind direction in the Northern Hemisphere?",
     "ciq_generated_answer": "\"The Coriolis effect influences wind direction in the Northern Hemisphere by deflecting it to the right.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, but could be clearer. It does not explicitly mention that the deflection is to the right, which is a key detail. The answer also does not provide any context or additional information about the Coriolis effect or its impact on wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional force: Friction affects wind speed, with greater friction near the Earth's surface, particularly over land.\n- Coriolis force: The rotation of the Earth deflects wind direction, with a rightward deflection in the Northern Hemisphere and leftward in the Southern Hemisphere.\n- Pressure gradient force: Wind blows from areas of high pressure to low pressure, and the pressure gradient force is responsible for this movement. The pressure gradient is stronger when isobars are close together.\n- Gravitational force: Acting downward, this force generally prevents strong upward winds.\n\nThese forces, particularly the pressure gradient, frictional force, and Coriolis force, combine to determine the speed and direction of wind near the Earth's surface.",
     "timestamp_utc": "2025-07-28T03:46:46.047853+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones only originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in [3].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention the specific conditions over the sea that are necessary for tropical cyclone formation, as detailed in the text.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of specific conditions, including warm ocean temperatures exceeding 27\u00b0C, the Coriolis force, small vertical wind speed variations, and a pre-existing weak low-pressure area. These factors, combined with the continuous supply of moisture from the sea, contribute to the formation and intensification of tropical cyclones.",
+    "timestamp_utc": "2025-07-28T04:46:35.066297+00:00"
   }
 ]
