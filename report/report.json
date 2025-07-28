@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence the general circulation of the atmosphere?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge due to low pressure. At this zone, air rises due to convection caused by high insolation, which contributes to the general circulation of the atmosphere by creating an area of low pressure that attracts winds from the tropics.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation. However, the wording could be improved for clarity, especially the phrase 'air rises due to convection caused by high insolation', which may not be easily understandable for all readers.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a zone of low pressure, attracting moist air and causing it to rise due to convection. The rising air cools and condenses, forming clouds and often leading to heavy rainfall. This process influences the general circulation of the atmosphere by creating a band of low pressure and associated weather systems around the equator, which then affects the movement of air masses and weather patterns globally.",
-    "timestamp_utc": "2025-07-27T19:18:05.754896+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones only originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in [3].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text. The answer also does not specify that the statement is in reference to a specific section [3] of the provided content, which could be confusing if multiple sources are involved.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "The Coriolis force is a phenomenon that influences the direction of wind due to the rotation of the Earth. At the equator, where the Coriolis force is absent, the wind blows perpendicular to the isobars. However, in other latitudes, the Coriolis force acts perpendicular to the pressure gradient force, altering the path of the wind. This force is stronger when wind velocity is higher and is directly proportional to the latitude. As a result, the Coriolis force influences the wind to blow in a curved path, deflecting it to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
     "timestamp_utc": "2025-07-28T07:26:10.434050+00:00"
+  },
+  {
+    "cohere_generated_question": "How do variations in atmospheric pressure cause air to move, and what is the resulting motion called?",
+    "ciq_generated_answer": "\"The variations in atmospheric pressure cause air to move from high pressure areas to low pressure areas. This motion is called wind. (Based on context [1], [4] and [6])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by explicitly defining 'wind' and explaining the mechanism behind the movement of air. The answer does not explain why air moves from high to low pressure areas, which is a key concept.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Variations in atmospheric pressure cause air to move from areas of high pressure to areas of low pressure. This movement of air is known as wind. The greater the difference in pressure between two areas, the stronger the wind will blow. This occurs because air moves from higher to lower pressure regions to equalize the pressure difference, similar to how water flows from a higher elevation to a lower one. This movement of air is essential for redistributing heat and moisture around the planet, maintaining a relatively stable global temperature.",
+    "timestamp_utc": "2025-07-28T08:31:35.602131+00:00"
   }
 ]
