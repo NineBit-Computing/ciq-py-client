@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (From Context [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise summary of the relevant information from the document, earning a high score.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, with sea surface temperatures exceeding 27\u00b0C. This warm ocean water provides the necessary energy and moisture for the formation and intensification of these storms.",
-    "timestamp_utc": "2025-07-29T06:33:01.496987+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that affect the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that affect the speed and direction of wind, as per the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nIn addition to these, it is also mentioned that the velocity and direction of the wind are the net result of the wind generating forces, but the specific forces are not explicitly stated in the context. Therefore, it's not clear what (ii) and (iii) refer to without more context.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It correctly identifies frictional force and the rotation of the Earth as factors affecting wind speed and direction, but the mention of 'additional forces' without specific details may confuse readers unfamiliar with the context.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the direction of moving objects, such as wind, due to the Earth's rotation. This effect causes the wind to deviate from its straight path as it moves across the planet. In the Northern Hemisphere, the Coriolis effect deflects wind to the right, while in the Southern Hemisphere, it deflects wind to the left. This deflection is more pronounced at higher latitudes, with the force being directly proportional to the angle of latitude. As a result, the Coriolis effect has a significant impact on wind direction in the mid-latitudes and polar regions, but it is negligible at the equator. The Coriolis effect plays a crucial role in the overall circulation of the atmosphere and the formation of weather systems, influencing the movement of air masses and the development of storms.",
     "timestamp_utc": "2025-07-29T17:22:59.809474+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the relationship between atmospheric pressure and wind?",
+    "ciq_generated_answer": "\"The wind blows from high pressure to low pressure ([3]). Small differences in atmospheric pressure produce a force that controls the wind direction ([4] and [5]). Therefore, the relationship between atmospheric pressure and wind is that differences in pressure cause the wind to move.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clear and concise, effectively summarizing the relationship between atmospheric pressure and wind. However, the answer could be improved by explaining why wind blows from high to low pressure areas, which is due to air moving from areas of higher pressure to areas of lower pressure.",
+    "ciq_answer_score": "9",
+    "cohere_generated_answer": "The relationship between atmospheric pressure and wind is fundamental to understanding air movement on Earth. Wind is created by differences in atmospheric pressure, which is caused by variations in air temperature and density. Warmer air expands and rises, creating areas of low pressure, while cooler air is denser and exerts higher pressure. As a result, wind blows from areas of high pressure to low pressure, moving air from one region to another. Small differences in atmospheric pressure create a force that determines wind direction, with air flowing along a pressure gradient from higher to lower pressure. This movement of air is what we experience as wind, and it plays a crucial role in redistributing heat and moisture around the planet, maintaining a relatively stable climate.",
+    "timestamp_utc": "2025-07-29T18:32:35.323553+00:00"
   }
 ]
