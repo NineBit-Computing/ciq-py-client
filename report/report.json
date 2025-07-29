@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a wind generating force)\"",
-    "ciq_answer_evaluation": "CIQ's answer is accurate, complete, and clear. It correctly identifies the key factors influencing wind speed and direction, including frictional force, the rotation of the Earth (Coriolis effect), and pressure differences. No additional relevant information is provided in the document that was missed.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including: \n- Frictional Force: Friction affects wind speed and is greatest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- Coriolis Force: The rotation of the Earth about its axis affects the direction of wind. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force, with wind blowing from high-pressure areas to low-pressure areas. The pressure gradient is stronger when isobars are close together.\n\nThese forces, combined with the gravitational force, determine the velocity and direction of wind, known as wind generating forces.",
-    "timestamp_utc": "2025-07-28T09:28:50.877242+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect the weather?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterlies from both sides of the equator converge. It affects the weather by being one of the conditions favourable for the formation and intensification of tropical storms, as stated in [1] and [2]. However, it doesn't explicitly mention how the ITCZ directly impacts the weather in this context. For a more detailed explanation of its effect on weather, you might want to consult additional sources or clarify the question.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and provides a clear and concise explanation of the Inter Tropical Convergence Zone (ITCZ) and its role in the formation of tropical storms. However, it could have been more complete by mentioning the upward motion of air in the ITCZ, which leads to cloud formation and precipitation, as well as its influence on the general atmospheric circulation.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the direction of wind as a result of the Earth's rotation. In the Northern Hemisphere, the Coriolis force causes moving objects, such as wind, to be deflected to the right, resulting in a clockwise motion. Conversely, in the Southern Hemisphere, the Coriolis force deflects objects to the left, leading to a counterclockwise motion. This effect is more pronounced when wind velocities are higher. The Coriolis force is directly proportional to the latitude, reaching its maximum strength at the poles and diminishing toward the equator, where it has no influence on wind direction.",
     "timestamp_utc": "2025-07-28T22:21:41.738710+00:00"
+  },
+  {
+    "cohere_generated_question": "Why does the Coriolis force not affect wind direction near the equator?",
+    "ciq_generated_answer": "\"The Coriolis force does not affect wind direction near the equator because at the equator, the angle of latitude is zero, and according to the context, the Coriolis force is directly proportional to the angle of latitude.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, and it is clearly worded. It directly addresses the question and provides a concise explanation for why the Coriolis force does not affect wind direction near the equator.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis force does not influence wind direction near the equator because the Coriolis force is directly proportional to the angle of latitude, and at the equator, the angle of latitude is zero. This means that the Coriolis force has no effect on the wind at the equator, allowing the wind to blow perpendicular to the isobars without deflection.",
+    "timestamp_utc": "2025-07-29T01:58:24.317333+00:00"
   }
 ]
