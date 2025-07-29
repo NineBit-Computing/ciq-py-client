@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the factors that affect the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors that affect the speed and direction of wind, as per the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nIn addition to these, it is also mentioned that the velocity and direction of the wind are the net result of the wind generating forces, but the specific forces are not explicitly stated in the context. Therefore, it's not clear what (ii) and (iii) refer to without more context.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It correctly identifies frictional force and the rotation of the Earth as factors affecting wind speed and direction, but the mention of 'additional forces' without specific details may confuse readers unfamiliar with the context.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, namely:\n\n- Frictional Force: This force opposes the motion of wind and is strongest at the surface, particularly over land. It generally affects wind up to elevations of 1-3 km.\n- Coriolis Force: The rotation of the Earth about its axis affects the direction of wind. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction. Wind generally blows from high-pressure areas to low-pressure areas.\n- Other Factors: The text also mentions other forces, such as the gravitational force acting downward, but does not provide specific details about them in this context.",
-    "timestamp_utc": "2025-07-29T07:24:54.678326+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterly trade winds from both sides of the equator converge. It is important because it influences weather patterns and precipitation in the tropics, as the convergence of these winds creates areas of low pressure and often leads to heavy rainfall.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the second sentence, which is a bit awkwardly phrased. Overall, the answer is good but could be more concise and clear.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": "9",
     "cohere_generated_answer": "The relationship between atmospheric pressure and wind is fundamental to understanding air movement on Earth. Wind is created by differences in atmospheric pressure, which is caused by variations in air temperature and density. Warmer air expands and rises, creating areas of low pressure, while cooler air is denser and exerts higher pressure. As a result, wind blows from areas of high pressure to low pressure, moving air from one region to another. Small differences in atmospheric pressure create a force that determines wind direction, with air flowing along a pressure gradient from higher to lower pressure. This movement of air is what we experience as wind, and it plays a crucial role in redistributing heat and moisture around the planet, maintaining a relatively stable climate.",
     "timestamp_utc": "2025-07-29T18:32:35.323553+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis force and how does it influence wind direction in the Northern and Southern Hemispheres?",
+    "ciq_generated_answer": "\"The Coriolis force, as stated in the context, is the force exerted by the rotation of the earth. In the Northern Hemisphere, it deflects the wind to the right direction. In the Southern Hemisphere, it deflects the wind to the left direction. This force affects the wind direction due to the earth's rotation about its axis. At the equator, where the Coriolis force is zero, the wind blows perpendicular to the isobars.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis force and its influence on wind direction. However, the answer could be improved by providing a bit more detail on the mechanics behind the Coriolis force, such as its relationship with the rotation of the Earth. The wording is clear and easy to understand.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Coriolis force is a consequence of the rotation of the Earth about its axis. This force influences the direction of moving objects, including wind, as they travel long distances over the Earth's surface. In the Northern Hemisphere, the Coriolis force causes moving objects to be deflected to the right, while in the Southern Hemisphere, they are deflected to the left. This effect is more pronounced at higher latitudes and has a significant impact on global wind patterns. At the equator, the Coriolis force is negligible, resulting in winds blowing perpendicular to the isobars. The Coriolis force, along with other factors like pressure gradients and friction, plays a crucial role in determining wind direction and circulation patterns in the atmosphere.",
+    "timestamp_utc": "2025-07-29T19:25:38.102865+00:00"
   }
 ]
