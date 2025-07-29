@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a force affecting wind movement)\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by explicitly mentioning that these factors are 'frictional force, rotation of the Earth, and pressure gradient force'.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force, the rotation of the Earth, and pressure gradient force. Frictional force, which is greatest at the surface and extends up to elevations of 1-3 km, affects wind speed. The rotation of the Earth, or the Coriolis effect, deflects wind to the right in the northern hemisphere and to the left in the southern hemisphere. The pressure gradient force, which is caused by variations in atmospheric pressure, determines the direction of wind from high-pressure areas to low-pressure areas.",
-    "timestamp_utc": "2025-07-29T03:52:16.876298+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind patterns in the Northern and Southern Hemispheres?",
     "ciq_generated_answer": "\"The Coriolis effect, as described in the given context, is a force that results from the Earth's rotation and affects the direction of wind movement. In the Northern Hemisphere, the Coriolis force deflects the wind to the right. Conversely, in the Southern Hemisphere, it deflects the wind to the left. This effect causes wind patterns around different systems to change according to their location in different hemispheres (Table 9.2). Additionally, the Coriolis force is directly proportional to the angle of latitude. At the equator, where the angle of latitude is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind patterns. The explanation is clear and easy to understand, providing a good overview of the topic.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones do not form near the equator because the Coriolis force, which is essential for their formation, is absent at the equator. This force, caused by the Earth's rotation, influences the direction and velocity of winds, deflecting them perpendicular to pressure gradients. Near the equator, where the Coriolis force is weakest, winds blow parallel to pressure gradients, preventing the intensification of low-pressure systems into tropical cyclones.",
     "timestamp_utc": "2025-07-29T13:41:22.977162+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important because it influences weather patterns in the tropics, often bringing heavy rainfall to equatorial regions due to the convergence of air masses.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the second sentence, which is a bit awkwardly phrased.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important because it influences weather patterns in the tropics, particularly in equatorial regions. The meeting of these air masses often results in the uplift of moist air, leading to the formation of clouds and heavy rainfall in these areas.",
+    "timestamp_utc": "2025-07-29T14:25:12.106256+00:00"
   }
 ]
