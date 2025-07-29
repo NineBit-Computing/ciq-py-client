@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones only originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans ([3]).\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text. The answer also does not explain why tropical cyclones need this specific condition.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is a crucial factor in their formation. Warm ocean water provides the energy and moisture necessary for these storms to develop and intensify. The Coriolis force, small vertical wind speed variations, and other atmospheric conditions also contribute to the formation of tropical cyclones, but they are not limited to oceanic environments.",
-    "timestamp_utc": "2025-07-28T19:19:18.926167+00:00"
-  },
-  {
     "cohere_generated_question": "What is the difference between a tropical cyclone and an extra-tropical cyclone?",
     "ciq_generated_answer": "\"The difference between a tropical cyclone and an extra-tropical cyclone lies in their size of affect and wind velocity. Tropical cyclones are violent storms that have a smaller area of impact but higher wind velocities, making them more destructive. On the other hand, extra-tropical cyclones affect a much larger area compared to tropical cyclones.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key differences between tropical and extra-tropical cyclones. However, it could be more comprehensive by mentioning the formation regions and movement patterns of these cyclones. The answer is clear and easy to understand.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important because it influences weather patterns in the tropics by creating areas of low pressure, which often result in heavy rainfall. The ITCZ is a critical component of Earth's atmospheric circulation, helping to redistribute heat and moisture globally and playing a significant role in tropical climate dynamics.",
     "timestamp_utc": "2025-07-29T08:29:42.867413+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nThe velocity and direction of the wind are the net result of these wind generating forces and pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it does not mention the Coriolis force, which is also a factor influencing wind direction. This is a crucial omission as it plays a significant role in determining wind patterns, especially on a global scale.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, including:\n\n- Frictional Force: Friction affects wind speed and is most significant near the surface, particularly over land.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This force is proportional to the latitude and is zero at the equator.\n- Pressure Gradient Force: Wind generally blows from high-pressure areas to low-pressure areas. The pressure gradient force is balanced by the Coriolis force, resulting in geostrophic winds.\n\nThese forces, along with the gravitational force, collectively influence the speed and direction of wind, leading to complex global wind patterns.",
+    "timestamp_utc": "2025-07-29T09:26:58.010282+00:00"
   }
 ]
