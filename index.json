@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where is it located?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterlies from both sides of the equator converge. It is located somewhere along the equator.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional details about the Inter Tropical Convergence Zone, such as its role in atmospheric circulation or its impact on weather patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. It is a low-pressure zone characterized by warm, moist air and is responsible for the formation of tropical cyclones and thunderstorms. The ITCZ is not a fixed location and oscillates north and south throughout the year, following the apparent movement of the sun.",
-    "timestamp_utc": "2025-07-28T13:39:51.159249+00:00"
-  },
-  {
     "cohere_generated_question": "What factors influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors influencing the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force ([1])\\n2. Rotation of the Earth ([4])\\n3. Pressure (implied in [5])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying three key factors that influence wind speed and direction. However, the answer could be clearer by providing more context for each factor, particularly the third factor which is implied but not explicitly mentioned in the text.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force, pressure gradient force, and the Coriolis effect. Frictional force, caused by the roughness of the Earth's surface, acts as a brake on the wind, reducing its speed. The pressure gradient force, which results from differences in atmospheric pressure, propels air from high-pressure areas to low-pressure areas. Additionally, the Coriolis effect, caused by the Earth's rotation, deflects winds in the northern hemisphere to the right and in the southern hemisphere to the left. These forces work together to shape global wind patterns and determine their speed and direction.",
     "timestamp_utc": "2025-07-29T05:29:12.768969+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (From Context [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise summary of the relevant information from the document, earning a high score.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, with sea surface temperatures exceeding 27\u00b0C. This warm ocean water provides the necessary energy and moisture for the formation and intensification of these storms.",
+    "timestamp_utc": "2025-07-29T06:33:01.496987+00:00"
   }
 ]
