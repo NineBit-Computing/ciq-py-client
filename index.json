@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterly trade winds from both sides of the equator converge. It is important because it influences weather patterns and precipitation in the tropics, as the convergence of these winds creates areas of low pressure and often leads to heavy rainfall.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the second sentence, which is a bit awkwardly phrased. Overall, the answer is good but could be more concise and clear.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important because it influences weather patterns in the tropics by creating areas of low pressure, which often result in heavy rainfall. The ITCZ is a critical component of Earth's atmospheric circulation, helping to redistribute heat and moisture globally and playing a significant role in tropical climate dynamics.",
-    "timestamp_utc": "2025-07-29T08:29:42.867413+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, as per the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nThe velocity and direction of the wind are the net result of these wind generating forces and pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it does not mention the Coriolis force, which is also a factor influencing wind direction. This is a crucial omission as it plays a significant role in determining wind patterns, especially on a global scale.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Coriolis force is a consequence of the rotation of the Earth about its axis. This force influences the direction of moving objects, including wind, as they travel long distances over the Earth's surface. In the Northern Hemisphere, the Coriolis force causes moving objects to be deflected to the right, while in the Southern Hemisphere, they are deflected to the left. This effect is more pronounced at higher latitudes and has a significant impact on global wind patterns. At the equator, the Coriolis force is negligible, resulting in winds blowing perpendicular to the isobars. The Coriolis force, along with other factors like pressure gradients and friction, plays a crucial role in determining wind direction and circulation patterns in the atmosphere.",
     "timestamp_utc": "2025-07-29T19:25:38.102865+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind direction in the Northern Hemisphere?",
+    "ciq_generated_answer": "\"The Coriolis effect refers to the deflection of moving objects, such as wind, due to the Earth's rotation. In the Northern Hemisphere, the Coriolis force causes a rightward deflection of the wind. This means that winds blowing at the Earth's surface tend to veer to the right of their initial direction. This effect is proportional to the angle of latitude, with less influence near the equator and stronger influence closer to the poles.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind direction in the Northern Hemisphere. The explanation is clear and easy to understand, providing a good overview of the topic.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis effect is a phenomenon that occurs due to the rotation of the Earth. This effect causes moving objects, such as wind, to be deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. In the context of wind direction, the Coriolis force acts perpendicular to the pressure gradient force, which is responsible for the movement of air from high-pressure areas to low-pressure areas. The Coriolis effect is more pronounced at higher latitudes and weaker near the equator, with a strength that is directly proportional to the angle of latitude. As a result, winds in the Northern Hemisphere tend to veer to the right of their initial direction, creating a cyclonic circulation around low-pressure systems.",
+    "timestamp_utc": "2025-07-29T21:20:49.328509+00:00"
   }
 ]
