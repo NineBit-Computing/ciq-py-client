@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence wind circulation?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low-pressure zone where winds from either side of the equator converge. It influences wind circulation by causing air at the ITCZ to rise due to convection caused by high insolation and low pressure, which in turn affects the general circulation of the atmosphere.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on wind circulation. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by mentioning the role of the ITCZ in the general circulation of the atmosphere, as well as its impact on weather patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge. It is characterized by low pressure and rising air due to convection caused by intense heating from the sun. This rising air affects wind circulation by creating a low-pressure area, causing air to flow towards it from surrounding higher-pressure areas. The ITCZ plays a crucial role in the general circulation of the atmosphere, influencing the formation of wind patterns, cloud cover, and precipitation in tropical regions. It also contributes to the development of weather phenomena, such as tropical cyclones, by providing the necessary conditions for their formation and intensification.",
-    "timestamp_utc": "2025-07-28T12:45:03.979016+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where is it located?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterlies from both sides of the equator converge. It is located somewhere along the equator.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional details about the Inter Tropical Convergence Zone, such as its role in atmospheric circulation or its impact on weather patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind patterns on Earth due to the planet's rotation. In the Northern Hemisphere, this effect causes moving objects like wind to be deflected to the right, while in the Southern Hemisphere, it gets deflected to the left. This results in distinct wind patterns in each hemisphere. The Coriolis force is strongest at the poles and weakest at the equator, where it has no effect on wind direction. This force, along with pressure gradient and frictional forces, shapes the wind circulation and weather systems globally.",
     "timestamp_utc": "2025-07-29T04:48:59.389640+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors that determine the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors that determine the speed and direction of wind are Frictional Force (which affects the speed) and the net result of wind generating forces (which includes Pressure).\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key factors determining wind speed and direction. However, it could be more comprehensive by mentioning other forces like the Coriolis effect and pressure gradient force, which are also crucial in influencing wind patterns. The answer is clear and concise but could benefit from a brief explanation of how frictional force and pressure influence wind characteristics.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force, pressure gradient force, and the Coriolis effect. Frictional force, caused by the roughness of the Earth's surface, acts as a brake on the wind, reducing its speed. The pressure gradient force, which results from differences in atmospheric pressure, propels air from high-pressure areas to low-pressure areas. Additionally, the Coriolis effect, caused by the Earth's rotation, deflects winds in the northern hemisphere to the right and in the southern hemisphere to the left. These forces work together to shape global wind patterns and determine their speed and direction.",
+    "timestamp_utc": "2025-07-29T05:29:12.768969+00:00"
   }
 ]
