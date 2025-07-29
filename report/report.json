@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the difference between a tropical cyclone and an extra-tropical cyclone?",
-    "ciq_generated_answer": "\"The difference between a tropical cyclone and an extra-tropical cyclone lies in their size of affect and wind velocity. Tropical cyclones are violent storms that have a smaller area of impact but higher wind velocities, making them more destructive. On the other hand, extra-tropical cyclones affect a much larger area compared to tropical cyclones.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key differences between tropical and extra-tropical cyclones. However, it could be more comprehensive by mentioning the formation regions and movement patterns of these cyclones. The answer is clear and easy to understand.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones and extra-tropical cyclones differ in several ways. Tropical cyclones are violent storms that originate over warm tropical oceans and have a smaller area of impact but higher wind velocities, making them more destructive. They form over oceans in tropical areas and typically dissipate once they reach land due to the disruption in their moisture supply. On the other hand, extra-tropical cyclones form in mid to high latitudes, beyond the tropics, and can originate over both land and sea. These cyclones cover a much larger area compared to tropical cyclones and are characterized by a clear frontal system. While tropical cyclones move from east to west, extra-tropical cyclones move from west to east. Additionally, tropical cyclones have higher wind velocities, making them more destructive within their smaller area of impact.",
-    "timestamp_utc": "2025-07-28T20:24:26.431298+00:00"
-  },
-  {
     "cohere_generated_question": "How does the Coriolis effect influence the direction of wind in the Northern and Southern Hemispheres?",
     "ciq_generated_answer": "\"The Coriolis effect influences the direction of wind differently in the Northern and Southern Hemispheres. In the Northern Hemisphere, the Coriolis force deflects the wind to the right (clockwise). In contrast, in the Southern Hemisphere, the Coriolis force deflects the wind to the left (counterclockwise). This is due to the rotation of the Earth about its axis.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect's influence on wind direction in both hemispheres. The explanation is clear and easy to understand, providing a good overview of the topic.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, including:\n\n- Frictional Force: Friction affects wind speed and is most significant near the surface, particularly over land.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This force is proportional to the latitude and is zero at the equator.\n- Pressure Gradient Force: Wind generally blows from high-pressure areas to low-pressure areas. The pressure gradient force is balanced by the Coriolis force, resulting in geostrophic winds.\n\nThese forces, along with the gravitational force, collectively influence the speed and direction of wind, leading to complex global wind patterns.",
     "timestamp_utc": "2025-07-29T09:26:58.010282+00:00"
+  },
+  {
+    "cohere_generated_question": "What factors influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors influencing the speed and direction of wind, as per the provided context, are:\\n\\n   1. Frictional Force: This affects the speed of the wind.\\n\\n   2. Rotation of the Earth: This also affects wind movement.\\n\\n   3. Pressure: While not explicitly stated that it affects only speed or direction, pressure is one of the forces affecting the velocity and direction of wind.\"",
+    "ciq_answer_evaluation": "CIQ's answer is accurate, complete, and clear. It correctly identifies the three factors influencing wind speed and direction, providing a concise and easy-to-understand response. The answer is supported by the document, which discusses these factors in detail.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including: \n\n- Frictional Force: This force affects the speed of the wind and is greatest at the surface, with its influence extending up to elevations of 1-3 km. It is minimal over the sea surface.\n\n- Coriolis Force: The rotation of the Earth about its axis affects the direction of the wind. This force deflects wind to the right in the northern hemisphere and to the left in the southern hemisphere. The deflection is more pronounced when wind velocity is high.\n\n- Pressure Gradient Force: Small differences in atmospheric pressure create a force that influences wind direction and velocity. The pressure gradient is stronger when isobars are close together and weaker when they are apart. Wind blows from high-pressure areas to low-pressure areas.\n\nAdditionally, the gravitational force acts downward, and the Coriolis force is balanced by the pressure gradient force, resulting in geostrophic winds blowing parallel to isobars when there is no friction.",
+    "timestamp_utc": "2025-07-29T10:23:08.955397+00:00"
   }
 ]
