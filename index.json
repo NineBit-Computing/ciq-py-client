@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What factors influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors influencing the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force ([1])\\n2. Rotation of the Earth ([4])\\n3. Pressure (implied in [5])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying three key factors that influence wind speed and direction. However, the answer could be clearer by providing more context for each factor, particularly the third factor which is implied but not explicitly mentioned in the text.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including:\n\n1. Frictional Force: The friction experienced by wind near the Earth's surface, especially over land, can impact its speed. The effect of friction generally extends up to elevations of 1-3 km.\n\n2. Coriolis Force: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, while in the Southern Hemisphere, it is deflected to the left. The deflection is more pronounced at higher latitudes and absent at the equator.\n\n3. Pressure Gradient Force: Wind generally moves from areas of high pressure to low pressure. The horizontal distribution of pressure is studied using isobars, which connect places with equal pressure. The pressure gradient force is perpendicular to an isobar, and its strength influences wind velocity.\n\nAdditionally, other factors such as the gravitational force and local variations in heating and cooling of surfaces can also influence wind patterns.",
-    "timestamp_utc": "2025-07-28T16:28:48.719378+00:00"
-  },
-  {
     "cohere_generated_question": "What factors affect the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors affecting the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force: It affects the speed of the wind.\\n2. Rotation of the Earth: It also affects the wind movement.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by mentioning the Coriolis force, which is also discussed in the text as a factor influencing wind direction. This additional factor would provide a more complete picture of the factors at play.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, with sea surface temperatures exceeding 27\u00b0C. This warm ocean water provides the necessary energy and moisture for the formation and intensification of these storms.",
     "timestamp_utc": "2025-07-29T06:33:01.496987+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the factors that affect the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors that affect the speed and direction of wind, as per the provided context, are:\\n\\n  1. Frictional Force\\n  2. Rotation of the Earth\\n\\nIn addition to these, it is also mentioned that the velocity and direction of the wind are the net result of the wind generating forces, but the specific forces are not explicitly stated in the context. Therefore, it's not clear what (ii) and (iii) refer to without more context.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It correctly identifies frictional force and the rotation of the Earth as factors affecting wind speed and direction, but the mention of 'additional forces' without specific details may confuse readers unfamiliar with the context.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, namely:\n\n- Frictional Force: This force opposes the motion of wind and is strongest at the surface, particularly over land. It generally affects wind up to elevations of 1-3 km.\n- Coriolis Force: The rotation of the Earth about its axis affects the direction of wind. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction. Wind generally blows from high-pressure areas to low-pressure areas.\n- Other Factors: The text also mentions other forces, such as the gravitational force acting downward, but does not provide specific details about them in this context.",
+    "timestamp_utc": "2025-07-29T07:24:54.678326+00:00"
   }
 ]
