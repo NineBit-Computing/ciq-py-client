@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "How does the Coriolis effect influence wind direction in the Northern Hemisphere?",
-    "ciq_generated_answer": "\"The Coriolis effect influences wind direction in the Northern Hemisphere by deflecting it to the right.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, but could be clearer. It does not specify that the deflection is to the right of the direction of motion, which is an important detail. This answer earns a score of 8.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Coriolis effect influences wind direction in the Northern Hemisphere by deflecting the wind to the right of its direction of motion. This is due to the rotation of the Earth, which affects the path of moving objects, including wind.",
-    "timestamp_utc": "2025-07-28T11:19:12.649512+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence wind circulation?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low-pressure zone where winds from either side of the equator converge. It influences wind circulation by causing air at the ITCZ to rise due to convection caused by high insolation and low pressure, which in turn affects the general circulation of the atmosphere.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on wind circulation. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by mentioning the role of the ITCZ in the general circulation of the atmosphere, as well as its impact on weather patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force, the rotation of the Earth, and pressure gradient force. Frictional force, which is greatest at the surface and extends up to elevations of 1-3 km, affects wind speed. The rotation of the Earth, or the Coriolis effect, deflects wind to the right in the northern hemisphere and to the left in the southern hemisphere. The pressure gradient force, which is caused by variations in atmospheric pressure, determines the direction of wind from high-pressure areas to low-pressure areas.",
     "timestamp_utc": "2025-07-29T03:52:16.876298+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind patterns in the Northern and Southern Hemispheres?",
+    "ciq_generated_answer": "\"The Coriolis effect, as described in the given context, is a force that results from the Earth's rotation and affects the direction of wind movement. In the Northern Hemisphere, the Coriolis force deflects the wind to the right. Conversely, in the Southern Hemisphere, it deflects the wind to the left. This effect causes wind patterns around different systems to change according to their location in different hemispheres (Table 9.2). Additionally, the Coriolis force is directly proportional to the angle of latitude. At the equator, where the angle of latitude is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind patterns. The explanation is clear and easy to understand, providing a good overview of the topic.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind patterns on Earth due to the planet's rotation. In the Northern Hemisphere, this effect causes moving objects like wind to be deflected to the right, while in the Southern Hemisphere, it gets deflected to the left. This results in distinct wind patterns in each hemisphere. The Coriolis force is strongest at the poles and weakest at the equator, where it has no effect on wind direction. This force, along with pressure gradient and frictional forces, shapes the wind circulation and weather systems globally.",
+    "timestamp_utc": "2025-07-29T04:48:59.389640+00:00"
   }
 ]
