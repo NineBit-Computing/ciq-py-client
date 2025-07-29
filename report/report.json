@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why does the Coriolis force not affect wind direction near the equator?",
-    "ciq_generated_answer": "\"The Coriolis force does not affect wind direction near the equator because at the equator, the angle of latitude is zero, and according to the context, the Coriolis force is directly proportional to the angle of latitude.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, and it is clearly worded. It directly addresses the question and provides a concise explanation for why the Coriolis force does not affect wind direction near the equator.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Coriolis force does not influence wind direction near the equator because the Coriolis force is directly proportional to the angle of latitude, and at the equator, the angle of latitude is zero. This means that the Coriolis force has no effect on the wind at the equator, allowing the wind to blow perpendicular to the isobars without deflection.",
-    "timestamp_utc": "2025-07-29T01:58:24.317333+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a force affecting wind movement)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by explicitly mentioning that these factors are 'frictional force, rotation of the Earth, and pressure gradient force'.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical ocean waters, which provide the necessary heat and moisture for their formation and intensification. These storms require specific conditions, including sea surface temperatures above 27\u00b0C, the Coriolis force, and small variations in vertical wind speed, among other factors. The warm ocean acts as a source of energy and moisture, fueling the storm and allowing it to grow in intensity.",
     "timestamp_utc": "2025-07-29T12:45:11.065083+00:00"
+  },
+  {
+    "cohere_generated_question": "Why is it that tropical cyclones do not form near the equator?",
+    "ciq_generated_answer": "\"Tropical cyclones do not form near the equator because they originate and intensify over warm tropical oceans, which are not present at the equator.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones require warm tropical oceans, which are absent at the equator, but does not explicitly mention that this is the reason they don't form near the equator. This could be made clearer.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones do not form near the equator because the Coriolis force, which is essential for their formation, is absent at the equator. This force, caused by the Earth's rotation, influences the direction and velocity of winds, deflecting them perpendicular to pressure gradients. Near the equator, where the Coriolis force is weakest, winds blow parallel to pressure gradients, preventing the intensification of low-pressure systems into tropical cyclones.",
+    "timestamp_utc": "2025-07-29T13:41:22.977162+00:00"
   }
 ]
