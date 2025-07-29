@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What factors affect the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors affecting the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force: It affects the speed of the wind.\\n2. Rotation of the Earth: It also affects the wind movement.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by mentioning the Coriolis force, which is also discussed in the text as a factor influencing wind direction. This additional factor would provide a more complete picture of the factors at play.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, including: \n\n- Frictional Force: This force affects wind speed and is strongest near the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced when wind velocity is high.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction. The pressure gradient is stronger when isobars are close together and weaker when they are farther apart.\n- Vertical Pressure Gradient: While horizontal pressure differences are the primary cause of wind, vertical pressure differences also play a role. The vertical pressure gradient force is balanced by gravitational force, preventing strong upward winds.\n\nThese factors, along with the gravitational force acting downward, collectively influence the speed and direction of wind.",
-    "timestamp_utc": "2025-07-28T17:22:47.989973+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones only originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans ([3]).\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text. The answer also does not explain why tropical cyclones need this specific condition.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, namely:\n\n- Frictional Force: This force opposes the motion of wind and is strongest at the surface, particularly over land. It generally affects wind up to elevations of 1-3 km.\n- Coriolis Force: The rotation of the Earth about its axis affects the direction of wind. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction. Wind generally blows from high-pressure areas to low-pressure areas.\n- Other Factors: The text also mentions other forces, such as the gravitational force acting downward, but does not provide specific details about them in this context.",
     "timestamp_utc": "2025-07-29T07:24:54.678326+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterly trade winds from both sides of the equator converge. It is important because it influences weather patterns and precipitation in the tropics, as the convergence of these winds creates areas of low pressure and often leads to heavy rainfall.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the second sentence, which is a bit awkwardly phrased. Overall, the answer is good but could be more concise and clear.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important because it influences weather patterns in the tropics by creating areas of low pressure, which often result in heavy rainfall. The ITCZ is a critical component of Earth's atmospheric circulation, helping to redistribute heat and moisture globally and playing a significant role in tropical climate dynamics.",
+    "timestamp_utc": "2025-07-29T08:29:42.867413+00:00"
   }
 ]
