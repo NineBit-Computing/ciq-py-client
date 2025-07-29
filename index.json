@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind patterns in the Northern and Southern Hemispheres?",
-    "ciq_generated_answer": "\"The Coriolis effect, as described in the given context, is a force that results from the Earth's rotation and affects the direction of wind movement. In the Northern Hemisphere, the Coriolis force deflects the wind to the right. Conversely, in the Southern Hemisphere, it deflects the wind to the left. This effect causes wind patterns around different systems to change according to their location in different hemispheres (Table 9.2). Additionally, the Coriolis force is directly proportional to the angle of latitude. At the equator, where the angle of latitude is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind patterns. The explanation is clear and easy to understand, providing a good overview of the topic.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind patterns on Earth due to the planet's rotation. In the Northern Hemisphere, this effect causes moving objects like wind to be deflected to the right, while in the Southern Hemisphere, it gets deflected to the left. This results in distinct wind patterns in each hemisphere. The Coriolis force is strongest at the poles and weakest at the equator, where it has no effect on wind direction. This force, along with pressure gradient and frictional forces, shapes the wind circulation and weather systems globally.",
-    "timestamp_utc": "2025-07-29T04:48:59.389640+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that determine the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors that determine the speed and direction of wind are Frictional Force (which affects the speed) and the net result of wind generating forces (which includes Pressure).\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the key factors determining wind speed and direction. However, it could be more comprehensive by mentioning other forces like the Coriolis effect and pressure gradient force, which are also crucial in influencing wind patterns. The answer is clear and concise but could benefit from a brief explanation of how frictional force and pressure influence wind characteristics.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important because it influences weather patterns in the tropics, particularly in equatorial regions. The meeting of these air masses often results in the uplift of moist air, leading to the formation of clouds and heavy rainfall in these areas.",
     "timestamp_utc": "2025-07-29T14:25:12.106256+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more complete by providing additional context or details about why tropical cyclones originate over warm tropical oceans. A higher score would be given if the answer included a brief explanation of the necessary conditions for the formation and intensification of tropical cyclones.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans due to the presence of specific conditions that fuel their formation and intensification. These conditions include sea surface temperatures higher than 27\u00b0 C, the influence of the Coriolis force, small variations in vertical wind speed, pre-existing low-pressure areas, and upper-level divergence. The warm ocean waters provide a crucial source of moisture and energy, which is released through condensation in towering cumulonimbus clouds surrounding the storm's center. This process intensifies the cyclone, and the continuous supply of moisture from the sea strengthens it further.",
+    "timestamp_utc": "2025-07-29T16:26:41.975343+00:00"
   }
 ]
