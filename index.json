@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones only form over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate only over the seas because they intensify over warm tropical oceans, as stated in [3] of the provided context.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It correctly states that tropical cyclones form over the sea due to the presence of warm tropical oceans, but does not explicitly mention the other necessary conditions such as the Coriolis force and vertical wind speed variations, which are also mentioned in the text.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones form over the sea due to a combination of factors, primarily the presence of warm tropical oceans, which provide the necessary energy for the storm's intensification through the condensation process in towering cumulonimbus clouds. Additionally, other conditions such as the Coriolis force, small vertical wind speed variations, and a pre-existing weak low-pressure area contribute to the formation and intensification of these storms.",
-    "timestamp_utc": "2025-07-30T10:23:47.756374+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important because it is a place where conditions are favorable for the formation and intensification of tropical storms. This is due to the presence of large sea surfaces with temperatures higher than 27 degrees Celsius, the Coriolis force, small variations in vertical wind speed, a pre-existing weak-low-pressure area or low-level cyclonic circulation, and upper divergence above the sea level system.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the last sentence, which is a bit confusing. The phrase 'above the sea level system' is unclear and could be rephrased.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": "10",
     "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. Each type of front is associated with distinct weather patterns and atmospheric conditions.",
     "timestamp_utc": "2025-07-30T19:19:07.436905+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors affecting the speed and direction of wind, according to the provided context, are Frictional Force, Forces Affecting the Velocity and Direction of Wind (which seems to encompass other factors but not specified individually), the rotation of the Earth, and Pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing more context for each factor, especially the Coriolis and frictional forces, and their specific effects on wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including: \n- Frictional Force: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the northern hemisphere and to the left in the southern hemisphere. The deflection is more pronounced at higher wind velocities and latitudes, and absent at the equator.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction. The pressure gradient is stronger when isobars are close together and weaker when they are apart.\n- Other Forces: The gravitational force acts downward, and the combined effect of these forces influences wind circulation patterns.\n\nAdditionally, factors like the vertical and horizontal distribution of pressure, land and sea interactions, and global atmospheric circulation patterns also play a role in determining wind speed and direction.",
+    "timestamp_utc": "2025-07-30T20:22:42.087607+00:00"
   }
 ]
