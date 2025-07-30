@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important because it influences weather patterns in the tropics, often bringing heavy rainfall to equatorial regions due to the convergence of air masses.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the second sentence, which is a bit awkwardly phrased.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important because it influences weather patterns in the tropics, particularly in equatorial regions. The meeting of these air masses often results in the uplift of moist air, leading to the formation of clouds and heavy rainfall in these areas.",
-    "timestamp_utc": "2025-07-29T14:25:12.106256+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more complete by providing additional context or details about why tropical cyclones originate over warm tropical oceans. A higher score would be given if the answer included a brief explanation of the necessary conditions for the formation and intensification of tropical cyclones.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind patterns on Earth due to the planet's rotation. This effect causes moving objects, like wind, to be deflected perpendicular to the direction of motion and the axis of rotation. In the Northern Hemisphere, the Coriolis effect veers wind to the right, resulting in counterclockwise wind circulation around low-pressure systems. Conversely, in the Southern Hemisphere, the wind is deflected to the left, leading to clockwise circulation around low-pressure areas. The strength of the Coriolis effect is dependent on latitude, with a stronger influence at higher latitudes and none at the equator. This effect plays a crucial role in shaping global wind patterns and ocean currents, contributing to the formation of distinct weather systems in different regions of the planet.",
     "timestamp_utc": "2025-07-30T05:29:45.282925+00:00"
+  },
+  {
+    "cohere_generated_question": "Why is the air pressure at sea level higher than at higher altitudes?",
+    "ciq_generated_answer": "\"The air pressure at sea level is higher than at higher altitudes because due to gravity, the air at the surface is denser and hence has higher pressure ([1]). Over the land, the air rises giving rise to a low pressure area, whereas the sea is relatively cool and the pressure over sea is relatively high ([2]). Additionally, in the lower atmosphere, the pressure decreases rapidly with height ([3]). Therefore, the air pressure at sea level is higher due to these factors.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information. It is clearly worded and easy to understand. The only minor improvement would be to include a brief mention of the vertical variation of pressure, which decreases with height, as this is a key factor in why air pressure is higher at sea level.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The air pressure at sea level is higher than at higher altitudes primarily due to the effect of gravity. Gravity causes the air at the surface to be denser and, consequently, have higher pressure. Additionally, the pressure in the lower atmosphere decreases rapidly with height, which further contributes to the higher pressure at sea level. This decrease in pressure with elevation is approximately 1 millibar for every 10 meters of increase in height. Furthermore, the sea has a relatively cooling effect, which also contributes to higher pressure over the sea compared to land.",
+    "timestamp_utc": "2025-07-30T06:34:31.456274+00:00"
   }
 ]
