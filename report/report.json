@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why is it that tropical cyclones do not form near the equator?",
-    "ciq_generated_answer": "\"Tropical cyclones do not form near the equator because they originate and intensify over warm tropical oceans, which are not present at the equator.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones require warm tropical oceans, which are absent at the equator, but does not explicitly mention that this is the reason they don't form near the equator. This could be made clearer.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones do not form near the equator because the Coriolis force, which is essential for their formation, is absent at the equator. This force, caused by the Earth's rotation, influences the direction and velocity of winds, deflecting them perpendicular to pressure gradients. Near the equator, where the Coriolis force is weakest, winds blow parallel to pressure gradients, preventing the intensification of low-pressure systems into tropical cyclones.",
-    "timestamp_utc": "2025-07-29T13:41:22.977162+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important because it influences weather patterns in the tropics, often bringing heavy rainfall to equatorial regions due to the convergence of air masses.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the second sentence, which is a bit awkwardly phrased.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is an essential factor in their formation. Warm ocean water provides the heat energy and moisture necessary for the storm to form and intensify. The Coriolis force, caused by the Earth's rotation, also plays a role in the formation of tropical cyclones by influencing the direction and speed of winds.",
     "timestamp_utc": "2025-07-30T03:43:36.131385+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind patterns in the Northern and Southern Hemispheres?",
+    "ciq_generated_answer": "\"The Coriolis effect is a force that affects the wind direction due to the Earth's rotation. In the Northern Hemisphere, it deflects the wind to the right of the moving air, while in the Southern Hemisphere, it deflects the wind to the left. This effect influences wind patterns by causing them to spiral around low-pressure systems in a clockwise direction in the Northern Hemisphere and counterclockwise in the Southern Hemisphere. The strength of the Coriolis effect depends on the angle of latitude, with a stronger effect at higher latitudes. At the equator, the Coriolis effect is zero, and the wind blows perpendicular to the isobars (lines of equal pressure).\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind patterns. The explanation is clear and easy to understand, providing a good overview of the topic.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind patterns on Earth due to the planet's rotation. This effect causes moving objects, like wind, to be deflected perpendicular to the direction of motion and the axis of rotation. In the Northern Hemisphere, the Coriolis effect veers wind to the right, resulting in counterclockwise wind circulation around low-pressure systems. Conversely, in the Southern Hemisphere, the wind is deflected to the left, leading to clockwise circulation around low-pressure areas. The strength of the Coriolis effect is dependent on latitude, with a stronger influence at higher latitudes and none at the equator. This effect plays a crucial role in shaping global wind patterns and ocean currents, contributing to the formation of distinct weather systems in different regions of the planet.",
+    "timestamp_utc": "2025-07-30T05:29:45.282925+00:00"
   }
 ]
