@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, covering the key point that tropical cyclones originate over warm tropical oceans.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans, typically forming over large bodies of water with temperatures exceeding 27\u00b0 C. The Coriolis force, small vertical wind speed variations, pre-existing low-pressure areas, and upper divergence above the sea level system are among the conditions necessary for their formation and intensification.",
-    "timestamp_utc": "2025-07-30T09:28:30.465910+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones only form over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate only over the seas because they intensify over warm tropical oceans, as stated in [3] of the provided context.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It correctly states that tropical cyclones form over the sea due to the presence of warm tropical oceans, but does not explicitly mention the other necessary conditions such as the Coriolis force and vertical wind speed variations, which are also mentioned in the text.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the northern and southern hemispheres converge. This convergence creates a low-pressure zone, which is a favorable condition for the formation and intensification of tropical cyclones or hurricanes. The ITCZ plays a crucial role in global atmospheric circulation and weather patterns, particularly in the tropics, by influencing the movement of air masses and the distribution of heat and moisture.",
     "timestamp_utc": "2025-07-30T18:31:50.163122+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; and (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts.",
+    "ciq_answer_score": "10",
+    "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. Each type of front is associated with distinct weather patterns and atmospheric conditions.",
+    "timestamp_utc": "2025-07-30T19:19:07.436905+00:00"
   }
 ]
