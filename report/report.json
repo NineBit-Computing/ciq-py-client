@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind direction in the Northern and Southern Hemispheres?",
-    "ciq_generated_answer": "\"The Coriolis effect is a force that causes moving objects, such as wind, to deviate from their straight path due to the Earth's rotation. In the Northern Hemisphere, the Coriolis force deflects the wind to the right (clockwise). In contrast, in the Southern Hemisphere, the Coriolis force deflects the wind to the left (counterclockwise). This effect influences the overall direction of winds around systems on Earth. The strength of the Coriolis force is directly proportional to the angle of latitude, meaning it has a more significant impact on wind direction as you move away from the equator. At the equator, where the angle of latitude is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars (lines of equal air pressure).\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind direction. The explanation is clear and easy to understand, providing a good overview of the topic.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences the direction of moving objects, such as wind, due to the Earth's rotation. This effect causes the wind to deviate from its straight path as it moves across the planet. In the Northern Hemisphere, the Coriolis effect deflects wind to the right, while in the Southern Hemisphere, it deflects wind to the left. This deflection is more pronounced at higher latitudes, with the force being directly proportional to the angle of latitude. As a result, the Coriolis effect has a significant impact on wind direction in the mid-latitudes and polar regions, but it is negligible at the equator. The Coriolis effect plays a crucial role in the overall circulation of the atmosphere and the formation of weather systems, influencing the movement of air masses and the development of storms.",
-    "timestamp_utc": "2025-07-29T17:22:59.809474+00:00"
-  },
-  {
     "cohere_generated_question": "What is the relationship between atmospheric pressure and wind?",
     "ciq_generated_answer": "\"The wind blows from high pressure to low pressure ([3]). Small differences in atmospheric pressure produce a force that controls the wind direction ([4] and [5]). Therefore, the relationship between atmospheric pressure and wind is that differences in pressure cause the wind to move.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clear and concise, effectively summarizing the relationship between atmospheric pressure and wind. However, the answer could be improved by explaining why wind blows from high to low pressure areas, which is due to air moving from areas of higher pressure to areas of lower pressure.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans, typically forming over large bodies of water with temperatures exceeding 27\u00b0 C. The Coriolis force, small vertical wind speed variations, pre-existing low-pressure areas, and upper divergence above the sea level system are among the conditions necessary for their formation and intensification.",
     "timestamp_utc": "2025-07-30T09:28:30.465910+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones only form over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate only over the seas because they intensify over warm tropical oceans, as stated in [3] of the provided context.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It correctly states that tropical cyclones form over the sea due to the presence of warm tropical oceans, but does not explicitly mention the other necessary conditions such as the Coriolis force and vertical wind speed variations, which are also mentioned in the text.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones form over the sea due to a combination of factors, primarily the presence of warm tropical oceans, which provide the necessary energy for the storm's intensification through the condensation process in towering cumulonimbus clouds. Additionally, other conditions such as the Coriolis force, small vertical wind speed variations, and a pre-existing weak low-pressure area contribute to the formation and intensification of these storms.",
+    "timestamp_utc": "2025-07-30T10:23:47.756374+00:00"
   }
 ]
