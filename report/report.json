@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor in their formation. The answer could be improved by adding this detail.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is an essential factor in their formation. Warm ocean water provides the heat energy and moisture necessary for the storm to form and intensify. The Coriolis force, caused by the Earth's rotation, also plays a role in the formation of tropical cyclones by influencing the direction and speed of winds.",
-    "timestamp_utc": "2025-07-30T03:43:36.131385+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind patterns in the Northern and Southern Hemispheres?",
     "ciq_generated_answer": "\"The Coriolis effect is a force that affects the wind direction due to the Earth's rotation. In the Northern Hemisphere, it deflects the wind to the right of the moving air, while in the Southern Hemisphere, it deflects the wind to the left. This effect influences wind patterns by causing them to spiral around low-pressure systems in a clockwise direction in the Northern Hemisphere and counterclockwise in the Southern Hemisphere. The strength of the Coriolis effect depends on the angle of latitude, with a stronger effect at higher latitudes. At the equator, the Coriolis effect is zero, and the wind blows perpendicular to the isobars (lines of equal pressure).\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind patterns. The explanation is clear and easy to understand, providing a good overview of the topic.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence zone is crucial as it brings significant rainfall to many tropical regions, notably the Amazon Rainforest and the African Sahel. The ITCZ plays a vital role in the general atmospheric circulation, influencing the climate and weather patterns in these areas. Additionally, the ITCZ is not stationary; it oscillates with the sun's apparent movement, resulting in seasonal shifts in weather patterns.",
     "timestamp_utc": "2025-07-30T15:23:28.088513+00:00"
+  },
+  {
+    "cohere_generated_question": "How do air masses form and what are their key characteristics?",
+    "ciq_generated_answer": "\"Air masses form when air remains over a homogenous area for a sufficiently longer time, thus acquiring the characteristics of the area. These homogenous surfaces are called the source regions. The key characteristics of air masses depend on the type of source region they originate from. Accordingly, following types of air-masses are recognized: (i) Maritime tropical (mT); (ii) Continental tropical (cT); (iii) Maritime polar (mP); (iv) Continental polar (cP); (v) Continental arctic (cA). The context does not specify further details about the characteristics of each type.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the formation and characteristics of air masses. However, it could be improved by providing a brief description of each type of air mass, as this information is available in the document. The answer is clearly worded and easy to understand.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Air masses form when air remains over a homogenous region, such as a vast ocean or plain, for an extended period, thus acquiring the characteristics of that region. These homogenous areas are known as source regions, and they give rise to distinct air masses with specific temperature and humidity traits. The key characteristics of air masses depend on the type of source region they originate from, and they are classified accordingly: (i) Maritime Tropical (mT), (ii) Continental Tropical (cT), (iii) Maritime Polar (mP), (iv) Continental Polar (cP), and (v) Continental Arctic (cA). These classifications reflect the different source regions, such as tropical oceans, subtropical deserts, high-latitude oceans, snow-covered continents, and ice-covered polar regions. Each type of air mass exhibits unique properties based on its source region, influencing weather patterns and local climates.",
+    "timestamp_utc": "2025-07-30T16:27:39.917969+00:00"
   }
 ]
