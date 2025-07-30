@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why is the air pressure at sea level higher than at higher altitudes?",
-    "ciq_generated_answer": "\"The air pressure at sea level is higher than at higher altitudes because due to gravity, the air at the surface is denser and hence has higher pressure ([1]). Over the land, the air rises giving rise to a low pressure area, whereas the sea is relatively cool and the pressure over sea is relatively high ([2]). Additionally, in the lower atmosphere, the pressure decreases rapidly with height ([3]). Therefore, the air pressure at sea level is higher due to these factors.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information. It is clearly worded and easy to understand. The only minor improvement would be to include a brief mention of the vertical variation of pressure, which decreases with height, as this is a key factor in why air pressure is higher at sea level.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The air pressure at sea level is higher than at higher altitudes primarily due to the effect of gravity. Gravity causes the air at the surface to be denser and, consequently, have higher pressure. Additionally, the pressure in the lower atmosphere decreases rapidly with height, which further contributes to the higher pressure at sea level. This decrease in pressure with elevation is approximately 1 millibar for every 10 meters of increase in height. Furthermore, the sea has a relatively cooling effect, which also contributes to higher pressure over the sea compared to land.",
-    "timestamp_utc": "2025-07-30T06:34:31.456274+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, covering the key point that tropical cyclones originate over warm tropical oceans.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is a critical factor in their formation. Warm ocean water provides the necessary energy and moisture to fuel and strengthen these storms.",
     "timestamp_utc": "2025-07-30T17:21:21.326316+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It is important because it is one of the conditions favourable for the formation and intensification of tropical storms, as stated in your context.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention the Inter Tropical Convergence Zone's role in the formation of violent tropical storms, which is a key aspect of the question. The answer is concise but could be more explicit in its wording.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the northern and southern hemispheres converge. This convergence creates a low-pressure zone, which is a favorable condition for the formation and intensification of tropical cyclones or hurricanes. The ITCZ plays a crucial role in global atmospheric circulation and weather patterns, particularly in the tropics, by influencing the movement of air masses and the distribution of heat and moisture.",
+    "timestamp_utc": "2025-07-30T18:31:50.163122+00:00"
   }
 ]
