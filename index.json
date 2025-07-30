@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (From context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, which is correct. However, it could provide more context by mentioning the specific conditions required for their formation, such as sea surface temperatures above 27\u00b0C, the presence of the Coriolis force, and other factors mentioned in the text.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical ocean waters, which provide the necessary heat and moisture for their formation and intensification. These storms require specific conditions, including sea surface temperatures above 27\u00b0C, the Coriolis force, and small variations in vertical wind speed, among other factors. The warm ocean acts as a source of energy and moisture, fueling the storm and allowing it to grow in intensity.",
-    "timestamp_utc": "2025-07-29T12:45:11.065083+00:00"
-  },
-  {
     "cohere_generated_question": "Why is it that tropical cyclones do not form near the equator?",
     "ciq_generated_answer": "\"Tropical cyclones do not form near the equator because they originate and intensify over warm tropical oceans, which are not present at the equator.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones require warm tropical oceans, which are absent at the equator, but does not explicitly mention that this is the reason they don't form near the equator. This could be made clearer.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge. It is characterized by low pressure and plays a crucial role in the general circulation of the Earth's atmosphere. The ITCZ influences global wind patterns by acting as a convergence zone for winds from both hemispheres, leading to the upward movement of air and the formation of clouds and precipitation. This convergence of air masses is driven by the heating of the Earth's surface, which causes air to rise near the equator and create a low-pressure zone. The specific influence of the ITCZ on global wind patterns is that it helps drive the large-scale circulation of air masses, known as atmospheric cells or Hadley cells. These cells create a pattern of winds and pressure systems that circulate around the planet, influencing the movement of air and weather systems on a global scale. The ITCZ itself migrates north and south throughout the year, following the apparent path of the sun, which further influences wind patterns in tropical regions.",
     "timestamp_utc": "2025-07-30T01:49:05.048576+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor in their formation. The answer could be improved by adding this detail.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is an essential factor in their formation. Warm ocean water provides the heat energy and moisture necessary for the storm to form and intensify. The Coriolis force, caused by the Earth's rotation, also plays a role in the formation of tropical cyclones by influencing the direction and speed of winds.",
+    "timestamp_utc": "2025-07-30T03:43:36.131385+00:00"
   }
 ]
