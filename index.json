@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more complete by providing additional context or details about why tropical cyclones originate over warm tropical oceans. A higher score would be given if the answer included a brief explanation of the necessary conditions for the formation and intensification of tropical cyclones.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans due to the presence of specific conditions that fuel their formation and intensification. These conditions include sea surface temperatures higher than 27\u00b0 C, the influence of the Coriolis force, small variations in vertical wind speed, pre-existing low-pressure areas, and upper-level divergence. The warm ocean waters provide a crucial source of moisture and energy, which is released through condensation in towering cumulonimbus clouds surrounding the storm's center. This process intensifies the cyclone, and the continuous supply of moisture from the sea strengthens it further.",
-    "timestamp_utc": "2025-07-29T16:26:41.975343+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Coriolis effect, and how does it influence wind direction in the Northern and Southern Hemispheres?",
     "ciq_generated_answer": "\"The Coriolis effect is a force that causes moving objects, such as wind, to deviate from their straight path due to the Earth's rotation. In the Northern Hemisphere, the Coriolis force deflects the wind to the right (clockwise). In contrast, in the Southern Hemisphere, the Coriolis force deflects the wind to the left (counterclockwise). This effect influences the overall direction of winds around systems on Earth. The strength of the Coriolis force is directly proportional to the angle of latitude, meaning it has a more significant impact on wind direction as you move away from the equator. At the equator, where the angle of latitude is zero, the Coriolis force is absent, and the wind blows perpendicular to the isobars (lines of equal air pressure).\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind direction. The explanation is clear and easy to understand, providing a good overview of the topic.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The air pressure at sea level is higher than at higher altitudes primarily due to the effect of gravity. Gravity causes the air at the surface to be denser and, consequently, have higher pressure. Additionally, the pressure in the lower atmosphere decreases rapidly with height, which further contributes to the higher pressure at sea level. This decrease in pressure with elevation is approximately 1 millibar for every 10 meters of increase in height. Furthermore, the sea has a relatively cooling effect, which also contributes to higher pressure over the sea compared to land.",
     "timestamp_utc": "2025-07-30T06:34:31.456274+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, covering the key point that tropical cyclones originate over warm tropical oceans.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans, typically forming over large bodies of water with temperatures exceeding 27\u00b0 C. The Coriolis force, small vertical wind speed variations, pre-existing low-pressure areas, and upper divergence above the sea level system are among the conditions necessary for their formation and intensification.",
+    "timestamp_utc": "2025-07-30T09:28:30.465910+00:00"
   }
 ]
