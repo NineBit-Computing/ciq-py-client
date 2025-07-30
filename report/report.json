@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the relationship between atmospheric pressure and wind?",
-    "ciq_generated_answer": "\"The wind blows from high pressure to low pressure ([3]). Small differences in atmospheric pressure produce a force that controls the wind direction ([4] and [5]). Therefore, the relationship between atmospheric pressure and wind is that differences in pressure cause the wind to move.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. The answer is also clear and concise, effectively summarizing the relationship between atmospheric pressure and wind. However, the answer could be improved by explaining why wind blows from high to low pressure areas, which is due to air moving from areas of higher pressure to areas of lower pressure.",
-    "ciq_answer_score": "9",
-    "cohere_generated_answer": "The relationship between atmospheric pressure and wind is fundamental to understanding air movement on Earth. Wind is created by differences in atmospheric pressure, which is caused by variations in air temperature and density. Warmer air expands and rises, creating areas of low pressure, while cooler air is denser and exerts higher pressure. As a result, wind blows from areas of high pressure to low pressure, moving air from one region to another. Small differences in atmospheric pressure create a force that determines wind direction, with air flowing along a pressure gradient from higher to lower pressure. This movement of air is what we experience as wind, and it plays a crucial role in redistributing heat and moisture around the planet, maintaining a relatively stable climate.",
-    "timestamp_utc": "2025-07-29T18:32:35.323553+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Coriolis force and how does it influence wind direction in the Northern and Southern Hemispheres?",
     "ciq_generated_answer": "\"The Coriolis force, as stated in the context, is the force exerted by the rotation of the earth. In the Northern Hemisphere, it deflects the wind to the right direction. In the Southern Hemisphere, it deflects the wind to the left direction. This force affects the wind direction due to the earth's rotation about its axis. At the equator, where the Coriolis force is zero, the wind blows perpendicular to the isobars.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis force and its influence on wind direction. However, the answer could be improved by providing a bit more detail on the mechanics behind the Coriolis force, such as its relationship with the rotation of the Earth. The wording is clear and easy to understand.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones form over the sea due to a combination of factors, primarily the presence of warm tropical oceans, which provide the necessary energy for the storm's intensification through the condensation process in towering cumulonimbus clouds. Additionally, other conditions such as the Coriolis force, small vertical wind speed variations, and a pre-existing weak low-pressure area contribute to the formation and intensification of these storms.",
     "timestamp_utc": "2025-07-30T10:23:47.756374+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. It is important because it is a place where conditions are favorable for the formation and intensification of tropical storms. This is due to the presence of large sea surfaces with temperatures higher than 27 degrees Celsius, the Coriolis force, small variations in vertical wind speed, a pre-existing weak-low-pressure area or low-level cyclonic circulation, and upper divergence above the sea level system.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the last sentence, which is a bit confusing. The phrase 'above the sea level system' is unclear and could be rephrased.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This zone is significant because it creates conditions favorable for the formation and intensification of tropical cyclones or hurricanes. The ITCZ is characterized by warm sea surface temperatures exceeding 27 degrees Celsius, which provides energy for the storms. Additionally, the Coriolis force, which deflects winds due to the Earth's rotation, plays a role in the development of these storms. The interaction of these factors with other conditions, such as vertical wind speed variations and pre-existing low-pressure areas, makes the ITCZ a crucial region for understanding tropical storm dynamics.",
+    "timestamp_utc": "2025-07-30T11:19:53.572698+00:00"
   }
 ]
