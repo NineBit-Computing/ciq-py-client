@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence global wind patterns?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where winds from either side of the equator converge. It influences global wind patterns by being a significant factor in the general circulation of the atmosphere. According to the provided context, the pattern of planetary winds depends on various factors including the latitudinal variation of atmospheric heating, the emergence of pressure belts, the migration of belts following the apparent path of the sun, the distribution of continents and oceans, and the rotation of the earth. However, the context does not explicitly explain how the ITCZ specifically influences global wind patterns in detail.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional details about the Inter Tropical Convergence Zone (ITCZ) and its specific influence on global wind patterns. The answer touches on the general idea that the ITCZ influences atmospheric circulation, but further details would enhance its completeness.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge. It is characterized by low pressure and plays a crucial role in the general circulation of the Earth's atmosphere. The ITCZ influences global wind patterns by acting as a convergence zone for winds from both hemispheres, leading to the upward movement of air and the formation of clouds and precipitation. This convergence of air masses is driven by the heating of the Earth's surface, which causes air to rise near the equator and create a low-pressure zone. The specific influence of the ITCZ on global wind patterns is that it helps drive the large-scale circulation of air masses, known as atmospheric cells or Hadley cells. These cells create a pattern of winds and pressure systems that circulate around the planet, influencing the movement of air and weather systems on a global scale. The ITCZ itself migrates north and south throughout the year, following the apparent path of the sun, which further influences wind patterns in tropical regions.",
-    "timestamp_utc": "2025-07-30T01:49:05.048576+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor in their formation. The answer could be improved by adding this detail.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The main factors that influence the speed and direction of wind are frictional force and the rotation of the Earth. Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. The rotation of the Earth, or the Coriolis effect, influences the direction of wind, deflecting it right in the northern hemisphere and left in the southern hemisphere. These two forces, along with the pressure gradient force and gravitational force, shape the complex behavior of wind.",
     "timestamp_utc": "2025-07-30T14:21:15.774064+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. Its importance lies in its role as a major source of rainfall for many tropical regions, particularly for the Amazon Rainforest and the African Sahel.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). The answer is clear and concise, providing a good explanation of the ITCZ's role in rainfall patterns. However, it could have mentioned the movement of the ITCZ with the sun's apparent motion, which is mentioned in the document.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence zone is crucial as it brings significant rainfall to many tropical regions, notably the Amazon Rainforest and the African Sahel. The ITCZ plays a vital role in the general atmospheric circulation, influencing the climate and weather patterns in these areas. Additionally, the ITCZ is not stationary; it oscillates with the sun's apparent movement, resulting in seasonal shifts in weather patterns.",
+    "timestamp_utc": "2025-07-30T15:23:28.088513+00:00"
   }
 ]
