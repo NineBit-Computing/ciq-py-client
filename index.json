@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the primary cause of air motion?",
-    "ciq_generated_answer": "\"The primary cause of air motion is variations in atmospheric pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the relationship between air pressure and motion. It does not mention the concept of air moving from high to low pressure areas, which is a key mechanism behind wind patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, creating pressure differences that drive the movement of air from high-pressure to low-pressure areas. This movement of air is what we experience as wind, which redistributes heat and moisture globally and plays a crucial role in weather systems.",
-    "timestamp_utc": "2025-07-31T09:27:30.067986+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind are frictional force, rotation of the earth, and pressure differences.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clearly worded and concise, effectively summarizing the relevant information. However, it could have included a brief explanation of each factor's influence for a more comprehensive response.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": "8",
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: Friction affects the speed of wind, with greater friction near the surface, especially over land.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: Wind generally blows from high-pressure areas to low-pressure areas, and the rate of change of pressure with distance affects wind speed.\n- Vertical and Horizontal Distribution of Pressure: Pressure differences at different altitudes and locations influence wind patterns.\n- Local Factors: Land and sea breezes, mountain and valley winds, and local temperature variations can influence wind speed and direction in specific regions.\n\nThese factors, along with the Coriolis effect, interact to determine the complex patterns of global wind circulation.",
     "timestamp_utc": "2025-07-31T21:20:41.523140+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in context [2] and [4].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, which is accurate and supported by the text. However, the answer could be improved by providing more context or a more detailed explanation, especially for those unfamiliar with the topic.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical ocean waters, which provide the necessary energy for intensification. The Coriolis force, small vertical wind speed variations, and other atmospheric conditions also play a role in the formation and development of these storms over oceanic regions.",
+    "timestamp_utc": "2025-07-31T22:21:01.576815+00:00"
   }
 ]
