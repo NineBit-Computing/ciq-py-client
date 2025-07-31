@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; and (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts.",
-    "ciq_answer_score": "10",
-    "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. Each type of front is associated with distinct weather patterns and atmospheric conditions.",
-    "timestamp_utc": "2025-07-30T19:19:07.436905+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors affecting the speed and direction of wind, according to the provided context, are Frictional Force, Forces Affecting the Velocity and Direction of Wind (which seems to encompass other factors but not specified individually), the rotation of the Earth, and Pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing more context for each factor, especially the Coriolis and frictional forces, and their specific effects on wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "When two distinct air masses meet, four types of fronts can form: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by different temperature and pressure gradients, leading to distinct weather patterns and cloud formations. Cold fronts occur when a cold air mass advances and replaces a warmer air mass, resulting in rapid cooling and the potential for intense storms. Warm fronts, on the other hand, are formed when a warm air mass moves and lifts the cooler air ahead of it, often causing steady and prolonged precipitation. Stationary fronts arise when neither air mass is strong enough to replace the other, leading to prolonged periods of consistent weather. Occluded fronts are a combination of cold and warm fronts, where a cold air mass lifts and completely replaces the warm air mass, sometimes resulting in complex weather patterns.",
     "timestamp_utc": "2025-07-31T08:30:07.800259+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the primary cause of air motion?",
+    "ciq_generated_answer": "\"The primary cause of air motion is variations in atmospheric pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the relationship between air pressure and motion. It does not mention the concept of air moving from high to low pressure areas, which is a key mechanism behind wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, creating pressure differences that drive the movement of air from high-pressure to low-pressure areas. This movement of air is what we experience as wind, which redistributes heat and moisture globally and plays a crucial role in weather systems.",
+    "timestamp_utc": "2025-07-31T09:27:30.067986+00:00"
   }
 ]
