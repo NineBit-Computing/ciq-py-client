@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans ([2]).\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, covering all the relevant information from the provided text.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical oceans, which are necessary for their formation and intensification. These weather events require sea surface temperatures higher than 27\u00b0 C, along with other factors like the Coriolis force and small variations in vertical wind speed.",
-    "timestamp_utc": "2025-07-31T07:24:28.595154+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by explaining what each type of front entails and how they differ from one another.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where easterly winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area due to the accumulation of warm, moist air. As a result, the air rises through convection, forming clouds and precipitation. This process influences atmospheric circulation by creating a band of low pressure that migrates seasonally, affecting global weather patterns. The ITCZ is responsible for the movement of warm, moist air towards the poles, which then descends as dry air, creating subtropical high-pressure zones. This circulation pattern is known as the Hadley Cell and plays a crucial role in distributing heat and moisture globally, influencing weather systems and climate patterns.",
     "timestamp_utc": "2025-07-31T19:19:57.627441+00:00"
+  },
+  {
+    "cohere_generated_question": "Why does the Coriolis force not affect wind direction near the equator?",
+    "ciq_generated_answer": "\"The Coriolis force does not affect wind direction near the equator because at the equator, the angle of latitude is zero (as per [3] in the context), and since the Coriolis force is directly proportional to the angle of latitude, it becomes negligible. This allows the wind to blow perpendicular to the isobars, as mentioned in [2].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, and it is clearly worded. It provides a concise and straightforward explanation for why the Coriolis force does not influence wind direction near the equator, supported by relevant information from the document.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis force does not influence wind direction near the equator because the Coriolis force is directly proportional to the angle of latitude, and at the equator, the angle of latitude is zero. As a result, the Coriolis force becomes negligible near the equator, allowing the wind to blow perpendicular to the isobars without deflection.",
+    "timestamp_utc": "2025-07-31T20:24:37.240449+00:00"
   }
 ]
