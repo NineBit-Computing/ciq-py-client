@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in [2] and [4].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text. The answer could be improved by including this detail.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is a critical factor in their formation. Warm ocean water provides the necessary energy and moisture to fuel and strengthen these storms.",
-    "timestamp_utc": "2025-07-30T17:21:21.326316+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It is important because it is one of the conditions favourable for the formation and intensification of tropical storms, as stated in your context.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention the Inter Tropical Convergence Zone's role in the formation of violent tropical storms, which is a key aspect of the question. The answer is concise but could be more explicit in its wording.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including: \n- **Frictional Force**: Affects wind speed, strongest at the surface, and diminishes with height. \n- **Pressure Gradient Force**: Caused by differences in atmospheric pressure, influencing wind to blow from high-pressure areas to low-pressure areas.\n- **Coriolis Force**: Deflects wind due to the Earth's rotation; to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n- **Other Forces**: Various other forces, such as gravitational force, also play a role in influencing wind patterns.\n\nThese forces, along with the rotation of the Earth, collectively determine the speed and direction of wind, resulting in complex atmospheric circulation patterns.",
     "timestamp_utc": "2025-07-31T06:33:15.797697+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans ([2]).\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clear. It provides a concise and direct response to the question, covering all the relevant information from the provided text.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical oceans, which are necessary for their formation and intensification. These weather events require sea surface temperatures higher than 27\u00b0 C, along with other factors like the Coriolis force and small variations in vertical wind speed.",
+    "timestamp_utc": "2025-07-31T07:24:28.595154+00:00"
   }
 ]
