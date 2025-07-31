@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It is important because it is one of the conditions favourable for the formation and intensification of tropical storms, as stated in your context.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention the Inter Tropical Convergence Zone's role in the formation of violent tropical storms, which is a key aspect of the question. The answer is concise but could be more explicit in its wording.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the northern and southern hemispheres converge. This convergence creates a low-pressure zone, which is a favorable condition for the formation and intensification of tropical cyclones or hurricanes. The ITCZ plays a crucial role in global atmospheric circulation and weather patterns, particularly in the tropics, by influencing the movement of air masses and the distribution of heat and moisture.",
-    "timestamp_utc": "2025-07-30T18:31:50.163122+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; and (d) Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical oceans, which are necessary for their formation and intensification. These weather events require sea surface temperatures higher than 27\u00b0 C, along with other factors like the Coriolis force and small variations in vertical wind speed.",
     "timestamp_utc": "2025-07-31T07:24:28.595154+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by explaining what each type of front entails and how they differ from one another.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts can form: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by different temperature and pressure gradients, leading to distinct weather patterns and cloud formations. Cold fronts occur when a cold air mass advances and replaces a warmer air mass, resulting in rapid cooling and the potential for intense storms. Warm fronts, on the other hand, are formed when a warm air mass moves and lifts the cooler air ahead of it, often causing steady and prolonged precipitation. Stationary fronts arise when neither air mass is strong enough to replace the other, leading to prolonged periods of consistent weather. Occluded fronts are a combination of cold and warm fronts, where a cold air mass lifts and completely replaces the warm air mass, sometimes resulting in complex weather patterns.",
+    "timestamp_utc": "2025-07-31T08:30:07.800259+00:00"
   }
 ]
