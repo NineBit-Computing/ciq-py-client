@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "How do air masses form and what are their key characteristics?",
-    "ciq_generated_answer": "\"Air masses form when air remains over a homogenous area for a sufficiently longer time, thus acquiring the characteristics of the area. These homogenous surfaces are called the source regions. The key characteristics of air masses depend on the type of source region they originate from. Accordingly, following types of air-masses are recognized: (i) Maritime tropical (mT); (ii) Continental tropical (cT); (iii) Maritime polar (mP); (iv) Continental polar (cP); (v) Continental arctic (cA). The context does not specify further details about the characteristics of each type.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the formation and characteristics of air masses. However, it could be improved by providing a brief description of each type of air mass, as this information is available in the document. The answer is clearly worded and easy to understand.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Air masses form when air remains over a homogenous region, such as a vast ocean or plain, for an extended period, thus acquiring the characteristics of that region. These homogenous areas are known as source regions, and they give rise to distinct air masses with specific temperature and humidity traits. The key characteristics of air masses depend on the type of source region they originate from, and they are classified accordingly: (i) Maritime Tropical (mT), (ii) Continental Tropical (cT), (iii) Maritime Polar (mP), (iv) Continental Polar (cP), and (v) Continental Arctic (cA). These classifications reflect the different source regions, such as tropical oceans, subtropical deserts, high-latitude oceans, snow-covered continents, and ice-covered polar regions. Each type of air mass exhibits unique properties based on its source region, influencing weather patterns and local climates.",
-    "timestamp_utc": "2025-07-30T16:27:39.917969+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in [2] and [4].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text. The answer could be improved by including this detail.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones, also known as hurricanes or typhoons, originate over warm tropical oceans. These storms require warm ocean temperatures, typically above 27\u00b0C, to form and intensify. The warm ocean surface provides the necessary energy and moisture to fuel the storm system, which is why they typically form in tropical regions.",
     "timestamp_utc": "2025-07-31T04:42:34.405062+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, according to the provided information, are Frictional Force, Forces Affecting the Velocity and Direction of Wind (which may include other unspecified forces), and the Rotation of the Earth. Pressure is also mentioned as a factor related to wind, but it seems to be more about pressure and wind rather than directly affecting speed and direction.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be clearer by providing more context and explaining the role of each factor in influencing wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including: \n- **Frictional Force**: Affects wind speed, strongest at the surface, and diminishes with height. \n- **Pressure Gradient Force**: Caused by differences in atmospheric pressure, influencing wind to blow from high-pressure areas to low-pressure areas.\n- **Coriolis Force**: Deflects wind due to the Earth's rotation; to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n- **Other Forces**: Various other forces, such as gravitational force, also play a role in influencing wind patterns.\n\nThese forces, along with the rotation of the Earth, collectively determine the speed and direction of wind, resulting in complex atmospheric circulation patterns.",
+    "timestamp_utc": "2025-07-31T06:33:15.797697+00:00"
   }
 ]
