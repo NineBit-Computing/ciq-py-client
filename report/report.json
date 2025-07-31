@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the main factors that affect the speed and direction of wind?",
-    "ciq_generated_answer": "\"The main factors that affect the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force (mentioned in [1])\\n2. Rotation of the Earth (mentioned in [4])\\n\\nIn addition, it's stated that the velocity and direction of the wind are the net result of the wind generating forces, but the specific forces are not explicitly listed in the context. Therefore, it's not possible to identify all factors affecting the speed and direction of wind based solely on the provided information.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying the two explicit factors affecting wind speed and direction. It also mentions that additional factors may be present but are not listed in the provided context, which is a fair assessment. The response is clear and concise, effectively conveying the relevant information. Overall, the answer deserves a high score.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The main factors that influence the speed and direction of wind are frictional force and the rotation of the Earth. Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. The rotation of the Earth, or the Coriolis effect, influences the direction of wind, deflecting it right in the northern hemisphere and left in the southern hemisphere. These two forces, along with the pressure gradient force and gravitational force, shape the complex behavior of wind.",
-    "timestamp_utc": "2025-07-30T14:21:15.774064+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. Its importance lies in its role as a major source of rainfall for many tropical regions, particularly for the Amazon Rainforest and the African Sahel.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). The answer is clear and concise, providing a good explanation of the ITCZ's role in rainfall patterns. However, it could have mentioned the movement of the ITCZ with the sun's apparent motion, which is mentioned in the document.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "When two distinct air masses meet, four types of fronts can form: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by the movement of air masses and brings about different weather conditions. Cold fronts occur when a cold air mass advances and replaces a warmer air mass, often leading to rapid cooling and precipitation. Warm fronts, on the other hand, are formed when a warm air mass moves and lifts the cooler air ahead of it, causing gradual warming and potentially extensive cloud cover. Stationary fronts happen when two air masses meet but neither advances nor retreats, resulting in prolonged periods of consistent weather. Occluded fronts are a combination of cold and warm fronts, where a cold air mass overtakes and lifts a warm air mass, often leading to complex weather patterns.",
     "timestamp_utc": "2025-07-31T01:48:11.103622+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the primary cause of air motion?",
+    "ciq_generated_answer": "\"The primary cause of air motion is variations in atmospheric pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question and provides a concise explanation of the primary cause of air motion, earning a high score.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, creating pressure differences that drive air movement from high-pressure areas to low-pressure areas, ultimately resulting in wind.",
+    "timestamp_utc": "2025-07-31T03:42:17.454390+00:00"
   }
 ]
