@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors affecting the speed and direction of wind, according to the provided context, are Frictional Force, Forces Affecting the Velocity and Direction of Wind (which seems to encompass other factors but not specified individually), the rotation of the Earth, and Pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing more context for each factor, especially the Coriolis and frictional forces, and their specific effects on wind patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including: \n- Frictional Force: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the northern hemisphere and to the left in the southern hemisphere. The deflection is more pronounced at higher wind velocities and latitudes, and absent at the equator.\n- Pressure Gradient Force: Differences in atmospheric pressure create a force that influences wind direction. The pressure gradient is stronger when isobars are close together and weaker when they are apart.\n- Other Forces: The gravitational force acts downward, and the combined effect of these forces influences wind circulation patterns.\n\nAdditionally, factors like the vertical and horizontal distribution of pressure, land and sea interactions, and global atmospheric circulation patterns also play a role in determining wind speed and direction.",
-    "timestamp_utc": "2025-07-30T20:22:42.087607+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect wind circulation?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where the easterlies from either side of the equator converge. It affects wind circulation by causing air at the ITCZ to rise due to convection caused by high insolation and the creation of low pressure. This rising air then contributes to the general circulation of the atmosphere.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on wind circulation. The answer is clear and concise, providing a good explanation of the ITCZ and its role in atmospheric processes. However, the answer could be improved by explaining the term 'insolation' for better clarity.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, creating pressure differences that drive the movement of air from high-pressure to low-pressure areas. This movement of air is what we experience as wind, which redistributes heat and moisture globally and plays a crucial role in weather systems.",
     "timestamp_utc": "2025-07-31T09:27:30.067986+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind are frictional force, rotation of the earth, and pressure differences.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clearly worded and concise, effectively summarizing the relevant information. However, it could have included a brief explanation of each factor's influence for a more comprehensive response.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including frictional force, the rotation of the Earth (Coriolis effect), and pressure differences. Friction from the Earth's surface, particularly over land, affects wind speed, with lower friction over the ocean allowing for stronger winds. The Coriolis effect, caused by the Earth's rotation, deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is more pronounced at higher latitudes. Pressure differences between areas of high and low pressure also drive wind movement, with air flowing from high-pressure regions to low-pressure regions. These factors, combined with other atmospheric conditions, determine the complex patterns of global wind circulation.",
+    "timestamp_utc": "2025-07-31T10:23:34.616305+00:00"
   }
 ]
