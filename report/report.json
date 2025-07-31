@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind are frictional force, rotation of the earth, and pressure differences.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clearly worded and concise, effectively summarizing the relevant information. However, it could have included a brief explanation of each factor's influence for a more comprehensive response.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including frictional force, the rotation of the Earth (Coriolis effect), and pressure differences. Friction from the Earth's surface, particularly over land, affects wind speed, with lower friction over the ocean allowing for stronger winds. The Coriolis effect, caused by the Earth's rotation, deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is more pronounced at higher latitudes. Pressure differences between areas of high and low pressure also drive wind movement, with air flowing from high-pressure regions to low-pressure regions. These factors, combined with other atmospheric conditions, determine the complex patterns of global wind circulation.",
-    "timestamp_utc": "2025-07-31T10:23:34.616305+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as stated in points [2] and [4].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but it could be clearer. It does not explicitly mention that tropical cyclones originate over warm tropical oceans, only referring to points [2] and [4].",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical ocean waters, which provide the necessary energy for intensification. The Coriolis force, small vertical wind speed variations, and other atmospheric conditions also play a role in the formation and development of these storms over oceanic regions.",
     "timestamp_utc": "2025-07-31T22:21:01.576815+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence atmospheric circulation?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterlies from both sides of the equator converge. It is influenced by high insolation (intense solar radiation) and creates low pressure due to convection, causing the air to rise. This rising air affects the general circulation of the atmosphere, particularly in the simplified model you mentioned.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation. The explanation is clear and concise, providing a good understanding of the topic.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterlies from the Northern and Southern Hemispheres converge. This convergence is influenced by intense solar radiation, which creates low pressure due to convection, causing air to rise. This rising air plays a crucial role in the general circulation of the atmosphere, particularly in the context of the simplified model mentioned. The ITCZ has a significant impact on the movement of air masses, cloud formation, and precipitation patterns in tropical regions.",
+    "timestamp_utc": "2025-07-31T23:21:06.277362+00:00"
   }
 ]
