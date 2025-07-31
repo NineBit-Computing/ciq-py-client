@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the primary cause of air motion?",
-    "ciq_generated_answer": "\"The primary cause of air motion is variations in atmospheric pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question and provides a concise explanation of the primary cause of air motion, earning a high score.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, creating pressure differences that drive air movement from high-pressure areas to low-pressure areas, ultimately resulting in wind.",
-    "timestamp_utc": "2025-07-31T03:42:17.454390+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (From context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not specify that the warm tropical oceans are a necessary condition for the formation of tropical cyclones, which is an important detail. The answer is concise but could benefit from additional context for clarity.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, including pressure gradient force, frictional force, Coriolis force, and gravitational force. The pressure gradient force results from differences in atmospheric pressure, causing air to move from high-pressure areas to low-pressure areas. Frictional force, which is greatest at the surface, affects wind speed, while Coriolis force, due to the Earth's rotation, influences wind direction. Gravitational force acts downward, balancing the vertical pressure gradient force and preventing strong upward winds.",
     "timestamp_utc": "2025-07-31T15:23:27.282824+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where is it located?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterlies from both sides of the equator converge. It is located near the equator.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by providing additional context or details about the Inter Tropical Convergence Zone and its significance in atmospheric circulation.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is characterized by low pressure and is an important driver of atmospheric circulation, particularly in the tropics. The ITCZ is not a static feature and oscillates north and south with the apparent movement of the sun, resulting in seasonal shifts in weather patterns.",
+    "timestamp_utc": "2025-07-31T17:21:27.548300+00:00"
   }
 ]
