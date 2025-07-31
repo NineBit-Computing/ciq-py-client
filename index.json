@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and why is it important?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator converge. Its importance lies in its role as a major source of rainfall for many tropical regions, particularly for the Amazon Rainforest and the African Sahel.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). The answer is clear and concise, providing a good explanation of the ITCZ's role in rainfall patterns. However, it could have mentioned the movement of the ITCZ with the sun's apparent motion, which is mentioned in the document.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence zone is crucial as it brings significant rainfall to many tropical regions, notably the Amazon Rainforest and the African Sahel. The ITCZ plays a vital role in the general atmospheric circulation, influencing the climate and weather patterns in these areas. Additionally, the ITCZ is not stationary; it oscillates with the sun's apparent movement, resulting in seasonal shifts in weather patterns.",
-    "timestamp_utc": "2025-07-30T15:23:28.088513+00:00"
-  },
-  {
     "cohere_generated_question": "How do air masses form and what are their key characteristics?",
     "ciq_generated_answer": "\"Air masses form when air remains over a homogenous area for a sufficiently longer time, thus acquiring the characteristics of the area. These homogenous surfaces are called the source regions. The key characteristics of air masses depend on the type of source region they originate from. Accordingly, following types of air-masses are recognized: (i) Maritime tropical (mT); (ii) Continental tropical (cT); (iii) Maritime polar (mP); (iv) Continental polar (cP); (v) Continental arctic (cA). The context does not specify further details about the characteristics of each type.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the formation and characteristics of air masses. However, it could be improved by providing a brief description of each type of air mass, as this information is available in the document. The answer is clearly worded and easy to understand.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "Variations in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, creating pressure differences that drive air movement from high-pressure areas to low-pressure areas, ultimately resulting in wind.",
     "timestamp_utc": "2025-07-31T03:42:17.454390+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (From context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not specify that the warm tropical oceans are a necessary condition for the formation of tropical cyclones, which is an important detail. The answer is concise but could benefit from additional context for clarity.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones, also known as hurricanes or typhoons, originate over warm tropical oceans. These storms require warm ocean temperatures, typically above 27\u00b0C, to form and intensify. The warm ocean surface provides the necessary energy and moisture to fuel the storm system, which is why they typically form in tropical regions.",
+    "timestamp_utc": "2025-07-31T04:42:34.405062+00:00"
   }
 ]
