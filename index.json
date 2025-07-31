@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by explaining what each type of front entails and how they differ from one another.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts can form: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by the movement of air masses and brings about different weather conditions. Cold fronts occur when a cold air mass advances and replaces a warmer air mass, often leading to rapid cooling and precipitation. Warm fronts, on the other hand, are formed when a warm air mass moves and lifts the cooler air ahead of it, causing gradual warming and potentially extensive cloud cover. Stationary fronts happen when two air masses meet but neither advances nor retreats, resulting in prolonged periods of consistent weather. Occluded fronts are a combination of cold and warm fronts, where a cold air mass overtakes and lifts a warm air mass, often leading to complex weather patterns.",
-    "timestamp_utc": "2025-07-31T01:48:11.103622+00:00"
-  },
-  {
     "cohere_generated_question": "What is the primary cause of air motion?",
     "ciq_generated_answer": "\"The primary cause of air motion is variations in atmospheric pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question and provides a concise explanation of the primary cause of air motion, earning a high score.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, where specific conditions are met: sea surface temperatures exceed 27\u00b0 C, the Coriolis force is present, there are small vertical wind speed variations, a weak low-pressure area exists, and upper divergence occurs above the sea level system. These conditions fuel the storm with energy from the condensation process in towering cumulonimbus clouds.",
     "timestamp_utc": "2025-07-31T13:38:46.602656+00:00"
+  },
+  {
+    "cohere_generated_question": "What factors affect the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors affecting the speed and direction of wind, as per the provided context, are:\\n\\n   1. Frictional Force: It affects the speed of the wind.\\n\\n   2. Rotation of the Earth: It also affects the wind movement.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by mentioning the Coriolis force, which is also discussed in the document as influencing wind direction. This additional factor would provide a more complete picture of the factors at play.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, including pressure gradient force, frictional force, Coriolis force, and gravitational force. The pressure gradient force results from differences in atmospheric pressure, causing air to move from high-pressure areas to low-pressure areas. Frictional force, which is greatest at the surface, affects wind speed, while Coriolis force, due to the Earth's rotation, influences wind direction. Gravitational force acts downward, balancing the vertical pressure gradient force and preventing strong upward winds.",
+    "timestamp_utc": "2025-07-31T15:23:27.282824+00:00"
   }
 ]
