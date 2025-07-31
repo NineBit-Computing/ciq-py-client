@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by explaining what each type of front entails and how they differ from one another.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts can form: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by different temperature and pressure gradients, leading to distinct weather patterns and cloud formations. Cold fronts occur when a cold air mass advances and replaces a warmer air mass, resulting in rapid cooling and the potential for intense storms. Warm fronts, on the other hand, are formed when a warm air mass moves and lifts the cooler air ahead of it, often causing steady and prolonged precipitation. Stationary fronts arise when neither air mass is strong enough to replace the other, leading to prolonged periods of consistent weather. Occluded fronts are a combination of cold and warm fronts, where a cold air mass lifts and completely replaces the warm air mass, sometimes resulting in complex weather patterns.",
-    "timestamp_utc": "2025-07-31T08:30:07.800259+00:00"
-  },
-  {
     "cohere_generated_question": "What is the primary cause of air motion?",
     "ciq_generated_answer": "\"The primary cause of air motion is variations in atmospheric pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context about the relationship between air pressure and motion. It does not mention the concept of air moving from high to low pressure areas, which is a key mechanism behind wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis force does not influence wind direction near the equator because the Coriolis force is directly proportional to the angle of latitude, and at the equator, the angle of latitude is zero. As a result, the Coriolis force becomes negligible near the equator, allowing the wind to blow perpendicular to the isobars without deflection.",
     "timestamp_utc": "2025-07-31T20:24:37.240449+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force: This force affects the speed of the wind.\\n2. Rotation of the Earth: This factor also influences wind movement.\\n3. Pressure: The velocity and direction of the wind are the net result of these wind generating forces.\\n\\nTherefore, the speed and direction of wind are primarily determined by frictional force, earth's rotation, and pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be more comprehensive by mentioning the Coriolis effect, which is also included in the provided document. The answer is clear and concise, effectively summarizing the key points.",
+    "ciq_answer_score": "8",
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: Friction affects the speed of wind, with greater friction near the surface, especially over land.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: Wind generally blows from high-pressure areas to low-pressure areas, and the rate of change of pressure with distance affects wind speed.\n- Vertical and Horizontal Distribution of Pressure: Pressure differences at different altitudes and locations influence wind patterns.\n- Local Factors: Land and sea breezes, mountain and valley winds, and local temperature variations can influence wind speed and direction in specific regions.\n\nThese factors, along with the Coriolis effect, interact to determine the complex patterns of global wind circulation.",
+    "timestamp_utc": "2025-07-31T21:20:41.523140+00:00"
   }
 ]
