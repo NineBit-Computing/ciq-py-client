@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect the weather?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It affects the weather by being a favorable condition for the formation and intensification of tropical storms, as stated in points [1] and [2] of the provided context. However, it's important to note that this context does not explicitly explain how the ITCZ affects the weather in detail.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that the ITCZ affects weather conditions by creating favorable conditions for tropical storm formation and intensification, which is correct. However, it could provide more context on what the ITCZ is and how it influences storm development, as this information is available in the provided text.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where air from the surrounding areas converges. This convergence of air creates low pressure conditions, which are favorable for the formation and intensification of tropical storms. The ITCZ affects the weather by facilitating the development of these intense weather systems, which can have significant impacts on the regions they affect.",
-    "timestamp_utc": "2025-08-01T07:26:53.962145+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a force affecting wind movement)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clear and concise, effectively summarizing the relevant information. However, the answer could be improved by providing a bit more detail or context, especially for the first two points.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis force, named after the French physicist who described it in 1844, is a consequence of the Earth's rotation. This force influences the movement of wind by deflecting it to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The magnitude of this deflection depends on the wind speed and increases as you move away from the equator toward the poles. This effect is crucial in understanding global wind patterns and ocean currents, as it causes winds to follow curved paths instead of straight lines.",
     "timestamp_utc": "2025-08-01T18:31:10.667349+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator converge. It is important because it is a favorable area for the formation and intensification of tropical storms, as it meets the conditions such as large sea surface with temperatures higher than 27 C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the answer could be improved by providing a clearer explanation of the Coriolis force and its role in storm formation. The answer also does not mention the dangers that tropical storms can pose to human life and infrastructure, which is an important aspect to consider.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area, which is favorable for the formation and intensification of tropical storms and cyclones. The ITCZ is characterized by warm sea surface temperatures, typically above 27 degrees Celsius, and the presence of the Coriolis force, which causes the rotating motion of storms. The interaction of these factors with other atmospheric conditions, such as vertical wind speed variations and pre-existing low-pressure systems, leads to the development of powerful tropical cyclones. These storms can cause significant damage to coastal areas due to strong winds, heavy rainfall, and storm surges, making the ITCZ an important phenomenon to monitor and understand for weather forecasting and disaster preparedness.",
+    "timestamp_utc": "2025-08-01T20:23:27.953447+00:00"
   }
 ]
