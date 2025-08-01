@@ -1,14 +1,6 @@
 [
   {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as stated in points [2] and [4].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but it could be clearer. It does not explicitly mention that tropical cyclones originate over warm tropical oceans, only referring to points [2] and [4].",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, as mentioned in the text. The conditions necessary for their formation include sea surface temperatures higher than 27\u00b0C, the presence of the Coriolis force, small variations in vertical wind speed, and a pre-existing weak low-pressure area or low-level cyclonic circulation.",
-    "timestamp_utc": "2025-07-31T12:42:40.493467+00:00"
-  },
-  {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, according to the provided context.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but it could be more clear and specific. It does not mention the specific conditions required for tropical cyclone formation, which are detailed in the text.",
     "ciq_answer_score": 7,
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterlies from the Northern and Southern Hemispheres converge. This convergence is influenced by intense solar radiation, which creates low pressure due to convection, causing air to rise. This rising air plays a crucial role in the general circulation of the atmosphere, particularly in the context of the simplified model mentioned. The ITCZ has a significant impact on the movement of air masses, cloud formation, and precipitation patterns in tropical regions.",
     "timestamp_utc": "2025-07-31T23:21:06.277362+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect weather patterns?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a belt around the Earth where the northeast trade winds and the southeast trade winds converge near the equator. It affects weather patterns by creating a low-pressure area that can lead to the formation and intensification of tropical storms, as the conditions (listed in [2]) for their formation are favorable in this zone. However, it's important to note that tropical cyclones do not originate exactly at the equator due to the reasons mentioned in [6].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on weather patterns. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by explaining the general circulation of the atmosphere and how the ITCZ fits into this larger pattern.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a belt around the Earth where the trade winds from the Northern and Southern Hemispheres converge near the equator. This convergence creates a low-pressure area, which can lead to the formation and strengthening of tropical storms due to favorable conditions like warm sea surface temperatures, the presence of the Coriolis effect, and vertical wind variations. The ITCZ plays a crucial role in the global atmospheric circulation, influencing the movement of air masses, the formation of weather systems, and the distribution of heat and moisture across the planet. It is an essential concept in understanding tropical weather patterns and their potential impacts, including tropical cyclones, which can cause significant destruction in coastal areas.",
+    "timestamp_utc": "2025-08-01T01:58:15.890914+00:00"
   }
 ]
