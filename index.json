@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force: This force affects the speed of the wind.\\n2. Rotation of the Earth: This factor also influences wind movement.\\n3. Pressure: The velocity and direction of the wind are the net result of these wind generating forces.\\n\\nTherefore, the speed and direction of wind are primarily determined by frictional force, earth's rotation, and pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be more comprehensive by mentioning the Coriolis effect, which is also included in the provided document. The answer is clear and concise, effectively summarizing the key points.",
-    "ciq_answer_score": "8",
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: Friction affects the speed of wind, with greater friction near the surface, especially over land.\n- Coriolis Force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.\n- Pressure Gradient Force: Wind generally blows from high-pressure areas to low-pressure areas, and the rate of change of pressure with distance affects wind speed.\n- Vertical and Horizontal Distribution of Pressure: Pressure differences at different altitudes and locations influence wind patterns.\n- Local Factors: Land and sea breezes, mountain and valley winds, and local temperature variations can influence wind speed and direction in specific regions.\n\nThese factors, along with the Coriolis effect, interact to determine the complex patterns of global wind circulation.",
-    "timestamp_utc": "2025-07-31T21:20:41.523140+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in context [2] and [4].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, which is accurate and supported by the text. However, the answer could be improved by providing more context or a more detailed explanation, especially for those unfamiliar with the topic.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind direction, causing it to deflect to the right in the Northern Hemisphere when looking in the direction of wind movement. This deflection is a result of the Earth's rotation, which is counterclockwise when viewed from the North Pole. The Coriolis force, which is responsible for this deflection, becomes stronger as you move away from the equator toward higher latitudes. At the equator, the Coriolis force is zero, and wind blows perpendicular to the isobars. This effect has a significant impact on weather patterns and atmospheric circulation, particularly in the formation of cyclones and anticyclones.",
     "timestamp_utc": "2025-08-01T10:23:41.284034+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional force (as it affects the wind speed)\\n2. Rotation of the Earth (as it affects wind movement)\\n3. Pressure (as it is one of the forces affecting the velocity and direction of wind)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clear and concise, effectively summarizing the relevant information from the provided text. However, the answer could be improved by adding a brief explanation of each factor's impact on wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional force: Friction affects wind speed, particularly at the surface and up to elevations of 1-3 km. It is strongest over land and weakest over the sea.\n\n- Coriolis force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced at higher latitudes and absent at the equator.\n\n- Pressure gradient force: Differences in atmospheric pressure create a force that influences wind direction and speed. Wind generally blows from areas of high pressure to low pressure, and the pressure gradient is stronger when isobars are close together.\n\n- Gravitational force: Acting downward, this force generally prevents strong upward winds.\n\nThese forces, along with the vertical and horizontal distribution of pressure, interact to shape wind patterns globally.",
+    "timestamp_utc": "2025-08-01T11:19:09.345646+00:00"
   }
 ]
