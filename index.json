@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Coriolis effect and how does it influence wind direction in the Northern Hemisphere?",
-    "ciq_generated_answer": "\"The Coriolis effect refers to the deflection of wind direction due to the Earth's rotation. In the Northern Hemisphere, this deflection causes winds to be deflected to the right when looking towards the direction of wind movement (referred to as a cyclonic or clockwise rotation in the Northern Hemisphere). This is because the Earth rotates counterclockwise from the perspective of an observer standing on its North Pole. The Coriolis force is directly proportional to the angle of latitude, meaning it has a more significant effect at higher latitudes compared to the equator where the Coriolis force is zero and wind blows perpendicular to the isobars.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind direction in the Northern Hemisphere. The explanation is clear and easy to understand, providing a good overview of the topic.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind direction, causing it to deflect to the right in the Northern Hemisphere when looking in the direction of wind movement. This deflection is a result of the Earth's rotation, which is counterclockwise when viewed from the North Pole. The Coriolis force, which is responsible for this deflection, becomes stronger as you move away from the equator toward higher latitudes. At the equator, the Coriolis force is zero, and wind blows perpendicular to the isobars. This effect has a significant impact on weather patterns and atmospheric circulation, particularly in the formation of cyclones and anticyclones.",
-    "timestamp_utc": "2025-08-01T10:23:41.284034+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional force (as it affects the wind speed)\\n2. Rotation of the Earth (as it affects wind movement)\\n3. Pressure (as it is one of the forces affecting the velocity and direction of wind)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clear and concise, effectively summarizing the relevant information from the provided text. However, the answer could be improved by adding a brief explanation of each factor's impact on wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 7,
     "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, including pressure gradient force, frictional force, Coriolis force, and gravitational force. The pressure gradient force results from differences in atmospheric pressure, causing air to move from high-pressure areas to low-pressure areas. Frictional force, which is greatest at the surface, affects wind speed, particularly over land. The Coriolis force, arising from the Earth's rotation, deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Additionally, gravitational force acts downward. These forces collectively shape the velocity and direction of wind near the Earth's surface.",
     "timestamp_utc": "2025-08-01T22:20:40.166172+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, identifying the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front or explaining how they differ from one another.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by unique interactions between the air masses, leading to distinct weather patterns and atmospheric conditions.",
+    "timestamp_utc": "2025-08-01T23:20:53.024790+00:00"
   }
 ]
