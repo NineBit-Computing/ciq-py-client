@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, according to the provided context.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but it could be more clear and specific. It does not mention the specific conditions required for tropical cyclone formation, which are detailed in the text.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones originate over warm tropical oceans, where specific conditions are met: sea surface temperatures exceed 27\u00b0 C, the Coriolis force is present, there are small vertical wind speed variations, a weak low-pressure area exists, and upper divergence occurs above the sea level system. These conditions fuel the storm with energy from the condensation process in towering cumulonimbus clouds.",
-    "timestamp_utc": "2025-07-31T13:38:46.602656+00:00"
-  },
-  {
     "cohere_generated_question": "What factors affect the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors affecting the speed and direction of wind, as per the provided context, are:\\n\\n   1. Frictional Force: It affects the speed of the wind.\\n\\n   2. Rotation of the Earth: It also affects the wind movement.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it could be more comprehensive by mentioning the Coriolis force, which is also discussed in the document as influencing wind direction. This additional factor would provide a more complete picture of the factors at play.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a belt around the Earth where the trade winds from the Northern and Southern Hemispheres converge near the equator. This convergence creates a low-pressure area, which can lead to the formation and strengthening of tropical storms due to favorable conditions like warm sea surface temperatures, the presence of the Coriolis effect, and vertical wind variations. The ITCZ plays a crucial role in the global atmospheric circulation, influencing the movement of air masses, the formation of weather systems, and the distribution of heat and moisture across the planet. It is an essential concept in understanding tropical weather patterns and their potential impacts, including tropical cyclones, which can cause significant destruction in coastal areas.",
     "timestamp_utc": "2025-08-01T01:58:15.890914+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, identifying the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by explaining what each type of front entails and how they differ from one another.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts can form: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by different temperature and pressure gradients, leading to distinct weather patterns and atmospheric behavior.",
+    "timestamp_utc": "2025-08-01T03:58:12.627102+00:00"
   }
 ]
