@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why does the Coriolis force not affect wind direction near the equator?",
-    "ciq_generated_answer": "\"The Coriolis force does not affect wind direction near the equator because at the equator, the angle of latitude is zero (as per [3] in the context), and since the Coriolis force is directly proportional to the angle of latitude, it becomes negligible. This allows the wind to blow perpendicular to the isobars, as mentioned in [2].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, and it is clearly worded. It provides a concise and straightforward explanation for why the Coriolis force does not influence wind direction near the equator, supported by relevant information from the document.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Coriolis force does not influence wind direction near the equator because the Coriolis force is directly proportional to the angle of latitude, and at the equator, the angle of latitude is zero. As a result, the Coriolis force becomes negligible near the equator, allowing the wind to blow perpendicular to the isobars without deflection.",
-    "timestamp_utc": "2025-07-31T20:24:37.240449+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force: This force affects the speed of the wind.\\n2. Rotation of the Earth: This factor also influences wind movement.\\n3. Pressure: The velocity and direction of the wind are the net result of these wind generating forces.\\n\\nTherefore, the speed and direction of wind are primarily determined by frictional force, earth's rotation, and pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be more comprehensive by mentioning the Coriolis effect, which is also included in the provided document. The answer is clear and concise, effectively summarizing the key points.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones originate over the seas due to a combination of factors. Firstly, they require a large sea surface with temperatures exceeding 27\u00b0 C, which provides the necessary warmth and moisture. Additionally, the presence of the Coriolis force, small vertical wind speed variations, a pre-existing weak low-pressure area, and upper divergence above the sea level system are crucial. These conditions allow the storm to intensify and draw energy from the condensation process within towering cumulonimbus clouds.",
     "timestamp_utc": "2025-08-01T09:27:26.044073+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis effect and how does it influence wind direction in the Northern Hemisphere?",
+    "ciq_generated_answer": "\"The Coriolis effect refers to the deflection of wind direction due to the Earth's rotation. In the Northern Hemisphere, this deflection causes winds to be deflected to the right when looking towards the direction of wind movement (referred to as a cyclonic or clockwise rotation in the Northern Hemisphere). This is because the Earth rotates counterclockwise from the perspective of an observer standing on its North Pole. The Coriolis force is directly proportional to the angle of latitude, meaning it has a more significant effect at higher latitudes compared to the equator where the Coriolis force is zero and wind blows perpendicular to the isobars.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind direction in the Northern Hemisphere. The explanation is clear and easy to understand, providing a good overview of the topic.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis effect is a phenomenon that influences wind direction, causing it to deflect to the right in the Northern Hemisphere when looking in the direction of wind movement. This deflection is a result of the Earth's rotation, which is counterclockwise when viewed from the North Pole. The Coriolis force, which is responsible for this deflection, becomes stronger as you move away from the equator toward higher latitudes. At the equator, the Coriolis force is zero, and wind blows perpendicular to the isobars. This effect has a significant impact on weather patterns and atmospheric circulation, particularly in the formation of cyclones and anticyclones.",
+    "timestamp_utc": "2025-08-01T10:23:41.284034+00:00"
   }
 ]
