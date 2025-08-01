@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, identifying the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by explaining what each type of front entails and how they differ from one another.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts can form: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by different temperature and pressure gradients, leading to distinct weather patterns and atmospheric behavior.",
-    "timestamp_utc": "2025-08-01T03:58:12.627102+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force (affects speed)\\n2. Forces acting on the wind (not specified which forces)\\n3. Rotation of the Earth (affects wind movement)\\n4. Pressure (implied as a factor affecting the wind, but not explicitly mentioned as influencing speed or direction)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be more clear and specific, particularly regarding the forces acting on wind and the role of pressure. The answer mentions 'forces' without elaborating, and while pressure is implied as a factor, it is not explicitly stated as influencing speed or direction.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "The Coriolis force is a phenomenon that arises due to the rotation of the Earth. This force influences the direction of wind, causing it to deflect to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This deflection is more pronounced when wind velocity is high, and the force is directly proportional to the angle of latitude, reaching its maximum strength at the poles and vanishing at the equator. As a result, the Coriolis force plays a crucial role in shaping atmospheric circulation and weather patterns globally.",
     "timestamp_utc": "2025-08-01T14:22:27.248483+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a force affecting wind movement)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clearly worded and concise, effectively summarizing the relevant information. However, the answer could be improved by providing a bit more detail or context, especially for readers unfamiliar with the topic.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including: \n\n- **Frictional Force**: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n\n- **Coriolis Force**: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere. The deflection is more pronounced at higher wind velocities and latitudes.\n\n- **Pressure Gradient Force**: Differences in atmospheric pressure create a force that influences wind direction. Wind generally blows from high-pressure areas to low-pressure areas.\n\n- **Gravity**: While not mentioned explicitly in the text, gravity acts as a downward force, balancing the vertical pressure gradient force and preventing strong upward winds.\n\nThese forces, particularly the pressure gradient, frictional, and Coriolis forces, interact to determine the speed and direction of wind near the Earth's surface.",
+    "timestamp_utc": "2025-08-01T17:21:44.879722+00:00"
   }
 ]
