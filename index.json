@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind are Frictional Force, the Earth's rotation, and Pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be clearer by providing a bit more context or explanation, especially for those unfamiliar with these concepts.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including: \n- **Frictional Force**: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- **Earth's Rotation (Coriolis Force)**: The Earth's rotation deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere. The deflection is more pronounced at higher wind speeds and latitudes, and absent at the equator.\n- **Pressure Gradient Force**: Differences in atmospheric pressure create a force that influences wind direction. Wind generally blows from high-pressure areas to low-pressure areas.\n\nAdditionally, the gravitational force acts downward, and the interaction of these forces determines the velocity and direction of the wind.",
-    "timestamp_utc": "2025-07-31T18:31:53.450151+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence atmospheric circulation and weather systems?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterlies from both sides of the equator converge. It rises due to convection caused by high insolation and low pressure, which in turn influences atmospheric circulation and weather systems. This rise and low pressure create an area of ascending air, leading to cloud formation and precipitation. The ITCZ typically moves north and south with the changing seasons, affecting global weather patterns.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation and weather systems. The explanation is clear and easy to understand, providing a good overview of the topic.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where air from the surrounding areas converges. This convergence of air creates low pressure conditions, which are favorable for the formation and intensification of tropical storms. The ITCZ affects the weather by facilitating the development of these intense weather systems, which can have significant impacts on the regions they affect.",
     "timestamp_utc": "2025-08-01T07:26:53.962145+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a force affecting wind movement)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clear and concise, effectively summarizing the relevant information. However, the answer could be improved by providing a bit more detail or context, especially for the first two points.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- **Frictional Force**: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- **Coriolis Force**: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere. The deflection is more pronounced at higher wind velocities and latitudes.\n- **Pressure Gradient Force**: Differences in atmospheric pressure create a force that influences wind direction. Wind generally blows from high-pressure areas to low-pressure areas.\n- **Gravity**: While not explicitly mentioned in the text, gravity also influences wind patterns, particularly in vertical air movements.\n\nThese forces, along with the heating and cooling of surfaces, create variations in atmospheric pressure, resulting in the movement of air, or wind.",
+    "timestamp_utc": "2025-08-01T08:29:49.647551+00:00"
   }
 ]
