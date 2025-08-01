@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it influence atmospheric circulation and weather systems?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterlies from both sides of the equator converge. It rises due to convection caused by high insolation and low pressure, which in turn influences atmospheric circulation and weather systems. This rise and low pressure create an area of ascending air, leading to cloud formation and precipitation. The ITCZ typically moves north and south with the changing seasons, affecting global weather patterns.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on atmospheric circulation and weather systems. The explanation is clear and easy to understand, providing a good overview of the topic.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where easterly winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area due to the accumulation of warm, moist air. As a result, the air rises through convection, forming clouds and precipitation. This process influences atmospheric circulation by creating a band of low pressure that migrates seasonally, affecting global weather patterns. The ITCZ is responsible for the movement of warm, moist air towards the poles, which then descends as dry air, creating subtropical high-pressure zones. This circulation pattern is known as the Hadley Cell and plays a crucial role in distributing heat and moisture globally, influencing weather systems and climate patterns.",
-    "timestamp_utc": "2025-07-31T19:19:57.627441+00:00"
-  },
-  {
     "cohere_generated_question": "Why does the Coriolis force not affect wind direction near the equator?",
     "ciq_generated_answer": "\"The Coriolis force does not affect wind direction near the equator because at the equator, the angle of latitude is zero (as per [3] in the context), and since the Coriolis force is directly proportional to the angle of latitude, it becomes negligible. This allows the wind to blow perpendicular to the isobars, as mentioned in [2].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, and it is clearly worded. It provides a concise and straightforward explanation for why the Coriolis force does not influence wind direction near the equator, supported by relevant information from the document.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- **Frictional Force**: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- **Coriolis Force**: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere. The deflection is more pronounced at higher wind velocities and latitudes.\n- **Pressure Gradient Force**: Differences in atmospheric pressure create a force that influences wind direction. Wind generally blows from high-pressure areas to low-pressure areas.\n- **Gravity**: While not explicitly mentioned in the text, gravity also influences wind patterns, particularly in vertical air movements.\n\nThese forces, along with the heating and cooling of surfaces, create variations in atmospheric pressure, resulting in the movement of air, or wind.",
     "timestamp_utc": "2025-08-01T08:29:49.647551+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the seas because they intensify over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, which is correct. However, it could provide more context by mentioning the specific conditions required, such as sea surface temperature, Coriolis force, vertical wind speed variations, and more, as mentioned in the text.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones originate over the seas due to a combination of factors. Firstly, they require a large sea surface with temperatures exceeding 27\u00b0 C, which provides the necessary warmth and moisture. Additionally, the presence of the Coriolis force, small vertical wind speed variations, a pre-existing weak low-pressure area, and upper divergence above the sea level system are crucial. These conditions allow the storm to intensify and draw energy from the condensation process within towering cumulonimbus clouds.",
+    "timestamp_utc": "2025-08-01T09:27:26.044073+00:00"
   }
 ]
