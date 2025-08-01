@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect weather patterns?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a belt around the Earth where the northeast trade winds and the southeast trade winds converge near the equator. It affects weather patterns by creating a low-pressure area that can lead to the formation and intensification of tropical storms, as the conditions (listed in [2]) for their formation are favorable in this zone. However, it's important to note that tropical cyclones do not originate exactly at the equator due to the reasons mentioned in [6].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on weather patterns. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by explaining the general circulation of the atmosphere and how the ITCZ fits into this larger pattern.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a belt around the Earth where the trade winds from the Northern and Southern Hemispheres converge near the equator. This convergence creates a low-pressure area, which can lead to the formation and strengthening of tropical storms due to favorable conditions like warm sea surface temperatures, the presence of the Coriolis effect, and vertical wind variations. The ITCZ plays a crucial role in the global atmospheric circulation, influencing the movement of air masses, the formation of weather systems, and the distribution of heat and moisture across the planet. It is an essential concept in understanding tropical weather patterns and their potential impacts, including tropical cyclones, which can cause significant destruction in coastal areas.",
-    "timestamp_utc": "2025-08-01T01:58:15.890914+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, identifying the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by explaining what each type of front entails and how they differ from one another.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure zone, which can lead to the formation and intensification of tropical storms and cyclones. The ITCZ affects weather patterns by influencing the movement of air masses, creating conditions favorable for cloud formation, and driving the general atmospheric circulation. It plays a crucial role in the Earth's climate system, particularly in the tropics, by redistributing heat and moisture and contributing to the formation of tropical weather systems.",
     "timestamp_utc": "2025-08-01T13:38:41.223505+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Coriolis force, and how does it influence wind direction in the Northern and Southern Hemispheres?",
+    "ciq_generated_answer": "\"The Coriolis force is a force that results from the Earth's rotation and affects the direction of wind. In the Northern Hemisphere, it deflects the wind to the right. In the Southern Hemisphere, it deflects the wind to the left. This is due to the opposite direction of Earth's rotation in each hemisphere.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise explanation of the Coriolis force and its effect on wind direction in both hemispheres, earning a high score.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Coriolis force is a phenomenon that arises due to the rotation of the Earth. This force influences the direction of wind, causing it to deflect to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This deflection is more pronounced when wind velocity is high, and the force is directly proportional to the angle of latitude, reaching its maximum strength at the poles and vanishing at the equator. As a result, the Coriolis force plays a crucial role in shaping atmospheric circulation and weather patterns globally.",
+    "timestamp_utc": "2025-08-01T14:22:27.248483+00:00"
   }
 ]
