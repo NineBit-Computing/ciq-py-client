@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the seas because they intensify over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones originate over the sea due to intensification over warm tropical oceans, which is correct. However, it could provide more context by mentioning the specific conditions required, such as sea surface temperature, Coriolis force, vertical wind speed variations, and more, as mentioned in the text.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones originate over the seas due to a combination of factors. Firstly, they require a large sea surface with temperatures exceeding 27\u00b0 C, which provides the necessary warmth and moisture. Additionally, the presence of the Coriolis force, small vertical wind speed variations, a pre-existing weak low-pressure area, and upper divergence above the sea level system are crucial. These conditions allow the storm to intensify and draw energy from the condensation process within towering cumulonimbus clouds.",
-    "timestamp_utc": "2025-08-01T09:27:26.044073+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Coriolis effect and how does it influence wind direction in the Northern Hemisphere?",
     "ciq_generated_answer": "\"The Coriolis effect refers to the deflection of wind direction due to the Earth's rotation. In the Northern Hemisphere, this deflection causes winds to be deflected to the right when looking towards the direction of wind movement (referred to as a cyclonic or clockwise rotation in the Northern Hemisphere). This is because the Earth rotates counterclockwise from the perspective of an observer standing on its North Pole. The Coriolis force is directly proportional to the angle of latitude, meaning it has a more significant effect at higher latitudes compared to the equator where the Coriolis force is zero and wind blows perpendicular to the isobars.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Coriolis effect and its influence on wind direction in the Northern Hemisphere. The explanation is clear and easy to understand, providing a good overview of the topic.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm tropical oceans, which are necessary for their formation and intensification. Additionally, the Coriolis force, small vertical wind speed variations, and upper divergence above the sea level system are also contributing factors.",
     "timestamp_utc": "2025-08-01T21:20:19.243630+00:00"
+  },
+  {
+    "cohere_generated_question": "What factors affect the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors affecting the speed and direction of wind, according to the provided information, are:\\n\\n  1. Frictional Force: It affects the speed of the wind.\\n  2. Rotation of the Earth: It also affects the wind movement.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it is not complete as it only mentions two factors affecting wind speed and direction while the text provides information on several other factors. A more comprehensive answer would include additional relevant details.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, including pressure gradient force, frictional force, Coriolis force, and gravitational force. The pressure gradient force results from differences in atmospheric pressure, causing air to move from high-pressure areas to low-pressure areas. Frictional force, which is greatest at the surface, affects wind speed, particularly over land. The Coriolis force, arising from the Earth's rotation, deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Additionally, gravitational force acts downward. These forces collectively shape the velocity and direction of wind near the Earth's surface.",
+    "timestamp_utc": "2025-08-01T22:20:40.166172+00:00"
   }
 ]
