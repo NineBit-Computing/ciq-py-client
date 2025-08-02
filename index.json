@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, identifying the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front or explaining how they differ from one another.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by unique interactions between the air masses, leading to distinct weather patterns and atmospheric conditions.",
-    "timestamp_utc": "2025-08-01T23:20:53.024790+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where is it typically found?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterlies from either side of the equator converge. It is typically found near the equator.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the relevant information about the Inter Tropical Convergence Zone. However, it could be made clearer by specifying that the ITCZ is a region near the equator where easterlies converge due to variations in atmospheric pressure and wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans, typically in areas where the sea surface temperature exceeds 27\u00b0C. The warm ocean waters provide the necessary energy and moisture for the formation and intensification of these storms. The Coriolis force, which is present due to the Earth's rotation, also plays a crucial role in the development of tropical cyclones by influencing the direction and movement of air masses.",
     "timestamp_utc": "2025-08-02T12:39:43.487549+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context. It states that tropical cyclones originate over warm tropical oceans, which is correct, but additional details from the text could be included for a more comprehensive answer.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans, typically requiring sea surface temperatures higher than 27\u00b0C. The Coriolis force, small vertical wind speed variations, and pre-existing low-pressure areas are among the conditions necessary for their formation and intensification. These cyclones are fueled by the continuous supply of moisture from the sea, and weaken once they reach land and are cut off from this moisture supply.",
+    "timestamp_utc": "2025-08-02T13:31:04.197272+00:00"
   }
 ]
