@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
-    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "The four types of fronts that occur when two different air masses meet are: (a) Cold front; (b) Warm front; (c) Stationary front; and (d) Occluded front. Each type of front is characterized by different weather patterns and the movement of air masses, leading to variations in temperature and atmospheric pressure.",
-    "timestamp_utc": "2025-08-01T12:43:28.398495+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect weather patterns?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It affects weather patterns by creating a low-pressure zone that favors the formation and intensification of tropical storms, as stated in points [1], [2], [3], [4], and [6]. The conditions that make this possible include large sea surfaces with temperatures higher than 27\\u00b0C, the presence of the Coriolis force, small variations in vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system. However, tropical cyclones are not formed near the equator as mentioned in point [6].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on weather patterns. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by mentioning the specific conditions required for the formation of tropical cyclones, which are closely related to the ITCZ.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where easterlies from the tropics converge. This convergence is caused by variations in atmospheric pressure and wind patterns, resulting in a low-pressure zone. The ITCZ is characterized by rising warm air, which leads to cloud formation and precipitation. It plays a crucial role in the general circulation of the atmosphere and the distribution of heat and moisture globally.",
     "timestamp_utc": "2025-08-02T01:43:16.642839+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it affect wind circulation?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a zone where the trade winds from each side of the equator converge due to high insolation and low pressure. This convergence affects wind circulation by causing the air at the ITCZ to rise because of convection, creating a low pressure zone that further attracts the winds from the tropics.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on wind circulation. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by mentioning the role of the Coriolis force in deflecting the wind direction near the equator, which is briefly mentioned in the document.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence is caused by the unequal heating of the Earth's surface, resulting in variations in atmospheric pressure. At the ITCZ, the warm, moist air from both hemispheres rises due to convection, creating a low-pressure area. This low pressure attracts more air from the surrounding areas, including the trade winds, resulting in a convergence of winds. As the air rises, it cools and condenses, forming clouds and often leading to precipitation. This process influences the wind circulation in the region, creating a band of calm, subsiding air near the equator known as the doldrums.",
+    "timestamp_utc": "2025-08-02T03:26:19.719398+00:00"
   }
 ]
