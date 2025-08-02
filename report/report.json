@@ -1,14 +1,6 @@
 [
   {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as mentioned in [2] and [4].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question and provides a concise explanation for why tropical cyclones originate over the seas, earning a perfect score.",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans, typically in areas where the sea surface temperature exceeds 27\u00b0C. The warm ocean waters provide the necessary energy and moisture for the formation and intensification of these storms. The Coriolis force, which is present due to the Earth's rotation, also plays a crucial role in the development of tropical cyclones by influencing the direction and movement of air masses.",
-    "timestamp_utc": "2025-08-02T12:39:43.487549+00:00"
-  },
-  {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context. It states that tropical cyclones originate over warm tropical oceans, which is correct, but additional details from the text could be included for a more comprehensive answer.",
     "ciq_answer_score": 8,
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force, the rotation of the Earth (Coriolis effect), and pressure systems. Frictional force, particularly over land, can slow down winds, while the Coriolis effect, due to the Earth's rotation, deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Additionally, winds generally move from areas of high pressure to low pressure, and the interaction of these pressure systems also plays a significant role in determining wind patterns.",
     "timestamp_utc": "2025-08-02T21:19:24.352920+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the primary cause of air motion?",
+    "ciq_generated_answer": "\"The primary cause of air motion, according to the provided context, is differences in atmospheric pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by explicitly mentioning the role of pressure differences in causing air motion. The response is concise and to the point, but a more explicit explanation would improve clarity.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Differences in atmospheric pressure are the primary cause of air motion. Air moves from areas of high pressure to low pressure, and this movement of air is what we experience as wind. Variations in atmospheric pressure are caused by the uneven heating of the Earth's surface, which leads to expansion and compression of air, resulting in air motion.",
+    "timestamp_utc": "2025-08-02T22:20:02.311004+00:00"
   }
 ]
