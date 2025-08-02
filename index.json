@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, based on the provided context, are frictional force and the rotation of the Earth. Additionally, wind's velocity and direction are affected by the net result of wind generating forces.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clear and concise, effectively summarizing the relevant information. However, it could be improved by providing a bit more detail on how these factors interact to shape wind patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force, the rotation of the Earth (Coriolis effect), and pressure gradient force. Frictional force, caused by the roughness of the Earth's surface, acts as a brake on wind speed, particularly near the ground and over oceans. The Coriolis effect, due to the Earth's rotation, deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The pressure gradient force causes air to flow from areas of high pressure to low pressure, creating wind patterns. These forces, along with gravitational force, interact to shape global wind systems and local wind variations, such as land and sea breezes.",
-    "timestamp_utc": "2025-08-02T06:29:19.268465+00:00"
-  },
-  {
     "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, based on the provided information, are:\\n\\n  1. Frictional Force: This force affects the wind's speed.\\n\\n  2. Earth's Rotation: The rotation of the earth also impacts the wind movement.\\n\\n  3. Pressure: The velocity and direction of the wind are the net result of wind generating forces, but the context does not specify any particular pressure factor influencing wind speed and direction. However, it is generally accepted that differences in atmospheric pressure can cause wind.\\n\\n  4. Other factors (not specified): Since the context mentions \\\"wind generating forces,\\\" there might be other unspecified factors influencing wind speed and direction.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. It is also clearly worded and easy to understand. The only minor improvement would be to mention that the Coriolis force, caused by the Earth's rotation, influences wind direction specifically.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "Differences in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, creating variations in atmospheric pressure. This pressure gradient causes air to move from high-pressure areas to low-pressure areas, setting the air in motion and creating wind.",
     "timestamp_utc": "2025-08-02T17:18:16.641579+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in points [2] and [4].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, but could be clearer. It states that tropical cyclones originate over the sea due to the presence of warm tropical oceans, but does not explicitly mention the other conditions mentioned in the text that are necessary for their formation and intensification. The answer could be improved by providing more detail and context.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones originate over the sea due to a combination of factors. Firstly, the presence of warm tropical oceans with temperatures exceeding 27\u00b0C provides the necessary energy for their formation and intensification. Additionally, the Coriolis force, small variations in vertical wind speed, pre-existing low-pressure areas, and upper divergence above the sea level system are essential conditions that contribute to the development of these storms. These factors collectively influence the formation and intensity of tropical cyclones, making them distinct from extra-tropical cyclones, which can form over land or sea.",
+    "timestamp_utc": "2025-08-02T18:29:01.344844+00:00"
   }
 ]
