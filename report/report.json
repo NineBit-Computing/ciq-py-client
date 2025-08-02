@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as it is mentioned in relation to wind)\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant factors influencing wind speed and direction. However, it could be made clearer by providing a bit more context, especially for readers unfamiliar with the topic.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- **Frictional Force**: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- **Coriolis Force**: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, it veers to the right, and to the left in the Southern Hemisphere. The deflection is more pronounced at higher wind speeds and latitudes, and absent at the equator.\n- **Pressure Gradient Force**: Differences in atmospheric pressure create a force that influences wind direction. The pressure gradient is stronger when isobars are close together and weaker when they are apart.\n- **Gravity**: While not explicitly mentioned in the provided text, gravity is a fundamental force that influences wind patterns, particularly in vertical air movements and the formation of pressure systems.\n\nThese forces, along with the gravitational force, interact to determine the speed and direction of winds, which play a crucial role in redistributing heat and moisture around the planet.",
-    "timestamp_utc": "2025-08-02T11:18:03.450972+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
     "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as mentioned in [2] and [4].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question and provides a concise explanation for why tropical cyclones originate over the seas, earning a perfect score.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge. It is characterized by low pressure and rising air due to convection caused by intense heating from the sun. This rising air then sets off a chain of atmospheric circulation patterns. The ITCZ plays a crucial role in the global wind circulation pattern, known as the general circulation of the atmosphere. This circulation includes the Hadley Cell, Ferrel Cell, and Polar Cell, which distribute heat energy from the equator towards the poles, maintaining the planet's overall temperature balance. The ITCZ's low-pressure area influences wind patterns, causing air to converge and rise, leading to the formation of clouds and precipitation in tropical regions.",
     "timestamp_utc": "2025-08-02T20:22:16.308577+00:00"
+  },
+  {
+    "cohere_generated_question": "What factors influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors influencing the speed and direction of wind, as per the provided context, are:\\n\\n   - Frictional Force\\n   - Rotation of the Earth\\n\\n   Additionally, it is mentioned that the velocity and direction of the wind are the net result of the wind generating forces, but the specific forces aren't elaborated. If we assume \\\"Pressure\\\" as a force affecting wind movement based on common knowledge, it would be a third factor. However, since it wasn't explicitly stated in the context, it's best to only confirm the two mentioned factors.\"",
+    "ciq_answer_evaluation": "CIQ's answer is accurate and clear, but it could be more complete by mentioning the Coriolis force, which is also a factor influencing wind patterns as per the document. This additional factor doesn't detract from the correctness of the provided factors, but it adds another important dimension to the discussion.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including frictional force, the rotation of the Earth (Coriolis effect), and pressure systems. Frictional force, particularly over land, can slow down winds, while the Coriolis effect, due to the Earth's rotation, deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Additionally, winds generally move from areas of high pressure to low pressure, and the interaction of these pressure systems also plays a significant role in determining wind patterns.",
+    "timestamp_utc": "2025-08-02T21:19:24.352920+00:00"
   }
 ]
