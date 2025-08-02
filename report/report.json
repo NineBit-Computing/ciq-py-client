@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional force (as it affects the wind speed)\\n2. Rotation of the Earth (as it affects wind movement)\\n3. Pressure (as it is one of the forces affecting the velocity and direction of wind)\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clear and concise, effectively summarizing the relevant information from the provided text. However, the answer could be improved by adding a brief explanation of each factor's impact on wind patterns.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional force: Friction affects wind speed, particularly at the surface and up to elevations of 1-3 km. It is strongest over land and weakest over the sea.\n\n- Coriolis force: The rotation of the Earth deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The deflection is more pronounced at higher latitudes and absent at the equator.\n\n- Pressure gradient force: Differences in atmospheric pressure create a force that influences wind direction and speed. Wind generally blows from areas of high pressure to low pressure, and the pressure gradient is stronger when isobars are close together.\n\n- Gravitational force: Acting downward, this force generally prevents strong upward winds.\n\nThese forces, along with the vertical and horizontal distribution of pressure, interact to shape wind patterns globally.",
-    "timestamp_utc": "2025-08-01T11:19:09.345646+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold fronts, warm fronts, stationary fronts, and occluded fronts. Each type of front is characterized by unique interactions between the air masses, leading to distinct weather patterns and atmospheric conditions.",
     "timestamp_utc": "2025-08-01T23:20:53.024790+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and where is it typically found?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterlies from either side of the equator converge. It is typically found near the equator.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers the relevant information about the Inter Tropical Convergence Zone. However, it could be made clearer by specifying that the ITCZ is a region near the equator where easterlies converge due to variations in atmospheric pressure and wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where easterlies from the tropics converge. This convergence is caused by variations in atmospheric pressure and wind patterns, resulting in a low-pressure zone. The ITCZ is characterized by rising warm air, which leads to cloud formation and precipitation. It plays a crucial role in the general circulation of the atmosphere and the distribution of heat and moisture globally.",
+    "timestamp_utc": "2025-08-02T01:43:16.642839+00:00"
   }
 ]
