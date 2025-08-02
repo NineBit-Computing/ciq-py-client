@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What factors affect the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors affecting the speed and direction of wind, according to the provided information, are:\\n\\n  1. Frictional Force: It affects the speed of the wind.\\n  2. Rotation of the Earth: It also affects the wind movement.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it is not complete as it only mentions two factors affecting wind speed and direction while the text provides information on several other factors. A more comprehensive answer would include additional relevant details.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by multiple factors, including pressure gradient force, frictional force, Coriolis force, and gravitational force. The pressure gradient force results from differences in atmospheric pressure, causing air to move from high-pressure areas to low-pressure areas. Frictional force, which is greatest at the surface, affects wind speed, particularly over land. The Coriolis force, arising from the Earth's rotation, deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Additionally, gravitational force acts downward. These forces collectively shape the velocity and direction of wind near the Earth's surface.",
-    "timestamp_utc": "2025-08-01T22:20:40.166172+00:00"
-  },
-  {
     "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
     "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, identifying the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front or explaining how they differ from one another.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- **Frictional Force**: Friction affects wind speed and is strongest at the surface, extending up to elevations of 1-3 km. It is minimal over the sea.\n- **Coriolis Force**: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, it veers to the right, and to the left in the Southern Hemisphere. The deflection is more pronounced at higher wind speeds and latitudes, and absent at the equator.\n- **Pressure Gradient Force**: Differences in atmospheric pressure create a force that influences wind direction. The pressure gradient is stronger when isobars are close together and weaker when they are apart.\n- **Gravity**: While not explicitly mentioned in the provided text, gravity is a fundamental force that influences wind patterns, particularly in vertical air movements and the formation of pressure systems.\n\nThese forces, along with the gravitational force, interact to determine the speed and direction of winds, which play a crucial role in redistributing heat and moisture around the planet.",
     "timestamp_utc": "2025-08-02T11:18:03.450972+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans, as mentioned in [2] and [4].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It directly addresses the question and provides a concise explanation for why tropical cyclones originate over the seas, earning a perfect score.",
+    "ciq_answer_score": 10,
+    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans, typically in areas where the sea surface temperature exceeds 27\u00b0C. The warm ocean waters provide the necessary energy and moisture for the formation and intensification of these storms. The Coriolis force, which is present due to the Earth's rotation, also plays a crucial role in the development of tropical cyclones by influencing the direction and movement of air masses.",
+    "timestamp_utc": "2025-08-02T12:39:43.487549+00:00"
   }
 ]
