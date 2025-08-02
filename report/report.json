@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Coriolis force, and how does it influence wind direction in the Northern and Southern Hemispheres?",
-    "ciq_generated_answer": "\"The Coriolis force is a force that results from the Earth's rotation and affects the direction of wind. In the Northern Hemisphere, it deflects the wind to the right. In the Southern Hemisphere, it deflects the wind to the left. This is due to the opposite direction of Earth's rotation in each hemisphere.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise explanation of the Coriolis force and its effect on wind direction in both hemispheres, earning a high score.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Coriolis force is a phenomenon that arises due to the rotation of the Earth. This force influences the direction of wind, causing it to deflect to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This deflection is more pronounced when wind velocity is high, and the force is directly proportional to the angle of latitude, reaching its maximum strength at the poles and vanishing at the equator. As a result, the Coriolis force plays a crucial role in shaping atmospheric circulation and weather patterns globally.",
-    "timestamp_utc": "2025-08-01T14:22:27.248483+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a force affecting wind movement)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clearly worded and concise, effectively summarizing the relevant information. However, the answer could be improved by providing a bit more detail or context, especially for readers unfamiliar with the topic.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the northern and southern hemispheres converge. This convergence creates conditions that are favorable for the formation and strengthening of tropical storms. The interaction of these winds leads to rising air and the development of tall clouds, bringing heavy rainfall and storms. The ITCZ plays a crucial role in the global atmospheric circulation and weather patterns, particularly in the tropics.",
     "timestamp_utc": "2025-08-02T04:35:38.675107+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: Cold, Warm, Stationary, and Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, listing the four types of fronts that occur when two different air masses meet. However, the answer could be made clearer by providing a brief description of each type of front, especially since the term 'occluded' may be unfamiliar to some readers.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "When two different air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. A cold front occurs when a cold air mass advances and replaces a warmer air mass, leading to a rapid drop in temperature and often causing precipitation. Conversely, a warm front happens when a warm air mass moves and replaces a cold air mass, resulting in a gradual temperature increase and potentially causing prolonged precipitation. A stationary front, as the name suggests, is when neither air mass is strong enough to replace the other, leading to a prolonged boundary between them. Lastly, an occluded front occurs when a cold air mass overtakes and lifts a warm air mass, resulting in a complex weather system with a mixture of warm and cold air characteristics.",
+    "timestamp_utc": "2025-08-02T05:24:12.268620+00:00"
   }
 ]
