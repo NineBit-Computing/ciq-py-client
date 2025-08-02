@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone (ITCZ) and how does it affect wind circulation?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a zone where the trade winds from each side of the equator converge due to high insolation and low pressure. This convergence affects wind circulation by causing the air at the ITCZ to rise because of convection, creating a low pressure zone that further attracts the winds from the tropics.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on wind circulation. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by mentioning the role of the Coriolis force in deflecting the wind direction near the equator, which is briefly mentioned in the document.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence is caused by the unequal heating of the Earth's surface, resulting in variations in atmospheric pressure. At the ITCZ, the warm, moist air from both hemispheres rises due to convection, creating a low-pressure area. This low pressure attracts more air from the surrounding areas, including the trade winds, resulting in a convergence of winds. As the air rises, it cools and condenses, forming clouds and often leading to precipitation. This process influences the wind circulation in the region, creating a band of calm, subsiding air near the equator known as the doldrums.",
-    "timestamp_utc": "2025-08-02T03:26:19.719398+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect the weather?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where easterlies from both sides of the equator converge. It affects the weather by creating conditions favourable for the formation and intensification of tropical storms, as stated in points [1] and [2] of the context. However, tropical cyclones are not formed near the equator as mentioned in point [6].\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on weather patterns. However, the wording could be improved for clarity, especially in the last sentence, which is a bit confusing. The phrase 'as mentioned in point [6]' should be clarified to avoid ambiguity.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area, which is an ideal condition for the formation and intensification of tropical storms. The ITCZ is important because it provides the necessary conditions for tropical cyclogenesis, including warm sea surface temperatures above 27 \u00b0C, the presence of the Coriolis force (a deflection force caused by the Earth's rotation), relatively constant vertical wind speed, and pre-existing weak low-pressure areas or cyclonic circulations. These factors, combined with upper-level divergence, enable the release of heat energy through condensation, fueling the intense storms characteristic of tropical regions.",
     "timestamp_utc": "2025-08-02T14:19:23.540240+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind are frictional force, the rotation of the Earth, and pressure differences.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clear and concise, effectively summarizing the relevant information from the provided text. However, it could have included a brief explanation of each factor's impact on wind patterns for a more comprehensive response.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including frictional force, the rotation of the Earth (Coriolis effect), and pressure differences. Friction from the Earth's surface, particularly over land, affects wind speed, with lower friction over the ocean allowing for stronger winds. The Coriolis effect, resulting from the Earth's rotation, deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Pressure differences between areas of high and low pressure create pressure gradient forces that drive wind movement from high to low pressure. These factors, along with gravitational forces, interact to shape global wind patterns and circulation.",
+    "timestamp_utc": "2025-08-02T15:20:34.899434+00:00"
   }
 ]
