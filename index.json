@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What factors contribute to the formation of tropical cyclones?",
-    "ciq_generated_answer": "\"Tropical cyclones originate and intensify over warm tropical oceans.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it does not cover all the relevant information provided in the document. It only mentions the origin of tropical cyclones without discussing the additional factors that contribute to their formation. This response earns a score of 7 out of 10.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans with surface temperatures exceeding 27\u00b0C. Their formation and intensification are influenced by multiple factors: the presence of the Coriolis force, small variations in vertical wind speed, pre-existing weak low-pressure areas or low-level cyclonic circulation, and upper divergence above the sea-level system. These conditions, combined with the continuous supply of moisture from the ocean, contribute to the development and strength of tropical cyclones.",
-    "timestamp_utc": "2025-08-03T03:51:33.287878+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It is important because it is one of the conditions favorable for the formation and intensification of tropical storms, as mentioned in points [1] and [2]. Specifically, it provides the location where warm sea surface temperatures, the Coriolis force, small variations in vertical wind speed, and pre-existing weak-low-pressure areas or low-level cyclonic circulations can come together to potentially form tropical storms.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in tropical storm formation. The answer is also clearly worded and easy to understand, providing a concise summary of the ITCZ's significance. Well done, CIQ!",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Tropical cyclones are intense storms that form over warm tropical oceans due to several factors: sea surface temperatures exceeding 27\u00b0C, the Coriolis force, minimal vertical wind speed variations, pre-existing low-pressure systems, and upper-level divergence. These conditions fuel the storm with energy from the condensation process in towering cumulonimbus clouds. However, when these storms reach land, they lose their energy source and dissipate as they no longer have access to the warm ocean waters that fuel their intensity. The intense winds, heavy rainfall, and storm surges associated with tropical cyclones can cause significant destruction and impact coastal areas.",
     "timestamp_utc": "2025-08-03T14:18:40.772824+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it significant?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from both sides of the equator meet and converge. It is significant because it prevents the formation of tropical cyclones near the equator, as the conditions for their formation and intensification are not met there.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). However, the wording could be improved for clarity, especially in the second sentence. It could be rephrased to better explain why the conditions for tropical cyclone formation are not met near the equator.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is significant because it plays a crucial role in the global atmospheric circulation and weather patterns. The ITCZ prevents the formation of tropical cyclones near the equator due to the absence of the Coriolis force, which is necessary for the cyclonic rotation of air masses. Additionally, the convergence of air masses in the ITCZ leads to rising motion, inhibiting the development of strong vertical wind shear that is required for tropical cyclone formation. Thus, the ITCZ acts as a barrier to tropical cyclone formation near the equator, influencing their typical occurrence in the tropics.",
+    "timestamp_utc": "2025-08-03T15:20:44.273941+00:00"
   }
 ]
