@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the primary cause of air motion?",
-    "ciq_generated_answer": "\"The primary cause of air motion, according to the provided context, is differences in atmospheric pressure.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by explicitly mentioning the role of pressure differences in causing air motion. The response is concise and to the point, but a more explicit explanation would improve clarity.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Differences in atmospheric pressure are the primary cause of air motion. Air moves from areas of high pressure to low pressure, and this movement of air is what we experience as wind. Variations in atmospheric pressure are caused by the uneven heating of the Earth's surface, which leads to expansion and compression of air, resulting in air motion.",
-    "timestamp_utc": "2025-08-02T22:20:02.311004+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, according to the provided context, are Frictional Force, Earth's rotation, and Pressure.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context and explaining the impact of each factor on wind patterns.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 9,
     "cohere_generated_answer": "Air masses are formed when air remains over a large, homogenous area for an extended period, adopting the characteristics of that region. For instance, if air stays over a warm ocean for a long time, it becomes a warm, moist air mass. These homogenous regions, like vast oceans or plains, are known as source regions.",
     "timestamp_utc": "2025-08-03T11:18:42.028475+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as it is mentioned in relation to wind)\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing a brief explanation of each factor's impact, earning it a score of 8.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including:\n\n- Frictional Force: The friction exerted by the Earth's surface, particularly prominent near the sea.\n- Coriolis Force: The deflection of wind due to the rotation of the Earth, which varies with latitude.\n- Pressure Gradient Force: Wind moves from areas of high pressure to low pressure, and the rate of change in pressure influences wind speed.\n- Vertical Pressure Gradient: The decrease in pressure with height, balanced by gravitational force, preventing strong upward winds.\n- Isobars: Lines of equal pressure influence wind direction, with wind blowing parallel to isobars when unaffected by other forces.\n- Coriolis force acts perpendicular to the pressure gradient force, resulting in a deflection of wind direction.\n- Latitudinal variation of atmospheric heating, emergence of pressure belts, and distribution of continents and oceans also play a role in wind patterns.",
+    "timestamp_utc": "2025-08-03T12:41:40.513485+00:00"
   }
 ]
