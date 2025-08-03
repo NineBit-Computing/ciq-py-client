@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2], [4])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text. The answer is concise, but could be more explicit in its wording.",
-    "ciq_answer_score": "7",
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is a crucial factor in their formation. Warm ocean water provides the necessary energy for these storms to intensify, and the Coriolis force, small vertical wind speed variations, and other atmospheric conditions also play a role in their development.",
-    "timestamp_utc": "2025-08-03T07:19:39.421491+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence wind patterns?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low-pressure belt that forms where the easterlies from either side of the equator converge. It influences wind patterns by creating a zone where winds from the tropics converge, and it also plays a crucial role in the formation and intensification of tropical storms due to its favorable conditions, such as warm sea surface temperatures, the presence of the Coriolis force, small variations in vertical wind speed, a pre-existing weak low-pressure area or low-level cyclonic circulation, and upper divergence above the sea level system.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on wind patterns. The answer is also clearly worded and easy to understand. However, it could benefit from a more concise explanation of the Coriolis force's role in tropical storm formation.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Differences in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, creating variations in pressure. This pressure gradient forces air to move from high-pressure areas to low-pressure areas, setting the air in motion and creating wind. The wind redistributes heat and moisture, maintaining the planet's overall temperature balance.",
     "timestamp_utc": "2025-08-03T20:22:53.210784+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors that determine the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors that determine the speed and direction of wind, according to the provided context, are frictional force and the net result of wind generating forces, which includes pressure differences.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It mentions the key factors of frictional force and the net result of wind-generating forces, but does not explicitly state that these factors determine the speed and direction of wind, which is the focus of the question.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are determined by a combination of factors, including frictional force and the net result of various wind-generating forces, such as pressure differences. Frictional force, which is greatest at the surface and diminishes with height, affects the speed of the wind. The Coriolis force, influenced by the rotation of the Earth, also plays a role in deflecting wind direction. Additionally, the pressure gradient force, which is the rate of change of pressure with respect to distance, influences wind patterns. These forces interact to shape the speed and direction of wind.",
+    "timestamp_utc": "2025-08-03T21:20:02.878054+00:00"
   }
 ]
