@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator converge. It is important because it is one of the main areas where tropical storms can form and intensify due to the conditions it provides: large sea surfaces with temperatures higher than 27\\u00b0C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). It is also clearly worded and easy to understand. However, the answer could be improved by explaining what the Coriolis force is, as it may not be common knowledge.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the trade winds from the Northern and Southern Hemispheres converge. This convergence creates a low-pressure area, which is an ideal condition for the formation and intensification of tropical storms. The ITCZ is important because it provides the necessary conditions for tropical cyclogenesis, including warm sea surface temperatures above 27 \u00b0C, the presence of the Coriolis force (a deflection force caused by the Earth's rotation), relatively constant vertical wind speed, and pre-existing weak low-pressure areas or cyclonic circulations. These factors, combined with upper-level divergence, enable the release of heat energy through condensation, fueling the intense storms characteristic of tropical regions.",
-    "timestamp_utc": "2025-08-02T14:19:23.540240+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind are frictional force, the rotation of the Earth, and pressure differences.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clear and concise, effectively summarizing the relevant information from the provided text. However, it could have included a brief explanation of each factor's impact on wind patterns for a more comprehensive response.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including: \n- Frictional Force: Friction affects wind speed and is strongest at the surface, extending up to 1-3 km. It is minimal over the sea.\n- Coriolis Force: The Earth's rotation about its axis, described by the Coriolis effect, deflects wind to the right in the northern hemisphere and to the left in the southern hemisphere. The deflection is more pronounced at higher wind velocities and latitudes, and absent at the equator.\n- Pressure Gradient Force: Variations in atmospheric pressure create a force that drives wind from high-pressure areas to low-pressure areas. The pressure gradient is stronger when isobars are close together.\n\nThese forces, along with gravitational force, interact to determine the speed and direction of wind. The Coriolis and pressure gradient forces act perpendicular to each other, resulting in cyclonic circulation around low-pressure areas and anti-cyclonic circulation around high-pressure areas.",
     "timestamp_utc": "2025-08-03T01:55:59.513774+00:00"
+  },
+  {
+    "cohere_generated_question": "What factors contribute to the formation of tropical cyclones?",
+    "ciq_generated_answer": "\"Tropical cyclones originate and intensify over warm tropical oceans.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and clear, but it does not cover all the relevant information provided in the document. It only mentions the origin of tropical cyclones without discussing the additional factors that contribute to their formation. This response earns a score of 7 out of 10.",
+    "ciq_answer_score": 7,
+    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans with surface temperatures exceeding 27\u00b0C. Their formation and intensification are influenced by multiple factors: the presence of the Coriolis force, small variations in vertical wind speed, pre-existing weak low-pressure areas or low-level cyclonic circulation, and upper divergence above the sea-level system. These conditions, combined with the continuous supply of moisture from the ocean, contribute to the development and strength of tropical cyclones.",
+    "timestamp_utc": "2025-08-03T03:51:33.287878+00:00"
   }
 ]
