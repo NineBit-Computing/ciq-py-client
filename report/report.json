@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What factors influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The speed and direction of wind are influenced by several factors as discussed in the context:\\n\\n    - Frictional Force (as mentioned in [1])\\n    - Other forces affecting the velocity and direction of wind (as stated in [2])\\n    - Rotation of the earth (as pointed out in [4])\\n    - The net result of wind generating forces (as indicated in [5])\\n\\n   It is also important to note that pressure plays a role in wind movement, but the specifics are not explicitly stated in the context.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. It is clear and concise, effectively summarizing the factors influencing wind speed and direction. However, the answer could be improved by providing a bit more detail on each factor, especially the Coriolis effect, to make it more comprehensive.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including pressure differences, friction, and the Coriolis effect. Air moves from areas of high pressure to low pressure, creating wind. Friction from the Earth's surface, particularly over land, affects wind speed, with less friction over the ocean allowing for stronger winds. The Coriolis effect, caused by the Earth's rotation, deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere, influencing the direction of wind flows. Additionally, the interaction of pressure gradient forces and Coriolis forces results in cyclonic or anti-cyclonic wind patterns around areas of low or high pressure, respectively. The combined effect of these factors determines the complex patterns of global wind circulation.",
-    "timestamp_utc": "2025-08-03T06:29:43.407808+00:00"
-  },
-  {
     "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
     "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2], [4])\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text. The answer is concise, but could be more explicit in its wording.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 10,
     "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans. They require sea surface temperatures higher than 27\u00b0 C, the presence of the Coriolis force, small variations in vertical wind speed, and other atmospheric conditions to form and intensify. The warm ocean waters fuel these storms through the continuous supply of moisture, which strengthens them.",
     "timestamp_utc": "2025-08-03T18:29:27.902200+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the primary cause of air motion?",
+    "ciq_generated_answer": "\"The primary cause of air motion, as per the provided context, is differences in atmospheric pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context and explaining the relationship between pressure differences and air motion in more detail.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "Differences in atmospheric pressure are the primary cause of air motion. Air expands when heated and contracts when cooled, creating variations in pressure. This pressure gradient forces air to move from high-pressure areas to low-pressure areas, setting the air in motion and creating wind. The wind redistributes heat and moisture, maintaining the planet's overall temperature balance.",
+    "timestamp_utc": "2025-08-03T20:22:53.210784+00:00"
   }
 ]
