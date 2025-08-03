@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
-    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as it is mentioned in relation to wind)\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying the three factors that influence wind speed and direction. However, the answer could be clearer by providing more context and explaining the impact of each factor, particularly the Coriolis effect, in a more detailed manner.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including: \n\n- Frictional Force: The friction experienced by wind depends on the surface it moves over, with greater friction near the Earth's surface, especially over land. Friction reduces wind speed and can alter its direction.\n\n- Coriolis Effect: The rotation of the Earth deflects winds, with the direction of deflection depending on the hemisphere. In the Northern Hemisphere, winds are deflected to the right, while in the Southern Hemisphere, they are deflected to the left.\n\n- Pressure Gradient Force: Wind generally moves from areas of high pressure to low pressure. The pressure gradient force is responsible for the movement of air, with stronger gradients leading to higher wind speeds.\n\nAdditionally, other factors like the Earth's topography, temperature variations, and local weather patterns can also influence wind patterns.",
-    "timestamp_utc": "2025-08-02T19:16:45.439519+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it impact wind circulation?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where winds from either side of the equator converge. It impacts wind circulation by causing air at the ITCZ to rise due to convection caused by high insolation, thereby creating a low pressure area. This rising air then leads to the formation of the Simplified general circulation of the atmosphere as described in the context.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its impact on wind circulation. The answer is also clearly worded and easy to understand. However, it could have been more comprehensive by explaining the broader context of wind circulation and atmospheric pressure in more detail.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": "7",
     "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is a crucial factor in their formation. Warm ocean water provides the necessary energy for these storms to intensify, and the Coriolis force, small vertical wind speed variations, and other atmospheric conditions also play a role in their development.",
     "timestamp_utc": "2025-08-03T07:19:39.421491+00:00"
+  },
+  {
+    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence wind patterns?",
+    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low-pressure belt that forms where the easterlies from either side of the equator converge. It influences wind patterns by creating a zone where winds from the tropics converge, and it also plays a crucial role in the formation and intensification of tropical storms due to its favorable conditions, such as warm sea surface temperatures, the presence of the Coriolis force, small variations in vertical wind speed, a pre-existing weak low-pressure area or low-level cyclonic circulation, and upper divergence above the sea level system.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on wind patterns. The answer is also clearly worded and easy to understand. However, it could benefit from a more concise explanation of the Coriolis force's role in tropical storm formation.",
+    "ciq_answer_score": 9,
+    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a low-pressure belt that forms due to the convergence of easterly winds from both sides of the equator. This convergence creates a zone of rising air, which influences wind patterns by directing them towards this area. The ITCZ plays a crucial role in the formation and intensification of tropical storms due to favorable conditions, such as warm sea surface temperatures, the presence of the Coriolis force, and vertical wind variations. These conditions, along with a pre-existing weak low-pressure area or low-level cyclonic circulation, contribute to the development of powerful tropical cyclones.",
+    "timestamp_utc": "2025-08-03T08:26:25.859541+00:00"
   }
 ]
