@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the easterlies from either side of the equator converge. It is important because it is one of the conditions favorable for the formation and intensification of tropical storms, as mentioned in points [1] and [2]. Specifically, it provides the location where warm sea surface temperatures, the Coriolis force, small variations in vertical wind speed, and pre-existing weak-low-pressure areas or low-level cyclonic circulations can come together to potentially form tropical storms.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its role in tropical storm formation. The answer is also clearly worded and easy to understand, providing a concise summary of the ITCZ's significance. Well done, CIQ!",
-    "ciq_answer_score": 10,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is important for several reasons. Firstly, it plays a crucial role in the formation and intensification of tropical storms, such as hurricanes and typhoons. The ITCZ provides the necessary conditions for these storms to develop, including warm sea surface temperatures and the Coriolis effect, which causes the spinning motion of the storms. Additionally, the ITCZ is significant in driving global atmospheric circulation patterns and influencing weather systems worldwide. The rising air in the ITCZ creates a low-pressure area, which pulls in surrounding air, leading to the formation of wind patterns and weather systems that affect climate and weather on a global scale.",
-    "timestamp_utc": "2025-08-03T04:50:11.138733+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as a force affecting wind movement)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. It is clearly worded and concise, effectively summarizing the relevant information. However, the answer could be improved by providing a bit more detail or context, particularly for the first two points.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where the easterly trade winds from the Northern and Southern Hemispheres converge. This convergence zone is significant because it plays a crucial role in the global atmospheric circulation and weather patterns. The ITCZ prevents the formation of tropical cyclones near the equator due to the absence of the Coriolis force, which is necessary for the cyclonic rotation of air masses. Additionally, the convergence of air masses in the ITCZ leads to rising motion, inhibiting the development of strong vertical wind shear that is required for tropical cyclone formation. Thus, the ITCZ acts as a barrier to tropical cyclone formation near the equator, influencing their typical occurrence in the tropics.",
     "timestamp_utc": "2025-08-03T15:20:44.273941+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones only form over the ocean?",
+    "ciq_generated_answer": "\"Tropical cyclones originate and intensify over warm tropical oceans ([2]). Therefore, they only form over the ocean as stated in [4].\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It states that tropical cyclones form over warm tropical oceans, which is correct, but does not explicitly mention that this is the reason they only form over the ocean, leaving room for improvement in clarity.",
+    "ciq_answer_score": "8",
+    "cohere_generated_answer": "Tropical cyclones form over the ocean because they require warm ocean water to fuel their development. Warm ocean water, with temperatures exceeding 27\u00b0C, provides the energy necessary for these storms to intensify. This energy is derived from the process of condensation that occurs within towering cumulonimbus clouds surrounding the storm's center. As the storm draws in moisture from the ocean, it strengthens and develops into a tropical cyclone.",
+    "timestamp_utc": "2025-08-03T16:25:07.684130+00:00"
   }
 ]
