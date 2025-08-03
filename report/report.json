@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it influence wind patterns?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low-pressure belt that forms where the easterlies from either side of the equator converge. It influences wind patterns by creating a zone where winds from the tropics converge, and it also plays a crucial role in the formation and intensification of tropical storms due to its favorable conditions, such as warm sea surface temperatures, the presence of the Coriolis force, small variations in vertical wind speed, a pre-existing weak low-pressure area or low-level cyclonic circulation, and upper divergence above the sea level system.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its influence on wind patterns. The answer is also clearly worded and easy to understand. However, it could benefit from a more concise explanation of the Coriolis force's role in tropical storm formation.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a low-pressure belt that forms due to the convergence of easterly winds from both sides of the equator. This convergence creates a zone of rising air, which influences wind patterns by directing them towards this area. The ITCZ plays a crucial role in the formation and intensification of tropical storms due to favorable conditions, such as warm sea surface temperatures, the presence of the Coriolis force, and vertical wind variations. These conditions, along with a pre-existing weak low-pressure area or low-level cyclonic circulation, contribute to the development of powerful tropical cyclones.",
-    "timestamp_utc": "2025-08-03T08:26:25.859541+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect wind circulation?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where winds from either side of the equator converge. It affects wind circulation by causing convection due to high insolation, which results in the air at ITCZ rising and creating a low pressure area. This, in turn, influences the general circulation of the atmosphere.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on wind circulation. However, the wording could be improved for clarity, especially the last sentence, which could be rephrased for better comprehension.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are determined by a combination of factors, including frictional force and the net result of various wind-generating forces, such as pressure differences. Frictional force, which is greatest at the surface and diminishes with height, affects the speed of the wind. The Coriolis force, influenced by the rotation of the Earth, also plays a role in deflecting wind direction. Additionally, the pressure gradient force, which is the rate of change of pressure with respect to distance, influences wind patterns. These forces interact to shape the speed and direction of wind.",
     "timestamp_utc": "2025-08-03T21:20:02.878054+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the four types of fronts that occur when two different air masses meet?",
+    "ciq_generated_answer": "\"The four types of fronts that occur when two different air masses meet are: (a) Cold; (b) Warm; (c) Stationary; (d) Occluded.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise list of the four types of fronts that occur when two different air masses meet, which are cold, warm, stationary, and occluded fronts. The answer is straightforward and easy to understand.",
+    "ciq_answer_score": "10",
+    "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. Each type of front brings about distinct weather patterns and atmospheric conditions.",
+    "timestamp_utc": "2025-08-03T23:20:53.929513+00:00"
   }
 ]
