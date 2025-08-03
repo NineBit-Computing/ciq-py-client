@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the seas?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over warm tropical oceans. (Context: [2])\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context. It states that tropical cyclones originate over warm tropical oceans, which is correct, but additional details from the text could be included for a more comprehensive answer.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "Tropical cyclones are violent storms that originate over warm tropical oceans, typically requiring sea surface temperatures higher than 27\u00b0C. The Coriolis force, small vertical wind speed variations, and pre-existing low-pressure areas are among the conditions necessary for their formation and intensification. These cyclones are fueled by the continuous supply of moisture from the sea, and weaken once they reach land and are cut off from this moisture supply.",
-    "timestamp_utc": "2025-08-02T13:31:04.197272+00:00"
-  },
-  {
     "cohere_generated_question": "What is the Inter Tropical Convergence Zone and why is it important?",
     "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a region where the trade winds from both sides of the equator converge. It is important because it is one of the main areas where tropical storms can form and intensify due to the conditions it provides: large sea surfaces with temperatures higher than 27\\u00b0C, the presence of the Coriolis force, small variations in the vertical wind speed, a pre-existing weak-low-pressure area or low-level-cyclonic circulation, and upper divergence above the sea level system.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ). It is also clearly worded and easy to understand. However, the answer could be improved by explaining what the Coriolis force is, as it may not be common knowledge.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "Differences in atmospheric pressure are the primary cause of air motion. Air moves from areas of high pressure to low pressure, and this movement of air is what we experience as wind. Variations in atmospheric pressure are caused by the uneven heating of the Earth's surface, which leads to expansion and compression of air, resulting in air motion.",
     "timestamp_utc": "2025-08-02T22:20:02.311004+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the key factors influencing the speed and direction of wind?",
+    "ciq_generated_answer": "\"The key factors influencing the speed and direction of wind, according to the provided context, are Frictional Force, Earth's rotation, and Pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer by providing more context and explaining the impact of each factor on wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including: \n- Frictional Force: Friction affects wind speed and is strongest at the surface, extending up to 1-3 km. It is minimal over the sea.\n- Coriolis Force: The Earth's rotation about its axis, described by the Coriolis effect, deflects wind to the right in the northern hemisphere and to the left in the southern hemisphere. The deflection is more pronounced at higher wind velocities and latitudes, and absent at the equator.\n- Pressure Gradient Force: Variations in atmospheric pressure create a force that drives wind from high-pressure areas to low-pressure areas. The pressure gradient is stronger when isobars are close together.\n\nThese forces, along with gravitational force, interact to determine the speed and direction of wind. The Coriolis and pressure gradient forces act perpendicular to each other, resulting in cyclonic circulation around low-pressure areas and anti-cyclonic circulation around high-pressure areas.",
+    "timestamp_utc": "2025-08-03T01:55:59.513774+00:00"
   }
 ]
