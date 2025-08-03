@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
-    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans, as stated in points [2] and [4].\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually correct and complete, but could be clearer. It states that tropical cyclones originate over the sea due to the presence of warm tropical oceans, but does not explicitly mention the other conditions mentioned in the text that are necessary for their formation and intensification. The answer could be improved by providing more detail and context.",
-    "ciq_answer_score": 7,
-    "cohere_generated_answer": "Tropical cyclones originate over the sea due to a combination of factors. Firstly, the presence of warm tropical oceans with temperatures exceeding 27\u00b0C provides the necessary energy for their formation and intensification. Additionally, the Coriolis force, small variations in vertical wind speed, pre-existing low-pressure areas, and upper divergence above the sea level system are essential conditions that contribute to the development of these storms. These factors collectively influence the formation and intensity of tropical cyclones, making them distinct from extra-tropical cyclones, which can form over land or sea.",
-    "timestamp_utc": "2025-08-02T18:29:01.344844+00:00"
-  },
-  {
     "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as it is mentioned in relation to wind)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, identifying the three factors that influence wind speed and direction. However, the answer could be clearer by providing more context and explaining the impact of each factor, particularly the Coriolis effect, in a more detailed manner.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by a combination of factors, including pressure differences, friction, and the Coriolis effect. Air moves from areas of high pressure to low pressure, creating wind. Friction from the Earth's surface, particularly over land, affects wind speed, with less friction over the ocean allowing for stronger winds. The Coriolis effect, caused by the Earth's rotation, deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere, influencing the direction of wind flows. Additionally, the interaction of pressure gradient forces and Coriolis forces results in cyclonic or anti-cyclonic wind patterns around areas of low or high pressure, respectively. The combined effect of these factors determines the complex patterns of global wind circulation.",
     "timestamp_utc": "2025-08-03T06:29:43.407808+00:00"
+  },
+  {
+    "cohere_generated_question": "Why do tropical cyclones originate over the sea?",
+    "ciq_generated_answer": "\"Tropical cyclones originate over the sea because they intensify over warm tropical oceans. (Context: [2], [4])\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and complete, but could be clearer. It does not explicitly mention that tropical cyclones require warm ocean water to form, which is a key factor mentioned in the text. The answer is concise, but could be more explicit in its wording.",
+    "ciq_answer_score": "7",
+    "cohere_generated_answer": "Tropical cyclones originate over the sea due to the presence of warm ocean water, which is a crucial factor in their formation. Warm ocean water provides the necessary energy for these storms to intensify, and the Coriolis force, small vertical wind speed variations, and other atmospheric conditions also play a role in their development.",
+    "timestamp_utc": "2025-08-03T07:19:39.421491+00:00"
   }
 ]
