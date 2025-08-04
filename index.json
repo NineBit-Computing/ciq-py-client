@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "What is the Inter Tropical Convergence Zone and how does it affect wind circulation?",
-    "ciq_generated_answer": "\"The Inter Tropical Convergence Zone (ITCZ) is a low pressure zone where winds from either side of the equator converge. It affects wind circulation by causing convection due to high insolation, which results in the air at ITCZ rising and creating a low pressure area. This, in turn, influences the general circulation of the atmosphere.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information about the Inter Tropical Convergence Zone (ITCZ) and its effect on wind circulation. However, the wording could be improved for clarity, especially the last sentence, which could be rephrased for better comprehension.",
-    "ciq_answer_score": 8,
-    "cohere_generated_answer": "The Inter Tropical Convergence Zone (ITCZ) is a region near the equator where winds from the Northern and Southern Hemispheres converge. It is characterized by low pressure due to the convergence of winds and high insolation, which causes convection. This convection leads to the rising of warm, moist air, creating a low-pressure area. The ITCZ plays a crucial role in the general circulation of the atmosphere, influencing the movement of air masses and the formation of weather systems. It acts as a convergence zone for winds from both hemispheres, resulting in upward motion and the release of latent heat, which further fuels the convection process. This complex interaction of winds and convection affects wind circulation patterns in the tropics and contributes to the formation of weather phenomena, such as tropical cyclones and convective storms.",
-    "timestamp_utc": "2025-08-03T09:21:09.434660+00:00"
-  },
-  {
     "cohere_generated_question": "How do air masses form?",
     "ciq_generated_answer": "\"Air masses form when the air remains over a homogenous area for a sufficiently longer time, acquiring the characteristics of the area.\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise and straightforward explanation of how air masses form, earning a high score.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": "10",
     "cohere_generated_answer": "When two distinct air masses meet, four types of fronts are formed: cold, warm, stationary, and occluded fronts. Each type of front brings about distinct weather patterns and atmospheric conditions.",
     "timestamp_utc": "2025-08-03T23:20:53.929513+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n   1. Frictional Force\\n   2. Rotation of the Earth\\n\\nIn addition, the velocity and direction of the wind are the net result of the wind generating forces, which implies that other forces may also contribute to their movement, but they are not explicitly mentioned in the given context.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the relevant information from the provided text. It is also clearly worded and easy to understand. However, the answer could be improved by providing a bit more context and explaining the impact of these factors on wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: The friction between the wind and the Earth's surface affects wind speed, with greater friction at lower altitudes, especially over land.\n- Coriolis Force: The rotation of the Earth deflects wind direction, with a rightward deflection in the Northern Hemisphere and leftward in the Southern Hemisphere.\n- Pressure Gradient Force: Wind moves from areas of high pressure to low pressure, and the rate of change of pressure with distance (pressure gradient) influences wind speed.\n- Vertical Pressure Gradient: Although balanced by gravitational force, variations in vertical pressure gradient can influence wind patterns, especially at higher altitudes.\n- Local Conditions: Land and sea breezes, mountain and valley winds, and local temperature variations can create local wind patterns.\n\nThe interaction of these forces determines the complex patterns of global wind circulation.",
+    "timestamp_utc": "2025-08-04T01:56:20.218107+00:00"
   }
 ]
