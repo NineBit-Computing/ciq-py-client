@@ -1,13 +1,5 @@
 [
   {
-    "cohere_generated_question": "How do air masses form?",
-    "ciq_generated_answer": "\"Air masses form when the air remains over a homogenous area for a sufficiently longer time, acquiring the characteristics of the area.\"",
-    "ciq_answer_evaluation": "CIQ's answer is factually accurate, complete, and clearly worded. It provides a concise and straightforward explanation of how air masses form, earning a high score.",
-    "ciq_answer_score": 9,
-    "cohere_generated_answer": "Air masses are formed when air remains over a large, homogenous area for an extended period, adopting the characteristics of that region. For instance, if air stays over a warm ocean for a long time, it becomes a warm, moist air mass. These homogenous regions, like vast oceans or plains, are known as source regions.",
-    "timestamp_utc": "2025-08-03T11:18:42.028475+00:00"
-  },
-  {
     "cohere_generated_question": "What are the key factors that influence the speed and direction of wind?",
     "ciq_generated_answer": "\"The key factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force\\n2. Rotation of the Earth\\n3. Pressure (implied as it is mentioned in relation to wind)\"",
     "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by providing a brief explanation of each factor's impact, earning it a score of 8.",
@@ -78,5 +70,13 @@
     "ciq_answer_score": 8,
     "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- Frictional Force: The friction between the wind and the Earth's surface affects wind speed, with greater friction at lower altitudes, especially over land.\n- Coriolis Force: The rotation of the Earth deflects wind direction, with a rightward deflection in the Northern Hemisphere and leftward in the Southern Hemisphere.\n- Pressure Gradient Force: Wind moves from areas of high pressure to low pressure, and the rate of change of pressure with distance (pressure gradient) influences wind speed.\n- Vertical Pressure Gradient: Although balanced by gravitational force, variations in vertical pressure gradient can influence wind patterns, especially at higher altitudes.\n- Local Conditions: Land and sea breezes, mountain and valley winds, and local temperature variations can create local wind patterns.\n\nThe interaction of these forces determines the complex patterns of global wind circulation.",
     "timestamp_utc": "2025-08-04T01:56:20.218107+00:00"
+  },
+  {
+    "cohere_generated_question": "What are the main factors that influence the speed and direction of wind?",
+    "ciq_generated_answer": "\"The main factors that influence the speed and direction of wind, according to the provided context, are:\\n\\n1. Frictional Force: This force affects the wind speed.\\n2. Rotation of the Earth: The rotation of the earth also affects the wind movement.\\n3. Pressure: The velocity and direction of the wind are the net result of the wind generating forces, which includes pressure.\"",
+    "ciq_answer_evaluation": "CIQ's answer is factually accurate and covers all the key factors influencing wind speed and direction. However, it could be made clearer by explaining each factor in more detail, particularly the Coriolis effect and how it interacts with other forces to determine wind patterns.",
+    "ciq_answer_score": 8,
+    "cohere_generated_answer": "The speed and direction of wind are influenced by several factors, including:\n\n- **Pressure Gradient Force**: Air moves from areas of high pressure to low pressure, creating wind. The rate of change of pressure with distance (pressure gradient) determines wind speed, with stronger gradients resulting in higher wind speeds.\n\n- **Frictional Force**: This force affects wind speed and is greatest at the surface, especially over land. Over the ocean, friction is minimal, allowing for stronger winds.\n\n- **Coriolis Force**: The rotation of the Earth deflects wind direction. In the Northern Hemisphere, wind is deflected to the right, and to the left in the Southern Hemisphere. The deflection is more pronounced at higher latitudes and wind speeds.\n\n- **Gravity**: Acts downward, counteracting the vertical pressure gradient force and preventing strong upward winds.\n\nThe interaction of these forces determines the complex patterns of global wind circulation, which are further influenced by the distribution of land and water, as well as the heating and cooling of Earth's surfaces.",
+    "timestamp_utc": "2025-08-04T03:57:07.559232+00:00"
   }
 ]
