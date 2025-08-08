@@ -49,9 +49,13 @@ Generate **one meaningful and specific question** that tests understanding of th
 Only return the question, nothing else.
 """
 
-question_response = cohere_client.generate(
-    prompt=question_prompt, max_tokens=50, temperature=0.5, model="command-r-plus"
-)
+try:
+    question_response = cohere_client.generate(
+        prompt=question_prompt, max_tokens=50, temperature=0.5, model="command-r-plus"
+    )
+except Exception as e:
+    print(f"Error while connecting Cohere server: {e}")
+    sys.exit(1)
 
 query = question_response.generations[0].text.strip()
 print("❓ Auto-Generated Question:", query)
@@ -66,10 +70,14 @@ def on_done(error, data):
         print(f"✅ Ingest succeeded: {data}")
 
 
-ciq_client.ingest_file(file=pdf_path, callback=on_done)
-
-ciq_answer = ciq_client.rag_query(query=query)
-print("\n🔷 CIQ Answer:\n", ciq_answer)
+try:
+    ciq_client.ingest_file(file=pdf_path, callback=on_done)
+    print("\n Success: ingest_file")
+    ciq_answer = ciq_client.rag_query(query=query)
+    print("\n🔷 CIQ Answer:\n", ciq_answer)
+except Exception as e:
+    print(f"Error while ingest_file or while rag_query in CIQ: {e}")
+    sys.exit(1)
 
 # Step 3: Cohere Chat and Evaluation
 
@@ -104,15 +112,19 @@ Return the result as a JSON object with the following format:
   "cohere_answer": "<your generated answer here>"
 }}
 """
-
-cohere_judge = cohere_client.generate(prompt=evaluation_prompt, max_tokens=300, temperature=0.3, model="command-r-plus")
-cohere_judge_text = cohere_judge.generations[0].text.strip()
-
+try:
+    cohere_judge = cohere_client.generate(
+        prompt=evaluation_prompt, max_tokens=300, temperature=0.3, model="command-r-plus"
+    )
+    cohere_judge_text = cohere_judge.generations[0].text.strip()
+except Exception as e:
+    print(f"Error while evaluating via cohere_client: {e}")
+    sys.exit(1)
 # print("\n🧑‍⚖️ Cohere's Evaluation:\n", )
 
 
 try:
-    max_runs = 10  # keep only the last 10 runs
+    max_runs = 20  # keep only the last 10 runs
     local_report_path = "report/report.json"
     global_report_path = "/tmp/report.json"
     cohere_clean_text = re.search(r"\{.*\}", cohere_judge_text, re.DOTALL).group(0)
