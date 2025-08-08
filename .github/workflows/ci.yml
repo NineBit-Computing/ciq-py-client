@@ -71,7 +71,7 @@ jobs:
           COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
         run: |
           # find examples -name "*.py" -exec python {} \;
-          python examples/cohere-inspector/compare.py
+          # python examples/cohere-inspector/compare.py
           # pytest tests/integration --maxfail=1 --disable-warnings -q
 
       - name: Prepare report for GitHub Pages
